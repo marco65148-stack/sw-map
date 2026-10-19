@@ -1,0 +1,361 @@
+<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#05080f"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%23081020%27/%3E%3Ccircle cx=%2732%27 cy=%2732%27 r=%2720%27 fill=%27none%27 stroke=%27%2300e5ff%27 stroke-width=%275%27/%3E%3C/svg%3E"><title>陳聖文選區 垃圾車 × 得票率 × ABC × 拜票路口（官方資料 2026-10-16 版）</title>
+<link rel="preconnect" href="https://tile.openstreetmap.org" crossorigin><link rel="preload" href="data.json" as="fetch" crossorigin="anonymous"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png" sizes="192x192"><link rel="apple-touch-icon" href="icon-180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="聖文地圖"><link rel="stylesheet" href="leaflet.css"><link rel="stylesheet" href="MarkerCluster.css"><script src="leaflet.js"></script><script src="leaflet.markercluster.js"></script>
+<style>html,body,#map{height:100%;margin:0;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei","Heiti TC",system-ui,sans-serif}
+#panel{position:absolute;top:12px;right:12px;z-index:1000;background:rgba(255,255,255,.97);padding:12px 14px;border-radius:14px;box-shadow:0 6px 24px rgba(0,0,0,.18);font-size:13px;width:280px;max-height:calc(100% - 40px);overflow:auto;color:#222;transition:transform .25s}
+#panel.collapsed{transform:translateX(calc(100% + 20px))}
+#panel h3{margin:0 0 8px;font-size:15px;letter-spacing:.5px}
+#panel .sec{border-top:1px solid #eee;padding-top:8px;margin-top:8px}
+#panel .sec>b{display:block;font-size:12px;color:#666;margin-bottom:4px}
+#panel label{display:block;margin:3px 0}
+#panel select,#panel input[type=time],#panel button{font:inherit;font-size:12px;border:1px solid #ccc;border-radius:6px;padding:2px 6px;background:#fff}
+#panel button{cursor:pointer}#panel button:hover{background:#f2f2f2}
+#tl{border:1px solid #eee!important;border-radius:8px;padding:4px 6px!important;margin-top:4px}
+#tog{position:absolute;top:12px;right:12px;z-index:1001;border:none;border-radius:50%;width:38px;height:38px;background:#fff;box-shadow:0 3px 12px rgba(0,0,0,.25);font-size:18px;cursor:pointer;display:none}
+#panel.collapsed+#tog{display:block}
+#cnt{font-weight:600;color:#1a5;margin-top:6px}
+.lg i{display:inline-block;width:16px;height:10px;margin-right:6px;border-radius:2px;vertical-align:middle}
+.lgrow{display:flex;flex-wrap:wrap;gap:2px 10px;font-size:12px}
+.note{color:#777;font-size:11px;margin-top:8px;line-height:1.5}
+.leaflet-popup-content-wrapper{border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,.2)}
+.leaflet-popup-content{font-size:13px;line-height:1.6;margin:12px 14px;min-width:220px}
+.pp-h{font-weight:700;font-size:14px;margin-bottom:4px}.pp-t{display:inline-block;background:#f1f3f5;border-radius:10px;padding:0 8px;font-size:12px;margin:1px 2px 1px 0}
+.pp-g{display:grid;grid-template-columns:auto 1fr;gap:1px 10px;font-size:12.5px}.pp-g span:nth-child(odd){color:#888}
+.seq-mk{border-radius:50%;border:2px solid #fff;color:#fff;font:700 11px/1 sans-serif;display:flex;align-items:center;justify-content:center;text-shadow:0 0 2px #0008;box-shadow:0 1px 4px #0007}.seq-mk.apx{border-color:#e000e0;border-width:3px}.seq-mk.hi{font-size:13px}
+.seq-mk.st{outline:3px solid #16a34a;outline-offset:1px}.seq-mk.en{outline:3px solid #111;outline-offset:1px}
+.arw{width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-bottom:7px solid #fff}
+@media (max-width:600px){#panel{width:calc(100% - 48px);max-height:60%;top:auto;bottom:12px;right:12px}#tog{top:auto;bottom:12px}}.basegray{filter:grayscale(1) brightness(1.08) contrast(.85)}.seq-mk{border-radius:50%;border:3px solid #111;font:800 12px/1 "Noto Sans TC",system-ui,sans-serif;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 3px #0005;box-sizing:border-box}.seq-mk.hi{font-size:14px}
+.flag{position:absolute;left:0;bottom:22px;transform:translateX(-50%);background:#161616;color:#fff;font:800 14px/1 "Noto Sans TC",system-ui,sans-serif;padding:6px 10px 6px 6px;border-radius:7px;white-space:nowrap;display:flex;align-items:center;gap:6px;box-shadow:0 2px 6px #0006;letter-spacing:1px}
+.flag.st{border-bottom:4px solid #22a447}.flag.en{border-bottom:4px solid #e03131}
+.flag:after{content:'';position:absolute;left:50%;bottom:-10px;transform:translateX(-50%);border:6px solid transparent;border-top-color:#161616}
+.chk{width:22px;height:16px;border-radius:3px;background:repeating-conic-gradient(#fff 0 25%,#111 0 50%) 0 0/8px 8px;border:1px solid #fff}
+#tip{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);z-index:999;background:#fff;border-radius:18px;box-shadow:0 6px 24px rgba(0,0,0,.18);padding:12px 20px;font-size:15px;color:#222;max-width:min(560px,calc(100% - 40px));text-align:center;line-height:1.5}
+.basegray{filter:grayscale(1) brightness(1.12) contrast(.8)}
+.cv-mk{width:24px;height:24px;border-radius:6px;background:#1d4ed8;color:#fff;border:2px solid #fff;box-sizing:border-box;font:800 13px/1 "Noto Sans TC",system-ui,sans-serif;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 5px #000a}.cv-mk.apx{border:3px dashed #e000e0}
+</style><style>:root{--gl:rgba(9,16,30,.74);--gl2:rgba(14,24,44,.9);--bd:rgba(0,229,255,.28);--tx:#dce8f5;--mu:#8aa0b8;--ac:#00e5ff;--ac2:#3b82f6;--in:rgba(255,255,255,.06)}
+body.light{--gl:rgba(255,255,255,.8);--gl2:rgba(255,255,255,.96);--bd:rgba(37,99,235,.25);--tx:#1b2433;--mu:#5d6b7e;--ac:#0891b2;--ac2:#2563eb;--in:rgba(15,23,42,.05)}
+body{background:#05080f;font-variant-numeric:tabular-nums}body.light{background:#eef1f4}
+.glass{background:var(--gl);backdrop-filter:blur(14px) saturate(1.4);-webkit-backdrop-filter:blur(14px) saturate(1.4);border:1px solid var(--bd);box-shadow:0 8px 30px rgba(0,0,0,.35),inset 0 0 0 1px rgba(255,255,255,.03);color:var(--tx)}
+#panel{background:var(--gl)!important;backdrop-filter:blur(14px) saturate(1.4);-webkit-backdrop-filter:blur(14px) saturate(1.4);border:1px solid var(--bd);color:var(--tx)!important;box-shadow:0 8px 30px rgba(0,0,0,.4)!important;width:300px;top:12px;max-height:calc(100% - 24px);transition:transform .35s cubic-bezier(.2,.8,.2,1);scrollbar-width:thin}
+#panel h3{font-size:14px;color:var(--ac);text-shadow:0 0 12px rgba(0,229,255,.35);letter-spacing:1px}
+#panel .sec{border-top:1px solid var(--bd)}#panel .sec>b{color:var(--mu);font-size:11px;letter-spacing:1.5px;text-transform:uppercase}
+#panel select,#panel input[type=time],#panel button{background:var(--in)!important;color:var(--tx);border:1px solid var(--bd)!important;border-radius:8px;padding:5px 8px;min-height:32px;transition:all .2s;color-scheme:dark}
+body.light #panel select,body.light #panel input[type=time]{color-scheme:light}
+#panel select option{background:var(--gl2);color:var(--tx)}
+#panel button:hover{border-color:var(--ac)!important;box-shadow:0 0 10px rgba(0,229,255,.35)}
+#panel input[type=checkbox]{accent-color:var(--ac);width:16px;height:16px;vertical-align:-3px}
+#tl{border:1px solid var(--bd)!important;background:var(--in)}
+#cnt{color:var(--ac);font-size:12px}.note{color:var(--mu)}
+#panel .lg span{color:var(--tx)}
+#tog{background:var(--gl2);color:var(--ac);border:1px solid var(--bd);width:44px;height:44px}
+#tip{background:var(--gl)!important;color:var(--tx)!important;border:1px solid var(--bd);backdrop-filter:blur(12px);transition:opacity .6s,transform .6s;font-size:13px!important}
+#tip.gone{opacity:0;transform:translate(-50%,20px);pointer-events:none}
+/* leaflet chrome */
+.leaflet-bar a,.leaflet-control-layers{background:var(--gl2)!important;color:var(--tx)!important;border-color:var(--bd)!important}
+.leaflet-bar{border:1px solid var(--bd)!important;box-shadow:0 4px 16px rgba(0,0,0,.3)!important}
+.leaflet-control-layers{border:1px solid var(--bd)!important;border-radius:10px!important;backdrop-filter:blur(10px)}
+.leaflet-control-layers-toggle{filter:hue-rotate(160deg) saturate(2)}
+body:not(.light) .leaflet-control-layers-toggle{filter:invert(1) hue-rotate(180deg)}
+.leaflet-control-attribution{background:var(--gl)!important;color:var(--mu)!important;font-size:10px}.leaflet-control-attribution a{color:var(--ac)!important}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--gl2);color:var(--tx);border:1px solid var(--bd);backdrop-filter:blur(12px)}
+.leaflet-popup-content-wrapper{border-radius:14px;box-shadow:0 0 0 1px rgba(0,229,255,.1),0 10px 30px rgba(0,0,0,.45)}
+.leaflet-container a.leaflet-popup-close-button{color:var(--mu);width:32px;height:32px;font-size:22px}
+.pp-h{color:var(--ac)}.pp-t{background:var(--in)}.pp-g span:nth-child(odd){color:var(--mu)}
+.leaflet-tooltip.tt{background:var(--gl2);color:var(--tx);border:1px solid var(--ac);border-radius:8px;font-weight:700;box-shadow:0 0 12px rgba(0,229,255,.4)}
+.leaflet-tooltip.tt:before{display:none}
+body:not(.light) .leaflet-marker-pane div[style*="text-shadow:0 0 3px #fff"]{color:#cfe3f5;text-shadow:0 0 3px #000,0 0 6px #000!important}
+/* canvass markers: glow pulse */
+.cv-mk{position:relative;background:linear-gradient(135deg,#2563eb,#06b6d4)!important;box-shadow:0 0 10px rgba(0,229,255,.8),0 1px 5px #000a!important;border-radius:7px!important}
+.cv-mk:before,.cv-mk:after{content:'';position:absolute;inset:-4px;border-radius:10px;border:2px solid #00e5ff;animation:pulse 2.2s ease-out infinite;pointer-events:none}
+.cv-mk:after{animation-delay:1.1s}
+.cv-mk.apx:before,.cv-mk.apx:after{border-color:#ff3df2}
+@keyframes pulse{0%{transform:scale(.9);opacity:.9}100%{transform:scale(2.3);opacity:0}}
+.cv-mk.sel{transform:scale(1.25);box-shadow:0 0 22px #00e5ff,0 0 4px #fff!important}
+/* HUD / search / tools */
+#hud{position:absolute;z-index:1000;top:12px;left:380px;display:flex;gap:6px;border-radius:14px;padding:6px 8px}
+.hc{min-width:76px;padding:2px 10px;border-right:1px solid var(--bd)}.hc:last-child{border:none}
+.hc b{display:block;font:800 20px/1.1 "JetBrains Mono","SFMono-Regular",Consolas,monospace;color:var(--ac);text-shadow:0 0 10px rgba(0,229,255,.5)}
+.hc b small{font-size:11px;color:var(--mu);text-shadow:none;font-weight:600}
+.hc span{font-size:10.5px;color:var(--mu);letter-spacing:1px}
+#srch{position:absolute;z-index:1001;top:12px;left:56px;width:310px}
+#sq{width:100%;box-sizing:border-box;height:44px;border-radius:14px;padding:0 14px 0 40px;font:15px inherit;font-family:inherit;outline:none;background:var(--gl);color:var(--tx)}
+#sq:focus{border-color:var(--ac);box-shadow:0 0 0 3px rgba(0,229,255,.18),0 8px 30px rgba(0,0,0,.35)}
+#srch:before{content:'🔍';position:absolute;left:13px;top:12px;font-size:15px;color:var(--ac)}
+#sr{margin-top:6px;border-radius:12px;max-height:50vh;overflow:auto;display:none;padding:4px}
+#sr div{padding:10px 12px;border-radius:8px;cursor:pointer;display:flex;gap:8px;align-items:center;min-height:24px;font-size:14px}
+#sr div.on,#sr div:hover{background:rgba(0,229,255,.14)}
+#sr i{font-style:normal;font-size:10.5px;padding:1px 6px;border-radius:6px;border:1px solid var(--bd);color:var(--ac);flex:none}
+#sr em{font-style:normal;color:var(--mu);font-size:12px;margin-left:auto;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:45%}
+#tools{position:absolute;z-index:1000;right:354px;top:12px;display:flex;flex-direction:column;gap:8px;transition:right .35s}
+#panel.collapsed~#tools{right:68px}
+#tools button{width:44px;height:44px;border-radius:12px;font-size:18px;cursor:pointer;background:var(--gl);color:var(--ac)}
+#tools button:hover{box-shadow:0 0 14px rgba(0,229,255,.5)}
+#hov{position:absolute;z-index:999;left:56px;bottom:28px;border-radius:12px;padding:8px 12px;font-size:13px;pointer-events:none;opacity:0;transition:opacity .2s;min-width:150px}
+#hov.on{opacity:1}#hov b{color:var(--ac)}
+#cvl{display:flex;flex-direction:column;gap:3px;max-height:240px;overflow:auto;margin-top:4px}
+#cvl div{display:flex;gap:8px;align-items:center;padding:7px 8px;border-radius:8px;cursor:pointer;background:var(--in);border:1px solid transparent;transition:all .2s}
+#cvl div:hover,#cvl div.on{border-color:var(--ac);background:rgba(0,229,255,.1)}
+#cvl s{text-decoration:none;flex:none;width:22px;height:22px;border-radius:6px;background:linear-gradient(135deg,#2563eb,#06b6d4);color:#fff;font:800 11px/22px monospace;text-align:center}
+#cvl s.apx{outline:2px dashed #ff3df2}
+#cvl em{font-style:normal;margin-left:auto;font-size:11px;color:var(--mu)}
+#grab{display:none}
+#sheet{display:none}
+.me{width:16px;height:16px;border-radius:50%;background:#00e5ff;border:3px solid #fff;box-shadow:0 0 0 6px rgba(0,229,255,.25),0 0 14px #00e5ff}
+.ping{width:40px;height:40px;border-radius:50%;border:3px solid #00e5ff;animation:pulse 1.2s ease-out 3;box-sizing:border-box}
+@media (max-width:1100px){#hud{left:auto;right:12px;top:auto;bottom:24px}#panel:not(.collapsed)~#hud{right:410px}}
+@media (max-width:700px){
+ #panel,#panel.collapsed{position:fixed;left:0;right:0;bottom:0;top:auto;width:auto!important;max-height:72vh;height:72vh;border-radius:20px 20px 0 0;padding:0 14px 14px;transform:translateY(0);box-sizing:border-box;overflow:auto;overscroll-behavior:contain}
+ #panel.collapsed{transform:translateY(calc(100% - 58px));overflow:hidden}
+ #grab{display:flex;position:sticky;top:0;z-index:2;flex-direction:column;align-items:center;gap:6px;padding:10px 0 8px;margin:0 -14px 4px;background:var(--gl2);cursor:pointer;touch-action:none;border-radius:20px 20px 0 0}
+ #grab:before{content:'';width:44px;height:5px;border-radius:3px;background:var(--mu);opacity:.6}
+ #grab span{font-size:13px;color:var(--tx);font-weight:700}#grab span b{color:var(--ac)}
+ #col,#tog{display:none!important}
+ #panel label{margin:8px 0}#panel select,#panel input[type=time]{min-height:44px;font-size:15px!important}#panel button{min-height:44px;padding:0 14px}
+ #tl label{padding:6px 0}
+ #srch{left:10px;right:10px;width:auto;top:10px}
+ #hud{left:10px;right:10px!important;top:62px;bottom:auto;padding:4px;justify-content:space-between;gap:0}
+ #panel:not(.collapsed)~#hud{right:10px!important}
+ .hc{min-width:0;flex:1;padding:2px 6px;text-align:center}.hc b{font-size:16px}.hc span{font-size:10px}
+ #tools,#panel.collapsed~#tools{right:10px;top:122px}
+ #panel:not(.collapsed)~#tools{display:none}
+ .leaflet-top.leaflet-left{top:112px}.leaflet-control-zoom{display:none}
+ .leaflet-control-layers-toggle{width:44px!important;height:44px!important}
+ #tip{display:none}#hov{display:none}
+ .leaflet-bottom.leaflet-right{bottom:58px}
+ #sheet{display:block;position:fixed;left:0;right:0;bottom:0;z-index:1100;max-height:48vh;overflow:auto;border-radius:20px 20px 0 0;padding:6px 16px 18px;transform:translateY(105%);transition:transform .3s cubic-bezier(.2,.8,.2,1);font-size:14px;line-height:1.6;box-sizing:border-box;background:var(--gl2)}
+ #sheet.on{transform:none}
+ #sheet .x{position:sticky;top:0;display:flex;justify-content:center;padding:6px 0 4px;margin:0 -16px}
+ #sheet .x:before{content:'';width:44px;height:5px;border-radius:3px;background:var(--mu);opacity:.6}
+ #sheet .xb{position:absolute;right:8px;top:4px;width:44px;height:44px;border:none;background:none;color:var(--mu);font-size:24px}
+}
+
+.basedark{filter:invert(1) hue-rotate(185deg) grayscale(.35) brightness(.78) contrast(1.15) saturate(.8)}
+</style><style>
+.li-lb{position:absolute;transform:translate(-50%,-50%);white-space:nowrap;font:800 12px/1.1 "Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;letter-spacing:.5px;color:#eef6ff;-webkit-text-stroke:3px rgba(3,8,18,.9);paint-order:stroke fill;text-shadow:0 0 6px rgba(0,0,0,.6);pointer-events:none;transition:font-size .2s}
+.li-lb b{margin-left:2px;font-weight:900;font-size:1.15em}.li-lb b.A{color:#ff5c5c}.li-lb b.B{color:#ffb14a}.li-lb b.C{color:#4fb3ff}
+body.light .li-lb{color:#111;-webkit-text-stroke:3px rgba(255,255,255,.95);text-shadow:0 0 4px #fff}
+body.light .li-lb b.A{color:#d62728}body.light .li-lb b.B{color:#e06c00}body.light .li-lb b.C{color:#1f6fb4}
+.lz12 .li-lb{font-size:10px;-webkit-text-stroke-width:2.5px}.lz12 .li-lb span{display:none}
+.lz13 .li-lb{font-size:13px}.lz13 .li-lb span{display:none}.lz14 .li-lb{font-size:14px}.lz15 .li-lb{font-size:16px}.lz16 .li-lb{font-size:18px}
+@media (max-width:700px){.lz13 .li-lb{font-size:11px}.lz14 .li-lb{font-size:13px}}
+</style><style>
+#flowc{position:absolute;left:0;top:0;pointer-events:none;transition:opacity .2s}
+.leaflet-container.zm #flowc{opacity:0}
+body:not(.flow) #flowc{display:none}
+body.flow .arw{display:none}
+.leaflet-container.mv .cv-mk:before,.leaflet-container.mv .cv-mk:after{animation-play-state:paused}
+@media (prefers-reduced-motion:reduce){#flowc{display:none!important}body.flow .arw{display:block}.cv-mk:before,.cv-mk:after{animation:none;opacity:0}}
+</style><style>
+.mk-cl{display:flex;align-items:center;justify-content:center;gap:4px;height:30px;padding:0 10px;border-radius:15px;font:800 12px/1 "Noto Sans TC",system-ui,sans-serif;white-space:nowrap;background:rgba(9,16,30,.85);color:#e6faff;border:1.5px solid #00e5ff;box-shadow:0 0 10px rgba(0,229,255,.45);transform:translate(-50%,-50%);width:max-content}
+.mk-cl i{width:8px;height:8px;border-radius:50%;background:#00e5ff;box-shadow:0 0 6px #00e5ff;font-style:normal}
+.mk-cl.big{height:36px;font-size:14px;border-radius:18px}
+body.light .mk-cl{background:#fff;color:#111;border-color:#111;box-shadow:0 2px 8px rgba(0,0,0,.25)}body.light .mk-cl i{background:#e4572e;box-shadow:none}
+.marker-cluster{background:none!important}
+.hl-bar{height:10px;border-radius:5px;margin:4px 0 2px}
+.hl-ax{display:flex;justify-content:space-between;font-size:11px;color:var(--mu,#666)}
+.lz12 .li-lb{display:none}
+#toast{position:fixed;left:50%;top:120px;transform:translateX(-50%);z-index:3000;padding:10px 16px;border-radius:12px;font-size:14px;opacity:0;transition:opacity .3s;pointer-events:none}
+#toast.on{opacity:1}
+</style><style>#ld{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:5000;padding:18px 22px;border-radius:16px;min-width:240px;display:flex;flex-direction:column;gap:8px;transition:opacity .4s;background:rgba(9,16,30,.85);color:#dce8f5;border:1px solid rgba(0,229,255,.3)}#ld b{color:#00e5ff;letter-spacing:1px}#ldb{height:6px;border-radius:3px;background:rgba(255,255,255,.12);overflow:hidden}#ldp{display:block;height:100%;width:0;background:linear-gradient(90deg,#00e5ff,#3b82f6);transition:width .15s}#ld.done{opacity:0;pointer-events:none}#offl{position:fixed;left:50%;bottom:70px;transform:translateX(-50%);z-index:3000;padding:6px 12px;border-radius:10px;font-size:12px;display:none}body.offline #offl{display:block}</style></head><body><div id="map"></div><div id="offl" class="glass">離線模式：使用已快取的資料與地圖</div>
+<div id="panel"><div id="grab"><span id="gs">篩選・圖層・<b>拜票路口清單</b></span></div><div style="display:flex;justify-content:space-between;align-items:center"><h3>垃圾車路線 × 得票率 × ABC × 拜票路口</h3><button id="col" title="收合">✕</button></div><div class="sec" style="border:none;margin:0;padding:0"><b>篩選</b>
+<label>從 <input id="f0" type="time" value="00:00"> 到 <input id="f1" type="time" value="23:59"></label>
+<label>行政區 <select id="fd"><option value="">全部</option><option>大安</option><option>文山</option></select></label>
+<label>里 ABC <select id="fa"><option value="">全部</option><option>A</option><option>B</option><option>C</option></select></label>
+<label>標記顏色 <select id="fc"><option value="abc">白底（A 里橙紅）</option><option value="route">路線色</option></select></label>
+<label><input type="checkbox" id="fflow" checked> 流動方向（沿行進方向流動）</label><label>里底色 <select id="fb"><option value="heat">得票率熱圖</option><option value="abc">聖文 ABC</option><option value="none">無</option></select></label><label>車次快篩 <select id="fr"><option value="">全部</option><option>第1車</option><option>第2車</option><option>第3車</option></select></label>
+</div><div class="sec"><b>分隊／車次／路線</b> <button id="ta">全選</button><button id="tn">全不選</button><div id="tl" style="position:relative;max-height:220px;overflow:auto;border:1px solid #ddd;padding:2px"></div></div>
+<div class="sec"><b>拜票路口</b><label><input type="checkbox" id="fcv" checked> 顯示拜票路口點（22 處，依上方行政區篩選）</label><div id="cvl"></div></div>
+<div id="cnt"></div>
+<div class="sec lg"><b>賴清德 2024 得票率（里）</b><div class="lgrow" id="lg"></div><b style="margin-top:6px">標記</b><div class="lgrow"><span><i style="background:#fff;border:2px solid #111;border-radius:50%;width:12px;height:12px"></i>停靠站（數字＝站序）</span><span><i style="background:#e4572e;border:2px solid #111;border-radius:50%;width:12px;height:12px"></i>A 里站</span><span><i style="background:#16a34a"></i>起點旗</span><span><i style="background:#e03131"></i>終點旗</span><span>白箭頭＝行進方向</span><span><i style="background:#1d4ed8;border:2px solid #fff;outline:1px solid #1d4ed8;border-radius:4px;width:12px;height:12px"></i>拜票路口點</span><span><i style="background:#1d4ed8;border:2px dashed #e000e0;border-radius:4px;width:12px;height:12px"></i>拜票路口（約略位置）</span></div></div>
+<div class="note">得票率：中選會 data.cec.gov.tw votedata.zip（2024 總統，投開票所加總至里）。里界：內政部國土測繪中心村里界（取自 2024-08-07 版，經 kiang/taiwan_basecode 轉檔；2026-10-19 已與最新取得的 2026-04-07 版逐里比對，大安 53 里、文山 43 里，名稱與界線一致，差異 &lt;0.3 m）。停靠點、時間、路線、車號、里別、經緯度：臺北市環保局「臺北市垃圾車點位路線資訊」（data.taipei，2026-10-16 17:38 版，2026-10-19 重新核對）。停留時間＝離開−抵達。路線：依官方「路線」欄分線（篩選：分隊→車次→路線），照抵達時間、同時間照原列序連線；線段沿道路（OSRM driving，router.project-osrm.org，OSM 資料），虛線＝規劃失敗。紫色粗框＝約略位置（推估）。拜票路口點：Grok 專案「站路口拜票主要路口列表（草稿）」19 處（原文第 4 處「大安站」已依指示移除，序號沿用原文），另加明洲 2026-10-19 追加 3 處（序號 21–23），共 22 處（依里界：大安 10、文山 12），依原文順序；路口以 OSM 兩路交會點定位，原文寫「附近／周邊／或…／等延伸」者放在最合理位置並以紫色虛線框標為約略位置。草稿，人流與排名須重核；現場再確認人流、安全與是否需申請許可。標記數字＝該路線（分隊＋車次）停靠序，篩選不重編（以官方路線＋車次為單位）。</div></div><div id="tip">👆 點路線看分隊、車次與路段距離；點站看抵達時間、停留與里別</div><button id="tog" title="展開面板">☰</button><div id="srch"><input id="sq" class="glass" placeholder="搜尋 里名、拜票路口、站名" autocomplete="off" enterkeyhint="search"><div id="sr" class="glass"></div></div>
+<div id="hud" class="glass"><div class="hc"><b><i id="hs" style="font-style:normal">0</i><small>/<i id="hst" style="font-style:normal"></i></small></b><span>停靠站</span></div><div class="hc"><b><i id="hr" style="font-style:normal">0</i><small>/<i id="hrt" style="font-style:normal"></i></small></b><span>路線</span></div><div class="hc"><b><i id="hc" style="font-style:normal">0</i><small>/<i id="hct" style="font-style:normal"></i></small></b><span>拜票點</span></div></div>
+<div id="tools"><button id="bth" class="glass">☀️</button><button id="bloc" class="glass" title="我的位置">◎</button><button id="bfs" class="glass" title="全螢幕">⛶</button><button id="bsh" class="glass" title="分享目前畫面">🔗</button><button id="bpn" class="glass" title="面板">☰</button></div>
+<div id="hov" class="glass"></div><div id="sheet" class="glass"><div class="x"></div><button class="xb" id="sx">✕</button><div id="sbody"></div></div>
+<div id="ld" class="glass"><b>聖文互動地圖</b><span id="ldt">載入資料中…</span><div id="ldb"><i id="ldp"></i></div></div><script>/* (4) map first: basemap + UI immediately, data after */
+(function(){let th='dark';try{th=localStorage.getItem('gtTheme')||'dark'}catch(e){}if(th=='light')document.body.classList.add('light');
+const m=L.map('map',{maxZoom:19}).setView([25.005,121.555],13);window.__map=m;
+window.__tmpBase=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:th=='light'?'basegray':'basedark',attribution:'&copy; OpenStreetMap contributors'});window.__addBase=()=>{if(!window.__based){window.__based=1;window.__tmpBase.addTo(m)}};setTimeout(window.__addBase,700);
+window.__t0=performance.now();})();
+window.__load=async function(){const r=await fetch('data.json',{priority:'high'});if(!r.ok)throw new Error('HTTP '+r.status);window.__addBase();const n=+r.headers.get('content-length')||0;const pb=document.getElementById('ldp'),tx=document.getElementById('ldt');
+ let txt;if(r.body&&r.body.getReader){const rd=r.body.getReader();const ch=[];let got=0;const est=n||1100000;for(;;){const {done,value}=await rd.read();if(done)break;ch.push(value);got+=value.length;pb.style.width=Math.min(98,got/est*100)+'%';tx.textContent='載入資料中… '+(got/1048576).toFixed(1)+' MB'}
+ const u=new Uint8Array(got);let o=0;ch.forEach(c=>{u.set(c,o);o+=c.length});txt=new TextDecoder().decode(u)}else txt=await r.text();
+ pb.style.width='100%';tx.textContent='繪製地圖…';await new Promise(r=>setTimeout(r,16));window.__tData=performance.now();return JSON.parse(txt)};
+window.__ready=function(){window.__based=1;map.removeLayer(window.__tmpBase);window.__tReady=performance.now();const l=document.getElementById('ld');l.classList.add('done');setTimeout(()=>l.remove(),500);
+ if('serviceWorker' in navigator&&location.protocol!='file:')navigator.serviceWorker.register('sw.js');
+ const up=()=>document.body.classList.toggle('offline',!navigator.onLine);addEventListener('online',up);addEventListener('offline',up);up()};
+
+__load().then(D=>{
+document.getElementById('col').onclick=()=>document.getElementById('panel').classList.add('collapsed');document.getElementById('tog').onclick=()=>document.getElementById('panel').classList.remove('collapsed');if(innerWidth<600)document.getElementById('panel').classList.add('collapsed');
+const V=D.V,S=D.S,R=D.R;
+const map=window.__map;
+const baseLight=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:'basegray',attribution:'&copy; OpenStreetMap contributors'});const baseDark=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:'basedark',attribution:'&copy; OpenStreetMap contributors'});
+const br=[32,34,36,38,40,42],cl=['#f7fcf5','#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45','#005a32'];
+const SH=V.features.map(f=>f.properties.share).filter(x=>x!=null);const SMIN=Math.floor(Math.min(...SH)),SMAX=Math.ceil(Math.max(...SH));
+const RAMP=[[255,255,204],[194,230,153],[120,198,121],[49,163,84],[0,104,55],[0,60,32]];
+const col=s=>{if(s==null)return '#9aa0a6';let t=(s-SMIN)/(SMAX-SMIN);t=Math.max(0,Math.min(1,t))*(RAMP.length-1);const i=Math.min(RAMP.length-2,Math.floor(t)),k=t-i;return 'rgb('+RAMP[i].map((c,j)=>Math.round(c+(RAMP[i+1][j]-c)*k)).join(',')+')'};
+document.getElementById('lg').innerHTML=`<div style="width:100%"><div class="hl-bar" style="background:linear-gradient(90deg,${[0,.2,.4,.6,.8,1].map(t=>col(SMIN+t*(SMAX-SMIN))).join(',')})"></div><div class="hl-ax">${[0,.25,.5,.75,1].map(t=>'<span>'+(SMIN+t*(SMAX-SMIN)).toFixed(0)+'%</span>').join('')}</div><div style="font-size:11px;opacity:.75">連續色階（${SMIN}%–${SMAX}%，依本圖 96 里實際範圍）；灰＝無資料</div></div>`;
+const pop=p=>`<b>${p.d}區 ${p.li}</b><br>賴清德得票率：${p.share==null?'無資料':p.share+'%'}${p.share==null?'':` (${p.lai}/${p.valid}，區內第${p.rank})`}<br>聖文 ABC：${p.abc?p.abc+'（第'+p.abcrank+'）':'名單無此里'}`;
+const vote=L.geoJSON(V,{style:f=>({fillColor:col(f.properties.share),fillOpacity:.5,color:'rgba(255,255,255,.75)',weight:1}),onEachFeature:(f,l)=>l.bindPopup(pop(f.properties))}).addTo(map);
+const ac={A:'#d62728',B:'#ff7f0e',C:'#1f77b4'};
+const abc=L.geoJSON(V,{style:f=>({fillColor:ac[f.properties.abc]||'#ccc',fillOpacity:.45,color:'#333',weight:1}),onEachFeature:(f,l)=>l.bindPopup(pop(f.properties))});
+const LP=[[24.991644, 121.567531], [24.993607, 121.546514], [24.994822, 121.561243], [24.984588, 121.593986], [24.996097, 121.533186], [24.994467, 121.542912], [24.997459, 121.546301], [24.997466, 121.538774], [24.995667, 121.555827], [24.998355, 121.549561], [24.999966, 121.5525], [24.999127, 121.542068], [24.978434, 121.555488], [24.972729, 121.567701], [24.980581, 121.560907], [24.981682, 121.554856], [24.982946, 121.560857], [24.983539, 121.563413], [24.97209, 121.588295], [24.984716, 121.555621], [24.985674, 121.562518], [24.986034, 121.547478], [24.986822, 121.570486], [24.987671, 121.559536], [24.991455, 121.541929], [24.989907, 121.551968], [24.99069, 121.562115], [24.991499, 121.538635], [24.999692, 121.560188], [25.000426, 121.537973], [24.999801, 121.570949], [25.001147, 121.545031], [25.002179, 121.540271], [24.996029, 121.584899], [25.002026, 121.548595], [25.000875, 121.534451], [24.999132, 121.566216], [25.005737, 121.542481], [25.007093, 121.549769], [25.008602, 121.535623], [25.007588, 121.555687], [25.005835, 121.561197], [25.006373, 121.578013], [25.01694, 121.552095], [25.013378, 121.560259], [25.01959, 121.531918], [25.014396, 121.542596], [25.020249, 121.554952], [25.021921, 121.529759], [25.019608, 121.549746], [25.023008, 121.548634], [25.022523, 121.545129], [25.02297, 121.541468], [25.024603, 121.533043], [25.02507, 121.52997], [25.024897, 121.526401], [25.026844, 121.545648], [25.025528, 121.547735], [25.02677, 121.553167], [25.026449, 121.538764], [25.025878, 121.550304], [25.028131, 121.523251], [25.028254, 121.52806], [25.028774, 121.555237], [25.027693, 121.542137], [25.028026, 121.532497], [25.029568, 121.547242], [25.02957, 121.53917], [25.030537, 121.524797], [25.031272, 121.55582], [25.02933, 121.552783], [25.031382, 121.550601], [25.032151, 121.54509], [25.031896, 121.541942], [25.031536, 121.535629], [25.031686, 121.531413], [25.031207, 121.528124], [25.033485, 121.525056], [25.035976, 121.555963], [25.034128, 121.553606], [25.035482, 121.550678], [25.034581, 121.547401], [25.036745, 121.544831], [25.035696, 121.540965], [25.035807, 121.535277], [25.040072, 121.556218], [25.039602, 121.550894], [25.039724, 121.545972], [25.039816, 121.54103], [25.038724, 121.554026], [25.043179, 121.538385], [25.04317, 121.542248], [25.043084, 121.550693], [25.043387, 121.546502], [25.043113, 121.555864], [25.040247, 121.535198]];map.createPane('lip');map.getPane('lip').style.zIndex=640;map.getPane('lip').style.pointerEvents='none';const lbl=L.layerGroup();V.features.forEach((f,i)=>{const c=LP[i];lbl.addLayer(L.marker(c,{interactive:false,keyboard:false,pane:'lip',icon:L.divIcon({className:'',iconSize:[0,0],html:`<div class="li-lb"><span>${f.properties.li.replace('里','')}</span><b class="${f.properties.abc||''}">${f.properties.abc||''}</b></div>`})}))});(function(){const z=()=>{const c=map.getContainer();c.className=c.className.replace(/\blz\d+\b/g,'').trim();const k=Math.max(12,Math.min(16,Math.floor(map.getZoom())));c.classList.add('lz'+k)};map.on('zoomend',z);z()})();
+lbl.addTo(map);
+const __ICC={};const __IC=o=>{const k=o.html+'|'+o.iconSize;return __ICC[k]||(__ICC[k]=L.divIcon(o))};const stops=L.markerClusterGroup({disableClusteringAtZoom:15,maxClusterRadius:z=>z<=12?70:55,showCoverageOnHover:false,spiderfyOnMaxZoom:false,chunkedLoading:true,removeOutsideVisibleBounds:true,iconCreateFunction:c=>{const n=c.getChildCount();return L.divIcon({className:'',iconSize:[0,0],html:`<div class="mk-cl${n>=50?' big':''}"><i></i>${n} 站</div>`})}}).addTo(map);const lines=L.layerGroup().addTo(map);
+const RK=s=>s.d+'｜'+s.team+'｜'+s.run+'｜'+s.veh;const RKS=[...new Set(S.map(RK))].sort();
+const RC={};RKS.forEach((k,i)=>RC[k]=`hsl(${Math.round(i*137.508)%360},${[85,65,95][i%3]}%,${[38,50,30][(i>>1)%3]}%)`);
+const hm=t=>t?t.slice(0,2)+':'+t.slice(2):'';
+const TM=[...new Set(S.map(s=>s.d+'｜'+s.team))].sort();const h=decodeURIComponent(location.hash.slice(1));
+const RUNS=t=>[...new Set(S.filter(s=>s.d+'｜'+s.team==t).map(s=>s.run))].sort();
+const VEH=tr=>[...new Set(S.filter(s=>s.d+'｜'+s.team+'｜'+s.run==tr).map(s=>s.veh))].sort();
+const hsel=k=>!h||h==k||k.startsWith(h+'｜');
+document.getElementById('tl').innerHTML=TM.map(t=>`<div><label style="margin:0;font-weight:bold"><input type="checkbox" class="tg" data-t="${t}"> ${t}（${S.filter(s=>s.d+'｜'+s.team==t).length}）</label>`+RUNS(t).map(r=>{const tr=t+'｜'+r;return `<label style="margin:0 0 0 14px"><input type="checkbox" class="trr" data-r="${tr}"> ${r}（${S.filter(s=>s.d+'｜'+s.team+'｜'+s.run==tr).length}）</label>`+VEH(tr).map(v=>{const k=tr+'｜'+v,ss=S.filter(s=>RK(s)==k);return `<label style="margin:0 0 0 30px;font-size:12px"><input type="checkbox" class="tc" data-t="${t}" data-r="${tr}" value="${k}" ${hsel(k)?'checked':''}> <i style="display:inline-block;width:12px;height:8px;background:${RC[k]}"></i> ${v}・${ss[0].car}（${ss.length}）</label>`}).join('')}).join('')+'</div>').join('');
+function tri(g,cs){const n=cs.filter(c=>c.checked).length;g.checked=n==cs.length;g.indeterminate=n>0&&n<cs.length}
+function sync(){document.querySelectorAll('.tg').forEach(g=>tri(g,[...document.querySelectorAll(`.tc[data-t="${g.dataset.t}"]`)]));document.querySelectorAll('.trr').forEach(g=>tri(g,[...document.querySelectorAll(`.tc[data-r="${g.dataset.r}"]`)]))}
+document.querySelectorAll('.tg').forEach(g=>g.onchange=()=>{document.querySelectorAll(`.tc[data-t="${g.dataset.t}"]`).forEach(c=>c.checked=g.checked);sync();draw()});
+document.querySelectorAll('.trr').forEach(g=>g.onchange=()=>{document.querySelectorAll(`.tc[data-r="${g.dataset.r}"]`).forEach(c=>c.checked=g.checked);sync();draw()});
+document.querySelectorAll('.tc').forEach(c=>c.onchange=()=>{sync();draw()});sync();if(h){const f=document.querySelector('.tc:checked');if(f){const tl=document.getElementById('tl');tl.scrollTop=f.closest('#tl>div').offsetTop}}
+document.getElementById('ta').onclick=()=>{document.querySelectorAll('.tc').forEach(c=>c.checked=true);sync();draw()};document.getElementById('tn').onclick=()=>{document.querySelectorAll('.tc').forEach(c=>c.checked=false);sync();draw()};
+function arrows(g,c){const z=map.getZoom();if(z<14)return;const gap=z>=17?70:z>=16?90:110;const P=g.map(p=>map.project(L.latLng(p),z));let acc=gap/2;
+for(let i=1;i<P.length;i++){const a=P[i-1],b=P[i],d=a.distanceTo(b);if(!d)continue;while(acc<=d){const t=acc/d,x=a.x+(b.x-a.x)*t,y=a.y+(b.y-a.y)*t,ang=Math.atan2(b.y-a.y,b.x-a.x)*180/Math.PI+90;
+L.marker(map.unproject(L.point(x,y),z),{interactive:false,keyboard:false,icon:L.divIcon({className:'',iconSize:[10,10],iconAnchor:[5,5],html:`<div class="arw" style="border-bottom-color:${c};transform:rotate(${ang}deg)"></div>`})}).addTo(lines);acc+=gap}acc-=d}}
+const flags=L.layerGroup().addTo(map);
+function SF(G){flags.clearLayers();const ks=Object.keys(G);if(ks.length>8)return;ks.forEach(k=>{const a=S.filter(s=>RK(s)==k&&s.lat!=null).sort((x,y)=>x.seq-y.seq);if(!a.length)return;
+[[a[0],'起點','st'],[a[a.length-1],'終點','en']].forEach(([s,t,c],n)=>{if(n==1&&a.length<2)return;if(!G[k].includes(s))return;L.marker([s.lat,s.lon],{interactive:false,zIndexOffset:5000,icon:L.divIcon({className:'',iconSize:[0,0],html:`<div class="flag ${c}"><i class="chk"></i>${t}</div>`})}).addTo(flags)})})}
+function draw(){const LW=map.getZoom()>=15?8:map.getZoom()>=14?6:5;const ARW=[];const fr=document.getElementById('fr').value;const TS=new Set([...document.querySelectorAll('.tc:checked')].map(c=>c.value).filter(k=>!fr||k.split('｜')[2]==fr));stops.clearLayers();const __SA=[],__SG={addLayer:m=>{__SA.push(m)}};const a=document.getElementById('f0').value.replace(':',''),b=document.getElementById('f1').value.replace(':',''),d=document.getElementById('fd').value,x=document.getElementById('fa').value;let n=0;lines.clearLayers();const cm=document.getElementById('fc').value;const G={};
+S.forEach(s=>{if(s.lat==null||!TS.has(RK(s))||s.t0<a||s.t0>b||(d&&s.d!=d)||(x&&s.abc!=x))return;n++;(G[RK(s)]=G[RK(s)]||[]).push(s);
+const hot=s.abc=='A'||s.approx;const fc=cm=='route'?RC[RK(s)]:(hot?'#e4572e':'#fff');const tc=(cm=='route'||hot)?'#fff':'#111';const z=map.getZoom();const sz=z>=16?28:z>=14?22:18;const hi=z>=14?' hi':'';
+const ic=__IC({className:'',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2],html:`<div class="seq-mk${hi}" style="width:${sz}px;height:${sz}px;background:${fc};color:${tc}">${s.seq||''}</div>`});
+L.marker([s.lat,s.lon],{icon:ic,zIndexOffset:s.seq||0}).bindPopup(`<div class="pp-h">${s.loc.replace(/^臺北市/,'')}</div>${s.approx?'<div style="color:#c0c;font-weight:700">⚠ 約略位置</div>':''}<div><span class="pp-t" style="background:${RC[RK(s)]};color:#fff">第 ${s.seq} 站／共 ${s.seqn} 站${s.seq==1?'（起點）':s.seq==s.seqn?'（終點）':''}</span><span class="pp-t">${s.team}</span><span class="pp-t">${s.run}</span><span class="pp-t">${s.veh}・${s.car}</span></div>
+<div class="pp-g" style="margin-top:6px"><span>抵達</span><b>${hm(s.t0)}</b><span>離開</span><b>${s.t1?hm(s.t1):'—'}</b><span>停留</span><b>${s.stay?s.stay+' 分':'資料未提供'}</b><span>里</span><b>${s.d}區 ${s.li}　${s.abc?'ABC：'+s.abc:''}</b><span>定位</span><span style="color:#666">${s.approx?'約略位置｜'+s.how:s.geo+(s.gnote?' '+s.gnote:'')}</span></div>`).addTo(__SG)});
+stops.addLayers(__SA);let nr=0;window.__x=0;R.forEach(r=>{let any=false;const pop=`<b>${r.k}</b><br>起訖：${hm(S[r.idx[0]].t0)}–${hm(S[r.idx[r.idx.length-1]].t1||S[r.idx[r.idx.length-1]].t0)}<br>停靠數：${r.n}（約略位置 ${r.idx.filter(i=>S[i].approx).length}）`;
+r.legs.forEach(l=>{if(!G[r.k]||!G[r.k].includes(S[l.a])||!G[r.k].includes(S[l.b]))return;any=true;
+(L.polyline(l.g,{color:'#1f1f1f',weight:LW+6,opacity:1,interactive:false,lineCap:'round',lineJoin:'round'}).addTo(lines),L.polyline(l.g,{color:'#fff',weight:LW+2,opacity:1,interactive:false,lineCap:'round',lineJoin:'round'}).addTo(lines),L.polyline(l.g,{color:RC[r.k],weight:LW-2,opacity:1,lineCap:'round',lineJoin:'round',dashArray:l.ok?null:'6 8'})).bindPopup(pop+`<br>本段：${hm(S[l.a].t0)} ${S[l.a].loc.slice(6)} → ${hm(S[l.b].t0)} ${S[l.b].loc.slice(6)}<br>${l.ok?`道路距離 ${l.dist} km（直線 ${l.st} km）`:'⚠ 路徑規劃失敗，以虛線直線表示'}`).addTo(lines);ARW.push(l.g)});if(any)nr++});
+ARW.forEach(g=>arrows(g,'#fff'));SF(G);document.getElementById('cnt').textContent=`路線 ${nr} 條｜顯示 ${n} 站（共 ${S.length} 站，${S.filter(s=>s.lat==null).length} 站無法定位未標）`}
+['f0','f1','fd','fa','fc','fr'].forEach(i=>document.getElementById(i).onchange=draw);draw();
+const CV=D.CV;
+const corners=L.layerGroup();
+function drawCorners(){corners.clearLayers();const d=document.getElementById('fd').value;let k=0;CV.forEach(c=>{if(d&&c.d!=d)return;k++;const off=12;
+const ic=L.divIcon({className:'',iconSize:[24,24],iconAnchor:[off,12],html:`<div class="cv-mk${c.approx?' apx':''}" title="${c.no}. ${c.name}">拜</div>`});
+L.marker([c.lat,c.lon],{icon:ic,zIndexOffset:6000}).bindPopup(`<div class="pp-h">📣 ${c.no}. ${c.name}</div>${c.approx?'<div style="color:#c0c;font-weight:700">⚠ 約略位置</div>':''}<div class="pp-g" style="margin-top:6px"><span>路口</span><b>${c.desc}</b><span>行政區</span><b>${c.d}區　${c.li}</b><span>建議時段</span><b>約 7:30–9:00、17:00–19:00</b><span>定位</span><span style="color:#666">${c.approx?'約略位置｜':'路口｜'}${c.how}</span>${c.alt?`<span>原文另列</span><span style="color:#666">${c.alt}</span>`:''}<span>來源</span><span style="color:#666">${c.src||'Grok 專案 站路口拜票主要路口列表（草稿）；人流與排名須重核'}</span></div>`).addTo(corners)});window.__cv=k}
+drawCorners();if(document.getElementById('fcv').checked)corners.addTo(map);
+document.getElementById('fd').addEventListener('change',drawCorners);
+document.getElementById('fcv').onchange=e=>{e.target.checked?corners.addTo(map):map.removeLayer(corners)};
+map.on('overlayadd overlayremove',e=>{if(e.layer===corners)document.getElementById('fcv').checked=e.type=='overlayadd'});
+L.control.layers(null,{'里：賴清德得票率':vote,'里：聖文ABC色塊':abc,'里名＋ABC標籤':lbl,'垃圾車停靠點':stops,'路線折線':lines,'拜票路口點':corners},{position:'topleft'}).addTo(map);
+if(!h)map.fitBounds(vote.getBounds());let zooming=false;let _zt;map.on('zoomend',()=>{if(zooming)return;clearTimeout(_zt);_zt=setTimeout(()=>requestAnimationFrame(draw),60)});
+if(h){const pts=S.filter(s=>s.lat!=null&&hsel(RK(s)));if(pts.length){zooming=true;map.fitBounds(L.latLngBounds(pts.map(s=>[s.lat,s.lon])),{paddingTopLeft:[50,60],paddingBottomRight:[innerWidth>700?330:40,100],maxZoom:17});setTimeout(()=>{zooming=false;draw()},100)}}
+/* ===== tech UI layer (visual/interaction only) ===== */
+(function(){
+const $=id=>document.getElementById(id),mob=()=>innerWidth<=700,P=$('panel');
+// theme
+function setTheme(t){document.body.classList.toggle('light',t=='light');if(t=='light'){map.removeLayer(baseDark);baseLight.addTo(map).bringToBack()}else{map.removeLayer(baseLight);baseDark.addTo(map).bringToBack()}$('bth').textContent=t=='light'?'🌙':'☀️';$('bth').title=t=='light'?'切換深色科技底圖':'切換淺色底圖';try{localStorage.setItem('gtTheme',t)}catch(e){}}
+let th='dark';try{th=localStorage.getItem('gtTheme')||'dark'}catch(e){}setTheme(th);
+$('bth').onclick=()=>setTheme(document.body.classList.contains('light')?'dark':'light');
+// panel / bottom sheet
+if(mob())P.classList.add('collapsed');
+$('grab').onclick=()=>P.classList.toggle('collapsed');
+let ty=null;$('grab').addEventListener('touchstart',e=>{ty=e.touches[0].clientY},{passive:true});
+$('grab').addEventListener('touchend',e=>{if(ty==null)return;const dy=e.changedTouches[0].clientY-ty;if(dy<-30)P.classList.remove('collapsed');else if(dy>30)P.classList.add('collapsed');ty=null;e.preventDefault()});
+$('bpn').onclick=()=>P.classList.toggle('collapsed');
+setTimeout(()=>$('tip')&&$('tip').classList.add('gone'),7000);
+// HUD count-up
+const cur={};function cu(id,v){const el=$(id);const a=cur[id]||0;cur[id]=v;const t0=performance.now();(function f(t){const k=Math.min(1,(t-t0)/600),e=1-Math.pow(1-k,3);el.textContent=Math.round(a+(v-a)*e);if(k<1)requestAnimationFrame(f)})(t0)}
+function hud(){const m=($('cnt').textContent||'').match(/路線 (\d+) 條｜顯示 (\d+) 站/);if(m){cu('hs',+m[2]);cu('hr',+m[1])}cu('hc',map.hasLayer(corners)?(window.__cv||0):0);if(m&&!window.__rt){window.__rt=+m[1];$('hrt').textContent=m[1]}}
+$('hst').textContent=S.length;$('hct').textContent=CV.length;
+// route highlight
+function deco(){lines.eachLayer(l=>{if(l instanceof L.Polyline&&l.options.interactive!==false&&!l._dz){l._dz=1;const w=l.options.weight;l.on('mouseover',()=>{l.setStyle({weight:w+4});l.bringToFront()});l.on('mouseout',()=>l.setStyle({weight:w}))}})}
+new MutationObserver(()=>{deco();hud()}).observe($('cnt'),{childList:true,characterData:true,subtree:true});
+// corners: tooltip, click fly, list
+function cvDeco(){corners.eachLayer(m=>{const c=CV.find(c=>c.lat==m.getLatLng().lat&&c.lon==m.getLatLng().lng);if(!c)return;m._cv=c;m.bindTooltip(`${c.no}. ${c.name}`,{className:'tt',direction:'top',offset:[0,-14]});m.on('click',()=>flyCv(c,true))})}
+function cvList(){const d=$('fd').value;$('cvl').innerHTML=CV.filter(c=>!d||c.d==d).map(c=>`<div data-n="${c.no}"><s class="${c.approx?'apx':''}">${c.no}</s><span>${c.name}</span><em>${c.d}${c.approx?'・約略':''}</em></div>`).join('');$('cvl').querySelectorAll('div').forEach(x=>x.onclick=()=>{const c=CV.find(c=>c.no==x.dataset.n);if(!map.hasLayer(corners)){$('fcv').checked=true;corners.addTo(map)}if(mob())P.classList.add('collapsed');flyCv(c)})}
+function flyCv(c,already){document.querySelectorAll('#cvl div').forEach(x=>x.classList.toggle('on',x.dataset.n==c.no));document.querySelectorAll('.cv-mk.sel').forEach(x=>x.classList.remove('sel'));const z=Math.max(map.getZoom(),16);
+ const open=()=>{corners.eachLayer(m=>{if(m._cv===c){m.openPopup();const el=m.getElement();el&&el.querySelector('.cv-mk').classList.add('sel')}})};
+ fly([c.lat,c.lon],z,open)}
+function fly(ll,z,cb){const dst=map.distance(map.getCenter(),ll);if(dst<5&&map.getZoom()==z){cb&&cb();return}map.once('moveend',()=>setTimeout(()=>cb&&cb(),120));map.flyTo(mob()?map.unproject(map.project(ll,z).add([0,mob()?90:0]),z):map.unproject(map.project(ll,z).add([150,0]),z),z,{duration:.9})}
+$('fd').addEventListener('change',()=>{cvDeco();cvList();hud()});$('fcv').addEventListener('change',hud);map.on('overlayadd overlayremove',hud);
+cvDeco();cvList();
+// 里 hover highlight
+const lp=p=>`<b>${p.d}區 ${p.li}</b><br>賴清德 <b>${p.share==null?'無資料':p.share+'%'}</b>${p.rank?`（區內第${p.rank}）`:''}<br>聖文 ABC：<b style="color:${ac[p.abc]||'inherit'}">${p.abc||'—'}</b>`;
+[vote,abc].forEach(g=>g.eachLayer(l=>{l.on('mouseover',()=>{if(mob())return;l.setStyle({weight:3,color:'#00e5ff',fillOpacity:g===vote?.42:.65});$('hov').innerHTML=lp(l.feature.properties);$('hov').classList.add('on')});l.on('mouseout',()=>{g.resetStyle(l);$('hov').classList.remove('on')})}));
+// search index
+const IX=[];V.features.forEach((f,i)=>{const b=L.geoJSON(f).getBounds();IX.push({t:'里',n:f.properties.li,s:f.properties.d+'區'+(f.properties.abc?'・'+f.properties.abc:''),ll:b.getCenter(),b,f})});
+CV.forEach(c=>IX.push({t:'拜票',n:c.no+'. '+c.name,s:c.desc,ll:[c.lat,c.lon],c}));
+const seen=new Set();S.forEach(s=>{if(s.lat==null)return;const n=s.loc.replace(/^臺北市/,'');const k=n+s.lat;if(seen.has(k))return;seen.add(k);IX.push({t:'站',n,s:hm(s.t0)+' '+s.team,ll:[s.lat,s.lon],st:s})});
+let hits=[],hi=0;const sq=$('sq'),sr=$('sr');
+function render(){sr.innerHTML=hits.map((h,i)=>`<div class="${i==hi?'on':''}" data-i="${i}"><i>${h.t}</i><span>${h.n}</span><em>${h.s}</em></div>`).join('');sr.style.display=hits.length?'block':'none';sr.querySelectorAll('div').forEach(d=>d.onclick=()=>go(hits[d.dataset.i]))}
+sq.oninput=()=>{const q=sq.value.trim().replace(/台/g,'臺');if(!q){hits=[];render();return}const qq=sq.value.trim();hits=IX.filter(x=>(x.n+x.s).includes(q)||(x.n+x.s).includes(qq)).sort((a,b)=>({'拜票':0,'里':1,'站':2}[a.t]-{'拜票':0,'里':1,'站':2}[b.t])).slice(0,30);hi=0;render()};
+sq.onkeydown=e=>{if(e.key=='ArrowDown'){hi=Math.min(hi+1,hits.length-1);render()}else if(e.key=='ArrowUp'){hi=Math.max(hi-1,0);render()}else if(e.key=='Enter'&&hits[hi])go(hits[hi]);else if(e.key=='Escape'){hits=[];render();sq.blur()}};
+document.addEventListener('click',e=>{if(!$('srch').contains(e.target)){sr.style.display='none'}});sq.onfocus=()=>{if(hits.length)sr.style.display='block'};
+function ping(ll){const m=L.marker(ll,{interactive:false,icon:L.divIcon({className:'',iconSize:[40,40],iconAnchor:[20,20],html:'<div class="ping"></div>'})}).addTo(map);setTimeout(()=>map.removeLayer(m),3800)}
+function go(h){sr.style.display='none';sq.value=h.n;sq.blur();if(mob())P.classList.add('collapsed');
+ if(h.c){if(!map.hasLayer(corners)){$('fcv').checked=true;corners.addTo(map)}if($('fd').value&&$('fd').value!=h.c.d){$('fd').value='';$('fd').dispatchEvent(new Event('change'))}flyCv(h.c);return}
+ if(h.b){const z=Math.min(map.getBoundsZoom(h.b),16);fly(h.ll,z,()=>{vote.eachLayer(l=>{if(l.feature===h.f){l.fire('mouseover');setTimeout(()=>l.fire('mouseout'),2500);if(map.hasLayer(vote))l.openPopup(h.ll)}})});return}
+ fly(h.ll,17,()=>{ping(h.ll);let ok=0;stops.eachLayer(m=>{const p=m.getLatLng();if(!ok&&p.lat==h.ll[0]&&p.lng==h.ll[1]){ok=1;stops.zoomToShowLayer(m,()=>m.openPopup())}})})}
+// locate / fullscreen
+let me;$('bloc').onclick=()=>{map.locate({setView:true,maxZoom:16})};
+map.on('locationfound',e=>{if(me)map.removeLayer(me);me=L.marker(e.latlng,{icon:L.divIcon({className:'',iconSize:[16,16],iconAnchor:[8,8],html:'<div class="me"></div>'})}).addTo(map)});
+map.on('locationerror',()=>alert('無法取得定位（請允許位置權限）'));
+$('bfs').onclick=()=>{const d=document;if(!d.fullscreenElement){(d.documentElement.requestFullscreen||d.documentElement.webkitRequestFullscreen||(()=>{})).call(d.documentElement)}else d.exitFullscreen()};
+// mobile: popups become bottom-sheet cards
+map.on('popupopen',e=>{if(!mob())return;const h=e.popup.getContent();$('sbody').innerHTML=typeof h=='string'?h:h.outerHTML||'';$('sheet').classList.add('on');P.classList.add('collapsed');setTimeout(()=>map.closePopup(e.popup),0)});
+$('sx').onclick=()=>$('sheet').classList.remove('on');map.on('click',()=>{$('sheet').classList.remove('on')});
+let sy=null;$('sheet').addEventListener('touchstart',e=>{sy=e.touches[0].clientY},{passive:true});$('sheet').addEventListener('touchend',e=>{if(sy!=null&&e.changedTouches[0].clientY-sy>50&&$('sheet').scrollTop<=0)$('sheet').classList.remove('on');sy=null});
+hud();deco();
+})();
+
+/* flow direction overlay + perf */
+(function(){const $=id=>document.getElementById(id);let on=true;try{on=localStorage.getItem('gtFlow')!=='0'}catch(e){}
+document.body.classList.toggle('flow',on);$('fflow').checked=on;
+$('fflow').onchange=e=>{document.body.classList.toggle('flow',e.target.checked);try{localStorage.setItem('gtFlow',e.target.checked?'1':'0')}catch(x){}};
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const cv=document.createElement('canvas');cv.id='flowc';map.createPane('flowp').style.zIndex=450;map.getPane('flowp').style.pointerEvents='none';map.getPane('flowp').appendChild(cv);const cx=cv.getContext('2d');
+let R2=[],P2=[],hot=null,dpr=Math.min(2,devicePixelRatio||1);
+function size(){const s=map.getSize();cv.width=s.x*dpr;cv.height=s.y*dpr;cv.style.width=s.x+'px';cv.style.height=s.y+'px';proj()}
+function collect(){const G=new Map();lines.eachLayer(l=>{if(l instanceof L.Polyline&&l.options.interactive!==false){const k=l.options.color;if(!G.has(k))G.set(k,{segs:[],w:l.options.weight,ls:[]});const g=G.get(k);g.segs.push(l.getLatLngs());g.ls.push(l);
+ if(!l._fh){l._fh=1;l.on('mouseover',()=>{hot=k});l.on('mouseout',()=>{if(hot==k)hot=null})}}});R2=[...G.entries()].map(([k,g])=>({k,w:g.w,segs:g.segs,b:L.latLngBounds(g.segs.flat())}));proj()}
+function proj(){L.DomUtil.setPosition(cv,map.containerPointToLayerPoint([0,0]));const vb=map.getBounds().pad(.1);P2=R2.filter(r=>vb.intersects(r.b)).map(r=>({k:r.k,w:r.w,pts:r.segs.map(sg=>sg.map(ll=>map.latLngToContainerPoint(ll)))}))}
+let t=0,last=0;function frame(ts){requestAnimationFrame(frame);if(!document.body.classList.contains('flow')||RM||map.getContainer().classList.contains('zm')||document.hidden)return;if(ts-last<33)return;last=ts;t=(t+1.1)%36;
+ const lt=document.body.classList.contains('light');cx.setTransform(dpr,0,0,dpr,0,0);cx.clearRect(0,0,cv.width,cv.height);cx.lineCap='round';cx.lineJoin='round';
+ P2.forEach(r=>{const h=r.k===hot;cx.strokeStyle=lt?'rgba(255,255,255,.95)':(h?'#ffffff':'rgba(215,250,255,.95)');cx.lineWidth=Math.max(2,r.w-(h?0:2));cx.setLineDash(h?[6,12]:[3,15]);cx.lineDashOffset=-(h?t*2:t);
+  if(!lt){cx.shadowColor='rgba(0,229,255,.9)';cx.shadowBlur=h?8:4}else cx.shadowBlur=0;cx.beginPath();r.pts.forEach(sg=>{sg.forEach((p,i)=>i?cx.lineTo(p.x,p.y):cx.moveTo(p.x,p.y))});cx.stroke()})}
+window.__flowStat=()=>({routes:R2.length,visible:P2.length,t});
+new MutationObserver(()=>setTimeout(collect,0)).observe($('cnt'),{childList:true,characterData:true,subtree:true});
+const c=map.getContainer();map.on('movestart',()=>c.classList.add('mv'));map.on('zoomstart',()=>c.classList.add('zm'));map.on('moveend zoomend',()=>{c.classList.remove('mv');c.classList.remove('zm');proj()});map.on('resize',size);
+size();collect();requestAnimationFrame(frame);
+})();
+/* base-colour switch + (6) shareable state */
+(function(){const $=id=>document.getElementById(id);
+function base(v){[vote,abc].forEach(l=>map.removeLayer(l));if(v=='heat')vote.addTo(map).bringToBack();else if(v=='abc')abc.addTo(map).bringToBack();$('fb').value=v}
+$('fb').onchange=e=>{base(e.target.value);save()};
+map.on('overlayadd overlayremove',e=>{if(e.layer===vote||e.layer===abc){$('fb').value=map.hasLayer(vote)?'heat':map.hasLayer(abc)?'abc':'none'}save()});
+const LY={v:vote,a:abc,l:lbl,s:stops,r:lines,c:corners};let openNo=null,ready=false;
+map.on('popupopen',e=>{const m=e.popup._source;openNo=m&&m._cv?m._cv.no:null;save()});
+map.on('click',()=>{openNo=null;save()});
+function enc(){const p=new URLSearchParams();p.set('v','1');p.set('t',document.body.classList.contains('light')?'l':'d');
+ ['f0','f1','fd','fa','fc','fr','fb'].forEach(k=>{const x=$(k).value;if(x)p.set(k,x)});
+ const tc=[...document.querySelectorAll('.tc')];const off=tc.map((c,i)=>c.checked?-1:i).filter(i=>i>=0);if(off.length)p.set('x',off.length>tc.length/2?'+'+tc.map((c,i)=>c.checked?i:-1).filter(i=>i>=0).join('.'):off.join('.'));
+ p.set('L',Object.keys(LY).filter(k=>map.hasLayer(LY[k])).join(''));p.set('fl',$('fflow').checked?'1':'0');
+ const c=map.getCenter();p.set('c',c.lat.toFixed(5)+','+c.lng.toFixed(5));p.set('z',map.getZoom());if(openNo!=null)p.set('o',openNo);return p}
+let st;function save(){if(!ready)return;clearTimeout(st);st=setTimeout(()=>{const u=location.pathname+'?'+enc().toString()+location.hash;history.replaceState(null,'',u)},250)}
+window.__shareURL=()=>location.origin+location.pathname+'?'+enc().toString()+location.hash;
+function apply(p){if(!p.get('v'))return false;
+ if((p.get('t')=='l')!=document.body.classList.contains('light'))$('bth').click();
+ ['f0','f1','fd','fa','fc','fr'].forEach(k=>{if(p.has(k))$(k).value=p.get(k)});
+ const x=p.get('x');if(x!=null){const tc=[...document.querySelectorAll('.tc')];const ids=x.replace('+','').split('.').filter(Boolean).map(Number);const inv=x[0]=='+';tc.forEach((c,i)=>c.checked=inv?ids.includes(i):!ids.includes(i));tc[0]&&tc[0].dispatchEvent(new Event('change'))}
+ $('fd').dispatchEvent(new Event('change'));
+ if(p.has('fl')&&($('fflow').checked!=(p.get('fl')=='1'))){$('fflow').checked=p.get('fl')=='1';$('fflow').dispatchEvent(new Event('change'))}
+ if(p.has('L')){const L2=p.get('L');Object.entries(LY).forEach(([k,l])=>{if(L2.includes(k))map.hasLayer(l)||l.addTo(map);else map.removeLayer(l)});$('fcv').checked=map.hasLayer(corners)}
+ $('fb').value=map.hasLayer(vote)?'heat':map.hasLayer(abc)?'abc':'none';if(p.has('fb'))base(p.get('fb'));
+ if(p.has('c')){const c=p.get('c').split(',').map(Number);map.setView(c,+p.get('z')||14,{animate:false})}
+ if(p.has('o')){const no=+p.get('o');setTimeout(()=>corners.eachLayer(m=>{if(m._cv&&m._cv.no==no)m.openPopup()}),600)}
+ return true}
+const P=new URLSearchParams(location.search);try{apply(P)}catch(e){console.warn('state',e)}
+setTimeout(()=>{ready=true;save()},800);
+map.on('moveend',save);document.addEventListener('change',e=>{if(e.target.closest&&e.target.closest('#panel'))save()});$('bth').addEventListener('click',save);
+function toast(t){let el=$('toast');if(!el){el=document.createElement('div');el.id='toast';el.className='glass';document.body.appendChild(el)}el.textContent=t;el.classList.add('on');setTimeout(()=>el.classList.remove('on'),1800)}
+$('bsh').onclick=async()=>{const u=__shareURL();if(navigator.share&&matchMedia('(max-width:700px)').matches){try{await navigator.share({title:'聖文互動地圖',url:u});return}catch(e){}}
+ try{await navigator.clipboard.writeText(u);toast('已複製目前畫面連結')}catch(e){prompt('複製這個連結：',u)}};
+Object.assign(window,{map,stops,lines,corners,vote,abc,lbl,V,S,R,CV,draw});
+})();
+
+;window.__ready&&__ready()}).catch(e=>{console.error(e);document.getElementById("ldt").textContent="資料載入失敗："+e.message});</script></body></html>

@@ -1,35 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 樟腳里 掃街車路線</name><desc>總長 3.63 km，重複率 29.3%</desc></metadata>
+<metadata><name>文山區 樟腳里 掃街車路線</name><desc>總長 3.69 km，重複率 30.4%</desc></metadata>
 <wpt lat="24.981791" lon="121.561104"><name>起點 木新路三段155巷</name></wpt>
-<wpt lat="24.980930" lon="121.563196"><name>終點 木新路三段95巷</name></wpt>
+<wpt lat="24.982509" lon="121.564224"><name>終點 木新路三段</name></wpt>
 <rte><name>樟腳里 道路順序</name>
 <rtept lat="24.981791" lon="121.561104"><name>01 木新路三段155巷</name><desc>出發・167 m</desc></rtept>
 <rtept lat="24.980907" lon="121.560457"><name>02 木新路三段183巷</name><desc>右轉・79 m</desc></rtept>
-<rtept lat="24.98159" lon="121.560234"><name>03 木新路三段</name><desc>左轉・76 m</desc></rtept>
-<rtept lat="24.981421" lon="121.559501"><name>04 木新路三段215巷</name><desc>左轉・78 m</desc></rtept>
-<rtept lat="24.980737" lon="121.559693"><name>05 木新路三段155巷</name><desc>左轉・79 m</desc></rtept>
-<rtept lat="24.980907" lon="121.560457"><name>06 木新路三段183巷</name><desc>左轉・79 m（重複／連絡）</desc></rtept>
-<rtept lat="24.98159" lon="121.560234"><name>07 木新路三段</name><desc>右轉・181 m</desc></rtept>
+<rtept lat="24.98159" lon="121.560234"><name>03 木新路三段</name><desc>左轉・55 m</desc></rtept>
+<rtept lat="24.98159" lon="121.560234"><name>04 木新路三段183巷</name><desc>右轉・79 m（重複／連絡）</desc></rtept>
+<rtept lat="24.980907" lon="121.560457"><name>05 木新路三段155巷</name><desc>右轉・79 m</desc></rtept>
+<rtept lat="24.980737" lon="121.559693"><name>06 木新路三段215巷</name><desc>右轉・78 m</desc></rtept>
+<rtept lat="24.981421" lon="121.559501"><name>07 木新路三段</name><desc>右轉・258 m</desc></rtept>
 <rtept lat="24.981991" lon="121.561977"><name>08 木新路三段127巷</name><desc>右轉・162 m</desc></rtept>
-<rtept lat="24.981991" lon="121.561977"><name>09 木新路三段</name><desc>右轉・234 m</desc></rtept>
-<rtept lat="24.982509" lon="121.564224"><name>10 木新路三段45巷</name><desc>右轉・107 m</desc></rtept>
-<rtept lat="24.981571" lon="121.564463"><name>11 無名巷道</name><desc>左轉・466 m</desc></rtept>
-<rtept lat="24.981727" lon="121.566118"><name>12 恆光街30巷</name><desc>右轉・204 m</desc></rtept>
-<rtept lat="24.981727" lon="121.566118"><name>13 無名巷道</name><desc>右轉・50 m（重複／連絡）</desc></rtept>
-<rtept lat="24.981856" lon="121.565644"><name>14 木新路二段299巷</name><desc>右轉・109 m</desc></rtept>
-<rtept lat="24.982785" lon="121.565297"><name>15 木新路二段</name><desc>右轉・82 m</desc></rtept>
-<rtept lat="24.982785" lon="121.565297"><name>16 木新路二段299巷</name><desc>左轉・86 m（重複／連絡）</desc></rtept>
-<rtept lat="24.982057" lon="121.565583"><name>17 恆光街22巷</name><desc>左轉・154 m</desc></rtept>
-<rtept lat="24.982484" lon="121.567027"><name>18 恆光街</name><desc>左轉・38 m</desc></rtept>
-<rtept lat="24.982803" lon="121.56689"><name>19 恆光街14巷</name><desc>左轉・180 m</desc></rtept>
-<rtept lat="24.982803" lon="121.56689"><name>20 恆光街</name><desc>左轉・55 m</desc></rtept>
-<rtept lat="24.983273" lon="121.566713"><name>21 木新路二段</name><desc>右轉・114 m</desc></rtept>
-<rtept lat="24.983619" lon="121.567771"><name>22 木新路二段211巷</name><desc>右轉・187 m</desc></rtept>
-<rtept lat="24.983619" lon="121.567771"><name>23 木新路二段</name><desc>左轉・266 m</desc></rtept>
-<rtept lat="24.982785" lon="121.565297"><name>24 木新路三段</name><desc>直行・256 m</desc></rtept>
-<rtept lat="24.982193" lon="121.562851"><name>25 木新路三段95巷</name><desc>左轉・144 m</desc></rtept>
-<rtept lat="24.980930" lon="121.563196"><name>終點</name></rtept></rte>
+<rtept lat="24.981991" lon="121.561977"><name>09 木新路三段</name><desc>右轉・91 m</desc></rtept>
+<rtept lat="24.982193" lon="121.562851"><name>10 木新路三段95巷</name><desc>右轉・288 m</desc></rtept>
+<rtept lat="24.982193" lon="121.562851"><name>11 木新路三段</name><desc>右轉・143 m</desc></rtept>
+<rtept lat="24.982509" lon="121.564224"><name>12 木新路三段45巷</name><desc>右轉・107 m</desc></rtept>
+<rtept lat="24.981571" lon="121.564463"><name>13 無名巷道</name><desc>左轉・466 m</desc></rtept>
+<rtept lat="24.981727" lon="121.566118"><name>14 恆光街30巷</name><desc>右轉・204 m</desc></rtept>
+<rtept lat="24.981727" lon="121.566118"><name>15 無名巷道</name><desc>右轉・50 m（重複／連絡）</desc></rtept>
+<rtept lat="24.981856" lon="121.565644"><name>16 木新路二段299巷</name><desc>右轉・109 m</desc></rtept>
+<rtept lat="24.982785" lon="121.565297"><name>17 木新路二段</name><desc>右轉・82 m</desc></rtept>
+<rtept lat="24.982785" lon="121.565297"><name>18 木新路二段299巷</name><desc>左轉・86 m（重複／連絡）</desc></rtept>
+<rtept lat="24.982057" lon="121.565583"><name>19 恆光街22巷</name><desc>左轉・154 m</desc></rtept>
+<rtept lat="24.982484" lon="121.567027"><name>20 恆光街</name><desc>左轉・38 m</desc></rtept>
+<rtept lat="24.982803" lon="121.56689"><name>21 恆光街14巷</name><desc>左轉・180 m</desc></rtept>
+<rtept lat="24.982803" lon="121.56689"><name>22 恆光街</name><desc>左轉・55 m</desc></rtept>
+<rtept lat="24.983273" lon="121.566713"><name>23 木新路二段</name><desc>右轉・114 m</desc></rtept>
+<rtept lat="24.983619" lon="121.567771"><name>24 木新路二段211巷</name><desc>右轉・187 m</desc></rtept>
+<rtept lat="24.983619" lon="121.567771"><name>25 木新路二段</name><desc>左轉・266 m</desc></rtept>
+<rtept lat="24.982785" lon="121.565297"><name>26 木新路三段</name><desc>直行・113 m</desc></rtept>
+<rtept lat="24.982509" lon="121.564224"><name>終點</name></rtept></rte>
 <trk><name>樟腳里 行駛軌跡</name><trkseg>
 <trkpt lat="24.981791" lon="121.561104"/>
 <trkpt lat="24.981728" lon="121.561121"/>
@@ -70,44 +71,54 @@
 <trkpt lat="24.981554" lon="121.560078"/>
 <trkpt lat="24.981540" lon="121.560015"/>
 <trkpt lat="24.981529" lon="121.559970"/>
-<trkpt lat="24.981514" lon="121.559903"/>
-<trkpt lat="24.981498" lon="121.559836"/>
-<trkpt lat="24.981483" lon="121.559769"/>
-<trkpt lat="24.981468" lon="121.559702"/>
-<trkpt lat="24.981452" lon="121.559635"/>
-<trkpt lat="24.981437" lon="121.559568"/>
-<trkpt lat="24.981421" lon="121.559501"/>
-<trkpt lat="24.981357" lon="121.559520"/>
-<trkpt lat="24.981292" lon="121.559538"/>
-<trkpt lat="24.981227" lon="121.559556"/>
-<trkpt lat="24.981163" lon="121.559574"/>
-<trkpt lat="24.981098" lon="121.559592"/>
-<trkpt lat="24.981033" lon="121.559610"/>
-<trkpt lat="24.980968" lon="121.559628"/>
-<trkpt lat="24.980911" lon="121.559645"/>
-<trkpt lat="24.980853" lon="121.559661"/>
-<trkpt lat="24.980795" lon="121.559677"/>
-<trkpt lat="24.980737" lon="121.559693"/>
-<trkpt lat="24.980754" lon="121.559769"/>
-<trkpt lat="24.980771" lon="121.559846"/>
-<trkpt lat="24.980788" lon="121.559922"/>
-<trkpt lat="24.980805" lon="121.559999"/>
-<trkpt lat="24.980822" lon="121.560075"/>
-<trkpt lat="24.980839" lon="121.560151"/>
-<trkpt lat="24.980856" lon="121.560228"/>
-<trkpt lat="24.980873" lon="121.560304"/>
-<trkpt lat="24.980890" lon="121.560380"/>
-<trkpt lat="24.980907" lon="121.560457"/>
-<trkpt lat="24.980970" lon="121.560441"/>
-<trkpt lat="24.981033" lon="121.560425"/>
-<trkpt lat="24.981096" lon="121.560410"/>
-<trkpt lat="24.981159" lon="121.560394"/>
-<trkpt lat="24.981221" lon="121.560372"/>
-<trkpt lat="24.981282" lon="121.560350"/>
-<trkpt lat="24.981343" lon="121.560328"/>
-<trkpt lat="24.981404" lon="121.560306"/>
-<trkpt lat="24.981466" lon="121.560284"/>
+<trkpt lat="24.981540" lon="121.560015"/>
+<trkpt lat="24.981554" lon="121.560078"/>
+<trkpt lat="24.981569" lon="121.560141"/>
+<trkpt lat="24.981579" lon="121.560187"/>
+<trkpt lat="24.981590" lon="121.560234"/>
 <trkpt lat="24.981528" lon="121.560259"/>
+<trkpt lat="24.981466" lon="121.560284"/>
+<trkpt lat="24.981404" lon="121.560306"/>
+<trkpt lat="24.981343" lon="121.560328"/>
+<trkpt lat="24.981282" lon="121.560350"/>
+<trkpt lat="24.981221" lon="121.560372"/>
+<trkpt lat="24.981159" lon="121.560394"/>
+<trkpt lat="24.981096" lon="121.560410"/>
+<trkpt lat="24.981033" lon="121.560425"/>
+<trkpt lat="24.980970" lon="121.560441"/>
+<trkpt lat="24.980907" lon="121.560457"/>
+<trkpt lat="24.980890" lon="121.560380"/>
+<trkpt lat="24.980873" lon="121.560304"/>
+<trkpt lat="24.980856" lon="121.560228"/>
+<trkpt lat="24.980839" lon="121.560151"/>
+<trkpt lat="24.980822" lon="121.560075"/>
+<trkpt lat="24.980805" lon="121.559999"/>
+<trkpt lat="24.980788" lon="121.559922"/>
+<trkpt lat="24.980771" lon="121.559846"/>
+<trkpt lat="24.980754" lon="121.559769"/>
+<trkpt lat="24.980737" lon="121.559693"/>
+<trkpt lat="24.980795" lon="121.559677"/>
+<trkpt lat="24.980853" lon="121.559661"/>
+<trkpt lat="24.980911" lon="121.559645"/>
+<trkpt lat="24.980968" lon="121.559628"/>
+<trkpt lat="24.981033" lon="121.559610"/>
+<trkpt lat="24.981098" lon="121.559592"/>
+<trkpt lat="24.981163" lon="121.559574"/>
+<trkpt lat="24.981227" lon="121.559556"/>
+<trkpt lat="24.981292" lon="121.559538"/>
+<trkpt lat="24.981357" lon="121.559520"/>
+<trkpt lat="24.981421" lon="121.559501"/>
+<trkpt lat="24.981437" lon="121.559568"/>
+<trkpt lat="24.981452" lon="121.559635"/>
+<trkpt lat="24.981468" lon="121.559702"/>
+<trkpt lat="24.981483" lon="121.559769"/>
+<trkpt lat="24.981498" lon="121.559836"/>
+<trkpt lat="24.981514" lon="121.559903"/>
+<trkpt lat="24.981529" lon="121.559970"/>
+<trkpt lat="24.981540" lon="121.560015"/>
+<trkpt lat="24.981554" lon="121.560078"/>
+<trkpt lat="24.981569" lon="121.560141"/>
+<trkpt lat="24.981579" lon="121.560187"/>
 <trkpt lat="24.981590" lon="121.560234"/>
 <trkpt lat="24.981608" lon="121.560311"/>
 <trkpt lat="24.981625" lon="121.560387"/>
@@ -168,6 +179,48 @@
 <trkpt lat="24.982149" lon="121.562661"/>
 <trkpt lat="24.982158" lon="121.562700"/>
 <trkpt lat="24.982175" lon="121.562776"/>
+<trkpt lat="24.982193" lon="121.562851"/>
+<trkpt lat="24.982151" lon="121.562862"/>
+<trkpt lat="24.982110" lon="121.562873"/>
+<trkpt lat="24.982046" lon="121.562891"/>
+<trkpt lat="24.981982" lon="121.562908"/>
+<trkpt lat="24.981918" lon="121.562926"/>
+<trkpt lat="24.981854" lon="121.562944"/>
+<trkpt lat="24.981790" lon="121.562961"/>
+<trkpt lat="24.981725" lon="121.562978"/>
+<trkpt lat="24.981662" lon="121.562996"/>
+<trkpt lat="24.981599" lon="121.563013"/>
+<trkpt lat="24.981536" lon="121.563030"/>
+<trkpt lat="24.981472" lon="121.563048"/>
+<trkpt lat="24.981413" lon="121.563064"/>
+<trkpt lat="24.981353" lon="121.563080"/>
+<trkpt lat="24.981292" lon="121.563097"/>
+<trkpt lat="24.981232" lon="121.563113"/>
+<trkpt lat="24.981172" lon="121.563130"/>
+<trkpt lat="24.981111" lon="121.563146"/>
+<trkpt lat="24.981051" lon="121.563163"/>
+<trkpt lat="24.980991" lon="121.563179"/>
+<trkpt lat="24.980930" lon="121.563196"/>
+<trkpt lat="24.980991" lon="121.563179"/>
+<trkpt lat="24.981051" lon="121.563163"/>
+<trkpt lat="24.981111" lon="121.563146"/>
+<trkpt lat="24.981172" lon="121.563130"/>
+<trkpt lat="24.981232" lon="121.563113"/>
+<trkpt lat="24.981292" lon="121.563097"/>
+<trkpt lat="24.981353" lon="121.563080"/>
+<trkpt lat="24.981413" lon="121.563064"/>
+<trkpt lat="24.981472" lon="121.563048"/>
+<trkpt lat="24.981536" lon="121.563030"/>
+<trkpt lat="24.981599" lon="121.563013"/>
+<trkpt lat="24.981662" lon="121.562996"/>
+<trkpt lat="24.981725" lon="121.562978"/>
+<trkpt lat="24.981790" lon="121.562961"/>
+<trkpt lat="24.981854" lon="121.562944"/>
+<trkpt lat="24.981918" lon="121.562926"/>
+<trkpt lat="24.981982" lon="121.562908"/>
+<trkpt lat="24.982046" lon="121.562891"/>
+<trkpt lat="24.982110" lon="121.562873"/>
+<trkpt lat="24.982151" lon="121.562862"/>
 <trkpt lat="24.982193" lon="121.562851"/>
 <trkpt lat="24.982209" lon="121.562923"/>
 <trkpt lat="24.982226" lon="121.562996"/>
@@ -510,44 +563,4 @@
 <trkpt lat="24.982538" lon="121.564351"/>
 <trkpt lat="24.982524" lon="121.564287"/>
 <trkpt lat="24.982509" lon="121.564224"/>
-<trkpt lat="24.982492" lon="121.564150"/>
-<trkpt lat="24.982475" lon="121.564077"/>
-<trkpt lat="24.982458" lon="121.564003"/>
-<trkpt lat="24.982441" lon="121.563930"/>
-<trkpt lat="24.982424" lon="121.563856"/>
-<trkpt lat="24.982408" lon="121.563783"/>
-<trkpt lat="24.982391" lon="121.563709"/>
-<trkpt lat="24.982374" lon="121.563636"/>
-<trkpt lat="24.982357" lon="121.563562"/>
-<trkpt lat="24.982342" lon="121.563496"/>
-<trkpt lat="24.982326" lon="121.563431"/>
-<trkpt lat="24.982310" lon="121.563358"/>
-<trkpt lat="24.982293" lon="121.563286"/>
-<trkpt lat="24.982276" lon="121.563213"/>
-<trkpt lat="24.982260" lon="121.563141"/>
-<trkpt lat="24.982243" lon="121.563068"/>
-<trkpt lat="24.982226" lon="121.562996"/>
-<trkpt lat="24.982209" lon="121.562923"/>
-<trkpt lat="24.982193" lon="121.562851"/>
-<trkpt lat="24.982151" lon="121.562862"/>
-<trkpt lat="24.982110" lon="121.562873"/>
-<trkpt lat="24.982046" lon="121.562891"/>
-<trkpt lat="24.981982" lon="121.562908"/>
-<trkpt lat="24.981918" lon="121.562926"/>
-<trkpt lat="24.981854" lon="121.562944"/>
-<trkpt lat="24.981790" lon="121.562961"/>
-<trkpt lat="24.981725" lon="121.562978"/>
-<trkpt lat="24.981662" lon="121.562996"/>
-<trkpt lat="24.981599" lon="121.563013"/>
-<trkpt lat="24.981536" lon="121.563030"/>
-<trkpt lat="24.981472" lon="121.563048"/>
-<trkpt lat="24.981413" lon="121.563064"/>
-<trkpt lat="24.981353" lon="121.563080"/>
-<trkpt lat="24.981292" lon="121.563097"/>
-<trkpt lat="24.981232" lon="121.563113"/>
-<trkpt lat="24.981172" lon="121.563130"/>
-<trkpt lat="24.981111" lon="121.563146"/>
-<trkpt lat="24.981051" lon="121.563163"/>
-<trkpt lat="24.980991" lon="121.563179"/>
-<trkpt lat="24.980930" lon="121.563196"/>
 </trkseg></trk></gpx>

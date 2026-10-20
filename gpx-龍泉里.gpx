@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 龍泉里 掃街車路線</name><desc>總長 4.74 km，重複率 29.1%</desc></metadata>
+<metadata><name>大安區 龍泉里 掃街車路線</name><desc>總長 4.74 km，重複率 24.7%</desc></metadata>
 <wpt lat="25.025655" lon="121.529284"><name>起點 泰順街2巷</name></wpt>
 <wpt lat="25.023552" lon="121.529365"><name>終點 龍泉街</name></wpt>
 <rte><name>龍泉里 道路順序</name>
@@ -26,7 +26,7 @@
 <rtept lat="25.026279" lon="121.531596"><name>20 泰順街</name><desc>右轉・95 m</desc></rtept>
 <rtept lat="25.025429" lon="121.531504"><name>21 泰順街16巷</name><desc>右轉・101 m</desc></rtept>
 <rtept lat="25.025437" lon="121.530507"><name>22 和平東路一段188巷</name><desc>右轉・120 m</desc></rtept>
-<rtept lat="25.026519" lon="121.530416"><name>23 和平東路一段</name><desc>左轉・290 m（重複／連絡）</desc></rtept>
+<rtept lat="25.026519" lon="121.530416"><name>23 和平東路一段</name><desc>左轉・290 m</desc></rtept>
 <rtept lat="25.026451" lon="121.529314"><name>24 龍泉街</name><desc>右轉・57 m</desc></rtept>
 <rtept lat="25.025937" lon="121.529293"><name>25 龍泉街5巷</name><desc>左轉・157 m</desc></rtept>
 <rtept lat="25.026519" lon="121.530416"><name>26 和平東路一段</name><desc>左轉・290 m（重複／連絡）</desc></rtept>

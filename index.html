@@ -169,7 +169,7 @@ body.light .mk-cl{background:#fff;color:#111;border-color:#111;box-shadow:0 2px 
 <label>行政區 <select id="fd"><option value="">全部</option><option>大安</option><option>文山</option></select></label>
 <label>里 ABC <select id="fa"><option value="">全部</option><option>A</option><option>B</option><option>C</option></select></label>
 <select id="fc" hidden><option value="abc">白底</option></select>
-<label><input type="checkbox" id="fflow" checked> 流動方向（沿行進方向流動）</label><label>里底色 <select id="fb"><option value="heat">得票率熱圖</option><option value="abc">聖文 ABC</option><option value="none">無</option></select></label><label>車次快篩 <select id="fr"><option value="">全部</option><option>第1車</option><option>第2車</option><option>第3車</option></select></label>
+<label><input type="checkbox" id="fflow" checked> 流動方向（沿行進方向流動）</label><label>里底色 <select id="fb"><option value="heat">得票率熱圖</option><option value="abc">聖文 ABC</option><option value="none">無</option></select></label><label>收運日 <select id="fw"><option value="">全部</option><option value="today">今天</option><option value="1">週一</option><option value="2">週二</option><option value="3">週三</option><option value="4">週四</option><option value="5">週五</option><option value="6">週六</option><option value="0">週日</option></select></label><div id="fwn" class="note" style="margin:0 0 4px">收運日依地址括號文字推得（如「週一、週五收運」），非官方欄位；未註明者視為每個收運日。環保局公告週三、週日全市不收。</div><label>車次快篩 <select id="fr"><option value="">全部</option><option>第1車</option><option>第2車</option><option>第3車</option></select></label>
 </div><div class="sec"><b>分隊／車次／路線</b> <button id="ta">全選</button><button id="tn">全不選</button><div id="tl" style="position:relative;max-height:220px;overflow:auto;border:1px solid #ddd;padding:2px"></div></div>
 <div class="sec"><b>拜票路口</b><label><input type="checkbox" id="fcv" checked> 顯示拜票路口點（22 處，依上方行政區篩選）</label><div id="cvl"></div></div>
 <div id="cnt"></div>
@@ -193,7 +193,7 @@ window.__ready=function(){window.__based=1;map.removeLayer(window.__tmpBase);win
 
 __load().then(D=>{
 document.getElementById('col').onclick=()=>document.getElementById('panel').classList.add('collapsed');document.getElementById('tog').onclick=()=>document.getElementById('panel').classList.remove('collapsed');if(innerWidth<600)document.getElementById('panel').classList.add('collapsed');
-const V=D.V,S=D.S,R=D.R;
+const V=D.V,S=D.S,R=D.R,RD=D.RD||{};
 const map=window.__map;
 const baseLight=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:'basegray',attribution:'&copy; OpenStreetMap contributors'});const baseDark=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:'basedark',attribution:'&copy; OpenStreetMap contributors'});
 const br=[32,34,36,38,40,42],cl=['#f7fcf5','#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45','#005a32'];
@@ -228,17 +228,23 @@ L.marker(map.unproject(L.point(x,y),z),{interactive:false,keyboard:false,icon:L.
 const flags=L.layerGroup().addTo(map);
 function SF(G){flags.clearLayers();const ks=Object.keys(G);if(ks.length>8)return;ks.forEach(k=>{const a=S.filter(s=>RK(s)==k&&s.lat!=null).sort((x,y)=>x.seq-y.seq);if(!a.length)return;
 [[a[0],'起點','st'],[a[a.length-1],'終點','en']].forEach(([s,t,c],n)=>{if(n==1&&a.length<2)return;if(!G[k].includes(s))return;L.marker([s.lat,s.lon],{interactive:false,zIndexOffset:5000,icon:L.divIcon({className:'',iconSize:[0,0],html:`<div class="flag ${c}"><i class="chk"></i>${t}</div>`})}).addTo(flags)})})}
+const __CN={'一':1,'二':2,'三':3,'四':4,'五':5,'六':6,'日':0,'天':0},__BASE=[1,2,4,5,6];
+function __rule(loc){const m=loc.match(/[（(]([^（）()]*週[^（）()]*)[）)]/);if(!m)return null;const t=m[1];const ds=[...t.matchAll(/週([一二三四五六日天])/g)].map(x=>__CN[x[1]]);if(/無收|不收/.test(t))return __BASE.filter(d=>!ds.includes(d));if(/收運/.test(t))return ds;return null}
+S.forEach(s=>{s.wd=__rule(s.loc)});
+function __day(){const v=document.getElementById('fw').value;if(v==='')return null;if(v==='today'){const w=new Date().toLocaleString('en-US',{timeZone:'Asia/Taipei',weekday:'short'});return {Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6}[w]}return +v}
+function __wdOK(s){const d=__day();if(d==null)return true;if(!__BASE.includes(d))return false;return !s.wd||s.wd.includes(d)}
+function __legs(r){const d=__day();if(d==null||!RD[r.k])return r.legs;const v=RD[r.k].find(x=>x.days.includes(d));return v?v.legs:r.legs}
 function draw(){const LW=map.getZoom()>=15?8:map.getZoom()>=14?6:5;const ARW=[];const fr=document.getElementById('fr').value;const TS=new Set([...document.querySelectorAll('.tc:checked')].map(c=>c.value).filter(k=>!fr||k.split('｜')[2]==fr));stops.clearLayers();const __SA=[],__SG={addLayer:m=>{__SA.push(m)}};const a=document.getElementById('f0').value.replace(':',''),b=document.getElementById('f1').value.replace(':',''),d=document.getElementById('fd').value,x=document.getElementById('fa').value;let n=0;lines.clearLayers();const cm=document.getElementById('fc').value;const G={};
-S.forEach(s=>{if(s.lat==null||!TS.has(RK(s))||s.t0<a||s.t0>b||(d&&s.d!=d)||(x&&s.abc!=x))return;n++;(G[RK(s)]=G[RK(s)]||[]).push(s);
+S.forEach(s=>{if(s.lat==null||!TS.has(RK(s))||s.t0<a||s.t0>b||(d&&s.d!=d)||(x&&s.abc!=x)||!__wdOK(s))return;n++;(G[RK(s)]=G[RK(s)]||[]).push(s);
 const lg=s.stay!=null&&s.stay!==''&&+s.stay>=10;const fc=lg?'#e11d2a':'#fff';const tc=lg?'#fff':'#111';const z=map.getZoom();const sz=z>=16?28:z>=14?22:18;const hi=z>=14?' hi':'';
 const ic=__IC({className:'',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2],html:`<div class="seq-mk${hi}${lg?' long':''}${s.approx?' apx':''}" style="width:${sz}px;height:${sz}px;background:${fc};color:${tc}">${s.seq||''}</div>`});
 L.marker([s.lat,s.lon],{icon:ic,zIndexOffset:(lg?2000:0)+(s.seq||0),long:lg}).bindPopup(`<div class="pp-h">${s.loc.replace(/^臺北市/,'')}</div>${s.approx?'<div style="color:#c0c;font-weight:700">⚠ 約略位置</div>':''}<div><span class="pp-t" style="background:${RC[RK(s)]};color:#fff">第 ${s.seq} 站／共 ${s.seqn} 站${s.seq==1?'（起點）':s.seq==s.seqn?'（終點）':''}</span><span class="pp-t">${s.team}</span><span class="pp-t">${s.run}</span><span class="pp-t">${s.veh}・${s.car}</span></div>
-<div class="pp-g" style="margin-top:6px"><span>抵達</span><b>${hm(s.t0)}</b><span>離開</span><b>${s.t1?hm(s.t1):'—'}</b><span>停留</span><b>${s.stay?s.stay+' 分':'資料未提供'}</b><span>里</span><b>${s.d}區 ${s.li}　${s.abc?'ABC：'+s.abc:''}</b><span>定位</span><span style="color:#666">${s.approx?'約略位置｜'+s.how:s.geo+(s.gnote?' '+s.gnote:'')}</span></div>`).addTo(__SG)});
+<div class="pp-g" style="margin-top:6px"><span>抵達</span><b>${hm(s.t0)}</b><span>離開</span><b>${s.t1?hm(s.t1):'—'}</b><span>停留</span><b>${s.stay?s.stay+' 分':'資料未提供'}</b>${s.wd?`<span>收運日</span><b>${s.wd.map(d=>'日一二三四五六'[d]).map(x=>'週'+x).join('、')}<small style="opacity:.7">（依地址文字推得，非官方欄位）</small></b>`:''}<span>里</span><b>${s.d}區 ${s.li}　${s.abc?'ABC：'+s.abc:''}</b><span>定位</span><span style="color:#666">${s.approx?'約略位置｜'+s.how:s.geo+(s.gnote?' '+s.gnote:'')}</span></div>`).addTo(__SG)});
 stops.addLayers(__SA);let nr=0;window.__x=0;R.forEach(r=>{let any=false;const pop=`<b>${r.k}</b><br>起訖：${hm(S[r.idx[0]].t0)}–${hm(S[r.idx[r.idx.length-1]].t1||S[r.idx[r.idx.length-1]].t0)}<br>停靠數：${r.n}（約略位置 ${r.idx.filter(i=>S[i].approx).length}）`;
-r.legs.forEach(l=>{if(!G[r.k]||!G[r.k].includes(S[l.a])||!G[r.k].includes(S[l.b]))return;any=true;
+__legs(r).forEach(l=>{if(!G[r.k]||!G[r.k].includes(S[l.a])||!G[r.k].includes(S[l.b]))return;any=true;
 (L.polyline(l.g,{color:'#1f1f1f',weight:LW+6,opacity:1,interactive:false,lineCap:'round',lineJoin:'round'}).addTo(lines),L.polyline(l.g,{color:'#fff',weight:LW+2,opacity:1,interactive:false,lineCap:'round',lineJoin:'round'}).addTo(lines),L.polyline(l.g,{color:RC[r.k],weight:LW-2,opacity:1,lineCap:'round',lineJoin:'round',dashArray:l.ok?null:'6 8'})).bindPopup(pop+`<br>本段：${hm(S[l.a].t0)} ${S[l.a].loc.slice(6)} → ${hm(S[l.b].t0)} ${S[l.b].loc.slice(6)}<br>${l.ok?`道路距離 ${l.dist} km（直線 ${l.st} km）`:'⚠ 路徑規劃失敗，以虛線直線表示'}`).addTo(lines);ARW.push(l.g)});if(any)nr++});
 ARW.forEach(g=>arrows(g,'#fff'));SF(G);document.getElementById('cnt').textContent=`路線 ${nr} 條｜顯示 ${n} 站（共 ${S.length} 站，${S.filter(s=>s.lat==null).length} 站無法定位未標）`}
-['f0','f1','fd','fa','fc','fr'].forEach(i=>document.getElementById(i).onchange=draw);draw();
+['f0','f1','fd','fa','fc','fr','fw'].forEach(i=>document.getElementById(i).onchange=draw);draw();
 const CV=D.CV;
 const corners=L.layerGroup();
 function drawCorners(){corners.clearLayers();const d=document.getElementById('fd').value;let k=0;CV.forEach(c=>{if(d&&c.d!=d)return;k++;const off=12;
@@ -339,7 +345,7 @@ const LY={v:vote,a:abc,l:lbl,s:stops,r:lines,c:corners};let openNo=null,ready=fa
 map.on('popupopen',e=>{const m=e.popup._source;openNo=m&&m._cv?m._cv.no:null;save()});
 map.on('click',()=>{openNo=null;save()});
 function enc(){const p=new URLSearchParams();p.set('v','1');p.set('t',document.body.classList.contains('light')?'l':'d');
- ['f0','f1','fd','fa','fc','fr','fb'].forEach(k=>{const x=$(k).value;if(x)p.set(k,x)});
+ ['f0','f1','fd','fa','fc','fr','fb','fw'].forEach(k=>{const x=$(k).value;if(x)p.set(k,x)});
  const tc=[...document.querySelectorAll('.tc')];const off=tc.map((c,i)=>c.checked?-1:i).filter(i=>i>=0);if(off.length)p.set('x',off.length>tc.length/2?'+'+tc.map((c,i)=>c.checked?i:-1).filter(i=>i>=0).join('.'):off.join('.'));
  p.set('L',Object.keys(LY).filter(k=>map.hasLayer(LY[k])).join(''));p.set('fl',$('fflow').checked?'1':'0');
  const c=map.getCenter();p.set('c',c.lat.toFixed(5)+','+c.lng.toFixed(5));p.set('z',map.getZoom());if(openNo!=null)p.set('o',openNo);return p}
@@ -347,7 +353,7 @@ let st;function save(){if(!ready)return;clearTimeout(st);st=setTimeout(()=>{cons
 window.__shareURL=()=>location.origin+location.pathname+'?'+enc().toString()+location.hash;
 function apply(p){if(!p.get('v'))return false;
  if((p.get('t')=='l')!=document.body.classList.contains('light'))$('bth').click();
- ['f0','f1','fd','fa','fc','fr'].forEach(k=>{if(p.has(k))$(k).value=p.get(k)});
+ ['f0','f1','fd','fa','fc','fr','fw'].forEach(k=>{if(p.has(k))$(k).value=p.get(k)});
  const x=p.get('x');if(x!=null){const tc=[...document.querySelectorAll('.tc')];const ids=x.replace('+','').split('.').filter(Boolean).map(Number);const inv=x[0]=='+';tc.forEach((c,i)=>c.checked=inv?ids.includes(i):!ids.includes(i));tc[0]&&tc[0].dispatchEvent(new Event('change'))}
  $('fd').dispatchEvent(new Event('change'));
  if(p.has('fl')&&($('fflow').checked!=(p.get('fl')=='1'))){$('fflow').checked=p.get('fl')=='1';$('fflow').dispatchEvent(new Event('change'))}

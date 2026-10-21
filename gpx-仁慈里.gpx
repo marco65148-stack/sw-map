@@ -1,51 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 仁慈里 掃街車路線</name><desc>總長 7.26 km，重複率 33.7%</desc></metadata>
-<wpt lat="25.037773" lon="121.544374"><name>起點 仁愛路四段8巷</name></wpt>
+<metadata><name>大安區 仁慈里 掃街車路線</name><desc>總長 7.43 km，重複率 35.2%</desc></metadata>
+<wpt lat="25.037741" lon="121.546038"><name>起點 仁愛路四段</name></wpt>
 <wpt lat="25.036816" lon="121.543745"><name>終點 復興南路一段253巷</name></wpt>
 <rte><name>仁慈里 道路順序</name>
-<rtept lat="25.037773" lon="121.544374"><name>01 仁愛路四段8巷</name><desc>出發・189 m</desc></rtept>
-<rtept lat="25.036065" lon="121.544344"><name>02 東豐街</name><desc>左轉・169 m</desc></rtept>
-<rtept lat="25.036034" lon="121.546014"><name>03 大安路一段</name><desc>左轉・229 m</desc></rtept>
-<rtept lat="25.037869" lon="121.546039"><name>04 仁愛路四段</name><desc>右轉・255 m</desc></rtept>
-<rtept lat="25.038022" lon="121.543629"><name>05 復興南路一段</name><desc>左轉・1051 m</desc></rtept>
-<rtept lat="25.03438" lon="121.543697"><name>06 復興南路一段313巷</name><desc>右轉・83 m</desc></rtept>
-<rtept lat="25.034322" lon="121.544483"><name>07 信義路四段19巷</name><desc>右轉・91 m</desc></rtept>
-<rtept lat="25.033962" lon="121.545086"><name>08 信義路四段53巷</name><desc>右轉・58 m</desc></rtept>
-<rtept lat="25.03344" lon="121.545066"><name>09 信義路四段</name><desc>左轉・92 m</desc></rtept>
-<rtept lat="25.03342" lon="121.545977"><name>10 大安路一段</name><desc>左轉・57 m</desc></rtept>
-<rtept lat="25.033936" lon="121.545984"><name>11 大安路一段224巷</name><desc>左轉・49 m</desc></rtept>
-<rtept lat="25.033945" lon="121.545502"><name>12 無名巷道</name><desc>右轉・40 m</desc></rtept>
-<rtept lat="25.034301" lon="121.545552"><name>13 大安路一段220巷</name><desc>右轉・44 m</desc></rtept>
-<rtept lat="25.034289" lon="121.545989"><name>14 大安路一段</name><desc>左轉・47 m</desc></rtept>
-<rtept lat="25.034712" lon="121.545995"><name>15 大安路一段206巷</name><desc>左轉・89 m</desc></rtept>
-<rtept lat="25.034736" lon="121.54511"><name>16 信義路四段53巷</name><desc>右轉・146 m</desc></rtept>
-<rtept lat="25.036051" lon="121.54513"><name>17 東豐街</name><desc>左轉・155 m</desc></rtept>
-<rtept lat="25.036089" lon="121.543599"><name>18 復興南路一段</name><desc>左轉・309 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033298" lon="121.543535"><name>19 信義路四段</name><desc>左轉・246 m</desc></rtept>
-<rtept lat="25.03325" lon="121.545975"><name>20 大安路二段</name><desc>右轉・91 m</desc></rtept>
-<rtept lat="25.03342" lon="121.545977"><name>21 大安路一段</name><desc>直行・372 m</desc></rtept>
-<rtept lat="25.036776" lon="121.546025"><name>22 復興南路一段253巷</name><desc>左轉・168 m</desc></rtept>
-<rtept lat="25.0368" lon="121.544357"><name>23 仁愛路四段8巷</name><desc>左轉・39 m（重複／連絡）</desc></rtept>
-<rtept lat="25.036449" lon="121.54435"><name>24 大安路一段176巷</name><desc>左轉・168 m</desc></rtept>
-<rtept lat="25.036438" lon="121.54602"><name>25 大安路一段</name><desc>左轉・144 m（重複／連絡）</desc></rtept>
-<rtept lat="25.037741" lon="121.546038"><name>26 仁愛路四段</name><desc>左轉・244 m</desc></rtept>
-<rtept lat="25.037788" lon="121.543623"><name>27 復興南路一段</name><desc>左轉・769 m</desc></rtept>
-<rtept lat="25.035621" lon="121.543721"><name>28 復興南路一段279巷</name><desc>右轉・231 m</desc></rtept>
-<rtept lat="25.035585" lon="121.546008"><name>29 大安路一段</name><desc>右轉・51 m（重複／連絡）</desc></rtept>
-<rtept lat="25.035124" lon="121.546001"><name>30 復興南路一段295巷</name><desc>右轉・231 m</desc></rtept>
-<rtept lat="25.035156" lon="121.543712"><name>31 復興南路一段</name><desc>右轉・405 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033474" lon="121.543539"><name>32 信義路四段</name><desc>左轉・154 m</desc></rtept>
-<rtept lat="25.03344" lon="121.545066"><name>33 信義路四段53巷</name><desc>左轉・58 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033962" lon="121.545086"><name>34 信義路四段19巷</name><desc>左轉・91 m（重複／連絡）</desc></rtept>
-<rtept lat="25.034322" lon="121.544483"><name>35 復興南路一段313巷</name><desc>右轉・62 m</desc></rtept>
-<rtept lat="25.034312" lon="121.545099"><name>36 大安路一段220巷</name><desc>直行・46 m</desc></rtept>
-<rtept lat="25.034301" lon="121.545552"><name>37 無名巷道</name><desc>右轉・40 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033945" lon="121.545502"><name>38 大安路一段224巷</name><desc>右轉・42 m</desc></rtept>
-<rtept lat="25.033962" lon="121.545086"><name>39 信義路四段53巷</name><desc>右轉・314 m</desc></rtept>
-<rtept lat="25.036792" lon="121.545141"><name>40 復興南路一段253巷</name><desc>左轉・141 m</desc></rtept>
+<rtept lat="25.037741" lon="121.546038"><name>01 仁愛路四段</name><desc>出發・168 m</desc></rtept>
+<rtept lat="25.037773" lon="121.544374"><name>02 仁愛路四段8巷</name><desc>左轉・189 m</desc></rtept>
+<rtept lat="25.036065" lon="121.544344"><name>03 東豐街</name><desc>左轉・169 m</desc></rtept>
+<rtept lat="25.036034" lon="121.546014"><name>04 大安路一段</name><desc>左轉・229 m</desc></rtept>
+<rtept lat="25.037869" lon="121.546039"><name>05 仁愛路四段</name><desc>右轉・255 m</desc></rtept>
+<rtept lat="25.038022" lon="121.543629"><name>06 復興南路一段</name><desc>左轉・1051 m</desc></rtept>
+<rtept lat="25.03438" lon="121.543697"><name>07 復興南路一段313巷</name><desc>右轉・83 m</desc></rtept>
+<rtept lat="25.034322" lon="121.544483"><name>08 信義路四段19巷</name><desc>右轉・91 m</desc></rtept>
+<rtept lat="25.033962" lon="121.545086"><name>09 信義路四段53巷</name><desc>右轉・58 m</desc></rtept>
+<rtept lat="25.03344" lon="121.545066"><name>10 信義路四段</name><desc>左轉・92 m</desc></rtept>
+<rtept lat="25.03342" lon="121.545977"><name>11 大安路一段</name><desc>左轉・57 m</desc></rtept>
+<rtept lat="25.033936" lon="121.545984"><name>12 大安路一段224巷</name><desc>左轉・49 m</desc></rtept>
+<rtept lat="25.033945" lon="121.545502"><name>13 無名巷道</name><desc>右轉・40 m</desc></rtept>
+<rtept lat="25.034301" lon="121.545552"><name>14 大安路一段220巷</name><desc>右轉・44 m</desc></rtept>
+<rtept lat="25.034289" lon="121.545989"><name>15 大安路一段</name><desc>左轉・47 m</desc></rtept>
+<rtept lat="25.034712" lon="121.545995"><name>16 大安路一段206巷</name><desc>左轉・89 m</desc></rtept>
+<rtept lat="25.034736" lon="121.54511"><name>17 信義路四段53巷</name><desc>右轉・146 m</desc></rtept>
+<rtept lat="25.036051" lon="121.54513"><name>18 東豐街</name><desc>左轉・155 m</desc></rtept>
+<rtept lat="25.036089" lon="121.543599"><name>19 復興南路一段</name><desc>左轉・309 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033298" lon="121.543535"><name>20 信義路四段</name><desc>左轉・246 m</desc></rtept>
+<rtept lat="25.03325" lon="121.545975"><name>21 大安路二段</name><desc>右轉・91 m</desc></rtept>
+<rtept lat="25.03342" lon="121.545977"><name>22 大安路一段</name><desc>直行・372 m</desc></rtept>
+<rtept lat="25.036776" lon="121.546025"><name>23 復興南路一段253巷</name><desc>左轉・168 m</desc></rtept>
+<rtept lat="25.0368" lon="121.544357"><name>24 仁愛路四段8巷</name><desc>左轉・39 m（重複／連絡）</desc></rtept>
+<rtept lat="25.036449" lon="121.54435"><name>25 大安路一段176巷</name><desc>左轉・168 m</desc></rtept>
+<rtept lat="25.036438" lon="121.54602"><name>26 大安路一段</name><desc>左轉・144 m（重複／連絡）</desc></rtept>
+<rtept lat="25.037741" lon="121.546038"><name>27 仁愛路四段</name><desc>左轉・244 m</desc></rtept>
+<rtept lat="25.037788" lon="121.543623"><name>28 復興南路一段</name><desc>左轉・769 m</desc></rtept>
+<rtept lat="25.035621" lon="121.543721"><name>29 復興南路一段279巷</name><desc>右轉・231 m</desc></rtept>
+<rtept lat="25.035585" lon="121.546008"><name>30 大安路一段</name><desc>右轉・51 m（重複／連絡）</desc></rtept>
+<rtept lat="25.035124" lon="121.546001"><name>31 復興南路一段295巷</name><desc>右轉・231 m</desc></rtept>
+<rtept lat="25.035156" lon="121.543712"><name>32 復興南路一段</name><desc>右轉・405 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033474" lon="121.543539"><name>33 信義路四段</name><desc>左轉・154 m</desc></rtept>
+<rtept lat="25.03344" lon="121.545066"><name>34 信義路四段53巷</name><desc>左轉・58 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033962" lon="121.545086"><name>35 信義路四段19巷</name><desc>左轉・91 m（重複／連絡）</desc></rtept>
+<rtept lat="25.034322" lon="121.544483"><name>36 復興南路一段313巷</name><desc>右轉・62 m</desc></rtept>
+<rtept lat="25.034312" lon="121.545099"><name>37 大安路一段220巷</name><desc>直行・46 m</desc></rtept>
+<rtept lat="25.034301" lon="121.545552"><name>38 無名巷道</name><desc>右轉・40 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033945" lon="121.545502"><name>39 大安路一段224巷</name><desc>右轉・42 m</desc></rtept>
+<rtept lat="25.033962" lon="121.545086"><name>40 信義路四段53巷</name><desc>右轉・314 m</desc></rtept>
+<rtept lat="25.036792" lon="121.545141"><name>41 復興南路一段253巷</name><desc>左轉・141 m</desc></rtept>
 <rtept lat="25.036816" lon="121.543745"><name>終點</name></rtept></rte>
 <trk><name>仁慈里 行駛軌跡</name><trkseg>
+<trkpt lat="25.037741" lon="121.546038"/>
+<trkpt lat="25.037743" lon="121.545974"/>
+<trkpt lat="25.037744" lon="121.545910"/>
+<trkpt lat="25.037745" lon="121.545833"/>
+<trkpt lat="25.037747" lon="121.545757"/>
+<trkpt lat="25.037748" lon="121.545680"/>
+<trkpt lat="25.037750" lon="121.545603"/>
+<trkpt lat="25.037751" lon="121.545527"/>
+<trkpt lat="25.037752" lon="121.545450"/>
+<trkpt lat="25.037754" lon="121.545374"/>
+<trkpt lat="25.037755" lon="121.545297"/>
+<trkpt lat="25.037757" lon="121.545221"/>
+<trkpt lat="25.037758" lon="121.545144"/>
+<trkpt lat="25.037760" lon="121.545068"/>
+<trkpt lat="25.037761" lon="121.544991"/>
+<trkpt lat="25.037763" lon="121.544915"/>
+<trkpt lat="25.037764" lon="121.544838"/>
+<trkpt lat="25.037766" lon="121.544762"/>
+<trkpt lat="25.037767" lon="121.544685"/>
+<trkpt lat="25.037768" lon="121.544609"/>
+<trkpt lat="25.037770" lon="121.544532"/>
+<trkpt lat="25.037771" lon="121.544453"/>
 <trkpt lat="25.037773" lon="121.544374"/>
 <trkpt lat="25.037732" lon="121.544373"/>
 <trkpt lat="25.037691" lon="121.544372"/>

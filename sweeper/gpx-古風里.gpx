@@ -1,41 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 古風里 掃街車路線</name><desc>總長 3.69 km，重複率 17.2%</desc></metadata>
-<wpt lat="25.021874" lon="121.529218"><name>起點 龍泉街93巷</name></wpt>
+<metadata><name>大安區 古風里 掃街車路線</name><desc>總長 3.99 km，重複率 23.4%</desc></metadata>
+<wpt lat="25.021963" lon="121.531542"><name>起點 辛亥路一段</name></wpt>
 <wpt lat="25.022629" lon="121.531198"><name>終點 泰順街</name></wpt>
 <rte><name>古風里 道路順序</name>
-<rtept lat="25.021874" lon="121.529218"><name>01 龍泉街93巷</name><desc>出發・39 m</desc></rtept>
-<rtept lat="25.022005" lon="121.528862"><name>02 龍泉街</name><desc>右轉・63 m</desc></rtept>
-<rtept lat="25.021874" lon="121.529218"><name>03 龍泉街93巷</name><desc>左轉・106 m</desc></rtept>
-<rtept lat="25.021518" lon="121.530188"><name>04 辛亥路一段77巷</name><desc>直行・57 m</desc></rtept>
-<rtept lat="25.021132" lon="121.53057"><name>05 辛亥路一段</name><desc>右轉・216 m</desc></rtept>
-<rtept lat="25.019806" lon="121.529008"><name>06 羅斯福路三段</name><desc>左轉・353 m</desc></rtept>
-<rtept lat="25.020995" lon="121.527721"><name>07 師大路</name><desc>左轉・240 m</desc></rtept>
-<rtept lat="25.022957" lon="121.52842"><name>08 師大路93巷</name><desc>右轉・89 m</desc></rtept>
-<rtept lat="25.022889" lon="121.529297"><name>09 泰順街54巷</name><desc>直行・194 m</desc></rtept>
-<rtept lat="25.022629" lon="121.531198"><name>10 泰順街</name><desc>右轉・88 m</desc></rtept>
-<rtept lat="25.021963" lon="121.531542"><name>11 辛亥路一段</name><desc>右轉・135 m</desc></rtept>
-<rtept lat="25.021132" lon="121.53057"><name>12 辛亥路一段77巷</name><desc>右轉・57 m（重複／連絡）</desc></rtept>
-<rtept lat="25.021518" lon="121.530188"><name>13 泰順街62巷</name><desc>右轉・136 m</desc></rtept>
-<rtept lat="25.022353" lon="121.531174"><name>14 泰順街60巷</name><desc>左轉・194 m</desc></rtept>
-<rtept lat="25.0225" lon="121.529257"><name>15 師大路105巷</name><desc>直行・89 m</desc></rtept>
-<rtept lat="25.022569" lon="121.528383"><name>16 師大路</name><desc>右轉・117 m</desc></rtept>
-<rtept lat="25.023624" lon="121.528484"><name>17 雲和街</name><desc>右轉・285 m</desc></rtept>
-<rtept lat="25.023279" lon="121.531272"><name>18 泰順街</name><desc>右轉・40 m</desc></rtept>
-<rtept lat="25.02292" lon="121.531233"><name>19 泰順街50巷</name><desc>右轉・196 m</desc></rtept>
-<rtept lat="25.023235" lon="121.529333"><name>20 師大路83巷</name><desc>直行・89 m</desc></rtept>
-<rtept lat="25.023299" lon="121.528453"><name>21 師大路</name><desc>右轉・36 m（重複／連絡）</desc></rtept>
-<rtept lat="25.023624" lon="121.528484"><name>22 雲和街</name><desc>右轉・89 m（重複／連絡）</desc></rtept>
-<rtept lat="25.023552" lon="121.529365"><name>23 龍泉街</name><desc>右轉・207 m</desc></rtept>
-<rtept lat="25.022005" lon="121.528862"><name>24 師大路117巷</name><desc>右轉・57 m</desc></rtept>
-<rtept lat="25.022195" lon="121.528336"><name>25 師大路</name><desc>右轉・42 m（重複／連絡）</desc></rtept>
-<rtept lat="25.022569" lon="121.528383"><name>26 師大路105巷</name><desc>右轉・89 m（重複／連絡）</desc></rtept>
-<rtept lat="25.0225" lon="121.529257"><name>27 泰順街60巷</name><desc>直行・78 m（重複／連絡）</desc></rtept>
-<rtept lat="25.02244" lon="121.530029"><name>28 雲和街72巷</name><desc>左轉・117 m</desc></rtept>
-<rtept lat="25.02349" lon="121.530124"><name>29 雲和街</name><desc>右轉・119 m（重複／連絡）</desc></rtept>
-<rtept lat="25.023279" lon="121.531272"><name>30 泰順街</name><desc>右轉・72 m</desc></rtept>
+<rtept lat="25.021963" lon="121.531542"><name>01 辛亥路一段</name><desc>出發・135 m</desc></rtept>
+<rtept lat="25.021132" lon="121.53057"><name>02 辛亥路一段77巷</name><desc>右轉・57 m</desc></rtept>
+<rtept lat="25.021518" lon="121.530188"><name>03 龍泉街93巷</name><desc>直行・144 m</desc></rtept>
+<rtept lat="25.022005" lon="121.528862"><name>04 龍泉街</name><desc>右轉・63 m</desc></rtept>
+<rtept lat="25.021874" lon="121.529218"><name>05 龍泉街93巷</name><desc>左轉・106 m（重複／連絡）</desc></rtept>
+<rtept lat="25.021518" lon="121.530188"><name>06 辛亥路一段77巷</name><desc>直行・57 m（重複／連絡）</desc></rtept>
+<rtept lat="25.021132" lon="121.53057"><name>07 辛亥路一段</name><desc>右轉・216 m</desc></rtept>
+<rtept lat="25.019806" lon="121.529008"><name>08 羅斯福路三段</name><desc>左轉・353 m</desc></rtept>
+<rtept lat="25.020995" lon="121.527721"><name>09 師大路</name><desc>左轉・240 m</desc></rtept>
+<rtept lat="25.022957" lon="121.52842"><name>10 師大路93巷</name><desc>右轉・89 m</desc></rtept>
+<rtept lat="25.022889" lon="121.529297"><name>11 泰順街54巷</name><desc>直行・194 m</desc></rtept>
+<rtept lat="25.022629" lon="121.531198"><name>12 泰順街</name><desc>右轉・88 m</desc></rtept>
+<rtept lat="25.021963" lon="121.531542"><name>13 辛亥路一段</name><desc>右轉・135 m（重複／連絡）</desc></rtept>
+<rtept lat="25.021132" lon="121.53057"><name>14 辛亥路一段77巷</name><desc>右轉・57 m（重複／連絡）</desc></rtept>
+<rtept lat="25.021518" lon="121.530188"><name>15 泰順街62巷</name><desc>右轉・136 m</desc></rtept>
+<rtept lat="25.022353" lon="121.531174"><name>16 泰順街60巷</name><desc>左轉・194 m</desc></rtept>
+<rtept lat="25.0225" lon="121.529257"><name>17 師大路105巷</name><desc>直行・89 m</desc></rtept>
+<rtept lat="25.022569" lon="121.528383"><name>18 師大路</name><desc>右轉・117 m</desc></rtept>
+<rtept lat="25.023624" lon="121.528484"><name>19 雲和街</name><desc>右轉・285 m</desc></rtept>
+<rtept lat="25.023279" lon="121.531272"><name>20 泰順街</name><desc>右轉・40 m</desc></rtept>
+<rtept lat="25.02292" lon="121.531233"><name>21 泰順街50巷</name><desc>右轉・196 m</desc></rtept>
+<rtept lat="25.023235" lon="121.529333"><name>22 師大路83巷</name><desc>直行・89 m</desc></rtept>
+<rtept lat="25.023299" lon="121.528453"><name>23 師大路</name><desc>右轉・36 m（重複／連絡）</desc></rtept>
+<rtept lat="25.023624" lon="121.528484"><name>24 雲和街</name><desc>右轉・89 m（重複／連絡）</desc></rtept>
+<rtept lat="25.023552" lon="121.529365"><name>25 龍泉街</name><desc>右轉・207 m</desc></rtept>
+<rtept lat="25.022005" lon="121.528862"><name>26 師大路117巷</name><desc>右轉・57 m</desc></rtept>
+<rtept lat="25.022195" lon="121.528336"><name>27 師大路</name><desc>右轉・42 m（重複／連絡）</desc></rtept>
+<rtept lat="25.022569" lon="121.528383"><name>28 師大路105巷</name><desc>右轉・89 m（重複／連絡）</desc></rtept>
+<rtept lat="25.0225" lon="121.529257"><name>29 泰順街60巷</name><desc>直行・78 m（重複／連絡）</desc></rtept>
+<rtept lat="25.02244" lon="121.530029"><name>30 雲和街72巷</name><desc>左轉・117 m</desc></rtept>
+<rtept lat="25.02349" lon="121.530124"><name>31 雲和街</name><desc>右轉・119 m（重複／連絡）</desc></rtept>
+<rtept lat="25.023279" lon="121.531272"><name>32 泰順街</name><desc>右轉・72 m</desc></rtept>
 <rtept lat="25.022629" lon="121.531198"><name>終點</name></rtept></rte>
 <trk><name>古風里 行駛軌跡</name><trkseg>
+<trkpt lat="25.021963" lon="121.531542"/>
+<trkpt lat="25.021937" lon="121.531510"/>
+<trkpt lat="25.021911" lon="121.531479"/>
+<trkpt lat="25.021866" lon="121.531425"/>
+<trkpt lat="25.021823" lon="121.531373"/>
+<trkpt lat="25.021780" lon="121.531322"/>
+<trkpt lat="25.021738" lon="121.531270"/>
+<trkpt lat="25.021691" lon="121.531216"/>
+<trkpt lat="25.021644" lon="121.531162"/>
+<trkpt lat="25.021598" lon="121.531108"/>
+<trkpt lat="25.021551" lon="121.531055"/>
+<trkpt lat="25.021505" lon="121.531001"/>
+<trkpt lat="25.021458" lon="121.530947"/>
+<trkpt lat="25.021412" lon="121.530893"/>
+<trkpt lat="25.021365" lon="121.530839"/>
+<trkpt lat="25.021319" lon="121.530785"/>
+<trkpt lat="25.021272" lon="121.530731"/>
+<trkpt lat="25.021225" lon="121.530677"/>
+<trkpt lat="25.021179" lon="121.530624"/>
+<trkpt lat="25.021132" lon="121.530570"/>
+<trkpt lat="25.021163" lon="121.530539"/>
+<trkpt lat="25.021193" lon="121.530508"/>
+<trkpt lat="25.021240" lon="121.530462"/>
+<trkpt lat="25.021286" lon="121.530417"/>
+<trkpt lat="25.021332" lon="121.530371"/>
+<trkpt lat="25.021379" lon="121.530325"/>
+<trkpt lat="25.021425" lon="121.530280"/>
+<trkpt lat="25.021471" lon="121.530234"/>
+<trkpt lat="25.021518" lon="121.530188"/>
+<trkpt lat="25.021543" lon="121.530119"/>
+<trkpt lat="25.021569" lon="121.530050"/>
+<trkpt lat="25.021594" lon="121.529980"/>
+<trkpt lat="25.021619" lon="121.529911"/>
+<trkpt lat="25.021645" lon="121.529842"/>
+<trkpt lat="25.021670" lon="121.529772"/>
+<trkpt lat="25.021696" lon="121.529703"/>
+<trkpt lat="25.021721" lon="121.529634"/>
+<trkpt lat="25.021747" lon="121.529564"/>
+<trkpt lat="25.021772" lon="121.529495"/>
+<trkpt lat="25.021798" lon="121.529426"/>
+<trkpt lat="25.021823" lon="121.529356"/>
+<trkpt lat="25.021849" lon="121.529287"/>
 <trkpt lat="25.021874" lon="121.529218"/>
 <trkpt lat="25.021900" lon="121.529147"/>
 <trkpt lat="25.021926" lon="121.529075"/>

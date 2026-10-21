@@ -1,61 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 景行里 掃街車路線</name><desc>總長 6.76 km，重複率 26.1%</desc></metadata>
-<wpt lat="24.992843" lon="121.542368"><name>起點 景中街</name></wpt>
+<metadata><name>文山區 景行里 掃街車路線</name><desc>總長 7.02 km，重複率 28.8%</desc></metadata>
+<wpt lat="24.99211" lon="121.540571"><name>起點 羅斯福路六段</name></wpt>
 <wpt lat="24.992158" lon="121.540459"><name>終點 羅斯福路六段401巷</name></wpt>
 <rte><name>景行里 道路順序</name>
-<rtept lat="24.992843" lon="121.542368"><name>01 景中街</name><desc>出發・314 m</desc></rtept>
-<rtept lat="24.992743" lon="121.543311"><name>02 景後街</name><desc>直行・84 m</desc></rtept>
-<rtept lat="24.992081" lon="121.542897"><name>03 景興路202巷</name><desc>左轉・99 m</desc></rtept>
-<rtept lat="24.991634" lon="121.543746"><name>04 景興路</name><desc>左轉・112 m</desc></rtept>
-<rtept lat="24.99256" lon="121.544177"><name>05 景中街</name><desc>左轉・330 m</desc></rtept>
-<rtept lat="24.992843" lon="121.542368"><name>06 景中街30巷</name><desc>右轉・107 m</desc></rtept>
-<rtept lat="24.992081" lon="121.542897"><name>07 景後街</name><desc>右轉・93 m</desc></rtept>
-<rtept lat="24.991336" lon="121.542476"><name>08 景美街</name><desc>右轉・118 m</desc></rtept>
-<rtept lat="24.991598" lon="121.541341"><name>09 景文街</name><desc>左轉・39 m</desc></rtept>
-<rtept lat="24.991246" lon="121.541315"><name>10 車前路</name><desc>右轉・118 m</desc></rtept>
-<rtept lat="24.991612" lon="121.540221"><name>11 羅斯福路六段</name><desc>左轉・501 m</desc></rtept>
-<rtept lat="24.993033" lon="121.540982"><name>12 景中街</name><desc>右轉・127 m</desc></rtept>
-<rtept lat="24.992965" lon="121.541306"><name>13 景文街</name><desc>左轉・363 m</desc></rtept>
-<rtept lat="24.989735" lon="121.540915"><name>14 羅斯福路六段469巷</name><desc>右轉・126 m</desc></rtept>
-<rtept lat="24.989968" lon="121.539706"><name>15 羅斯福路六段</name><desc>右轉・28 m</desc></rtept>
-<rtept lat="24.990208" lon="121.539797"><name>16 羅斯福路六段455巷</name><desc>右轉・122 m</desc></rtept>
-<rtept lat="24.989997" lon="121.540979"><name>17 景文街</name><desc>右轉・177 m</desc></rtept>
-<rtept lat="24.988408" lon="121.540865"><name>18 景文街142巷</name><desc>右轉・112 m</desc></rtept>
-<rtept lat="24.988491" lon="121.539761"><name>19 無名巷道</name><desc>右轉・166 m</desc></rtept>
-<rtept lat="24.989968" lon="121.539706"><name>20 羅斯福路六段</name><desc>右轉・164 m（重複／連絡）</desc></rtept>
-<rtept lat="24.991362" lon="121.540252"><name>21 車前路29巷</name><desc>右轉・235 m</desc></rtept>
-<rtept lat="24.991574" lon="121.540337"><name>22 車前路</name><desc>右轉・105 m（重複／連絡）</desc></rtept>
-<rtept lat="24.991246" lon="121.541315"><name>23 景文街</name><desc>右轉・50 m（重複／連絡）</desc></rtept>
-<rtept lat="24.990804" lon="121.541214"><name>24 景文街103巷</name><desc>左轉・110 m</desc></rtept>
-<rtept lat="24.990504" lon="121.542255"><name>25 景後街</name><desc>左轉・147 m</desc></rtept>
-<rtept lat="24.991755" lon="121.542705"><name>26 無名巷道</name><desc>左轉・181 m</desc></rtept>
-<rtept lat="24.992476" lon="121.542438"><name>27 景中街30巷</name><desc>右轉・65 m（重複／連絡）</desc></rtept>
-<rtept lat="24.992081" lon="121.542897"><name>28 景興路202巷</name><desc>直行・99 m（重複／連絡）</desc></rtept>
-<rtept lat="24.991634" lon="121.543746"><name>29 景興路</name><desc>右轉・129 m</desc></rtept>
-<rtept lat="24.990587" lon="121.543183"><name>30 景興路238巷</name><desc>右轉・88 m</desc></rtept>
-<rtept lat="24.990875" lon="121.542374"><name>31 景後街</name><desc>左轉・143 m</desc></rtept>
-<rtept lat="24.989788" lon="121.541736"><name>32 景興路282巷</name><desc>右轉・41 m</desc></rtept>
-<rtept lat="24.989784" lon="121.541332"><name>33 景美街</name><desc>左轉・173 m</desc></rtept>
-<rtept lat="24.988307" lon="121.541881"><name>34 木柵路一段</name><desc>左轉・58 m</desc></rtept>
-<rtept lat="24.988307" lon="121.541881"><name>35 景美街</name><desc>右轉・173 m（重複／連絡）</desc></rtept>
-<rtept lat="24.989784" lon="121.541332"><name>36 景興路282巷</name><desc>左轉・42 m</desc></rtept>
-<rtept lat="24.989735" lon="121.540915"><name>37 羅斯福路六段469巷</name><desc>直行・138 m（重複／連絡）</desc></rtept>
-<rtept lat="24.989991" lon="121.539596"><name>38 無名巷道</name><desc>左轉・202 m</desc></rtept>
-<rtept lat="24.988491" lon="121.539761"><name>39 景文街142巷</name><desc>直行・112 m（重複／連絡）</desc></rtept>
-<rtept lat="24.988408" lon="121.540865"><name>40 景美街</name><desc>直行・104 m</desc></rtept>
-<rtept lat="24.988307" lon="121.541881"><name>41 木柵路一段</name><desc>直行・29 m（重複／連絡）</desc></rtept>
-<rtept lat="24.988301" lon="121.542168"><name>42 景興路</name><desc>左轉・139 m</desc></rtept>
-<rtept lat="24.989502" lon="121.542409"><name>43 景興路282巷</name><desc>左轉・76 m</desc></rtept>
-<rtept lat="24.989788" lon="121.541736"><name>44 景後街</name><desc>左轉・96 m</desc></rtept>
-<rtept lat="24.989071" lon="121.542186"><name>45 景興路</name><desc>左轉・273 m</desc></rtept>
-<rtept lat="24.989994" lon="121.542793"><name>46 景後街149巷</name><desc>右轉・89 m</desc></rtept>
-<rtept lat="24.990268" lon="121.541961"><name>47 景後街</name><desc>右轉・40 m（重複／連絡）</desc></rtept>
-<rtept lat="24.990504" lon="121.542255"><name>48 景文街103巷</name><desc>左轉・110 m（重複／連絡）</desc></rtept>
-<rtept lat="24.990804" lon="121.541214"><name>49 景文街</name><desc>右轉・117 m（重複／連絡）</desc></rtept>
-<rtept lat="24.991852" lon="121.541333"><name>50 羅斯福路六段401巷</name><desc>左轉・95 m</desc></rtept>
+<rtept lat="24.99211" lon="121.540571"><name>01 羅斯福路六段</name><desc>出發・110 m</desc></rtept>
+<rtept lat="24.993033" lon="121.540982"><name>02 景中街</name><desc>右轉・459 m</desc></rtept>
+<rtept lat="24.992743" lon="121.543311"><name>03 景後街</name><desc>直行・84 m</desc></rtept>
+<rtept lat="24.992081" lon="121.542897"><name>04 景興路202巷</name><desc>左轉・99 m</desc></rtept>
+<rtept lat="24.991634" lon="121.543746"><name>05 景興路</name><desc>左轉・112 m</desc></rtept>
+<rtept lat="24.99256" lon="121.544177"><name>06 景中街</name><desc>左轉・330 m</desc></rtept>
+<rtept lat="24.992843" lon="121.542368"><name>07 景中街30巷</name><desc>右轉・107 m</desc></rtept>
+<rtept lat="24.992081" lon="121.542897"><name>08 景後街</name><desc>右轉・93 m</desc></rtept>
+<rtept lat="24.991336" lon="121.542476"><name>09 景美街</name><desc>右轉・118 m</desc></rtept>
+<rtept lat="24.991598" lon="121.541341"><name>10 景文街</name><desc>左轉・39 m</desc></rtept>
+<rtept lat="24.991246" lon="121.541315"><name>11 車前路</name><desc>右轉・118 m</desc></rtept>
+<rtept lat="24.991612" lon="121.540221"><name>12 羅斯福路六段</name><desc>左轉・501 m</desc></rtept>
+<rtept lat="24.993033" lon="121.540982"><name>13 景中街</name><desc>右轉・127 m</desc></rtept>
+<rtept lat="24.992965" lon="121.541306"><name>14 景文街</name><desc>左轉・363 m</desc></rtept>
+<rtept lat="24.989735" lon="121.540915"><name>15 羅斯福路六段469巷</name><desc>右轉・126 m</desc></rtept>
+<rtept lat="24.989968" lon="121.539706"><name>16 羅斯福路六段</name><desc>右轉・28 m</desc></rtept>
+<rtept lat="24.990208" lon="121.539797"><name>17 羅斯福路六段455巷</name><desc>右轉・122 m</desc></rtept>
+<rtept lat="24.989997" lon="121.540979"><name>18 景文街</name><desc>右轉・177 m</desc></rtept>
+<rtept lat="24.988408" lon="121.540865"><name>19 景文街142巷</name><desc>右轉・112 m</desc></rtept>
+<rtept lat="24.988491" lon="121.539761"><name>20 無名巷道</name><desc>右轉・166 m</desc></rtept>
+<rtept lat="24.989968" lon="121.539706"><name>21 羅斯福路六段</name><desc>右轉・164 m（重複／連絡）</desc></rtept>
+<rtept lat="24.991362" lon="121.540252"><name>22 車前路29巷</name><desc>右轉・235 m</desc></rtept>
+<rtept lat="24.991574" lon="121.540337"><name>23 車前路</name><desc>右轉・105 m（重複／連絡）</desc></rtept>
+<rtept lat="24.991246" lon="121.541315"><name>24 景文街</name><desc>右轉・50 m（重複／連絡）</desc></rtept>
+<rtept lat="24.990804" lon="121.541214"><name>25 景文街103巷</name><desc>左轉・110 m</desc></rtept>
+<rtept lat="24.990504" lon="121.542255"><name>26 景後街</name><desc>左轉・147 m</desc></rtept>
+<rtept lat="24.991755" lon="121.542705"><name>27 無名巷道</name><desc>左轉・181 m</desc></rtept>
+<rtept lat="24.992476" lon="121.542438"><name>28 景中街30巷</name><desc>右轉・65 m（重複／連絡）</desc></rtept>
+<rtept lat="24.992081" lon="121.542897"><name>29 景興路202巷</name><desc>直行・99 m（重複／連絡）</desc></rtept>
+<rtept lat="24.991634" lon="121.543746"><name>30 景興路</name><desc>右轉・129 m</desc></rtept>
+<rtept lat="24.990587" lon="121.543183"><name>31 景興路238巷</name><desc>右轉・88 m</desc></rtept>
+<rtept lat="24.990875" lon="121.542374"><name>32 景後街</name><desc>左轉・143 m</desc></rtept>
+<rtept lat="24.989788" lon="121.541736"><name>33 景興路282巷</name><desc>右轉・41 m</desc></rtept>
+<rtept lat="24.989784" lon="121.541332"><name>34 景美街</name><desc>左轉・173 m</desc></rtept>
+<rtept lat="24.988307" lon="121.541881"><name>35 木柵路一段</name><desc>左轉・58 m</desc></rtept>
+<rtept lat="24.988307" lon="121.541881"><name>36 景美街</name><desc>右轉・173 m（重複／連絡）</desc></rtept>
+<rtept lat="24.989784" lon="121.541332"><name>37 景興路282巷</name><desc>左轉・42 m</desc></rtept>
+<rtept lat="24.989735" lon="121.540915"><name>38 羅斯福路六段469巷</name><desc>直行・138 m（重複／連絡）</desc></rtept>
+<rtept lat="24.989991" lon="121.539596"><name>39 無名巷道</name><desc>左轉・202 m</desc></rtept>
+<rtept lat="24.988491" lon="121.539761"><name>40 景文街142巷</name><desc>直行・112 m（重複／連絡）</desc></rtept>
+<rtept lat="24.988408" lon="121.540865"><name>41 景美街</name><desc>直行・104 m</desc></rtept>
+<rtept lat="24.988307" lon="121.541881"><name>42 木柵路一段</name><desc>直行・29 m（重複／連絡）</desc></rtept>
+<rtept lat="24.988301" lon="121.542168"><name>43 景興路</name><desc>左轉・139 m</desc></rtept>
+<rtept lat="24.989502" lon="121.542409"><name>44 景興路282巷</name><desc>左轉・76 m</desc></rtept>
+<rtept lat="24.989788" lon="121.541736"><name>45 景後街</name><desc>左轉・96 m</desc></rtept>
+<rtept lat="24.989071" lon="121.542186"><name>46 景興路</name><desc>左轉・273 m</desc></rtept>
+<rtept lat="24.989994" lon="121.542793"><name>47 景後街149巷</name><desc>右轉・89 m</desc></rtept>
+<rtept lat="24.990268" lon="121.541961"><name>48 景後街</name><desc>右轉・40 m（重複／連絡）</desc></rtept>
+<rtept lat="24.990504" lon="121.542255"><name>49 景文街103巷</name><desc>左轉・110 m（重複／連絡）</desc></rtept>
+<rtept lat="24.990804" lon="121.541214"><name>50 景文街</name><desc>右轉・117 m（重複／連絡）</desc></rtept>
+<rtept lat="24.991852" lon="121.541333"><name>51 羅斯福路六段401巷</name><desc>左轉・95 m</desc></rtept>
 <rtept lat="24.992158" lon="121.540459"><name>終點</name></rtept></rte>
 <trk><name>景行里 行駛軌跡</name><trkseg>
+<trkpt lat="24.992110" lon="121.540571"/>
+<trkpt lat="24.992176" lon="121.540599"/>
+<trkpt lat="24.992229" lon="121.540622"/>
+<trkpt lat="24.992287" lon="121.540648"/>
+<trkpt lat="24.992346" lon="121.540674"/>
+<trkpt lat="24.992405" lon="121.540700"/>
+<trkpt lat="24.992463" lon="121.540726"/>
+<trkpt lat="24.992522" lon="121.540752"/>
+<trkpt lat="24.992581" lon="121.540778"/>
+<trkpt lat="24.992639" lon="121.540804"/>
+<trkpt lat="24.992698" lon="121.540830"/>
+<trkpt lat="24.992754" lon="121.540855"/>
+<trkpt lat="24.992810" lon="121.540880"/>
+<trkpt lat="24.992865" lon="121.540906"/>
+<trkpt lat="24.992921" lon="121.540931"/>
+<trkpt lat="24.992977" lon="121.540956"/>
+<trkpt lat="24.993033" lon="121.540982"/>
+<trkpt lat="24.993021" lon="121.541011"/>
+<trkpt lat="24.993016" lon="121.541021"/>
+<trkpt lat="24.992990" lon="121.541075"/>
+<trkpt lat="24.992963" lon="121.541130"/>
+<trkpt lat="24.992936" lon="121.541184"/>
+<trkpt lat="24.992909" lon="121.541240"/>
+<trkpt lat="24.992880" lon="121.541306"/>
+<trkpt lat="24.992882" lon="121.541373"/>
+<trkpt lat="24.992878" lon="121.541450"/>
+<trkpt lat="24.992874" lon="121.541527"/>
+<trkpt lat="24.992871" lon="121.541604"/>
+<trkpt lat="24.992867" lon="121.541681"/>
+<trkpt lat="24.992866" lon="121.541720"/>
+<trkpt lat="24.992867" lon="121.541777"/>
+<trkpt lat="24.992866" lon="121.541841"/>
+<trkpt lat="24.992866" lon="121.541906"/>
+<trkpt lat="24.992865" lon="121.541970"/>
+<trkpt lat="24.992861" lon="121.542038"/>
+<trkpt lat="24.992857" lon="121.542107"/>
+<trkpt lat="24.992853" lon="121.542175"/>
+<trkpt lat="24.992849" lon="121.542244"/>
+<trkpt lat="24.992845" lon="121.542313"/>
 <trkpt lat="24.992843" lon="121.542368"/>
 <trkpt lat="24.992841" lon="121.542444"/>
 <trkpt lat="24.992838" lon="121.542502"/>

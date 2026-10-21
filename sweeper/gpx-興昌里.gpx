@@ -1,39 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 興昌里 掃街車路線</name><desc>總長 8.79 km，重複率 26.0%</desc></metadata>
-<wpt lat="25.006151" lon="121.562859"><name>起點 辛亥路四段101巷</name></wpt>
+<metadata><name>文山區 興昌里 掃街車路線</name><desc>總長 9.31 km，重複率 30.2%</desc></metadata>
+<wpt lat="25.006117" lon="121.558102"><name>起點 辛亥路四段</name></wpt>
 <wpt lat="25.002864" lon="121.560915"><name>終點 萬美街二段21巷</name></wpt>
 <rte><name>興昌里 道路順序</name>
-<rtept lat="25.006151" lon="121.562859"><name>01 辛亥路四段101巷</name><desc>出發・389 m</desc></rtept>
-<rtept lat="25.006551" lon="121.559057"><name>02 無名巷道</name><desc>右轉・150 m</desc></rtept>
-<rtept lat="25.007339" lon="121.559692"><name>03 辛亥路四段77巷</name><desc>右轉・394 m</desc></rtept>
-<rtept lat="25.009014" lon="121.559968"><name>04 辛亥路四段21巷</name><desc>左轉・510 m</desc></rtept>
-<rtept lat="25.008442" lon="121.558539"><name>05 辛亥路四段</name><desc>右轉・176 m</desc></rtept>
-<rtept lat="25.009798" lon="121.557636"><name>06 無名巷道</name><desc>左轉・72 m</desc></rtept>
-<rtept lat="25.009418" lon="121.557736"><name>07 辛亥路四段</name><desc>直行・247 m</desc></rtept>
-<rtept lat="25.00742" lon="121.55861"><name>08 辛亥路四段77巷</name><desc>左轉・110 m</desc></rtept>
-<rtept lat="25.007339" lon="121.559692"><name>09 無名巷道</name><desc>右轉・150 m（重複／連絡）</desc></rtept>
-<rtept lat="25.006551" lon="121.559057"><name>10 辛亥路四段101巷</name><desc>右轉・53 m</desc></rtept>
-<rtept lat="25.006725" lon="121.558566"><name>11 辛亥路四段</name><desc>右轉・370 m</desc></rtept>
-<rtept lat="25.009798" lon="121.557636"><name>12 無名巷道</name><desc>左轉・72 m（重複／連絡）</desc></rtept>
-<rtept lat="25.009418" lon="121.557736"><name>13 辛亥路四段</name><desc>直行・643 m</desc></rtept>
-<rtept lat="25.006117" lon="121.558102"><name>14 萬美街二段</name><desc>右轉・80 m</desc></rtept>
-<rtept lat="25.005766" lon="121.55879"><name>15 興德路</name><desc>右轉・258 m</desc></rtept>
-<rtept lat="25.003972" lon="121.557607"><name>16 興德路66巷</name><desc>右轉・101 m</desc></rtept>
-<rtept lat="25.004376" lon="121.556711"><name>17 辛亥路四段</name><desc>左轉・817 m</desc></rtept>
-<rtept lat="25.004376" lon="121.556711"><name>18 興德路66巷</name><desc>左轉・226 m</desc></rtept>
-<rtept lat="25.003289" lon="121.558532"><name>19 興德路64巷</name><desc>右轉・222 m</desc></rtept>
-<rtept lat="25.003289" lon="121.558532"><name>20 興德路66巷</name><desc>右轉・750 m</desc></rtept>
-<rtept lat="25.003623" lon="121.55743"><name>21 興德路</name><desc>左轉・187 m</desc></rtept>
-<rtept lat="25.002075" lon="121.556865"><name>22 辛亥路四段209巷</name><desc>右轉・133 m</desc></rtept>
-<rtept lat="25.002411" lon="121.5556"><name>23 辛亥路四段</name><desc>右轉・382 m（重複／連絡）</desc></rtept>
-<rtept lat="25.002411" lon="121.5556"><name>24 辛亥路四段209巷</name><desc>右轉・133 m（重複／連絡）</desc></rtept>
-<rtept lat="25.002075" lon="121.556865"><name>25 興德路62巷</name><desc>直行・225 m</desc></rtept>
-<rtept lat="25.002075" lon="121.556865"><name>26 興德路</name><desc>右轉・488 m（重複／連絡）</desc></rtept>
-<rtept lat="25.005766" lon="121.55879"><name>27 萬美街二段</name><desc>右轉・1296 m</desc></rtept>
-<rtept lat="25.002025" lon="121.561819"><name>28 萬美街二段21巷</name><desc>右轉・153 m</desc></rtept>
+<rtept lat="25.006117" lon="121.558102"><name>01 辛亥路四段</name><desc>出發・84 m</desc></rtept>
+<rtept lat="25.006725" lon="121.558566"><name>02 辛亥路四段101巷</name><desc>右轉・831 m</desc></rtept>
+<rtept lat="25.006551" lon="121.559057"><name>03 無名巷道</name><desc>右轉・150 m</desc></rtept>
+<rtept lat="25.007339" lon="121.559692"><name>04 辛亥路四段77巷</name><desc>右轉・394 m</desc></rtept>
+<rtept lat="25.009014" lon="121.559968"><name>05 辛亥路四段21巷</name><desc>左轉・510 m</desc></rtept>
+<rtept lat="25.008442" lon="121.558539"><name>06 辛亥路四段</name><desc>右轉・176 m</desc></rtept>
+<rtept lat="25.009798" lon="121.557636"><name>07 無名巷道</name><desc>左轉・72 m</desc></rtept>
+<rtept lat="25.009418" lon="121.557736"><name>08 辛亥路四段</name><desc>直行・247 m</desc></rtept>
+<rtept lat="25.00742" lon="121.55861"><name>09 辛亥路四段77巷</name><desc>左轉・110 m</desc></rtept>
+<rtept lat="25.007339" lon="121.559692"><name>10 無名巷道</name><desc>右轉・150 m（重複／連絡）</desc></rtept>
+<rtept lat="25.006551" lon="121.559057"><name>11 辛亥路四段101巷</name><desc>右轉・53 m（重複／連絡）</desc></rtept>
+<rtept lat="25.006725" lon="121.558566"><name>12 辛亥路四段</name><desc>右轉・370 m</desc></rtept>
+<rtept lat="25.009798" lon="121.557636"><name>13 無名巷道</name><desc>左轉・72 m（重複／連絡）</desc></rtept>
+<rtept lat="25.009418" lon="121.557736"><name>14 辛亥路四段</name><desc>直行・643 m</desc></rtept>
+<rtept lat="25.006117" lon="121.558102"><name>15 萬美街二段</name><desc>右轉・80 m</desc></rtept>
+<rtept lat="25.005766" lon="121.55879"><name>16 興德路</name><desc>右轉・258 m</desc></rtept>
+<rtept lat="25.003972" lon="121.557607"><name>17 興德路66巷</name><desc>右轉・101 m</desc></rtept>
+<rtept lat="25.004376" lon="121.556711"><name>18 辛亥路四段</name><desc>左轉・817 m</desc></rtept>
+<rtept lat="25.004376" lon="121.556711"><name>19 興德路66巷</name><desc>左轉・226 m</desc></rtept>
+<rtept lat="25.003289" lon="121.558532"><name>20 興德路64巷</name><desc>右轉・222 m</desc></rtept>
+<rtept lat="25.003289" lon="121.558532"><name>21 興德路66巷</name><desc>右轉・750 m</desc></rtept>
+<rtept lat="25.003623" lon="121.55743"><name>22 興德路</name><desc>左轉・187 m</desc></rtept>
+<rtept lat="25.002075" lon="121.556865"><name>23 辛亥路四段209巷</name><desc>右轉・133 m</desc></rtept>
+<rtept lat="25.002411" lon="121.5556"><name>24 辛亥路四段</name><desc>右轉・382 m（重複／連絡）</desc></rtept>
+<rtept lat="25.002411" lon="121.5556"><name>25 辛亥路四段209巷</name><desc>右轉・133 m（重複／連絡）</desc></rtept>
+<rtept lat="25.002075" lon="121.556865"><name>26 興德路62巷</name><desc>直行・225 m</desc></rtept>
+<rtept lat="25.002075" lon="121.556865"><name>27 興德路</name><desc>右轉・488 m（重複／連絡）</desc></rtept>
+<rtept lat="25.005766" lon="121.55879"><name>28 萬美街二段</name><desc>右轉・1296 m</desc></rtept>
+<rtept lat="25.002025" lon="121.561819"><name>29 萬美街二段21巷</name><desc>右轉・153 m</desc></rtept>
 <rtept lat="25.002864" lon="121.560915"><name>終點</name></rtept></rte>
 <trk><name>興昌里 行駛軌跡</name><trkseg>
+<trkpt lat="25.006117" lon="121.558102"/>
+<trkpt lat="25.006161" lon="121.558156"/>
+<trkpt lat="25.006204" lon="121.558210"/>
+<trkpt lat="25.006247" lon="121.558261"/>
+<trkpt lat="25.006289" lon="121.558311"/>
+<trkpt lat="25.006329" lon="121.558349"/>
+<trkpt lat="25.006369" lon="121.558386"/>
+<trkpt lat="25.006421" lon="121.558429"/>
+<trkpt lat="25.006467" lon="121.558457"/>
+<trkpt lat="25.006512" lon="121.558486"/>
+<trkpt lat="25.006558" lon="121.558507"/>
+<trkpt lat="25.006603" lon="121.558529"/>
+<trkpt lat="25.006642" lon="121.558545"/>
+<trkpt lat="25.006684" lon="121.558555"/>
+<trkpt lat="25.006725" lon="121.558566"/>
+<trkpt lat="25.006707" lon="121.558612"/>
+<trkpt lat="25.006689" lon="121.558659"/>
+<trkpt lat="25.006662" lon="121.558719"/>
+<trkpt lat="25.006640" lon="121.558769"/>
+<trkpt lat="25.006618" lon="121.558820"/>
+<trkpt lat="25.006596" lon="121.558870"/>
+<trkpt lat="25.006583" lon="121.558907"/>
+<trkpt lat="25.006571" lon="121.558944"/>
+<trkpt lat="25.006561" lon="121.559001"/>
+<trkpt lat="25.006551" lon="121.559057"/>
+<trkpt lat="25.006543" lon="121.559130"/>
+<trkpt lat="25.006535" lon="121.559204"/>
+<trkpt lat="25.006527" lon="121.559277"/>
+<trkpt lat="25.006518" lon="121.559350"/>
+<trkpt lat="25.006510" lon="121.559424"/>
+<trkpt lat="25.006502" lon="121.559497"/>
+<trkpt lat="25.006494" lon="121.559570"/>
+<trkpt lat="25.006486" lon="121.559643"/>
+<trkpt lat="25.006478" lon="121.559715"/>
+<trkpt lat="25.006470" lon="121.559787"/>
+<trkpt lat="25.006462" lon="121.559859"/>
+<trkpt lat="25.006454" lon="121.559931"/>
+<trkpt lat="25.006446" lon="121.560002"/>
+<trkpt lat="25.006438" lon="121.560074"/>
+<trkpt lat="25.006430" lon="121.560146"/>
+<trkpt lat="25.006432" lon="121.560196"/>
+<trkpt lat="25.006433" lon="121.560246"/>
+<trkpt lat="25.006438" lon="121.560312"/>
+<trkpt lat="25.006442" lon="121.560378"/>
+<trkpt lat="25.006447" lon="121.560444"/>
+<trkpt lat="25.006440" lon="121.560512"/>
+<trkpt lat="25.006434" lon="121.560580"/>
+<trkpt lat="25.006426" lon="121.560630"/>
+<trkpt lat="25.006419" lon="121.560680"/>
+<trkpt lat="25.006405" lon="121.560742"/>
+<trkpt lat="25.006392" lon="121.560805"/>
+<trkpt lat="25.006372" lon="121.560877"/>
+<trkpt lat="25.006353" lon="121.560950"/>
+<trkpt lat="25.006334" lon="121.561023"/>
+<trkpt lat="25.006314" lon="121.561096"/>
+<trkpt lat="25.006295" lon="121.561168"/>
+<trkpt lat="25.006276" lon="121.561241"/>
+<trkpt lat="25.006256" lon="121.561314"/>
+<trkpt lat="25.006237" lon="121.561387"/>
+<trkpt lat="25.006217" lon="121.561459"/>
+<trkpt lat="25.006198" lon="121.561532"/>
+<trkpt lat="25.006182" lon="121.561604"/>
+<trkpt lat="25.006166" lon="121.561676"/>
+<trkpt lat="25.006159" lon="121.561751"/>
+<trkpt lat="25.006152" lon="121.561827"/>
+<trkpt lat="25.006145" lon="121.561902"/>
+<trkpt lat="25.006146" lon="121.561976"/>
+<trkpt lat="25.006146" lon="121.562049"/>
+<trkpt lat="25.006147" lon="121.562123"/>
+<trkpt lat="25.006147" lon="121.562196"/>
+<trkpt lat="25.006147" lon="121.562270"/>
+<trkpt lat="25.006148" lon="121.562344"/>
+<trkpt lat="25.006148" lon="121.562417"/>
+<trkpt lat="25.006149" lon="121.562491"/>
+<trkpt lat="25.006149" lon="121.562564"/>
+<trkpt lat="25.006150" lon="121.562638"/>
+<trkpt lat="25.006150" lon="121.562712"/>
+<trkpt lat="25.006151" lon="121.562785"/>
 <trkpt lat="25.006151" lon="121.562859"/>
 <trkpt lat="25.006151" lon="121.562785"/>
 <trkpt lat="25.006150" lon="121.562712"/>

@@ -1,61 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 福住里 掃街車路線</name><desc>總長 8.40 km，重複率 43.4%</desc></metadata>
-<wpt lat="25.033143" lon="121.53264"><name>起點 新生南路二段2巷</name></wpt>
+<metadata><name>大安區 福住里 掃街車路線</name><desc>總長 8.49 km，重複率 44.0%</desc></metadata>
+<wpt lat="25.033538" lon="121.532117"><name>起點 信義路二段</name></wpt>
 <wpt lat="25.031723" lon="121.531661"><name>終點 永康街31巷</name></wpt>
 <rte><name>福住里 道路順序</name>
-<rtept lat="25.033143" lon="121.53264"><name>01 新生南路二段2巷</name><desc>出發・102 m</desc></rtept>
-<rtept lat="25.032867" lon="121.531797"><name>02 信義路二段228巷</name><desc>左轉・56 m</desc></rtept>
-<rtept lat="25.03238" lon="121.531662"><name>03 永康街17巷</name><desc>右轉・208 m</desc></rtept>
-<rtept lat="25.032251" lon="121.529694"><name>04 永康街</name><desc>左轉・277 m</desc></rtept>
-<rtept lat="25.02977" lon="121.5295"><name>05 金華街</name><desc>左轉・115 m</desc></rtept>
-<rtept lat="25.02976" lon="121.530636"><name>06 金華街243巷</name><desc>左轉・44 m</desc></rtept>
-<rtept lat="25.030138" lon="121.530498"><name>07 永康街47巷</name><desc>右轉・96 m</desc></rtept>
-<rtept lat="25.030412" lon="121.531398"><name>08 信義路二段198巷</name><desc>左轉・376 m</desc></rtept>
-<rtept lat="25.033611" lon="121.530191"><name>09 信義路二段</name><desc>右轉・139 m</desc></rtept>
-<rtept lat="25.033549" lon="121.531563"><name>10 信義路二段228巷</name><desc>右轉・106 m</desc></rtept>
-<rtept lat="25.032646" lon="121.531725"><name>11 新生南路二段16巷</name><desc>左轉・117 m</desc></rtept>
-<rtept lat="25.032702" lon="121.532865"><name>12 新生南路二段</name><desc>右轉・58 m</desc></rtept>
-<rtept lat="25.0322" lon="121.533045"><name>13 永康街23巷</name><desc>右轉・382 m</desc></rtept>
-<rtept lat="25.032251" lon="121.529694"><name>14 永康街</name><desc>右轉・156 m</desc></rtept>
-<rtept lat="25.033643" lon="121.529954"><name>15 信義路二段</name><desc>右轉・274 m</desc></rtept>
-<rtept lat="25.033523" lon="121.532658"><name>16 新生南路二段</name><desc>右轉・152 m</desc></rtept>
-<rtept lat="25.0322" lon="121.533045"><name>17 永康街23巷</name><desc>右轉・222 m（重複／連絡）</desc></rtept>
-<rtept lat="25.032002" lon="121.530864"><name>18 信義路二段198巷</name><desc>右轉・44 m（重複／連絡）</desc></rtept>
-<rtept lat="25.032379" lon="121.530712"><name>19 永康街17巷</name><desc>左轉・112 m（重複／連絡）</desc></rtept>
-<rtept lat="25.032251" lon="121.529694"><name>20 永康街</name><desc>左轉・109 m（重複／連絡）</desc></rtept>
-<rtept lat="25.031286" lon="121.529502"><name>21 永康街31巷</name><desc>左轉・55 m</desc></rtept>
-<rtept lat="25.031412" lon="121.530032"><name>22 金華街243巷</name><desc>右轉・43 m</desc></rtept>
-<rtept lat="25.031045" lon="121.530163"><name>23 新生南路二段30巷</name><desc>左轉・317 m</desc></rtept>
-<rtept lat="25.031881" lon="121.533163"><name>24 新生南路二段</name><desc>右轉・149 m</desc></rtept>
-<rtept lat="25.030595" lon="121.533544"><name>25 金華街</name><desc>右轉・211 m</desc></rtept>
-<rtept lat="25.03001" lon="121.531555"><name>26 信義路二段198巷</name><desc>右轉・277 m（重複／連絡）</desc></rtept>
-<rtept lat="25.032379" lon="121.530712"><name>27 永康街17巷</name><desc>左轉・112 m（重複／連絡）</desc></rtept>
-<rtept lat="25.032251" lon="121.529694"><name>28 永康街</name><desc>左轉・166 m（重複／連絡）</desc></rtept>
-<rtept lat="25.030768" lon="121.529516"><name>29 永康街37巷</name><desc>左轉・172 m</desc></rtept>
-<rtept lat="25.031018" lon="121.531182"><name>30 信義路二段198巷</name><desc>左轉・305 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033611" lon="121.530191"><name>31 信義路二段</name><desc>右轉・240 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033527" lon="121.532561"><name>32 新生南路一段</name><desc>右轉・55 m</desc></rtept>
-<rtept lat="25.033082" lon="121.532734"><name>33 新生南路二段</name><desc>右轉・287 m</desc></rtept>
-<rtept lat="25.030622" lon="121.533635"><name>34 金華街</name><desc>左轉・249 m（重複／連絡）</desc></rtept>
-<rtept lat="25.03001" lon="121.531555"><name>35 信義路二段198巷</name><desc>右轉・83 m（重複／連絡）</desc></rtept>
-<rtept lat="25.030717" lon="121.53129"><name>36 永康街41巷</name><desc>左轉・182 m</desc></rtept>
-<rtept lat="25.030473" lon="121.529534"><name>37 永康街</name><desc>左轉・36 m（重複／連絡）</desc></rtept>
-<rtept lat="25.03015" lon="121.529542"><name>38 永康街47巷</name><desc>左轉・193 m</desc></rtept>
-<rtept lat="25.030412" lon="121.531398"><name>39 信義路二段198巷</name><desc>左轉・376 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033611" lon="121.530191"><name>40 信義路二段</name><desc>右轉・139 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033549" lon="121.531563"><name>41 信義路二段228巷</name><desc>右轉・48 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033136" lon="121.531713"><name>42 永康街7巷</name><desc>右轉・188 m</desc></rtept>
-<rtept lat="25.033166" lon="121.529866"><name>43 永康街</name><desc>左轉・64 m（重複／連絡）</desc></rtept>
-<rtept lat="25.032601" lon="121.529753"><name>44 永康街13巷</name><desc>左轉・206 m</desc></rtept>
-<rtept lat="25.032754" lon="121.53176"><name>45 信義路二段228巷</name><desc>右轉・142 m</desc></rtept>
-<rtept lat="25.031504" lon="121.531756"><name>46 新生南路二段30巷</name><desc>左轉・148 m（重複／連絡）</desc></rtept>
-<rtept lat="25.031881" lon="121.533163"><name>47 新生南路二段</name><desc>右轉・149 m（重複／連絡）</desc></rtept>
-<rtept lat="25.030595" lon="121.533544"><name>48 金華街</name><desc>右轉・308 m</desc></rtept>
-<rtept lat="25.02976" lon="121.530636"><name>49 金華街243巷</name><desc>右轉・193 m</desc></rtept>
-<rtept lat="25.031412" lon="121.530032"><name>50 永康街31巷</name><desc>右轉・169 m</desc></rtept>
+<rtept lat="25.033538" lon="121.532117"><name>01 信義路二段</name><desc>出發・45 m</desc></rtept>
+<rtept lat="25.033527" lon="121.532561"><name>02 新生南路一段</name><desc>右轉・43 m</desc></rtept>
+<rtept lat="25.033143" lon="121.53264"><name>03 新生南路二段2巷</name><desc>右轉・102 m</desc></rtept>
+<rtept lat="25.032867" lon="121.531797"><name>04 信義路二段228巷</name><desc>左轉・56 m</desc></rtept>
+<rtept lat="25.03238" lon="121.531662"><name>05 永康街17巷</name><desc>右轉・208 m</desc></rtept>
+<rtept lat="25.032251" lon="121.529694"><name>06 永康街</name><desc>左轉・277 m</desc></rtept>
+<rtept lat="25.02977" lon="121.5295"><name>07 金華街</name><desc>左轉・115 m</desc></rtept>
+<rtept lat="25.02976" lon="121.530636"><name>08 金華街243巷</name><desc>左轉・44 m</desc></rtept>
+<rtept lat="25.030138" lon="121.530498"><name>09 永康街47巷</name><desc>右轉・96 m</desc></rtept>
+<rtept lat="25.030412" lon="121.531398"><name>10 信義路二段198巷</name><desc>左轉・376 m</desc></rtept>
+<rtept lat="25.033611" lon="121.530191"><name>11 信義路二段</name><desc>右轉・139 m</desc></rtept>
+<rtept lat="25.033549" lon="121.531563"><name>12 信義路二段228巷</name><desc>右轉・106 m</desc></rtept>
+<rtept lat="25.032646" lon="121.531725"><name>13 新生南路二段16巷</name><desc>左轉・117 m</desc></rtept>
+<rtept lat="25.032702" lon="121.532865"><name>14 新生南路二段</name><desc>右轉・58 m</desc></rtept>
+<rtept lat="25.0322" lon="121.533045"><name>15 永康街23巷</name><desc>右轉・382 m</desc></rtept>
+<rtept lat="25.032251" lon="121.529694"><name>16 永康街</name><desc>右轉・156 m</desc></rtept>
+<rtept lat="25.033643" lon="121.529954"><name>17 信義路二段</name><desc>右轉・274 m</desc></rtept>
+<rtept lat="25.033523" lon="121.532658"><name>18 新生南路二段</name><desc>右轉・152 m</desc></rtept>
+<rtept lat="25.0322" lon="121.533045"><name>19 永康街23巷</name><desc>右轉・222 m（重複／連絡）</desc></rtept>
+<rtept lat="25.032002" lon="121.530864"><name>20 信義路二段198巷</name><desc>右轉・44 m（重複／連絡）</desc></rtept>
+<rtept lat="25.032379" lon="121.530712"><name>21 永康街17巷</name><desc>左轉・112 m（重複／連絡）</desc></rtept>
+<rtept lat="25.032251" lon="121.529694"><name>22 永康街</name><desc>左轉・109 m（重複／連絡）</desc></rtept>
+<rtept lat="25.031286" lon="121.529502"><name>23 永康街31巷</name><desc>左轉・55 m</desc></rtept>
+<rtept lat="25.031412" lon="121.530032"><name>24 金華街243巷</name><desc>右轉・43 m</desc></rtept>
+<rtept lat="25.031045" lon="121.530163"><name>25 新生南路二段30巷</name><desc>左轉・317 m</desc></rtept>
+<rtept lat="25.031881" lon="121.533163"><name>26 新生南路二段</name><desc>右轉・149 m</desc></rtept>
+<rtept lat="25.030595" lon="121.533544"><name>27 金華街</name><desc>右轉・211 m</desc></rtept>
+<rtept lat="25.03001" lon="121.531555"><name>28 信義路二段198巷</name><desc>右轉・277 m（重複／連絡）</desc></rtept>
+<rtept lat="25.032379" lon="121.530712"><name>29 永康街17巷</name><desc>左轉・112 m（重複／連絡）</desc></rtept>
+<rtept lat="25.032251" lon="121.529694"><name>30 永康街</name><desc>左轉・166 m（重複／連絡）</desc></rtept>
+<rtept lat="25.030768" lon="121.529516"><name>31 永康街37巷</name><desc>左轉・172 m</desc></rtept>
+<rtept lat="25.031018" lon="121.531182"><name>32 信義路二段198巷</name><desc>左轉・305 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033611" lon="121.530191"><name>33 信義路二段</name><desc>右轉・240 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033527" lon="121.532561"><name>34 新生南路一段</name><desc>右轉・55 m</desc></rtept>
+<rtept lat="25.033082" lon="121.532734"><name>35 新生南路二段</name><desc>右轉・287 m</desc></rtept>
+<rtept lat="25.030622" lon="121.533635"><name>36 金華街</name><desc>左轉・249 m（重複／連絡）</desc></rtept>
+<rtept lat="25.03001" lon="121.531555"><name>37 信義路二段198巷</name><desc>右轉・83 m（重複／連絡）</desc></rtept>
+<rtept lat="25.030717" lon="121.53129"><name>38 永康街41巷</name><desc>左轉・182 m</desc></rtept>
+<rtept lat="25.030473" lon="121.529534"><name>39 永康街</name><desc>左轉・36 m（重複／連絡）</desc></rtept>
+<rtept lat="25.03015" lon="121.529542"><name>40 永康街47巷</name><desc>左轉・193 m</desc></rtept>
+<rtept lat="25.030412" lon="121.531398"><name>41 信義路二段198巷</name><desc>左轉・376 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033611" lon="121.530191"><name>42 信義路二段</name><desc>右轉・139 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033549" lon="121.531563"><name>43 信義路二段228巷</name><desc>右轉・48 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033136" lon="121.531713"><name>44 永康街7巷</name><desc>右轉・188 m</desc></rtept>
+<rtept lat="25.033166" lon="121.529866"><name>45 永康街</name><desc>左轉・64 m（重複／連絡）</desc></rtept>
+<rtept lat="25.032601" lon="121.529753"><name>46 永康街13巷</name><desc>左轉・206 m</desc></rtept>
+<rtept lat="25.032754" lon="121.53176"><name>47 信義路二段228巷</name><desc>右轉・142 m</desc></rtept>
+<rtept lat="25.031504" lon="121.531756"><name>48 新生南路二段30巷</name><desc>左轉・148 m（重複／連絡）</desc></rtept>
+<rtept lat="25.031881" lon="121.533163"><name>49 新生南路二段</name><desc>右轉・149 m（重複／連絡）</desc></rtept>
+<rtept lat="25.030595" lon="121.533544"><name>50 金華街</name><desc>右轉・308 m</desc></rtept>
+<rtept lat="25.02976" lon="121.530636"><name>51 金華街243巷</name><desc>右轉・193 m</desc></rtept>
+<rtept lat="25.031412" lon="121.530032"><name>52 永康街31巷</name><desc>右轉・169 m</desc></rtept>
 <rtept lat="25.031723" lon="121.531661"><name>終點</name></rtept></rte>
 <trk><name>福住里 行駛軌跡</name><trkseg>
+<trkpt lat="25.033538" lon="121.532117"/>
+<trkpt lat="25.033537" lon="121.532183"/>
+<trkpt lat="25.033536" lon="121.532249"/>
+<trkpt lat="25.033535" lon="121.532315"/>
+<trkpt lat="25.033534" lon="121.532381"/>
+<trkpt lat="25.033540" lon="121.532414"/>
+<trkpt lat="25.033533" lon="121.532488"/>
+<trkpt lat="25.033527" lon="121.532561"/>
+<trkpt lat="25.033458" lon="121.532572"/>
+<trkpt lat="25.033389" lon="121.532583"/>
+<trkpt lat="25.033328" lon="121.532597"/>
+<trkpt lat="25.033266" lon="121.532612"/>
+<trkpt lat="25.033205" lon="121.532626"/>
 <trkpt lat="25.033143" lon="121.532640"/>
 <trkpt lat="25.033133" lon="121.532601"/>
 <trkpt lat="25.033129" lon="121.532528"/>

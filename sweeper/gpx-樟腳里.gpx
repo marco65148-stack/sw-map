@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 樟腳里 掃街車路線</name><desc>總長 3.69 km，重複率 30.4%</desc></metadata>
-<wpt lat="24.981791" lon="121.561104"><name>起點 木新路三段155巷</name></wpt>
+<metadata><name>文山區 樟腳里 掃街車路線</name><desc>總長 3.72 km，重複率 31.0%</desc></metadata>
+<wpt lat="24.981714" lon="121.56077"><name>起點 木新路三段</name></wpt>
 <wpt lat="24.982509" lon="121.564224"><name>終點 木新路三段</name></wpt>
 <rte><name>樟腳里 道路順序</name>
-<rtept lat="24.981791" lon="121.561104"><name>01 木新路三段155巷</name><desc>出發・167 m</desc></rtept>
-<rtept lat="24.980907" lon="121.560457"><name>02 木新路三段183巷</name><desc>右轉・79 m</desc></rtept>
-<rtept lat="24.98159" lon="121.560234"><name>03 木新路三段</name><desc>左轉・55 m</desc></rtept>
-<rtept lat="24.98159" lon="121.560234"><name>04 木新路三段183巷</name><desc>右轉・79 m（重複／連絡）</desc></rtept>
-<rtept lat="24.980907" lon="121.560457"><name>05 木新路三段155巷</name><desc>右轉・79 m</desc></rtept>
-<rtept lat="24.980737" lon="121.559693"><name>06 木新路三段215巷</name><desc>右轉・78 m</desc></rtept>
-<rtept lat="24.981421" lon="121.559501"><name>07 木新路三段</name><desc>右轉・258 m</desc></rtept>
-<rtept lat="24.981991" lon="121.561977"><name>08 木新路三段127巷</name><desc>右轉・162 m</desc></rtept>
-<rtept lat="24.981991" lon="121.561977"><name>09 木新路三段</name><desc>右轉・91 m</desc></rtept>
-<rtept lat="24.982193" lon="121.562851"><name>10 木新路三段95巷</name><desc>右轉・288 m</desc></rtept>
-<rtept lat="24.982193" lon="121.562851"><name>11 木新路三段</name><desc>右轉・143 m</desc></rtept>
-<rtept lat="24.982509" lon="121.564224"><name>12 木新路三段45巷</name><desc>右轉・107 m</desc></rtept>
-<rtept lat="24.981571" lon="121.564463"><name>13 無名巷道</name><desc>左轉・466 m</desc></rtept>
-<rtept lat="24.981727" lon="121.566118"><name>14 恆光街30巷</name><desc>右轉・204 m</desc></rtept>
-<rtept lat="24.981727" lon="121.566118"><name>15 無名巷道</name><desc>右轉・50 m（重複／連絡）</desc></rtept>
-<rtept lat="24.981856" lon="121.565644"><name>16 木新路二段299巷</name><desc>右轉・109 m</desc></rtept>
-<rtept lat="24.982785" lon="121.565297"><name>17 木新路二段</name><desc>右轉・82 m</desc></rtept>
-<rtept lat="24.982785" lon="121.565297"><name>18 木新路二段299巷</name><desc>左轉・86 m（重複／連絡）</desc></rtept>
-<rtept lat="24.982057" lon="121.565583"><name>19 恆光街22巷</name><desc>左轉・154 m</desc></rtept>
-<rtept lat="24.982484" lon="121.567027"><name>20 恆光街</name><desc>左轉・38 m</desc></rtept>
-<rtept lat="24.982803" lon="121.56689"><name>21 恆光街14巷</name><desc>左轉・180 m</desc></rtept>
-<rtept lat="24.982803" lon="121.56689"><name>22 恆光街</name><desc>左轉・55 m</desc></rtept>
-<rtept lat="24.983273" lon="121.566713"><name>23 木新路二段</name><desc>右轉・114 m</desc></rtept>
-<rtept lat="24.983619" lon="121.567771"><name>24 木新路二段211巷</name><desc>右轉・187 m</desc></rtept>
-<rtept lat="24.983619" lon="121.567771"><name>25 木新路二段</name><desc>左轉・266 m</desc></rtept>
-<rtept lat="24.982785" lon="121.565297"><name>26 木新路三段</name><desc>直行・113 m</desc></rtept>
+<rtept lat="24.981714" lon="121.56077"><name>01 木新路三段</name><desc>出發・35 m</desc></rtept>
+<rtept lat="24.981791" lon="121.561104"><name>02 木新路三段155巷</name><desc>右轉・167 m</desc></rtept>
+<rtept lat="24.980907" lon="121.560457"><name>03 木新路三段183巷</name><desc>右轉・79 m</desc></rtept>
+<rtept lat="24.98159" lon="121.560234"><name>04 木新路三段</name><desc>左轉・55 m</desc></rtept>
+<rtept lat="24.98159" lon="121.560234"><name>05 木新路三段183巷</name><desc>右轉・79 m（重複／連絡）</desc></rtept>
+<rtept lat="24.980907" lon="121.560457"><name>06 木新路三段155巷</name><desc>右轉・79 m</desc></rtept>
+<rtept lat="24.980737" lon="121.559693"><name>07 木新路三段215巷</name><desc>右轉・78 m</desc></rtept>
+<rtept lat="24.981421" lon="121.559501"><name>08 木新路三段</name><desc>右轉・258 m</desc></rtept>
+<rtept lat="24.981991" lon="121.561977"><name>09 木新路三段127巷</name><desc>右轉・162 m</desc></rtept>
+<rtept lat="24.981991" lon="121.561977"><name>10 木新路三段</name><desc>右轉・91 m</desc></rtept>
+<rtept lat="24.982193" lon="121.562851"><name>11 木新路三段95巷</name><desc>右轉・288 m</desc></rtept>
+<rtept lat="24.982193" lon="121.562851"><name>12 木新路三段</name><desc>右轉・143 m</desc></rtept>
+<rtept lat="24.982509" lon="121.564224"><name>13 木新路三段45巷</name><desc>右轉・107 m</desc></rtept>
+<rtept lat="24.981571" lon="121.564463"><name>14 無名巷道</name><desc>左轉・466 m</desc></rtept>
+<rtept lat="24.981727" lon="121.566118"><name>15 恆光街30巷</name><desc>右轉・204 m</desc></rtept>
+<rtept lat="24.981727" lon="121.566118"><name>16 無名巷道</name><desc>右轉・50 m（重複／連絡）</desc></rtept>
+<rtept lat="24.981856" lon="121.565644"><name>17 木新路二段299巷</name><desc>右轉・109 m</desc></rtept>
+<rtept lat="24.982785" lon="121.565297"><name>18 木新路二段</name><desc>右轉・82 m</desc></rtept>
+<rtept lat="24.982785" lon="121.565297"><name>19 木新路二段299巷</name><desc>左轉・86 m（重複／連絡）</desc></rtept>
+<rtept lat="24.982057" lon="121.565583"><name>20 恆光街22巷</name><desc>左轉・154 m</desc></rtept>
+<rtept lat="24.982484" lon="121.567027"><name>21 恆光街</name><desc>左轉・38 m</desc></rtept>
+<rtept lat="24.982803" lon="121.56689"><name>22 恆光街14巷</name><desc>左轉・180 m</desc></rtept>
+<rtept lat="24.982803" lon="121.56689"><name>23 恆光街</name><desc>左轉・55 m</desc></rtept>
+<rtept lat="24.983273" lon="121.566713"><name>24 木新路二段</name><desc>右轉・114 m</desc></rtept>
+<rtept lat="24.983619" lon="121.567771"><name>25 木新路二段211巷</name><desc>右轉・187 m</desc></rtept>
+<rtept lat="24.983619" lon="121.567771"><name>26 木新路二段</name><desc>左轉・266 m</desc></rtept>
+<rtept lat="24.982785" lon="121.565297"><name>27 木新路三段</name><desc>直行・113 m</desc></rtept>
 <rtept lat="24.982509" lon="121.564224"><name>終點</name></rtept></rte>
 <trk><name>樟腳里 行駛軌跡</name><trkseg>
+<trkpt lat="24.981714" lon="121.560770"/>
+<trkpt lat="24.981729" lon="121.560837"/>
+<trkpt lat="24.981744" lon="121.560904"/>
+<trkpt lat="24.981760" lon="121.560971"/>
+<trkpt lat="24.981775" lon="121.561038"/>
 <trkpt lat="24.981791" lon="121.561104"/>
 <trkpt lat="24.981728" lon="121.561121"/>
 <trkpt lat="24.981665" lon="121.561137"/>

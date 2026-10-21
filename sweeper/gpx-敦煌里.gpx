@@ -1,24 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 敦煌里 掃街車路線</name><desc>總長 2.36 km，重複率 23.4%</desc></metadata>
-<wpt lat="25.034274" lon="121.552555"><name>起點 安和路一段</name></wpt>
+<metadata><name>大安區 敦煌里 掃街車路線</name><desc>總長 2.64 km，重複率 31.5%</desc></metadata>
+<wpt lat="25.033284" lon="121.552521"><name>起點 信義路四段</name></wpt>
 <wpt lat="25.034271" lon="121.552443"><name>終點 安和路一段102巷</name></wpt>
 <rte><name>敦煌里 道路順序</name>
-<rtept lat="25.034274" lon="121.552555"><name>01 安和路一段</name><desc>出發・777 m</desc></rtept>
-<rtept lat="25.037623" lon="121.551431"><name>02 仁愛路四段</name><desc>右轉・31 m</desc></rtept>
-<rtept lat="25.037617" lon="121.551737"><name>03 仁愛路四段222巷</name><desc>右轉・165 m</desc></rtept>
-<rtept lat="25.036455" lon="121.552753"><name>04 仁愛路四段266巷</name><desc>左轉・147 m</desc></rtept>
-<rtept lat="25.03772" lon="121.552935"><name>05 仁愛路四段</name><desc>左轉・184 m</desc></rtept>
-<rtept lat="25.037871" lon="121.551222"><name>06 安和路一段</name><desc>左轉・90 m</desc></rtept>
-<rtept lat="25.037624" lon="121.551259"><name>07 仁愛路四段</name><desc>左轉・169 m</desc></rtept>
-<rtept lat="25.037593" lon="121.552936"><name>08 仁愛路四段266巷</name><desc>右轉・175 m（重複／連絡）</desc></rtept>
-<rtept lat="25.036184" lon="121.552454"><name>09 安和路一段</name><desc>左轉・322 m</desc></rtept>
-<rtept lat="25.033285" lon="121.55244"><name>10 信義路四段</name><desc>左轉・94 m</desc></rtept>
-<rtept lat="25.033265" lon="121.553366"><name>11 信義路四段239巷</name><desc>左轉・109 m</desc></rtept>
-<rtept lat="25.034249" lon="121.553391"><name>12 安和路一段135巷</name><desc>左轉・84 m</desc></rtept>
-<rtept lat="25.034274" lon="121.552555"><name>13 安和路一段102巷</name><desc>直行・11 m</desc></rtept>
+<rtept lat="25.033284" lon="121.552521"><name>01 信義路四段</name><desc>出發・85 m</desc></rtept>
+<rtept lat="25.033265" lon="121.553366"><name>02 信義路四段239巷</name><desc>左轉・109 m</desc></rtept>
+<rtept lat="25.034249" lon="121.553391"><name>03 安和路一段135巷</name><desc>左轉・84 m</desc></rtept>
+<rtept lat="25.034274" lon="121.552555"><name>04 安和路一段</name><desc>右轉・777 m</desc></rtept>
+<rtept lat="25.037623" lon="121.551431"><name>05 仁愛路四段</name><desc>右轉・31 m</desc></rtept>
+<rtept lat="25.037617" lon="121.551737"><name>06 仁愛路四段222巷</name><desc>右轉・165 m</desc></rtept>
+<rtept lat="25.036455" lon="121.552753"><name>07 仁愛路四段266巷</name><desc>左轉・147 m</desc></rtept>
+<rtept lat="25.03772" lon="121.552935"><name>08 仁愛路四段</name><desc>左轉・184 m</desc></rtept>
+<rtept lat="25.037871" lon="121.551222"><name>09 安和路一段</name><desc>左轉・90 m</desc></rtept>
+<rtept lat="25.037624" lon="121.551259"><name>10 仁愛路四段</name><desc>左轉・169 m</desc></rtept>
+<rtept lat="25.037593" lon="121.552936"><name>11 仁愛路四段266巷</name><desc>右轉・175 m（重複／連絡）</desc></rtept>
+<rtept lat="25.036184" lon="121.552454"><name>12 安和路一段</name><desc>左轉・322 m</desc></rtept>
+<rtept lat="25.033285" lon="121.55244"><name>13 信義路四段</name><desc>左轉・94 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033265" lon="121.553366"><name>14 信義路四段239巷</name><desc>左轉・109 m（重複／連絡）</desc></rtept>
+<rtept lat="25.034249" lon="121.553391"><name>15 安和路一段135巷</name><desc>左轉・84 m（重複／連絡）</desc></rtept>
+<rtept lat="25.034274" lon="121.552555"><name>16 安和路一段102巷</name><desc>直行・11 m</desc></rtept>
 <rtept lat="25.034271" lon="121.552443"><name>終點</name></rtept></rte>
 <trk><name>敦煌里 行駛軌跡</name><trkseg>
+<trkpt lat="25.033284" lon="121.552521"/>
+<trkpt lat="25.033282" lon="121.552578"/>
+<trkpt lat="25.033280" lon="121.552636"/>
+<trkpt lat="25.033278" lon="121.552709"/>
+<trkpt lat="25.033277" lon="121.552782"/>
+<trkpt lat="25.033275" lon="121.552855"/>
+<trkpt lat="25.033274" lon="121.552928"/>
+<trkpt lat="25.033272" lon="121.553001"/>
+<trkpt lat="25.033271" lon="121.553074"/>
+<trkpt lat="25.033269" lon="121.553147"/>
+<trkpt lat="25.033268" lon="121.553220"/>
+<trkpt lat="25.033266" lon="121.553293"/>
+<trkpt lat="25.033265" lon="121.553366"/>
+<trkpt lat="25.033304" lon="121.553366"/>
+<trkpt lat="25.033343" lon="121.553367"/>
+<trkpt lat="25.033409" lon="121.553368"/>
+<trkpt lat="25.033474" lon="121.553369"/>
+<trkpt lat="25.033540" lon="121.553371"/>
+<trkpt lat="25.033606" lon="121.553372"/>
+<trkpt lat="25.033671" lon="121.553373"/>
+<trkpt lat="25.033737" lon="121.553374"/>
+<trkpt lat="25.033802" lon="121.553376"/>
+<trkpt lat="25.033868" lon="121.553377"/>
+<trkpt lat="25.033932" lon="121.553379"/>
+<trkpt lat="25.033995" lon="121.553382"/>
+<trkpt lat="25.034059" lon="121.553384"/>
+<trkpt lat="25.034122" lon="121.553386"/>
+<trkpt lat="25.034186" lon="121.553388"/>
+<trkpt lat="25.034249" lon="121.553391"/>
+<trkpt lat="25.034252" lon="121.553314"/>
+<trkpt lat="25.034254" lon="121.553238"/>
+<trkpt lat="25.034257" lon="121.553161"/>
+<trkpt lat="25.034259" lon="121.553085"/>
+<trkpt lat="25.034262" lon="121.553008"/>
+<trkpt lat="25.034264" lon="121.552932"/>
+<trkpt lat="25.034267" lon="121.552855"/>
+<trkpt lat="25.034269" lon="121.552779"/>
+<trkpt lat="25.034271" lon="121.552704"/>
+<trkpt lat="25.034272" lon="121.552630"/>
 <trkpt lat="25.034274" lon="121.552555"/>
 <trkpt lat="25.034345" lon="121.552558"/>
 <trkpt lat="25.034413" lon="121.552559"/>

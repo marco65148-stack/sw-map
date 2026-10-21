@@ -1,49 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 明義里 掃街車路線</name><desc>總長 6.18 km，重複率 27.8%</desc></metadata>
-<wpt lat="24.988323" lon="121.561988"><name>起點 興隆路四段101巷</name></wpt>
+<metadata><name>文山區 明義里 掃街車路線</name><desc>總長 6.27 km，重複率 28.9%</desc></metadata>
+<wpt lat="24.988798" lon="121.561461"><name>起點 木柵路二段</name></wpt>
 <wpt lat="24.987441" lon="121.561652"><name>終點 興隆路四段105巷</name></wpt>
 <rte><name>明義里 道路順序</name>
-<rtept lat="24.988323" lon="121.561988"><name>01 興隆路四段101巷</name><desc>出發・159 m</desc></rtept>
-<rtept lat="24.988138" lon="121.560423"><name>02 興隆路四段</name><desc>右轉・1061 m</desc></rtept>
-<rtept lat="24.988787" lon="121.560103"><name>03 木柵路二段</name><desc>右轉・105 m</desc></rtept>
-<rtept lat="24.988782" lon="121.559061"><name>04 木柵路二段7巷</name><desc>右轉・76 m</desc></rtept>
-<rtept lat="24.989464" lon="121.559054"><name>05 興隆路四段8巷</name><desc>右轉・98 m</desc></rtept>
-<rtept lat="24.989155" lon="121.559932"><name>06 興隆路四段</name><desc>右轉・52 m（重複／連絡）</desc></rtept>
-<rtept lat="24.988729" lon="121.560137"><name>07 木柵路二段</name><desc>左轉・465 m</desc></rtept>
-<rtept lat="24.988787" lon="121.560103"><name>08 興隆路四段</name><desc>左轉・131 m</desc></rtept>
-<rtept lat="24.98767" lon="121.560518"><name>09 興隆路四段105巷</name><desc>左轉・173 m</desc></rtept>
-<rtept lat="24.987765" lon="121.562226"><name>10 木柵路二段138巷</name><desc>左轉・126 m</desc></rtept>
-<rtept lat="24.98883" lon="121.561781"><name>11 木柵路二段</name><desc>右轉・137 m</desc></rtept>
-<rtept lat="24.989056" lon="121.5631"><name>12 木柵路三段</name><desc>右轉・87 m</desc></rtept>
-<rtept lat="24.988767" lon="121.563904"><name>13 木柵路二段204巷</name><desc>右轉・81 m</desc></rtept>
-<rtept lat="24.988102" lon="121.563589"><name>14 興隆路四段105巷</name><desc>左轉・329 m</desc></rtept>
-<rtept lat="24.987765" lon="121.562226"><name>15 木柵路二段138巷</name><desc>左轉・119 m</desc></rtept>
-<rtept lat="24.986765" lon="121.562662"><name>16 興隆路四段109巷</name><desc>右轉・179 m</desc></rtept>
-<rtept lat="24.986625" lon="121.560894"><name>17 下崙路</name><desc>直行・500 m</desc></rtept>
-<rtept lat="24.986621" lon="121.560969"><name>18 興隆路四段</name><desc>左轉・253 m</desc></rtept>
-<rtept lat="24.988789" lon="121.560187"><name>19 木柵路二段</name><desc>左轉・129 m（重複／連絡）</desc></rtept>
-<rtept lat="24.988785" lon="121.558908"><name>20 木柵路二段54巷</name><desc>左轉・68 m</desc></rtept>
-<rtept lat="24.988208" lon="121.559125"><name>21 興隆路四段42巷</name><desc>右轉・101 m</desc></rtept>
-<rtept lat="24.988267" lon="121.558125"><name>22 木柵路二段2巷</name><desc>右轉・62 m</desc></rtept>
-<rtept lat="24.988717" lon="121.557754"><name>23 木柵路二段</name><desc>右轉・117 m</desc></rtept>
-<rtept lat="24.988726" lon="121.558916"><name>24 木柵路二段54巷</name><desc>右轉・61 m（重複／連絡）</desc></rtept>
-<rtept lat="24.988208" lon="121.559125"><name>25 興隆路四段42巷</name><desc>右轉・101 m（重複／連絡）</desc></rtept>
-<rtept lat="24.988267" lon="121.558125"><name>26 木柵路二段2巷</name><desc>左轉・135 m</desc></rtept>
-<rtept lat="24.987746" lon="121.559191"><name>27 木柵路二段54巷</name><desc>左轉・113 m</desc></rtept>
-<rtept lat="24.988726" lon="121.558916"><name>28 木柵路二段</name><desc>右轉・123 m</desc></rtept>
-<rtept lat="24.988729" lon="121.560137"><name>29 興隆路四段</name><desc>右轉・69 m（重複／連絡）</desc></rtept>
-<rtept lat="24.988135" lon="121.560351"><name>30 興隆路四段42巷</name><desc>右轉・124 m</desc></rtept>
-<rtept lat="24.988208" lon="121.559125"><name>31 木柵路二段54巷</name><desc>左轉・52 m（重複／連絡）</desc></rtept>
-<rtept lat="24.987746" lon="121.559191"><name>32 木柵路二段2巷</name><desc>左轉・134 m</desc></rtept>
-<rtept lat="24.98767" lon="121.560518"><name>33 興隆路四段</name><desc>右轉・122 m</desc></rtept>
-<rtept lat="24.986625" lon="121.560894"><name>34 興隆路四段109巷</name><desc>左轉・179 m（重複／連絡）</desc></rtept>
-<rtept lat="24.986765" lon="121.562662"><name>35 木柵路二段138巷</name><desc>左轉・59 m（重複／連絡）</desc></rtept>
-<rtept lat="24.987261" lon="121.562441"><name>36 興隆路四段107巷</name><desc>左轉・167 m</desc></rtept>
-<rtept lat="24.987105" lon="121.560795"><name>37 興隆路四段</name><desc>右轉・31 m（重複／連絡）</desc></rtept>
-<rtept lat="24.987368" lon="121.5607"><name>38 興隆路四段105巷</name><desc>右轉・96 m</desc></rtept>
+<rtept lat="24.988798" lon="121.561461"><name>01 木柵路二段</name><desc>出發・32 m</desc></rtept>
+<rtept lat="24.98883" lon="121.561781"><name>02 木柵路二段138巷</name><desc>右轉・60 m</desc></rtept>
+<rtept lat="24.988323" lon="121.561988"><name>03 興隆路四段101巷</name><desc>右轉・159 m</desc></rtept>
+<rtept lat="24.988138" lon="121.560423"><name>04 興隆路四段</name><desc>右轉・1061 m</desc></rtept>
+<rtept lat="24.988787" lon="121.560103"><name>05 木柵路二段</name><desc>右轉・105 m</desc></rtept>
+<rtept lat="24.988782" lon="121.559061"><name>06 木柵路二段7巷</name><desc>右轉・76 m</desc></rtept>
+<rtept lat="24.989464" lon="121.559054"><name>07 興隆路四段8巷</name><desc>右轉・98 m</desc></rtept>
+<rtept lat="24.989155" lon="121.559932"><name>08 興隆路四段</name><desc>右轉・52 m（重複／連絡）</desc></rtept>
+<rtept lat="24.988729" lon="121.560137"><name>09 木柵路二段</name><desc>左轉・465 m</desc></rtept>
+<rtept lat="24.988787" lon="121.560103"><name>10 興隆路四段</name><desc>左轉・131 m</desc></rtept>
+<rtept lat="24.98767" lon="121.560518"><name>11 興隆路四段105巷</name><desc>左轉・173 m</desc></rtept>
+<rtept lat="24.987765" lon="121.562226"><name>12 木柵路二段138巷</name><desc>左轉・126 m</desc></rtept>
+<rtept lat="24.98883" lon="121.561781"><name>13 木柵路二段</name><desc>右轉・137 m</desc></rtept>
+<rtept lat="24.989056" lon="121.5631"><name>14 木柵路三段</name><desc>右轉・87 m</desc></rtept>
+<rtept lat="24.988767" lon="121.563904"><name>15 木柵路二段204巷</name><desc>右轉・81 m</desc></rtept>
+<rtept lat="24.988102" lon="121.563589"><name>16 興隆路四段105巷</name><desc>左轉・329 m</desc></rtept>
+<rtept lat="24.987765" lon="121.562226"><name>17 木柵路二段138巷</name><desc>左轉・119 m</desc></rtept>
+<rtept lat="24.986765" lon="121.562662"><name>18 興隆路四段109巷</name><desc>右轉・179 m</desc></rtept>
+<rtept lat="24.986625" lon="121.560894"><name>19 下崙路</name><desc>直行・500 m</desc></rtept>
+<rtept lat="24.986621" lon="121.560969"><name>20 興隆路四段</name><desc>左轉・253 m</desc></rtept>
+<rtept lat="24.988789" lon="121.560187"><name>21 木柵路二段</name><desc>左轉・129 m（重複／連絡）</desc></rtept>
+<rtept lat="24.988785" lon="121.558908"><name>22 木柵路二段54巷</name><desc>左轉・68 m</desc></rtept>
+<rtept lat="24.988208" lon="121.559125"><name>23 興隆路四段42巷</name><desc>右轉・101 m</desc></rtept>
+<rtept lat="24.988267" lon="121.558125"><name>24 木柵路二段2巷</name><desc>右轉・62 m</desc></rtept>
+<rtept lat="24.988717" lon="121.557754"><name>25 木柵路二段</name><desc>右轉・117 m</desc></rtept>
+<rtept lat="24.988726" lon="121.558916"><name>26 木柵路二段54巷</name><desc>右轉・61 m（重複／連絡）</desc></rtept>
+<rtept lat="24.988208" lon="121.559125"><name>27 興隆路四段42巷</name><desc>右轉・101 m（重複／連絡）</desc></rtept>
+<rtept lat="24.988267" lon="121.558125"><name>28 木柵路二段2巷</name><desc>左轉・135 m</desc></rtept>
+<rtept lat="24.987746" lon="121.559191"><name>29 木柵路二段54巷</name><desc>左轉・113 m</desc></rtept>
+<rtept lat="24.988726" lon="121.558916"><name>30 木柵路二段</name><desc>右轉・123 m</desc></rtept>
+<rtept lat="24.988729" lon="121.560137"><name>31 興隆路四段</name><desc>右轉・69 m（重複／連絡）</desc></rtept>
+<rtept lat="24.988135" lon="121.560351"><name>32 興隆路四段42巷</name><desc>右轉・124 m</desc></rtept>
+<rtept lat="24.988208" lon="121.559125"><name>33 木柵路二段54巷</name><desc>左轉・52 m（重複／連絡）</desc></rtept>
+<rtept lat="24.987746" lon="121.559191"><name>34 木柵路二段2巷</name><desc>左轉・134 m</desc></rtept>
+<rtept lat="24.98767" lon="121.560518"><name>35 興隆路四段</name><desc>右轉・122 m</desc></rtept>
+<rtept lat="24.986625" lon="121.560894"><name>36 興隆路四段109巷</name><desc>左轉・179 m（重複／連絡）</desc></rtept>
+<rtept lat="24.986765" lon="121.562662"><name>37 木柵路二段138巷</name><desc>左轉・59 m（重複／連絡）</desc></rtept>
+<rtept lat="24.987261" lon="121.562441"><name>38 興隆路四段107巷</name><desc>左轉・167 m</desc></rtept>
+<rtept lat="24.987105" lon="121.560795"><name>39 興隆路四段</name><desc>右轉・31 m（重複／連絡）</desc></rtept>
+<rtept lat="24.987368" lon="121.5607"><name>40 興隆路四段105巷</name><desc>右轉・96 m</desc></rtept>
 <rtept lat="24.987441" lon="121.561652"><name>終點</name></rtept></rte>
 <trk><name>明義里 行駛軌跡</name><trkseg>
+<trkpt lat="24.988798" lon="121.561461"/>
+<trkpt lat="24.988804" lon="121.561525"/>
+<trkpt lat="24.988811" lon="121.561589"/>
+<trkpt lat="24.988817" lon="121.561653"/>
+<trkpt lat="24.988824" lon="121.561717"/>
+<trkpt lat="24.988830" lon="121.561781"/>
+<trkpt lat="24.988763" lon="121.561802"/>
+<trkpt lat="24.988711" lon="121.561824"/>
+<trkpt lat="24.988656" lon="121.561847"/>
+<trkpt lat="24.988601" lon="121.561871"/>
+<trkpt lat="24.988546" lon="121.561894"/>
+<trkpt lat="24.988490" lon="121.561918"/>
+<trkpt lat="24.988435" lon="121.561941"/>
+<trkpt lat="24.988378" lon="121.561965"/>
 <trkpt lat="24.988323" lon="121.561988"/>
 <trkpt lat="24.988315" lon="121.561919"/>
 <trkpt lat="24.988310" lon="121.561873"/>

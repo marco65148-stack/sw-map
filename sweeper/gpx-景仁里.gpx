@@ -1,43 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 景仁里 掃街車路線</name><desc>總長 5.75 km，重複率 24.5%</desc></metadata>
-<wpt lat="24.995384" lon="121.538983"><name>起點 溪口街66巷</name></wpt>
+<metadata><name>文山區 景仁里 掃街車路線</name><desc>總長 6.02 km，重複率 27.9%</desc></metadata>
+<wpt lat="24.995304" lon="121.541129"><name>起點 羅斯福路六段</name></wpt>
 <wpt lat="24.994197" lon="121.541075"><name>終點 溪口街</name></wpt>
 <rte><name>景仁里 道路順序</name>
-<rtept lat="24.995384" lon="121.538983"><name>01 溪口街66巷</name><desc>出發・184 m</desc></rtept>
-<rtept lat="24.995638" lon="121.54017"><name>02 溪口街36巷</name><desc>右轉・84 m</desc></rtept>
-<rtept lat="24.994995" lon="121.539733"><name>03 溪口街</name><desc>左轉・92 m</desc></rtept>
-<rtept lat="24.994536" lon="121.54049"><name>04 羅斯福路六段166巷</name><desc>左轉・43 m</desc></rtept>
-<rtept lat="24.994916" lon="121.540584"><name>05 溪口街28巷</name><desc>左轉・87 m</desc></rtept>
-<rtept lat="24.994995" lon="121.539733"><name>06 溪口街</name><desc>直行・408 m</desc></rtept>
-<rtept lat="24.996895" lon="121.536274"><name>07 景福街</name><desc>右轉・273 m</desc></rtept>
-<rtept lat="24.998915" lon="121.53764"><name>08 景仁街82巷</name><desc>右轉・61 m</desc></rtept>
-<rtept lat="24.9984" lon="121.537851"><name>09 景仁街77巷</name><desc>直行・195 m</desc></rtept>
-<rtept lat="24.9984" lon="121.537851"><name>10 景仁街82巷</name><desc>直行・61 m（重複／連絡）</desc></rtept>
-<rtept lat="24.998915" lon="121.53764"><name>11 景福街</name><desc>右轉・48 m</desc></rtept>
-<rtept lat="24.999065" lon="121.538086"><name>12 景仁街78巷</name><desc>右轉・92 m</desc></rtept>
-<rtept lat="24.998289" lon="121.538419"><name>13 景仁街</name><desc>直行・122 m</desc></rtept>
-<rtept lat="24.997908" lon="121.539184"><name>14 羅斯福路六段92巷</name><desc>直行・129 m</desc></rtept>
-<rtept lat="24.99828" lon="121.540391"><name>15 羅斯福路六段</name><desc>右轉・458 m</desc></rtept>
-<rtept lat="24.999646" lon="121.539837"><name>16 景福街</name><desc>直行・61 m</desc></rtept>
-<rtept lat="24.999462" lon="121.539271"><name>17 景福街3巷</name><desc>左轉・161 m</desc></rtept>
-<rtept lat="24.9981" lon="121.539838"><name>18 羅斯福路六段92巷</name><desc>右轉・69 m（重複／連絡）</desc></rtept>
-<rtept lat="24.997908" lon="121.539184"><name>19 景仁街</name><desc>左轉・229 m</desc></rtept>
-<rtept lat="24.996323" lon="121.540399"><name>20 羅斯福路六段142巷</name><desc>右轉・407 m</desc></rtept>
-<rtept lat="24.998137" lon="121.536891"><name>21 景福街</name><desc>右轉・64 m（重複／連絡）</desc></rtept>
-<rtept lat="24.998667" lon="121.537143"><name>22 景仁街</name><desc>右轉・139 m</desc></rtept>
-<rtept lat="24.998289" lon="121.538419"><name>23 景仁街78巷</name><desc>左轉・92 m（重複／連絡）</desc></rtept>
-<rtept lat="24.999065" lon="121.538086"><name>24 景福街</name><desc>右轉・188 m</desc></rtept>
-<rtept lat="24.999646" lon="121.539837"><name>25 羅斯福路六段</name><desc>右轉・667 m</desc></rtept>
-<rtept lat="24.99594" lon="121.541205"><name>26 羅斯福路六段142巷</name><desc>左轉・92 m</desc></rtept>
-<rtept lat="24.996323" lon="121.540399"><name>27 景仁街</name><desc>右轉・98 m（重複／連絡）</desc></rtept>
-<rtept lat="24.997184" lon="121.540193"><name>28 景仁街20巷</name><desc>直行・108 m</desc></rtept>
-<rtept lat="24.9981" lon="121.539838"><name>29 羅斯福路六段92巷</name><desc>右轉・59 m（重複／連絡）</desc></rtept>
-<rtept lat="24.99828" lon="121.540391"><name>30 羅斯福路六段</name><desc>右轉・804 m</desc></rtept>
-<rtept lat="24.994925" lon="121.54113"><name>31 羅斯福路六段166巷</name><desc>右轉・98 m</desc></rtept>
-<rtept lat="24.994536" lon="121.54049"><name>32 溪口街</name><desc>左轉・70 m</desc></rtept>
+<rtept lat="24.995304" lon="121.541129"><name>01 羅斯福路六段</name><desc>出發・42 m</desc></rtept>
+<rtept lat="24.994925" lon="121.54113"><name>02 羅斯福路六段166巷</name><desc>右轉・55 m</desc></rtept>
+<rtept lat="24.994916" lon="121.540584"><name>03 溪口街28巷</name><desc>直行・87 m</desc></rtept>
+<rtept lat="24.994995" lon="121.539733"><name>04 溪口街</name><desc>直行・87 m</desc></rtept>
+<rtept lat="24.995384" lon="121.538983"><name>05 溪口街66巷</name><desc>右轉・184 m</desc></rtept>
+<rtept lat="24.995638" lon="121.54017"><name>06 溪口街36巷</name><desc>右轉・84 m</desc></rtept>
+<rtept lat="24.994995" lon="121.539733"><name>07 溪口街</name><desc>左轉・92 m</desc></rtept>
+<rtept lat="24.994536" lon="121.54049"><name>08 羅斯福路六段166巷</name><desc>左轉・43 m</desc></rtept>
+<rtept lat="24.994916" lon="121.540584"><name>09 溪口街28巷</name><desc>左轉・87 m（重複／連絡）</desc></rtept>
+<rtept lat="24.994995" lon="121.539733"><name>10 溪口街</name><desc>直行・408 m</desc></rtept>
+<rtept lat="24.996895" lon="121.536274"><name>11 景福街</name><desc>右轉・273 m</desc></rtept>
+<rtept lat="24.998915" lon="121.53764"><name>12 景仁街82巷</name><desc>右轉・61 m</desc></rtept>
+<rtept lat="24.9984" lon="121.537851"><name>13 景仁街77巷</name><desc>直行・195 m</desc></rtept>
+<rtept lat="24.9984" lon="121.537851"><name>14 景仁街82巷</name><desc>直行・61 m（重複／連絡）</desc></rtept>
+<rtept lat="24.998915" lon="121.53764"><name>15 景福街</name><desc>右轉・48 m</desc></rtept>
+<rtept lat="24.999065" lon="121.538086"><name>16 景仁街78巷</name><desc>右轉・92 m</desc></rtept>
+<rtept lat="24.998289" lon="121.538419"><name>17 景仁街</name><desc>直行・122 m</desc></rtept>
+<rtept lat="24.997908" lon="121.539184"><name>18 羅斯福路六段92巷</name><desc>直行・129 m</desc></rtept>
+<rtept lat="24.99828" lon="121.540391"><name>19 羅斯福路六段</name><desc>右轉・458 m</desc></rtept>
+<rtept lat="24.999646" lon="121.539837"><name>20 景福街</name><desc>直行・61 m</desc></rtept>
+<rtept lat="24.999462" lon="121.539271"><name>21 景福街3巷</name><desc>左轉・161 m</desc></rtept>
+<rtept lat="24.9981" lon="121.539838"><name>22 羅斯福路六段92巷</name><desc>右轉・69 m（重複／連絡）</desc></rtept>
+<rtept lat="24.997908" lon="121.539184"><name>23 景仁街</name><desc>左轉・229 m</desc></rtept>
+<rtept lat="24.996323" lon="121.540399"><name>24 羅斯福路六段142巷</name><desc>右轉・407 m</desc></rtept>
+<rtept lat="24.998137" lon="121.536891"><name>25 景福街</name><desc>右轉・64 m（重複／連絡）</desc></rtept>
+<rtept lat="24.998667" lon="121.537143"><name>26 景仁街</name><desc>右轉・139 m</desc></rtept>
+<rtept lat="24.998289" lon="121.538419"><name>27 景仁街78巷</name><desc>左轉・92 m（重複／連絡）</desc></rtept>
+<rtept lat="24.999065" lon="121.538086"><name>28 景福街</name><desc>右轉・188 m</desc></rtept>
+<rtept lat="24.999646" lon="121.539837"><name>29 羅斯福路六段</name><desc>右轉・667 m</desc></rtept>
+<rtept lat="24.99594" lon="121.541205"><name>30 羅斯福路六段142巷</name><desc>左轉・92 m</desc></rtept>
+<rtept lat="24.996323" lon="121.540399"><name>31 景仁街</name><desc>右轉・98 m（重複／連絡）</desc></rtept>
+<rtept lat="24.997184" lon="121.540193"><name>32 景仁街20巷</name><desc>直行・108 m</desc></rtept>
+<rtept lat="24.9981" lon="121.539838"><name>33 羅斯福路六段92巷</name><desc>右轉・59 m（重複／連絡）</desc></rtept>
+<rtept lat="24.99828" lon="121.540391"><name>34 羅斯福路六段</name><desc>右轉・804 m</desc></rtept>
+<rtept lat="24.994925" lon="121.54113"><name>35 羅斯福路六段166巷</name><desc>右轉・98 m（重複／連絡）</desc></rtept>
+<rtept lat="24.994536" lon="121.54049"><name>36 溪口街</name><desc>左轉・70 m</desc></rtept>
 <rtept lat="24.994197" lon="121.541075"><name>終點</name></rtept></rte>
 <trk><name>景仁里 行駛軌跡</name><trkseg>
+<trkpt lat="24.995304" lon="121.541129"/>
+<trkpt lat="24.995240" lon="121.541131"/>
+<trkpt lat="24.995176" lon="121.541132"/>
+<trkpt lat="24.995112" lon="121.541134"/>
+<trkpt lat="24.995063" lon="121.541132"/>
+<trkpt lat="24.995014" lon="121.541131"/>
+<trkpt lat="24.994970" lon="121.541130"/>
+<trkpt lat="24.994925" lon="121.541130"/>
+<trkpt lat="24.994926" lon="121.541053"/>
+<trkpt lat="24.994926" lon="121.541035"/>
+<trkpt lat="24.994924" lon="121.540960"/>
+<trkpt lat="24.994923" lon="121.540885"/>
+<trkpt lat="24.994921" lon="121.540810"/>
+<trkpt lat="24.994919" lon="121.540734"/>
+<trkpt lat="24.994917" lon="121.540659"/>
+<trkpt lat="24.994916" lon="121.540584"/>
+<trkpt lat="24.994914" lon="121.540511"/>
+<trkpt lat="24.994912" lon="121.540439"/>
+<trkpt lat="24.994910" lon="121.540366"/>
+<trkpt lat="24.994909" lon="121.540294"/>
+<trkpt lat="24.994907" lon="121.540221"/>
+<trkpt lat="24.994910" lon="121.540156"/>
+<trkpt lat="24.994913" lon="121.540092"/>
+<trkpt lat="24.994920" lon="121.540046"/>
+<trkpt lat="24.994926" lon="121.540000"/>
+<trkpt lat="24.994936" lon="121.539950"/>
+<trkpt lat="24.994945" lon="121.539900"/>
+<trkpt lat="24.994967" lon="121.539824"/>
+<trkpt lat="24.994978" lon="121.539788"/>
+<trkpt lat="24.994995" lon="121.539733"/>
+<trkpt lat="24.995030" lon="121.539665"/>
+<trkpt lat="24.995065" lon="121.539597"/>
+<trkpt lat="24.995101" lon="121.539528"/>
+<trkpt lat="24.995136" lon="121.539460"/>
+<trkpt lat="24.995172" lon="121.539392"/>
+<trkpt lat="24.995207" lon="121.539324"/>
+<trkpt lat="24.995242" lon="121.539256"/>
+<trkpt lat="24.995278" lon="121.539187"/>
+<trkpt lat="24.995313" lon="121.539119"/>
+<trkpt lat="24.995348" lon="121.539051"/>
 <trkpt lat="24.995384" lon="121.538983"/>
 <trkpt lat="24.995442" lon="121.539019"/>
 <trkpt lat="24.995500" lon="121.539056"/>

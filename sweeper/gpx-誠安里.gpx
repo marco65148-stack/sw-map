@@ -1,32 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 誠安里 掃街車路線</name><desc>總長 2.69 km，重複率 28.4%</desc></metadata>
-<wpt lat="25.043097" lon="121.543743"><name>起點 復興南路一段122巷</name></wpt>
+<metadata><name>大安區 誠安里 掃街車路線</name><desc>總長 2.82 km，重複率 31.9%</desc></metadata>
+<wpt lat="25.044315" lon="121.543776"><name>起點 復興南路一段</name></wpt>
 <wpt lat="25.042793" lon="121.543735"><name>終點 復興南路一段126巷</name></wpt>
 <rte><name>誠安里 道路順序</name>
-<rtept lat="25.043097" lon="121.543743"><name>01 復興南路一段122巷</name><desc>出發・29 m</desc></rtept>
-<rtept lat="25.043095" lon="121.543454"><name>02 復興南路一段126巷</name><desc>直行・102 m</desc></rtept>
-<rtept lat="25.043138" lon="121.542451"><name>03 安東街</name><desc>右轉・162 m</desc></rtept>
-<rtept lat="25.044555" lon="121.54217"><name>04 市民大道三段</name><desc>右轉・100 m</desc></rtept>
-<rtept lat="25.044668" lon="121.543153"><name>05 迴轉道</name><desc>左轉・31 m</desc></rtept>
-<rtept lat="25.044884" lon="121.543143"><name>06 市民大道三段</name><desc>左轉・189 m</desc></rtept>
-<rtept lat="25.04471" lon="121.541282"><name>07 迴轉道</name><desc>左轉・34 m</desc></rtept>
-<rtept lat="25.044464" lon="121.54124"><name>08 市民大道三段</name><desc>直行・259 m</desc></rtept>
-<rtept lat="25.044739" lon="121.543787"><name>09 復興南路一段</name><desc>右轉・47 m</desc></rtept>
-<rtept lat="25.044315" lon="121.543776"><name>10 安東街35巷</name><desc>右轉・121 m</desc></rtept>
-<rtept lat="25.04396" lon="121.542642"><name>11 安東街</name><desc>直行・101 m</desc></rtept>
-<rtept lat="25.044555" lon="121.54217"><name>12 市民大道三段</name><desc>右轉・100 m（重複／連絡）</desc></rtept>
-<rtept lat="25.044668" lon="121.543153"><name>13 迴轉道</name><desc>左轉・31 m（重複／連絡）</desc></rtept>
-<rtept lat="25.044884" lon="121.543143"><name>14 市民大道三段</name><desc>左轉・80 m（重複／連絡）</desc></rtept>
-<rtept lat="25.044797" lon="121.542359"><name>15 安東街</name><desc>左轉・198 m</desc></rtept>
-<rtept lat="25.044555" lon="121.54217"><name>16 市民大道三段</name><desc>右轉・219 m</desc></rtept>
-<rtept lat="25.044961" lon="121.543795"><name>17 復興南路一段</name><desc>左轉・362 m</desc></rtept>
-<rtept lat="25.041693" lon="121.543714"><name>18 忠孝東路三段</name><desc>右轉・70 m</desc></rtept>
-<rtept lat="25.041707" lon="121.543016"><name>19 安東街</name><desc>右轉・253 m</desc></rtept>
-<rtept lat="25.043848" lon="121.542213"><name>20 復興南路一段122巷</name><desc>右轉・158 m</desc></rtept>
-<rtept lat="25.043095" lon="121.543454"><name>21 復興南路一段126巷</name><desc>直行・44 m</desc></rtept>
+<rtept lat="25.044315" lon="121.543776"><name>01 復興南路一段</name><desc>出發・135 m</desc></rtept>
+<rtept lat="25.043097" lon="121.543743"><name>02 復興南路一段122巷</name><desc>右轉・29 m</desc></rtept>
+<rtept lat="25.043095" lon="121.543454"><name>03 復興南路一段126巷</name><desc>直行・102 m</desc></rtept>
+<rtept lat="25.043138" lon="121.542451"><name>04 安東街</name><desc>右轉・162 m</desc></rtept>
+<rtept lat="25.044555" lon="121.54217"><name>05 市民大道三段</name><desc>右轉・100 m</desc></rtept>
+<rtept lat="25.044668" lon="121.543153"><name>06 迴轉道</name><desc>左轉・31 m</desc></rtept>
+<rtept lat="25.044884" lon="121.543143"><name>07 市民大道三段</name><desc>左轉・189 m</desc></rtept>
+<rtept lat="25.04471" lon="121.541282"><name>08 迴轉道</name><desc>左轉・34 m</desc></rtept>
+<rtept lat="25.044464" lon="121.54124"><name>09 市民大道三段</name><desc>直行・259 m</desc></rtept>
+<rtept lat="25.044739" lon="121.543787"><name>10 復興南路一段</name><desc>右轉・47 m</desc></rtept>
+<rtept lat="25.044315" lon="121.543776"><name>11 安東街35巷</name><desc>右轉・121 m</desc></rtept>
+<rtept lat="25.04396" lon="121.542642"><name>12 安東街</name><desc>直行・101 m</desc></rtept>
+<rtept lat="25.044555" lon="121.54217"><name>13 市民大道三段</name><desc>右轉・100 m（重複／連絡）</desc></rtept>
+<rtept lat="25.044668" lon="121.543153"><name>14 迴轉道</name><desc>左轉・31 m（重複／連絡）</desc></rtept>
+<rtept lat="25.044884" lon="121.543143"><name>15 市民大道三段</name><desc>左轉・80 m（重複／連絡）</desc></rtept>
+<rtept lat="25.044797" lon="121.542359"><name>16 安東街</name><desc>左轉・198 m</desc></rtept>
+<rtept lat="25.044555" lon="121.54217"><name>17 市民大道三段</name><desc>右轉・219 m</desc></rtept>
+<rtept lat="25.044961" lon="121.543795"><name>18 復興南路一段</name><desc>左轉・362 m</desc></rtept>
+<rtept lat="25.041693" lon="121.543714"><name>19 忠孝東路三段</name><desc>右轉・70 m</desc></rtept>
+<rtept lat="25.041707" lon="121.543016"><name>20 安東街</name><desc>右轉・253 m</desc></rtept>
+<rtept lat="25.043848" lon="121.542213"><name>21 復興南路一段122巷</name><desc>右轉・158 m</desc></rtept>
+<rtept lat="25.043095" lon="121.543454"><name>22 復興南路一段126巷</name><desc>直行・44 m</desc></rtept>
 <rtept lat="25.042793" lon="121.543735"><name>終點</name></rtept></rte>
 <trk><name>誠安里 行駛軌跡</name><trkseg>
+<trkpt lat="25.044315" lon="121.543776"/>
+<trkpt lat="25.044245" lon="121.543775"/>
+<trkpt lat="25.044175" lon="121.543773"/>
+<trkpt lat="25.044106" lon="121.543771"/>
+<trkpt lat="25.044036" lon="121.543770"/>
+<trkpt lat="25.043966" lon="121.543768"/>
+<trkpt lat="25.043896" lon="121.543767"/>
+<trkpt lat="25.043826" lon="121.543765"/>
+<trkpt lat="25.043757" lon="121.543763"/>
+<trkpt lat="25.043688" lon="121.543761"/>
+<trkpt lat="25.043619" lon="121.543759"/>
+<trkpt lat="25.043551" lon="121.543757"/>
+<trkpt lat="25.043482" lon="121.543755"/>
+<trkpt lat="25.043413" lon="121.543753"/>
+<trkpt lat="25.043345" lon="121.543751"/>
+<trkpt lat="25.043276" lon="121.543748"/>
+<trkpt lat="25.043207" lon="121.543746"/>
+<trkpt lat="25.043139" lon="121.543744"/>
 <trkpt lat="25.043097" lon="121.543743"/>
 <trkpt lat="25.043096" lon="121.543665"/>
 <trkpt lat="25.043096" lon="121.543631"/>

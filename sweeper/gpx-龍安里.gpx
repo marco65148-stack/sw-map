@@ -1,48 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 龍安里 掃街車路線</name><desc>總長 7.02 km，重複率 21.9%</desc></metadata>
-<wpt lat="25.026519" lon="121.530416"><name>起點 和平東路一段141巷</name></wpt>
+<metadata><name>大安區 龍安里 掃街車路線</name><desc>總長 7.14 km，重複率 23.2%</desc></metadata>
+<wpt lat="25.026422" lon="121.53161"><name>起點 和平東路一段</name></wpt>
 <wpt lat="25.025985" lon="121.534786"><name>終點 和平東路一段</name></wpt>
 <rte><name>龍安里 道路順序</name>
-<rtept lat="25.026519" lon="121.530416"><name>01 和平東路一段141巷</name><desc>出發・16 m</desc></rtept>
-<rtept lat="25.026372" lon="121.530431"><name>02 和平東路一段</name><desc>左轉・255 m</desc></rtept>
-<rtept lat="25.026519" lon="121.530416"><name>03 和平東路一段141巷</name><desc>右轉・262 m</desc></rtept>
-<rtept lat="25.028876" lon="121.530579"><name>04 金華街164巷</name><desc>直行・98 m</desc></rtept>
-<rtept lat="25.02976" lon="121.530636"><name>05 金華街</name><desc>右轉・97 m</desc></rtept>
-<rtept lat="25.03001" lon="121.531555"><name>06 青田街</name><desc>右轉・63 m</desc></rtept>
-<rtept lat="25.02947" lon="121.531761"><name>07 金華街172巷</name><desc>右轉・117 m</desc></rtept>
-<rtept lat="25.029293" lon="121.530615"><name>08 金華街164巷</name><desc>左轉・46 m（重複／連絡）</desc></rtept>
-<rtept lat="25.028876" lon="121.530579"><name>09 永康街75巷</name><desc>左轉・138 m</desc></rtept>
-<rtept lat="25.02902" lon="121.531935"><name>10 青田街1巷</name><desc>直行・110 m</desc></rtept>
-<rtept lat="25.02913" lon="121.533021"><name>11 新生南路二段46巷</name><desc>直行・107 m</desc></rtept>
-<rtept lat="25.029342" lon="121.534054"><name>12 新生南路二段</name><desc>右轉・182 m</desc></rtept>
-<rtept lat="25.027776" lon="121.534601"><name>13 新生南路二段70巷</name><desc>右轉・160 m</desc></rtept>
-<rtept lat="25.027632" lon="121.53304"><name>14 和平東路一段183巷</name><desc>右轉・166 m</desc></rtept>
-<rtept lat="25.02913" lon="121.533021"><name>15 新生南路二段46巷</name><desc>右轉・107 m（重複／連絡）</desc></rtept>
-<rtept lat="25.029342" lon="121.534054"><name>16 新生南路二段</name><desc>右轉・71 m（重複／連絡）</desc></rtept>
-<rtept lat="25.028727" lon="121.534264"><name>17 新生南路二段54巷</name><desc>右轉・127 m</desc></rtept>
-<rtept lat="25.028628" lon="121.533022"><name>18 青田街5巷</name><desc>直行・107 m</desc></rtept>
-<rtept lat="25.028596" lon="121.531963"><name>19 青田街2巷</name><desc>直行・167 m</desc></rtept>
-<rtept lat="25.028229" lon="121.530529"><name>20 青田街6巷</name><desc>左轉・146 m</desc></rtept>
-<rtept lat="25.028102" lon="121.531965"><name>21 青田街7巷</name><desc>直行・269 m</desc></rtept>
-<rtept lat="25.028334" lon="121.534596"><name>22 新生南路二段</name><desc>左轉・815 m</desc></rtept>
-<rtept lat="25.026127" lon="121.534806"><name>23 和平東路一段</name><desc>右轉・177 m</desc></rtept>
-<rtept lat="25.026307" lon="121.533061"><name>24 和平東路一段183巷</name><desc>右轉・139 m</desc></rtept>
-<rtept lat="25.027561" lon="121.53304"><name>25 青田街9巷</name><desc>左轉・108 m</desc></rtept>
-<rtept lat="25.027544" lon="121.531974"><name>26 青田街8巷</name><desc>直行・150 m</desc></rtept>
-<rtept lat="25.027669" lon="121.530491"><name>27 和平東路一段141巷</name><desc>左轉・57 m（重複／連絡）</desc></rtept>
-<rtept lat="25.027153" lon="121.530454"><name>28 青田街12巷</name><desc>左轉・157 m</desc></rtept>
-<rtept lat="25.026986" lon="121.531995"><name>29 青田街11巷</name><desc>直行・106 m</desc></rtept>
-<rtept lat="25.027005" lon="121.533046"><name>30 和平東路一段183巷</name><desc>左轉・69 m（重複／連絡）</desc></rtept>
-<rtept lat="25.027632" lon="121.53304"><name>31 新生南路二段70巷</name><desc>右轉・108 m（重複／連絡）</desc></rtept>
-<rtept lat="25.027648" lon="121.53411"><name>32 和平東路一段199巷</name><desc>右轉・159 m</desc></rtept>
-<rtept lat="25.026218" lon="121.534181"><name>33 和平東路一段</name><desc>右轉・681 m</desc></rtept>
-<rtept lat="25.026245" lon="121.531976"><name>34 青田街</name><desc>左轉・424 m</desc></rtept>
-<rtept lat="25.03001" lon="121.531555"><name>35 金華街</name><desc>右轉・221 m</desc></rtept>
-<rtept lat="25.030622" lon="121.533635"><name>36 新生南路二段</name><desc>右轉・582 m</desc></rtept>
-<rtept lat="25.026127" lon="121.534806"><name>37 和平東路一段</name><desc>直行・255 m</desc></rtept>
+<rtept lat="25.026422" lon="121.53161"><name>01 和平東路一段</name><desc>出發・392 m</desc></rtept>
+<rtept lat="25.026519" lon="121.530416"><name>02 和平東路一段141巷</name><desc>右轉・262 m</desc></rtept>
+<rtept lat="25.028876" lon="121.530579"><name>03 金華街164巷</name><desc>直行・98 m</desc></rtept>
+<rtept lat="25.02976" lon="121.530636"><name>04 金華街</name><desc>右轉・97 m</desc></rtept>
+<rtept lat="25.03001" lon="121.531555"><name>05 青田街</name><desc>右轉・63 m</desc></rtept>
+<rtept lat="25.02947" lon="121.531761"><name>06 金華街172巷</name><desc>右轉・117 m</desc></rtept>
+<rtept lat="25.029293" lon="121.530615"><name>07 金華街164巷</name><desc>左轉・46 m（重複／連絡）</desc></rtept>
+<rtept lat="25.028876" lon="121.530579"><name>08 永康街75巷</name><desc>左轉・138 m</desc></rtept>
+<rtept lat="25.02902" lon="121.531935"><name>09 青田街1巷</name><desc>直行・110 m</desc></rtept>
+<rtept lat="25.02913" lon="121.533021"><name>10 新生南路二段46巷</name><desc>直行・107 m</desc></rtept>
+<rtept lat="25.029342" lon="121.534054"><name>11 新生南路二段</name><desc>右轉・182 m</desc></rtept>
+<rtept lat="25.027776" lon="121.534601"><name>12 新生南路二段70巷</name><desc>右轉・160 m</desc></rtept>
+<rtept lat="25.027632" lon="121.53304"><name>13 和平東路一段183巷</name><desc>右轉・166 m</desc></rtept>
+<rtept lat="25.02913" lon="121.533021"><name>14 新生南路二段46巷</name><desc>右轉・107 m（重複／連絡）</desc></rtept>
+<rtept lat="25.029342" lon="121.534054"><name>15 新生南路二段</name><desc>右轉・71 m（重複／連絡）</desc></rtept>
+<rtept lat="25.028727" lon="121.534264"><name>16 新生南路二段54巷</name><desc>右轉・127 m</desc></rtept>
+<rtept lat="25.028628" lon="121.533022"><name>17 青田街5巷</name><desc>直行・107 m</desc></rtept>
+<rtept lat="25.028596" lon="121.531963"><name>18 青田街2巷</name><desc>直行・167 m</desc></rtept>
+<rtept lat="25.028229" lon="121.530529"><name>19 青田街6巷</name><desc>左轉・146 m</desc></rtept>
+<rtept lat="25.028102" lon="121.531965"><name>20 青田街7巷</name><desc>直行・269 m</desc></rtept>
+<rtept lat="25.028334" lon="121.534596"><name>21 新生南路二段</name><desc>左轉・815 m</desc></rtept>
+<rtept lat="25.026127" lon="121.534806"><name>22 和平東路一段</name><desc>右轉・177 m</desc></rtept>
+<rtept lat="25.026307" lon="121.533061"><name>23 和平東路一段183巷</name><desc>右轉・139 m</desc></rtept>
+<rtept lat="25.027561" lon="121.53304"><name>24 青田街9巷</name><desc>左轉・108 m</desc></rtept>
+<rtept lat="25.027544" lon="121.531974"><name>25 青田街8巷</name><desc>直行・150 m</desc></rtept>
+<rtept lat="25.027669" lon="121.530491"><name>26 和平東路一段141巷</name><desc>左轉・57 m（重複／連絡）</desc></rtept>
+<rtept lat="25.027153" lon="121.530454"><name>27 青田街12巷</name><desc>左轉・157 m</desc></rtept>
+<rtept lat="25.026986" lon="121.531995"><name>28 青田街11巷</name><desc>直行・106 m</desc></rtept>
+<rtept lat="25.027005" lon="121.533046"><name>29 和平東路一段183巷</name><desc>左轉・69 m（重複／連絡）</desc></rtept>
+<rtept lat="25.027632" lon="121.53304"><name>30 新生南路二段70巷</name><desc>右轉・108 m（重複／連絡）</desc></rtept>
+<rtept lat="25.027648" lon="121.53411"><name>31 和平東路一段199巷</name><desc>右轉・159 m</desc></rtept>
+<rtept lat="25.026218" lon="121.534181"><name>32 和平東路一段</name><desc>右轉・681 m</desc></rtept>
+<rtept lat="25.026245" lon="121.531976"><name>33 青田街</name><desc>左轉・424 m</desc></rtept>
+<rtept lat="25.03001" lon="121.531555"><name>34 金華街</name><desc>右轉・221 m</desc></rtept>
+<rtept lat="25.030622" lon="121.533635"><name>35 新生南路二段</name><desc>右轉・582 m</desc></rtept>
+<rtept lat="25.026127" lon="121.534806"><name>36 和平東路一段</name><desc>直行・255 m</desc></rtept>
 <rtept lat="25.025985" lon="121.534786"><name>終點</name></rtept></rte>
 <trk><name>龍安里 行駛軌跡</name><trkseg>
+<trkpt lat="25.026422" lon="121.531610"/>
+<trkpt lat="25.026425" lon="121.531569"/>
+<trkpt lat="25.026429" lon="121.531528"/>
+<trkpt lat="25.026434" lon="121.531461"/>
+<trkpt lat="25.026440" lon="121.531393"/>
+<trkpt lat="25.026445" lon="121.531325"/>
+<trkpt lat="25.026451" lon="121.531249"/>
+<trkpt lat="25.026457" lon="121.531173"/>
+<trkpt lat="25.026463" lon="121.531097"/>
+<trkpt lat="25.026469" lon="121.531021"/>
+<trkpt lat="25.026475" lon="121.530945"/>
+<trkpt lat="25.026481" lon="121.530869"/>
+<trkpt lat="25.026487" lon="121.530793"/>
+<trkpt lat="25.026494" lon="121.530717"/>
+<trkpt lat="25.026500" lon="121.530640"/>
+<trkpt lat="25.026506" lon="121.530564"/>
+<trkpt lat="25.026512" lon="121.530488"/>
 <trkpt lat="25.026519" lon="121.530416"/>
 <trkpt lat="25.026470" lon="121.530421"/>
 <trkpt lat="25.026421" lon="121.530426"/>

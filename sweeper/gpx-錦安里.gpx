@@ -1,56 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 錦安里 掃街車路線</name><desc>總長 8.03 km，重複率 29.3%</desc></metadata>
-<wpt lat="25.02797" lon="121.526967"><name>起點 和平東路一段113巷</name></wpt>
+<metadata><name>大安區 錦安里 掃街車路線</name><desc>總長 8.32 km，重複率 31.8%</desc></metadata>
+<wpt lat="25.026669" lon="121.52852"><name>起點 和平東路一段</name></wpt>
 <wpt lat="25.027967" lon="121.529535"><name>終點 永康街</name></wpt>
 <rte><name>錦安里 道路順序</name>
-<rtept lat="25.02797" lon="121.526967"><name>01 和平東路一段113巷</name><desc>出發・131 m</desc></rtept>
-<rtept lat="25.026814" lon="121.526778"><name>02 和平東路一段</name><desc>右轉・79 m</desc></rtept>
-<rtept lat="25.02688" lon="121.525998"><name>03 金山南路二段</name><desc>右轉・533 m</desc></rtept>
-<rtept lat="25.026736" lon="121.525871"><name>04 和平東路一段</name><desc>左轉・338 m</desc></rtept>
-<rtept lat="25.026713" lon="121.527988"><name>05 麗水街</name><desc>右轉・246 m</desc></rtept>
-<rtept lat="25.028908" lon="121.528356"><name>06 麗水街21巷</name><desc>右轉・168 m</desc></rtept>
-<rtept lat="25.028908" lon="121.528356"><name>07 金山南路二段159巷</name><desc>直行・197 m</desc></rtept>
-<rtept lat="25.029202" lon="121.526435"><name>08 金山南路二段</name><desc>右轉・267 m</desc></rtept>
-<rtept lat="25.028895" lon="121.526273"><name>09 潮州街</name><desc>左轉・207 m</desc></rtept>
-<rtept lat="25.028575" lon="121.528296"><name>10 麗水街</name><desc>左轉・147 m</desc></rtept>
-<rtept lat="25.029883" lon="121.528546"><name>11 金華街</name><desc>左轉・78 m</desc></rtept>
-<rtept lat="25.03" lon="121.527789"><name>12 潮州街107巷</name><desc>左轉・146 m</desc></rtept>
-<rtept lat="25.028704" lon="121.527538"><name>13 潮州街130巷</name><desc>直行・46 m</desc></rtept>
-<rtept lat="25.02829" lon="121.527468"><name>14 金山南路二段185巷</name><desc>右轉・121 m</desc></rtept>
-<rtept lat="25.028474" lon="121.52629"><name>15 金山南路二段</name><desc>右轉・192 m（重複／連絡）</desc></rtept>
-<rtept lat="25.030181" lon="121.526624"><name>16 金華街</name><desc>右轉・294 m</desc></rtept>
-<rtept lat="25.02977" lon="121.5295"><name>17 永康街</name><desc>右轉・66 m</desc></rtept>
-<rtept lat="25.029328" lon="121.529673"><name>18 永康街61巷</name><desc>左轉・95 m</desc></rtept>
-<rtept lat="25.029293" lon="121.530615"><name>19 金華街164巷</name><desc>右轉・46 m</desc></rtept>
-<rtept lat="25.028876" lon="121.530579"><name>20 永康街75巷</name><desc>右轉・93 m</desc></rtept>
-<rtept lat="25.028903" lon="121.529662"><name>21 永康街</name><desc>左轉・59 m</desc></rtept>
-<rtept lat="25.028377" lon="121.529616"><name>22 潮州街</name><desc>右轉・342 m</desc></rtept>
-<rtept lat="25.028895" lon="121.526273"><name>23 金山南路二段</name><desc>左轉・379 m（重複／連絡）</desc></rtept>
-<rtept lat="25.027846" lon="121.526168"><name>24 金山南路二段215巷</name><desc>右轉・120 m</desc></rtept>
-<rtept lat="25.027676" lon="121.527342"><name>25 和平東路一段119巷</name><desc>右轉・100 m</desc></rtept>
-<rtept lat="25.026776" lon="121.527238"><name>26 和平東路一段</name><desc>右轉・126 m</desc></rtept>
-<rtept lat="25.02688" lon="121.525998"><name>27 金山南路二段</name><desc>右轉・313 m（重複／連絡）</desc></rtept>
-<rtept lat="25.029663" lon="121.526528"><name>28 金山南路二段141巷</name><desc>右轉・197 m</desc></rtept>
-<rtept lat="25.029358" lon="121.52845"><name>29 麗水街17巷</name><desc>直行・124 m</desc></rtept>
-<rtept lat="25.029202" lon="121.529669"><name>30 永康街</name><desc>右轉・92 m</desc></rtept>
-<rtept lat="25.028377" lon="121.529616"><name>31 潮州街</name><desc>左轉・93 m</desc></rtept>
-<rtept lat="25.028309" lon="121.530533"><name>32 和平東路一段141巷</name><desc>右轉・199 m</desc></rtept>
-<rtept lat="25.026519" lon="121.530416"><name>33 和平東路一段</name><desc>右轉・742 m</desc></rtept>
-<rtept lat="25.026776" lon="121.527238"><name>34 和平東路一段119巷</name><desc>右轉・54 m（重複／連絡）</desc></rtept>
-<rtept lat="25.027261" lon="121.527285"><name>35 金山南路二段231巷</name><desc>左轉・122 m</desc></rtept>
-<rtept lat="25.027408" lon="121.526082"><name>36 金山南路二段</name><desc>右轉・49 m（重複／連絡）</desc></rtept>
-<rtept lat="25.027846" lon="121.526168"><name>37 金山南路二段215巷</name><desc>右轉・222 m</desc></rtept>
-<rtept lat="25.02779" lon="121.52814"><name>38 金山南路二段203巷</name><desc>左轉・197 m</desc></rtept>
-<rtept lat="25.02809" lon="121.526214"><name>39 金山南路二段</name><desc>右轉・43 m（重複／連絡）</desc></rtept>
-<rtept lat="25.028474" lon="121.52629"><name>40 金山南路二段185巷</name><desc>右轉・197 m</desc></rtept>
-<rtept lat="25.02817" lon="121.528217"><name>41 麗水街33巷</name><desc>直行・234 m</desc></rtept>
-<rtept lat="25.027931" lon="121.530515"><name>42 和平東路一段141巷</name><desc>左轉・105 m</desc></rtept>
-<rtept lat="25.028876" lon="121.530579"><name>43 金華街164巷</name><desc>直行・98 m</desc></rtept>
-<rtept lat="25.02976" lon="121.530636"><name>44 金華街</name><desc>左轉・115 m</desc></rtept>
-<rtept lat="25.02977" lon="121.5295"><name>45 永康街</name><desc>左轉・218 m</desc></rtept>
+<rtept lat="25.026669" lon="121.52852"><name>01 和平東路一段</name><desc>出發・54 m</desc></rtept>
+<rtept lat="25.026713" lon="121.527988"><name>02 麗水街</name><desc>右轉・120 m</desc></rtept>
+<rtept lat="25.02779" lon="121.52814"><name>03 金山南路二段203巷</name><desc>左轉・120 m</desc></rtept>
+<rtept lat="25.02797" lon="121.526967"><name>04 和平東路一段113巷</name><desc>左轉・131 m</desc></rtept>
+<rtept lat="25.026814" lon="121.526778"><name>05 和平東路一段</name><desc>右轉・79 m</desc></rtept>
+<rtept lat="25.02688" lon="121.525998"><name>06 金山南路二段</name><desc>右轉・533 m</desc></rtept>
+<rtept lat="25.026736" lon="121.525871"><name>07 和平東路一段</name><desc>左轉・338 m</desc></rtept>
+<rtept lat="25.026713" lon="121.527988"><name>08 麗水街</name><desc>右轉・246 m</desc></rtept>
+<rtept lat="25.028908" lon="121.528356"><name>09 麗水街21巷</name><desc>右轉・168 m</desc></rtept>
+<rtept lat="25.028908" lon="121.528356"><name>10 金山南路二段159巷</name><desc>直行・197 m</desc></rtept>
+<rtept lat="25.029202" lon="121.526435"><name>11 金山南路二段</name><desc>右轉・267 m</desc></rtept>
+<rtept lat="25.028895" lon="121.526273"><name>12 潮州街</name><desc>左轉・207 m</desc></rtept>
+<rtept lat="25.028575" lon="121.528296"><name>13 麗水街</name><desc>左轉・147 m</desc></rtept>
+<rtept lat="25.029883" lon="121.528546"><name>14 金華街</name><desc>左轉・78 m</desc></rtept>
+<rtept lat="25.03" lon="121.527789"><name>15 潮州街107巷</name><desc>左轉・146 m</desc></rtept>
+<rtept lat="25.028704" lon="121.527538"><name>16 潮州街130巷</name><desc>直行・46 m</desc></rtept>
+<rtept lat="25.02829" lon="121.527468"><name>17 金山南路二段185巷</name><desc>右轉・121 m</desc></rtept>
+<rtept lat="25.028474" lon="121.52629"><name>18 金山南路二段</name><desc>右轉・192 m（重複／連絡）</desc></rtept>
+<rtept lat="25.030181" lon="121.526624"><name>19 金華街</name><desc>右轉・294 m</desc></rtept>
+<rtept lat="25.02977" lon="121.5295"><name>20 永康街</name><desc>右轉・66 m</desc></rtept>
+<rtept lat="25.029328" lon="121.529673"><name>21 永康街61巷</name><desc>左轉・95 m</desc></rtept>
+<rtept lat="25.029293" lon="121.530615"><name>22 金華街164巷</name><desc>右轉・46 m</desc></rtept>
+<rtept lat="25.028876" lon="121.530579"><name>23 永康街75巷</name><desc>右轉・93 m</desc></rtept>
+<rtept lat="25.028903" lon="121.529662"><name>24 永康街</name><desc>左轉・59 m</desc></rtept>
+<rtept lat="25.028377" lon="121.529616"><name>25 潮州街</name><desc>右轉・342 m</desc></rtept>
+<rtept lat="25.028895" lon="121.526273"><name>26 金山南路二段</name><desc>左轉・379 m（重複／連絡）</desc></rtept>
+<rtept lat="25.027846" lon="121.526168"><name>27 金山南路二段215巷</name><desc>右轉・120 m</desc></rtept>
+<rtept lat="25.027676" lon="121.527342"><name>28 和平東路一段119巷</name><desc>右轉・100 m</desc></rtept>
+<rtept lat="25.026776" lon="121.527238"><name>29 和平東路一段</name><desc>右轉・126 m</desc></rtept>
+<rtept lat="25.02688" lon="121.525998"><name>30 金山南路二段</name><desc>右轉・313 m（重複／連絡）</desc></rtept>
+<rtept lat="25.029663" lon="121.526528"><name>31 金山南路二段141巷</name><desc>右轉・197 m</desc></rtept>
+<rtept lat="25.029358" lon="121.52845"><name>32 麗水街17巷</name><desc>直行・124 m</desc></rtept>
+<rtept lat="25.029202" lon="121.529669"><name>33 永康街</name><desc>右轉・92 m</desc></rtept>
+<rtept lat="25.028377" lon="121.529616"><name>34 潮州街</name><desc>左轉・93 m</desc></rtept>
+<rtept lat="25.028309" lon="121.530533"><name>35 和平東路一段141巷</name><desc>右轉・199 m</desc></rtept>
+<rtept lat="25.026519" lon="121.530416"><name>36 和平東路一段</name><desc>右轉・742 m</desc></rtept>
+<rtept lat="25.026776" lon="121.527238"><name>37 和平東路一段119巷</name><desc>右轉・54 m（重複／連絡）</desc></rtept>
+<rtept lat="25.027261" lon="121.527285"><name>38 金山南路二段231巷</name><desc>左轉・122 m</desc></rtept>
+<rtept lat="25.027408" lon="121.526082"><name>39 金山南路二段</name><desc>右轉・49 m（重複／連絡）</desc></rtept>
+<rtept lat="25.027846" lon="121.526168"><name>40 金山南路二段215巷</name><desc>右轉・222 m</desc></rtept>
+<rtept lat="25.02779" lon="121.52814"><name>41 金山南路二段203巷</name><desc>左轉・197 m</desc></rtept>
+<rtept lat="25.02809" lon="121.526214"><name>42 金山南路二段</name><desc>右轉・43 m（重複／連絡）</desc></rtept>
+<rtept lat="25.028474" lon="121.52629"><name>43 金山南路二段185巷</name><desc>右轉・197 m</desc></rtept>
+<rtept lat="25.02817" lon="121.528217"><name>44 麗水街33巷</name><desc>直行・234 m</desc></rtept>
+<rtept lat="25.027931" lon="121.530515"><name>45 和平東路一段141巷</name><desc>左轉・105 m</desc></rtept>
+<rtept lat="25.028876" lon="121.530579"><name>46 金華街164巷</name><desc>直行・98 m</desc></rtept>
+<rtept lat="25.02976" lon="121.530636"><name>47 金華街</name><desc>左轉・115 m</desc></rtept>
+<rtept lat="25.02977" lon="121.5295"><name>48 永康街</name><desc>左轉・218 m</desc></rtept>
 <rtept lat="25.027967" lon="121.529535"><name>終點</name></rtept></rte>
 <trk><name>錦安里 行駛軌跡</name><trkseg>
+<trkpt lat="25.026669" lon="121.528520"/>
+<trkpt lat="25.026675" lon="121.528444"/>
+<trkpt lat="25.026682" lon="121.528368"/>
+<trkpt lat="25.026688" lon="121.528292"/>
+<trkpt lat="25.026694" lon="121.528216"/>
+<trkpt lat="25.026701" lon="121.528140"/>
+<trkpt lat="25.026707" lon="121.528064"/>
+<trkpt lat="25.026713" lon="121.527988"/>
+<trkpt lat="25.026761" lon="121.527990"/>
+<trkpt lat="25.026808" lon="121.527992"/>
+<trkpt lat="25.026879" lon="121.528000"/>
+<trkpt lat="25.026950" lon="121.528008"/>
+<trkpt lat="25.027021" lon="121.528016"/>
+<trkpt lat="25.027092" lon="121.528023"/>
+<trkpt lat="25.027162" lon="121.528031"/>
+<trkpt lat="25.027230" lon="121.528043"/>
+<trkpt lat="25.027299" lon="121.528055"/>
+<trkpt lat="25.027367" lon="121.528067"/>
+<trkpt lat="25.027435" lon="121.528079"/>
+<trkpt lat="25.027503" lon="121.528091"/>
+<trkpt lat="25.027571" lon="121.528103"/>
+<trkpt lat="25.027635" lon="121.528114"/>
+<trkpt lat="25.027699" lon="121.528125"/>
+<trkpt lat="25.027763" lon="121.528135"/>
+<trkpt lat="25.027790" lon="121.528140"/>
+<trkpt lat="25.027801" lon="121.528067"/>
+<trkpt lat="25.027813" lon="121.527994"/>
+<trkpt lat="25.027824" lon="121.527920"/>
+<trkpt lat="25.027835" lon="121.527847"/>
+<trkpt lat="25.027846" lon="121.527774"/>
+<trkpt lat="25.027857" lon="121.527700"/>
+<trkpt lat="25.027869" lon="121.527627"/>
+<trkpt lat="25.027880" lon="121.527554"/>
+<trkpt lat="25.027891" lon="121.527480"/>
+<trkpt lat="25.027902" lon="121.527407"/>
+<trkpt lat="25.027914" lon="121.527334"/>
+<trkpt lat="25.027925" lon="121.527261"/>
+<trkpt lat="25.027936" lon="121.527187"/>
+<trkpt lat="25.027947" lon="121.527114"/>
+<trkpt lat="25.027959" lon="121.527041"/>
 <trkpt lat="25.027970" lon="121.526967"/>
 <trkpt lat="25.027902" lon="121.526953"/>
 <trkpt lat="25.027835" lon="121.526939"/>

@@ -1,75 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 樟林里 掃街車路線</name><desc>總長 9.72 km，重複率 30.5%</desc></metadata>
-<wpt lat="24.985254" lon="121.559821"><name>起點 興隆路四段58巷</name></wpt>
+<metadata><name>文山區 樟林里 掃街車路線</name><desc>總長 9.99 km，重複率 32.4%</desc></metadata>
+<wpt lat="24.985229" lon="121.561398"><name>起點 興隆路四段</name></wpt>
 <wpt lat="24.984155" lon="121.557781"><name>終點 光輝路118巷</name></wpt>
 <rte><name>樟林里 道路順序</name>
-<rtept lat="24.985254" lon="121.559821"><name>01 興隆路四段58巷</name><desc>出發・158 m</desc></rtept>
-<rtept lat="24.985574" lon="121.561346"><name>02 興隆路四段</name><desc>左轉・378 m</desc></rtept>
-<rtept lat="24.984499" lon="121.561661"><name>03 忠順街一段</name><desc>右轉・86 m</desc></rtept>
-<rtept lat="24.984368" lon="121.560824"><name>04 無名巷道</name><desc>右轉・117 m</desc></rtept>
-<rtept lat="24.985391" lon="121.560553"><name>05 興隆路58巷16弄</name><desc>直行・92 m</desc></rtept>
-<rtept lat="24.986065" lon="121.560138"><name>06 下崙路11巷</name><desc>右轉・56 m</desc></rtept>
-<rtept lat="24.986566" lon="121.560083"><name>07 下崙路</name><desc>左轉・408 m</desc></rtept>
-<rtept lat="24.985286" lon="121.558761"><name>08 光輝路</name><desc>右轉・430 m</desc></rtept>
-<rtept lat="24.985116" lon="121.555074"><name>09 光輝路50巷</name><desc>直行・92 m</desc></rtept>
-<rtept lat="24.984885" lon="121.554201"><name>10 辛亥路七段</name><desc>右轉・169 m</desc></rtept>
-<rtept lat="24.986179" lon="121.553351"><name>11 辛亥路七段26巷</name><desc>右轉・245 m</desc></rtept>
-<rtept lat="24.986179" lon="121.553351"><name>12 辛亥路七段</name><desc>右轉・54 m</desc></rtept>
-<rtept lat="24.986614" lon="121.553124"><name>13 辛亥路七段20巷</name><desc>右轉・138 m</desc></rtept>
-<rtept lat="24.98676" lon="121.554446"><name>14 光輝路22巷</name><desc>直行・51 m</desc></rtept>
-<rtept lat="24.986696" lon="121.554936"><name>15 下崙路</name><desc>直行・141 m</desc></rtept>
-<rtept lat="24.986202" lon="121.556197"><name>16 光輝路71巷</name><desc>右轉・144 m</desc></rtept>
-<rtept lat="24.984954" lon="121.556604"><name>17 忠順街一段9巷</name><desc>直行・158 m</desc></rtept>
-<rtept lat="24.983589" lon="121.55705"><name>18 忠順街一段</name><desc>右轉・311 m</desc></rtept>
-<rtept lat="24.983222" lon="121.554039"><name>19 辛亥路七段</name><desc>右轉・66 m</desc></rtept>
-<rtept lat="24.983801" lon="121.554197"><name>20 辛亥路七段65巷</name><desc>右轉・154 m</desc></rtept>
-<rtept lat="24.984139" lon="121.55563"><name>21 光輝路</name><desc>左轉・81 m</desc></rtept>
-<rtept lat="24.984843" lon="121.555442"><name>22 光輝路49巷</name><desc>右轉・138 m</desc></rtept>
-<rtept lat="24.984954" lon="121.556604"><name>23 忠順街一段9巷</name><desc>直行・37 m（重複／連絡）</desc></rtept>
-<rtept lat="24.984634" lon="121.556709"><name>24 光輝路78巷</name><desc>右轉・116 m</desc></rtept>
-<rtept lat="24.984311" lon="121.555613"><name>25 光輝路</name><desc>右轉・102 m（重複／連絡）</desc></rtept>
-<rtept lat="24.985194" lon="121.555343"><name>26 光輝路47巷</name><desc>右轉・114 m</desc></rtept>
-<rtept lat="24.985493" lon="121.556428"><name>27 光輝路71巷</name><desc>左轉・30 m（重複／連絡）</desc></rtept>
-<rtept lat="24.98575" lon="121.556344"><name>28 光輝路81巷</name><desc>右轉・140 m</desc></rtept>
-<rtept lat="24.98508" lon="121.557062"><name>29 光輝路112巷</name><desc>直行・168 m</desc></rtept>
-<rtept lat="24.983942" lon="121.556935"><name>30 忠順街一段9巷</name><desc>左轉・41 m（重複／連絡）</desc></rtept>
-<rtept lat="24.983589" lon="121.55705"><name>31 忠順街一段</name><desc>左轉・312 m</desc></rtept>
-<rtept lat="24.984248" lon="121.56005"><name>32 忠順街121巷</name><desc>左轉・115 m</desc></rtept>
-<rtept lat="24.985254" lon="121.559821"><name>33 光輝路</name><desc>左轉・157 m</desc></rtept>
-<rtept lat="24.985335" lon="121.558279"><name>34 光輝路134巷</name><desc>右轉・45 m</desc></rtept>
-<rtept lat="24.985712" lon="121.558133"><name>35 下崙路</name><desc>右轉・285 m</desc></rtept>
-<rtept lat="24.985286" lon="121.558761"><name>36 光輝路</name><desc>右轉・49 m（重複／連絡）</desc></rtept>
-<rtept lat="24.985335" lon="121.558279"><name>37 光輝路134巷</name><desc>左轉・49 m</desc></rtept>
-<rtept lat="24.984914" lon="121.558417"><name>38 忠順街一段41巷</name><desc>直行・102 m</desc></rtept>
-<rtept lat="24.984033" lon="121.558707"><name>39 忠順街一段</name><desc>左轉・310 m</desc></rtept>
-<rtept lat="24.98451" lon="121.561729"><name>40 興隆路四段</name><desc>左轉・492 m</desc></rtept>
-<rtept lat="24.984908" lon="121.561513"><name>41 興隆路四段66巷</name><desc>右轉・157 m</desc></rtept>
-<rtept lat="24.984576" lon="121.560003"><name>42 忠順街121巷</name><desc>右轉・36 m（重複／連絡）</desc></rtept>
-<rtept lat="24.984893" lon="121.559918"><name>43 興隆路四段62巷</name><desc>右轉・154 m</desc></rtept>
-<rtept lat="24.985229" lon="121.561398"><name>44 興隆路四段</name><desc>右轉・245 m（重複／連絡）</desc></rtept>
-<rtept lat="24.986625" lon="121.560894"><name>45 下崙路</name><desc>直行・82 m</desc></rtept>
-<rtept lat="24.986566" lon="121.560083"><name>46 下崙路11巷</name><desc>左轉・180 m</desc></rtept>
-<rtept lat="24.985776" lon="121.559088"><name>47 下崙路33巷</name><desc>直行・91 m</desc></rtept>
-<rtept lat="24.986339" lon="121.558495"><name>48 下崙路</name><desc>左轉・214 m</desc></rtept>
-<rtept lat="24.986206" lon="121.556434"><name>49 光輝路21巷</name><desc>直行・163 m</desc></rtept>
-<rtept lat="24.985796" lon="121.554885"><name>50 光輝路</name><desc>直行・113 m</desc></rtept>
-<rtept lat="24.985528" lon="121.55381"><name>51 辛亥路七段</name><desc>左轉・328 m</desc></rtept>
-<rtept lat="24.984885" lon="121.554201"><name>52 光輝路50巷</name><desc>右轉・92 m（重複／連絡）</desc></rtept>
-<rtept lat="24.985116" lon="121.555074"><name>53 光輝路</name><desc>左轉・185 m</desc></rtept>
-<rtept lat="24.986696" lon="121.554936"><name>54 下崙路</name><desc>右轉・195 m（重複／連絡）</desc></rtept>
-<rtept lat="24.986317" lon="121.556701"><name>55 下崙路28巷</name><desc>右轉・171 m</desc></rtept>
-<rtept lat="24.986317" lon="121.556701"><name>56 下崙路</name><desc>左轉・30 m（重複／連絡）</desc></rtept>
-<rtept lat="24.986206" lon="121.556434"><name>57 光輝路21巷</name><desc>直行・154 m（重複／連絡）</desc></rtept>
-<rtept lat="24.98582" lon="121.55497"><name>58 光輝路</name><desc>右轉・47 m（重複／連絡）</desc></rtept>
-<rtept lat="24.986236" lon="121.5549"><name>59 光輝路30巷</name><desc>左轉・237 m</desc></rtept>
-<rtept lat="24.986236" lon="121.5549"><name>60 光輝路</name><desc>右轉・47 m（重複／連絡）</desc></rtept>
-<rtept lat="24.98582" lon="121.55497"><name>61 光輝路21巷</name><desc>左轉・131 m（重複／連絡）</desc></rtept>
-<rtept lat="24.986113" lon="121.556226"><name>62 光輝路71巷</name><desc>右轉・134 m（重複／連絡）</desc></rtept>
-<rtept lat="24.984954" lon="121.556604"><name>63 光輝路</name><desc>左轉・87 m（重複／連絡）</desc></rtept>
-<rtept lat="24.985186" lon="121.557426"><name>64 光輝路118巷</name><desc>右轉・120 m</desc></rtept>
+<rtept lat="24.985229" lon="121.561398"><name>01 興隆路四段</name><desc>出發・37 m</desc></rtept>
+<rtept lat="24.984908" lon="121.561513"><name>02 興隆路四段66巷</name><desc>右轉・157 m</desc></rtept>
+<rtept lat="24.984576" lon="121.560003"><name>03 忠順街121巷</name><desc>右轉・77 m</desc></rtept>
+<rtept lat="24.985254" lon="121.559821"><name>04 興隆路四段58巷</name><desc>右轉・158 m</desc></rtept>
+<rtept lat="24.985574" lon="121.561346"><name>05 興隆路四段</name><desc>左轉・378 m</desc></rtept>
+<rtept lat="24.984499" lon="121.561661"><name>06 忠順街一段</name><desc>右轉・86 m</desc></rtept>
+<rtept lat="24.984368" lon="121.560824"><name>07 無名巷道</name><desc>右轉・117 m</desc></rtept>
+<rtept lat="24.985391" lon="121.560553"><name>08 興隆路58巷16弄</name><desc>直行・92 m</desc></rtept>
+<rtept lat="24.986065" lon="121.560138"><name>09 下崙路11巷</name><desc>右轉・56 m</desc></rtept>
+<rtept lat="24.986566" lon="121.560083"><name>10 下崙路</name><desc>左轉・408 m</desc></rtept>
+<rtept lat="24.985286" lon="121.558761"><name>11 光輝路</name><desc>右轉・430 m</desc></rtept>
+<rtept lat="24.985116" lon="121.555074"><name>12 光輝路50巷</name><desc>直行・92 m</desc></rtept>
+<rtept lat="24.984885" lon="121.554201"><name>13 辛亥路七段</name><desc>右轉・169 m</desc></rtept>
+<rtept lat="24.986179" lon="121.553351"><name>14 辛亥路七段26巷</name><desc>右轉・245 m</desc></rtept>
+<rtept lat="24.986179" lon="121.553351"><name>15 辛亥路七段</name><desc>右轉・54 m</desc></rtept>
+<rtept lat="24.986614" lon="121.553124"><name>16 辛亥路七段20巷</name><desc>右轉・138 m</desc></rtept>
+<rtept lat="24.98676" lon="121.554446"><name>17 光輝路22巷</name><desc>直行・51 m</desc></rtept>
+<rtept lat="24.986696" lon="121.554936"><name>18 下崙路</name><desc>直行・141 m</desc></rtept>
+<rtept lat="24.986202" lon="121.556197"><name>19 光輝路71巷</name><desc>右轉・144 m</desc></rtept>
+<rtept lat="24.984954" lon="121.556604"><name>20 忠順街一段9巷</name><desc>直行・158 m</desc></rtept>
+<rtept lat="24.983589" lon="121.55705"><name>21 忠順街一段</name><desc>右轉・311 m</desc></rtept>
+<rtept lat="24.983222" lon="121.554039"><name>22 辛亥路七段</name><desc>右轉・66 m</desc></rtept>
+<rtept lat="24.983801" lon="121.554197"><name>23 辛亥路七段65巷</name><desc>右轉・154 m</desc></rtept>
+<rtept lat="24.984139" lon="121.55563"><name>24 光輝路</name><desc>左轉・81 m</desc></rtept>
+<rtept lat="24.984843" lon="121.555442"><name>25 光輝路49巷</name><desc>右轉・138 m</desc></rtept>
+<rtept lat="24.984954" lon="121.556604"><name>26 忠順街一段9巷</name><desc>直行・37 m（重複／連絡）</desc></rtept>
+<rtept lat="24.984634" lon="121.556709"><name>27 光輝路78巷</name><desc>右轉・116 m</desc></rtept>
+<rtept lat="24.984311" lon="121.555613"><name>28 光輝路</name><desc>右轉・102 m（重複／連絡）</desc></rtept>
+<rtept lat="24.985194" lon="121.555343"><name>29 光輝路47巷</name><desc>右轉・114 m</desc></rtept>
+<rtept lat="24.985493" lon="121.556428"><name>30 光輝路71巷</name><desc>左轉・30 m（重複／連絡）</desc></rtept>
+<rtept lat="24.98575" lon="121.556344"><name>31 光輝路81巷</name><desc>右轉・140 m</desc></rtept>
+<rtept lat="24.98508" lon="121.557062"><name>32 光輝路112巷</name><desc>直行・168 m</desc></rtept>
+<rtept lat="24.983942" lon="121.556935"><name>33 忠順街一段9巷</name><desc>左轉・41 m（重複／連絡）</desc></rtept>
+<rtept lat="24.983589" lon="121.55705"><name>34 忠順街一段</name><desc>左轉・312 m</desc></rtept>
+<rtept lat="24.984248" lon="121.56005"><name>35 忠順街121巷</name><desc>左轉・115 m</desc></rtept>
+<rtept lat="24.985254" lon="121.559821"><name>36 光輝路</name><desc>左轉・157 m</desc></rtept>
+<rtept lat="24.985335" lon="121.558279"><name>37 光輝路134巷</name><desc>右轉・45 m</desc></rtept>
+<rtept lat="24.985712" lon="121.558133"><name>38 下崙路</name><desc>右轉・285 m</desc></rtept>
+<rtept lat="24.985286" lon="121.558761"><name>39 光輝路</name><desc>右轉・49 m（重複／連絡）</desc></rtept>
+<rtept lat="24.985335" lon="121.558279"><name>40 光輝路134巷</name><desc>左轉・49 m</desc></rtept>
+<rtept lat="24.984914" lon="121.558417"><name>41 忠順街一段41巷</name><desc>直行・102 m</desc></rtept>
+<rtept lat="24.984033" lon="121.558707"><name>42 忠順街一段</name><desc>左轉・310 m</desc></rtept>
+<rtept lat="24.98451" lon="121.561729"><name>43 興隆路四段</name><desc>左轉・492 m</desc></rtept>
+<rtept lat="24.984908" lon="121.561513"><name>44 興隆路四段66巷</name><desc>右轉・157 m（重複／連絡）</desc></rtept>
+<rtept lat="24.984576" lon="121.560003"><name>45 忠順街121巷</name><desc>右轉・36 m（重複／連絡）</desc></rtept>
+<rtept lat="24.984893" lon="121.559918"><name>46 興隆路四段62巷</name><desc>右轉・154 m</desc></rtept>
+<rtept lat="24.985229" lon="121.561398"><name>47 興隆路四段</name><desc>右轉・245 m（重複／連絡）</desc></rtept>
+<rtept lat="24.986625" lon="121.560894"><name>48 下崙路</name><desc>直行・82 m</desc></rtept>
+<rtept lat="24.986566" lon="121.560083"><name>49 下崙路11巷</name><desc>左轉・180 m</desc></rtept>
+<rtept lat="24.985776" lon="121.559088"><name>50 下崙路33巷</name><desc>直行・91 m</desc></rtept>
+<rtept lat="24.986339" lon="121.558495"><name>51 下崙路</name><desc>左轉・214 m</desc></rtept>
+<rtept lat="24.986206" lon="121.556434"><name>52 光輝路21巷</name><desc>直行・163 m</desc></rtept>
+<rtept lat="24.985796" lon="121.554885"><name>53 光輝路</name><desc>直行・113 m</desc></rtept>
+<rtept lat="24.985528" lon="121.55381"><name>54 辛亥路七段</name><desc>左轉・328 m</desc></rtept>
+<rtept lat="24.984885" lon="121.554201"><name>55 光輝路50巷</name><desc>右轉・92 m（重複／連絡）</desc></rtept>
+<rtept lat="24.985116" lon="121.555074"><name>56 光輝路</name><desc>左轉・185 m</desc></rtept>
+<rtept lat="24.986696" lon="121.554936"><name>57 下崙路</name><desc>右轉・195 m（重複／連絡）</desc></rtept>
+<rtept lat="24.986317" lon="121.556701"><name>58 下崙路28巷</name><desc>右轉・171 m</desc></rtept>
+<rtept lat="24.986317" lon="121.556701"><name>59 下崙路</name><desc>左轉・30 m（重複／連絡）</desc></rtept>
+<rtept lat="24.986206" lon="121.556434"><name>60 光輝路21巷</name><desc>直行・154 m（重複／連絡）</desc></rtept>
+<rtept lat="24.98582" lon="121.55497"><name>61 光輝路</name><desc>右轉・47 m（重複／連絡）</desc></rtept>
+<rtept lat="24.986236" lon="121.5549"><name>62 光輝路30巷</name><desc>左轉・237 m</desc></rtept>
+<rtept lat="24.986236" lon="121.5549"><name>63 光輝路</name><desc>右轉・47 m（重複／連絡）</desc></rtept>
+<rtept lat="24.98582" lon="121.55497"><name>64 光輝路21巷</name><desc>左轉・131 m（重複／連絡）</desc></rtept>
+<rtept lat="24.986113" lon="121.556226"><name>65 光輝路71巷</name><desc>右轉・134 m（重複／連絡）</desc></rtept>
+<rtept lat="24.984954" lon="121.556604"><name>66 光輝路</name><desc>左轉・87 m（重複／連絡）</desc></rtept>
+<rtept lat="24.985186" lon="121.557426"><name>67 光輝路118巷</name><desc>右轉・120 m</desc></rtept>
 <rtept lat="24.984155" lon="121.557781"><name>終點</name></rtept></rte>
 <trk><name>樟林里 行駛軌跡</name><trkseg>
+<trkpt lat="24.985229" lon="121.561398"/>
+<trkpt lat="24.985165" lon="121.561421"/>
+<trkpt lat="24.985101" lon="121.561444"/>
+<trkpt lat="24.985036" lon="121.561467"/>
+<trkpt lat="24.984972" lon="121.561490"/>
+<trkpt lat="24.984908" lon="121.561513"/>
+<trkpt lat="24.984890" lon="121.561447"/>
+<trkpt lat="24.984875" lon="121.561375"/>
+<trkpt lat="24.984859" lon="121.561304"/>
+<trkpt lat="24.984844" lon="121.561233"/>
+<trkpt lat="24.984828" lon="121.561162"/>
+<trkpt lat="24.984813" lon="121.561091"/>
+<trkpt lat="24.984797" lon="121.561020"/>
+<trkpt lat="24.984782" lon="121.560949"/>
+<trkpt lat="24.984766" lon="121.560878"/>
+<trkpt lat="24.984751" lon="121.560807"/>
+<trkpt lat="24.984735" lon="121.560736"/>
+<trkpt lat="24.984719" lon="121.560663"/>
+<trkpt lat="24.984703" lon="121.560590"/>
+<trkpt lat="24.984687" lon="121.560516"/>
+<trkpt lat="24.984671" lon="121.560443"/>
+<trkpt lat="24.984656" lon="121.560370"/>
+<trkpt lat="24.984640" lon="121.560296"/>
+<trkpt lat="24.984624" lon="121.560223"/>
+<trkpt lat="24.984608" lon="121.560150"/>
+<trkpt lat="24.984592" lon="121.560077"/>
+<trkpt lat="24.984576" lon="121.560003"/>
+<trkpt lat="24.984634" lon="121.559988"/>
+<trkpt lat="24.984692" lon="121.559972"/>
+<trkpt lat="24.984759" lon="121.559954"/>
+<trkpt lat="24.984826" lon="121.559936"/>
+<trkpt lat="24.984893" lon="121.559918"/>
+<trkpt lat="24.984953" lon="121.559902"/>
+<trkpt lat="24.985013" lon="121.559886"/>
+<trkpt lat="24.985073" lon="121.559869"/>
+<trkpt lat="24.985134" lon="121.559853"/>
+<trkpt lat="24.985194" lon="121.559837"/>
 <trkpt lat="24.985254" lon="121.559821"/>
 <trkpt lat="24.985266" lon="121.559892"/>
 <trkpt lat="24.985278" lon="121.559964"/>

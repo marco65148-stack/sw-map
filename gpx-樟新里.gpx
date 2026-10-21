@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 樟新里 掃街車路線</name><desc>總長 5.20 km，重複率 26.1%</desc></metadata>
-<wpt lat="24.980009" lon="121.554108"><name>起點 辛亥路七段</name></wpt>
+<metadata><name>文山區 樟新里 掃街車路線</name><desc>總長 5.21 km，重複率 26.2%</desc></metadata>
+<wpt lat="24.979981" lon="121.554011"><name>起點 木新路三段</name></wpt>
 <wpt lat="24.980187" lon="121.554634"><name>終點 木新路三段</name></wpt>
 <rte><name>樟新里 道路順序</name>
-<rtept lat="24.980009" lon="121.554108"><name>01 辛亥路七段</name><desc>出發・23 m</desc></rtept>
+<rtept lat="24.979981" lon="121.554011"><name>01 木新路三段</name><desc>出發・34 m</desc></rtept>
 <rtept lat="24.980047" lon="121.553986"><name>02 寶橋</name><desc>直行・96 m</desc></rtept>
 <rtept lat="24.979981" lon="121.554011"><name>03 木新路三段</name><desc>直行・94 m</desc></rtept>
 <rtept lat="24.980214" lon="121.554902"><name>04 樟新街</name><desc>右轉・112 m</desc></rtept>
@@ -50,6 +50,8 @@
 <rtept lat="24.98061" lon="121.55638"><name>44 木新路三段</name><desc>左轉・183 m</desc></rtept>
 <rtept lat="24.980187" lon="121.554634"><name>終點</name></rtept></rte>
 <trk><name>樟新里 行駛軌跡</name><trkseg>
+<trkpt lat="24.979981" lon="121.554011"/>
+<trkpt lat="24.979995" lon="121.554060"/>
 <trkpt lat="24.980009" lon="121.554108"/>
 <trkpt lat="24.980045" lon="121.554119"/>
 <trkpt lat="24.980081" lon="121.554130"/>

@@ -1,56 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 學府里 掃街車路線</name><desc>總長 22.06 km，重複率 39.9%</desc></metadata>
-<wpt lat="25.011252" lon="121.537416"><name>起點 羅斯福路四段119巷</name></wpt>
+<metadata><name>大安區 學府里 掃街車路線</name><desc>總長 22.08 km，重複率 39.9%</desc></metadata>
+<wpt lat="25.011099" lon="121.537232"><name>起點 基隆路四段</name></wpt>
 <wpt lat="25.014457" lon="121.552506"><name>終點 無名巷道</name></wpt>
 <rte><name>學府里 道路順序</name>
-<rtept lat="25.011252" lon="121.537416"><name>01 羅斯福路四段119巷</name><desc>出發・910 m</desc></rtept>
-<rtept lat="25.01128" lon="121.53789"><name>02 羅斯福路四段113巷</name><desc>直行・315 m</desc></rtept>
-<rtept lat="25.011325" lon="121.541006"><name>03 基隆路四段73巷</name><desc>左轉・239 m</desc></rtept>
-<rtept lat="25.013054" lon="121.539584"><name>04 基隆路四段</name><desc>右轉・423 m</desc></rtept>
-<rtept lat="25.01565" lon="121.54266"><name>05 基隆路三段155巷</name><desc>左轉・31 m</desc></rtept>
-<rtept lat="25.015875" lon="121.542479"><name>06 基隆路四段</name><desc>左轉・756 m</desc></rtept>
-<rtept lat="25.011238" lon="121.536986"><name>07 羅斯福路四段</name><desc>左轉・26 m</desc></rtept>
-<rtept lat="25.011008" lon="121.537054"><name>08 基隆路四段</name><desc>左轉・62 m</desc></rtept>
-<rtept lat="25.01135" lon="121.537535"><name>09 羅斯福路四段113巷</name><desc>右轉・77 m</desc></rtept>
-<rtept lat="25.01135" lon="121.537535"><name>10 基隆路四段</name><desc>右轉・672 m</desc></rtept>
-<rtept lat="25.011099" lon="121.537232"><name>11 羅斯福路四段</name><desc>左轉・744 m</desc></rtept>
-<rtept lat="25.016355" lon="121.532771"><name>12 新生南路三段</name><desc>右轉・2113 m</desc></rtept>
-<rtept lat="25.022244" lon="121.534481"><name>13 辛亥路二段</name><desc>右轉・953 m</desc></rtept>
-<rtept lat="25.021216" lon="121.543411"><name>14 辛亥路三段</name><desc>右轉・193 m</desc></rtept>
-<rtept lat="25.02053" lon="121.545097"><name>15 辛亥路車行地下道</name><desc>直行・1133 m</desc></rtept>
-<rtept lat="25.020638" lon="121.545222"><name>16 辛亥路三段</name><desc>直行・359 m</desc></rtept>
-<rtept lat="25.02083" lon="121.544448"><name>17 無名巷道</name><desc>直行・74 m</desc></rtept>
-<rtept lat="25.02053" lon="121.545097"><name>18 辛亥路車行地下道</name><desc>直行・1133 m（重複／連絡）</desc></rtept>
-<rtept lat="25.020638" lon="121.545222"><name>19 辛亥路三段</name><desc>直行・264 m（重複／連絡）</desc></rtept>
-<rtept lat="25.021331" lon="121.543293"><name>20 復興南路二段</name><desc>左轉・39 m</desc></rtept>
-<rtept lat="25.021039" lon="121.543352"><name>21 辛亥路三段</name><desc>直行・746 m</desc></rtept>
-<rtept lat="25.016849" lon="121.548924"><name>22 芳蘭路</name><desc>右轉・262 m</desc></rtept>
-<rtept lat="25.014985" lon="121.547483"><name>23 長興街</name><desc>右轉・418 m</desc></rtept>
-<rtept lat="25.017304" lon="121.544217"><name>24 基隆路三段</name><desc>左轉・236 m</desc></rtept>
-<rtept lat="25.015875" lon="121.542479"><name>25 基隆路三段155巷</name><desc>左轉・457 m</desc></rtept>
-<rtept lat="25.012519" lon="121.545115"><name>26 芳蘭路</name><desc>右轉・128 m</desc></rtept>
-<rtept lat="25.011745" lon="121.544176"><name>27 基隆路四段41巷68弄</name><desc>右轉・435 m</desc></rtept>
-<rtept lat="25.011325" lon="121.541006"><name>28 基隆路四段73巷</name><desc>右轉・262 m（重複／連絡）</desc></rtept>
-<rtept lat="25.0132" lon="121.53943"><name>29 基隆路四段</name><desc>左轉・329 m（重複／連絡）</desc></rtept>
-<rtept lat="25.011238" lon="121.536986"><name>30 羅斯福路四段</name><desc>左轉・789 m（重複／連絡）</desc></rtept>
-<rtept lat="25.016355" lon="121.532771"><name>31 新生南路三段</name><desc>右轉・688 m（重複／連絡）</desc></rtept>
-<rtept lat="25.022244" lon="121.534481"><name>32 辛亥路二段</name><desc>右轉・928 m（重複／連絡）</desc></rtept>
-<rtept lat="25.021039" lon="121.543352"><name>33 辛亥路三段</name><desc>直行・388 m（重複／連絡）</desc></rtept>
-<rtept lat="25.019111" lon="121.546385"><name>34 基隆路三段</name><desc>右轉・313 m</desc></rtept>
-<rtept lat="25.017217" lon="121.54435"><name>35 無名巷道</name><desc>左轉・294 m</desc></rtept>
-<rtept lat="25.019008" lon="121.546507"><name>36 辛亥路三段</name><desc>右轉・342 m（重複／連絡）</desc></rtept>
-<rtept lat="25.016849" lon="121.548924"><name>37 芳蘭路</name><desc>右轉・628 m</desc></rtept>
-<rtept lat="25.012519" lon="121.545115"><name>38 基隆路三段155巷</name><desc>左轉・1474 m</desc></rtept>
-<rtept lat="25.01565" lon="121.54266"><name>39 基隆路三段</name><desc>右轉・538 m</desc></rtept>
-<rtept lat="25.018934" lon="121.546594"><name>40 辛亥路三段</name><desc>右轉・700 m</desc></rtept>
-<rtept lat="25.014966" lon="121.551745"><name>41 辛亥路三段284巷</name><desc>右轉・677 m</desc></rtept>
-<rtept lat="25.014966" lon="121.551745"><name>42 辛亥路三段</name><desc>右轉・85 m</desc></rtept>
-<rtept lat="25.014513" lon="121.552429"><name>43 無名巷道</name><desc>右轉・62 m</desc></rtept>
-<rtept lat="25.014091" lon="121.552019"><name>44 計程車及復康巴士專用道</name><desc>左轉・300 m</desc></rtept>
-<rtept lat="25.014029" lon="121.552128"><name>45 無名巷道</name><desc>直行・61 m</desc></rtept>
+<rtept lat="25.011099" lon="121.537232"><name>01 基隆路四段</name><desc>出發・25 m</desc></rtept>
+<rtept lat="25.011252" lon="121.537416"><name>02 羅斯福路四段119巷</name><desc>右轉・910 m</desc></rtept>
+<rtept lat="25.01128" lon="121.53789"><name>03 羅斯福路四段113巷</name><desc>直行・315 m</desc></rtept>
+<rtept lat="25.011325" lon="121.541006"><name>04 基隆路四段73巷</name><desc>左轉・239 m</desc></rtept>
+<rtept lat="25.013054" lon="121.539584"><name>05 基隆路四段</name><desc>右轉・423 m</desc></rtept>
+<rtept lat="25.01565" lon="121.54266"><name>06 基隆路三段155巷</name><desc>左轉・31 m</desc></rtept>
+<rtept lat="25.015875" lon="121.542479"><name>07 基隆路四段</name><desc>左轉・756 m</desc></rtept>
+<rtept lat="25.011238" lon="121.536986"><name>08 羅斯福路四段</name><desc>左轉・26 m</desc></rtept>
+<rtept lat="25.011008" lon="121.537054"><name>09 基隆路四段</name><desc>左轉・62 m</desc></rtept>
+<rtept lat="25.01135" lon="121.537535"><name>10 羅斯福路四段113巷</name><desc>右轉・77 m</desc></rtept>
+<rtept lat="25.01135" lon="121.537535"><name>11 基隆路四段</name><desc>右轉・672 m</desc></rtept>
+<rtept lat="25.011099" lon="121.537232"><name>12 羅斯福路四段</name><desc>左轉・744 m</desc></rtept>
+<rtept lat="25.016355" lon="121.532771"><name>13 新生南路三段</name><desc>右轉・2113 m</desc></rtept>
+<rtept lat="25.022244" lon="121.534481"><name>14 辛亥路二段</name><desc>右轉・953 m</desc></rtept>
+<rtept lat="25.021216" lon="121.543411"><name>15 辛亥路三段</name><desc>右轉・193 m</desc></rtept>
+<rtept lat="25.02053" lon="121.545097"><name>16 辛亥路車行地下道</name><desc>直行・1133 m</desc></rtept>
+<rtept lat="25.020638" lon="121.545222"><name>17 辛亥路三段</name><desc>直行・359 m</desc></rtept>
+<rtept lat="25.02083" lon="121.544448"><name>18 無名巷道</name><desc>直行・74 m</desc></rtept>
+<rtept lat="25.02053" lon="121.545097"><name>19 辛亥路車行地下道</name><desc>直行・1133 m（重複／連絡）</desc></rtept>
+<rtept lat="25.020638" lon="121.545222"><name>20 辛亥路三段</name><desc>直行・264 m（重複／連絡）</desc></rtept>
+<rtept lat="25.021331" lon="121.543293"><name>21 復興南路二段</name><desc>左轉・39 m</desc></rtept>
+<rtept lat="25.021039" lon="121.543352"><name>22 辛亥路三段</name><desc>直行・746 m</desc></rtept>
+<rtept lat="25.016849" lon="121.548924"><name>23 芳蘭路</name><desc>右轉・262 m</desc></rtept>
+<rtept lat="25.014985" lon="121.547483"><name>24 長興街</name><desc>右轉・418 m</desc></rtept>
+<rtept lat="25.017304" lon="121.544217"><name>25 基隆路三段</name><desc>左轉・236 m</desc></rtept>
+<rtept lat="25.015875" lon="121.542479"><name>26 基隆路三段155巷</name><desc>左轉・457 m</desc></rtept>
+<rtept lat="25.012519" lon="121.545115"><name>27 芳蘭路</name><desc>右轉・128 m</desc></rtept>
+<rtept lat="25.011745" lon="121.544176"><name>28 基隆路四段41巷68弄</name><desc>右轉・435 m</desc></rtept>
+<rtept lat="25.011325" lon="121.541006"><name>29 基隆路四段73巷</name><desc>右轉・262 m（重複／連絡）</desc></rtept>
+<rtept lat="25.0132" lon="121.53943"><name>30 基隆路四段</name><desc>左轉・329 m（重複／連絡）</desc></rtept>
+<rtept lat="25.011238" lon="121.536986"><name>31 羅斯福路四段</name><desc>左轉・789 m（重複／連絡）</desc></rtept>
+<rtept lat="25.016355" lon="121.532771"><name>32 新生南路三段</name><desc>右轉・688 m（重複／連絡）</desc></rtept>
+<rtept lat="25.022244" lon="121.534481"><name>33 辛亥路二段</name><desc>右轉・928 m（重複／連絡）</desc></rtept>
+<rtept lat="25.021039" lon="121.543352"><name>34 辛亥路三段</name><desc>直行・388 m（重複／連絡）</desc></rtept>
+<rtept lat="25.019111" lon="121.546385"><name>35 基隆路三段</name><desc>右轉・313 m</desc></rtept>
+<rtept lat="25.017217" lon="121.54435"><name>36 無名巷道</name><desc>左轉・294 m</desc></rtept>
+<rtept lat="25.019008" lon="121.546507"><name>37 辛亥路三段</name><desc>右轉・342 m（重複／連絡）</desc></rtept>
+<rtept lat="25.016849" lon="121.548924"><name>38 芳蘭路</name><desc>右轉・628 m</desc></rtept>
+<rtept lat="25.012519" lon="121.545115"><name>39 基隆路三段155巷</name><desc>左轉・1474 m</desc></rtept>
+<rtept lat="25.01565" lon="121.54266"><name>40 基隆路三段</name><desc>右轉・538 m</desc></rtept>
+<rtept lat="25.018934" lon="121.546594"><name>41 辛亥路三段</name><desc>右轉・700 m</desc></rtept>
+<rtept lat="25.014966" lon="121.551745"><name>42 辛亥路三段284巷</name><desc>右轉・677 m</desc></rtept>
+<rtept lat="25.014966" lon="121.551745"><name>43 辛亥路三段</name><desc>右轉・85 m</desc></rtept>
+<rtept lat="25.014513" lon="121.552429"><name>44 無名巷道</name><desc>右轉・62 m</desc></rtept>
+<rtept lat="25.014091" lon="121.552019"><name>45 計程車及復康巴士專用道</name><desc>左轉・300 m</desc></rtept>
+<rtept lat="25.014029" lon="121.552128"><name>46 無名巷道</name><desc>直行・61 m</desc></rtept>
 <rtept lat="25.014457" lon="121.552506"><name>終點</name></rtept></rte>
 <trk><name>學府里 行駛軌跡</name><trkseg>
+<trkpt lat="25.011099" lon="121.537232"/>
+<trkpt lat="25.011137" lon="121.537278"/>
+<trkpt lat="25.011176" lon="121.537324"/>
+<trkpt lat="25.011214" lon="121.537370"/>
 <trkpt lat="25.011252" lon="121.537416"/>
 <trkpt lat="25.011256" lon="121.537452"/>
 <trkpt lat="25.011246" lon="121.537483"/>

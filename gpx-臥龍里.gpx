@@ -1,44 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 臥龍里 掃街車路線</name><desc>總長 4.17 km，重複率 21.3%</desc></metadata>
-<wpt lat="25.019346" lon="121.546122"><name>起點 辛亥路迴轉道</name></wpt>
+<metadata><name>大安區 臥龍里 掃街車路線</name><desc>總長 4.24 km，重複率 20.9%</desc></metadata>
+<wpt lat="25.019829" lon="121.54562"><name>起點 辛亥路三段</name></wpt>
 <wpt lat="25.024726" lon="121.545104"><name>終點 和平東路二段311巷</name></wpt>
 <rte><name>臥龍里 道路順序</name>
-<rtept lat="25.019346" lon="121.546122"><name>01 辛亥路迴轉道</name><desc>出發・49 m</desc></rtept>
-<rtept lat="25.019637" lon="121.546487"><name>02 辛亥路三段</name><desc>左轉・59 m</desc></rtept>
-<rtept lat="25.020026" lon="121.546085"><name>03 敦南街76巷</name><desc>右轉・61 m</desc></rtept>
-<rtept lat="25.020403" lon="121.546525"><name>04 基隆路二段22巷</name><desc>右轉・97 m</desc></rtept>
-<rtept lat="25.019776" lon="121.5472"><name>05 基隆路三段</name><desc>右轉・63 m</desc></rtept>
-<rtept lat="25.019391" lon="121.54674"><name>06 辛亥路三段</name><desc>右轉・328 m</desc></rtept>
-<rtept lat="25.021342" lon="121.544333"><name>07 辛亥路三段21巷</name><desc>右轉・286 m</desc></rtept>
-<rtept lat="25.022375" lon="121.546666"><name>08 臥龍街43巷</name><desc>直行・40 m</desc></rtept>
-<rtept lat="25.022495" lon="121.547043"><name>09 臥龍街</name><desc>左轉・49 m</desc></rtept>
-<rtept lat="25.022915" lon="121.546895"><name>10 敦化南路二段200巷</name><desc>左轉・28 m</desc></rtept>
-<rtept lat="25.022927" lon="121.546614"><name>11 敦南街</name><desc>左轉・185 m</desc></rtept>
-<rtept lat="25.021423" lon="121.547242"><name>12 臥龍街60巷</name><desc>左轉・44 m</desc></rtept>
-<rtept lat="25.021645" lon="121.547607"><name>13 臥龍街</name><desc>左轉・62 m</desc></rtept>
-<rtept lat="25.022085" lon="121.547238"><name>14 臥龍街56巷</name><desc>左轉・47 m</desc></rtept>
-<rtept lat="25.021774" lon="121.546921"><name>15 敦南街</name><desc>左轉・182 m</desc></rtept>
-<rtept lat="25.020564" lon="121.54814"><name>16 基隆路三段</name><desc>右轉・129 m</desc></rtept>
-<rtept lat="25.019776" lon="121.5472"><name>17 基隆路二段22巷</name><desc>右轉・97 m（重複／連絡）</desc></rtept>
-<rtept lat="25.020403" lon="121.546525"><name>18 敦南街76巷</name><desc>右轉・131 m</desc></rtept>
-<rtept lat="25.021217" lon="121.547463"><name>19 臥龍街64巷</name><desc>直行・50 m</desc></rtept>
-<rtept lat="25.021602" lon="121.547649"><name>20 臥龍街</name><desc>左轉・117 m</desc></rtept>
-<rtept lat="25.022495" lon="121.547043"><name>21 臥龍街43巷</name><desc>左轉・40 m（重複／連絡）</desc></rtept>
-<rtept lat="25.022375" lon="121.546666"><name>22 辛亥路三段21巷</name><desc>直行・286 m（重複／連絡）</desc></rtept>
-<rtept lat="25.021342" lon="121.544333"><name>23 辛亥路三段</name><desc>右轉・107 m</desc></rtept>
-<rtept lat="25.021504" lon="121.543296"><name>24 復興南路二段</name><desc>左轉・354 m</desc></rtept>
-<rtept lat="25.023572" lon="121.543456"><name>25 復興南路二段337巷</name><desc>右轉・210 m</desc></rtept>
-<rtept lat="25.023572" lon="121.543456"><name>26 復興南路二段</name><desc>右轉・138 m</desc></rtept>
-<rtept lat="25.024818" lon="121.543484"><name>27 和平東路二段</name><desc>右轉・326 m</desc></rtept>
-<rtept lat="25.024637" lon="121.54671"><name>28 臥龍街</name><desc>右轉・121 m</desc></rtept>
-<rtept lat="25.023549" lon="121.546649"><name>29 敦南街</name><desc>直行・69 m</desc></rtept>
-<rtept lat="25.022927" lon="121.546614"><name>30 敦化南路二段200巷</name><desc>左轉・28 m（重複／連絡）</desc></rtept>
-<rtept lat="25.022915" lon="121.546895"><name>31 臥龍街</name><desc>左轉・208 m</desc></rtept>
-<rtept lat="25.024746" lon="121.546701"><name>32 和平東路二段</name><desc>左轉・161 m</desc></rtept>
-<rtept lat="25.024841" lon="121.545114"><name>33 和平東路二段311巷</name><desc>左轉・13 m</desc></rtept>
+<rtept lat="25.019829" lon="121.54562"><name>01 辛亥路三段</name><desc>出發・74 m</desc></rtept>
+<rtept lat="25.019346" lon="121.546122"><name>02 辛亥路迴轉道</name><desc>左轉・49 m</desc></rtept>
+<rtept lat="25.019637" lon="121.546487"><name>03 辛亥路三段</name><desc>左轉・59 m</desc></rtept>
+<rtept lat="25.020026" lon="121.546085"><name>04 敦南街76巷</name><desc>右轉・61 m</desc></rtept>
+<rtept lat="25.020403" lon="121.546525"><name>05 基隆路二段22巷</name><desc>右轉・97 m</desc></rtept>
+<rtept lat="25.019776" lon="121.5472"><name>06 基隆路三段</name><desc>右轉・63 m</desc></rtept>
+<rtept lat="25.019391" lon="121.54674"><name>07 辛亥路三段</name><desc>右轉・328 m</desc></rtept>
+<rtept lat="25.021342" lon="121.544333"><name>08 辛亥路三段21巷</name><desc>右轉・286 m</desc></rtept>
+<rtept lat="25.022375" lon="121.546666"><name>09 臥龍街43巷</name><desc>直行・40 m</desc></rtept>
+<rtept lat="25.022495" lon="121.547043"><name>10 臥龍街</name><desc>左轉・49 m</desc></rtept>
+<rtept lat="25.022915" lon="121.546895"><name>11 敦化南路二段200巷</name><desc>左轉・28 m</desc></rtept>
+<rtept lat="25.022927" lon="121.546614"><name>12 敦南街</name><desc>左轉・185 m</desc></rtept>
+<rtept lat="25.021423" lon="121.547242"><name>13 臥龍街60巷</name><desc>左轉・44 m</desc></rtept>
+<rtept lat="25.021645" lon="121.547607"><name>14 臥龍街</name><desc>左轉・62 m</desc></rtept>
+<rtept lat="25.022085" lon="121.547238"><name>15 臥龍街56巷</name><desc>左轉・47 m</desc></rtept>
+<rtept lat="25.021774" lon="121.546921"><name>16 敦南街</name><desc>左轉・182 m</desc></rtept>
+<rtept lat="25.020564" lon="121.54814"><name>17 基隆路三段</name><desc>右轉・129 m</desc></rtept>
+<rtept lat="25.019776" lon="121.5472"><name>18 基隆路二段22巷</name><desc>右轉・97 m（重複／連絡）</desc></rtept>
+<rtept lat="25.020403" lon="121.546525"><name>19 敦南街76巷</name><desc>右轉・131 m</desc></rtept>
+<rtept lat="25.021217" lon="121.547463"><name>20 臥龍街64巷</name><desc>直行・50 m</desc></rtept>
+<rtept lat="25.021602" lon="121.547649"><name>21 臥龍街</name><desc>左轉・117 m</desc></rtept>
+<rtept lat="25.022495" lon="121.547043"><name>22 臥龍街43巷</name><desc>左轉・40 m（重複／連絡）</desc></rtept>
+<rtept lat="25.022375" lon="121.546666"><name>23 辛亥路三段21巷</name><desc>直行・286 m（重複／連絡）</desc></rtept>
+<rtept lat="25.021342" lon="121.544333"><name>24 辛亥路三段</name><desc>右轉・107 m</desc></rtept>
+<rtept lat="25.021504" lon="121.543296"><name>25 復興南路二段</name><desc>左轉・354 m</desc></rtept>
+<rtept lat="25.023572" lon="121.543456"><name>26 復興南路二段337巷</name><desc>右轉・210 m</desc></rtept>
+<rtept lat="25.023572" lon="121.543456"><name>27 復興南路二段</name><desc>右轉・138 m</desc></rtept>
+<rtept lat="25.024818" lon="121.543484"><name>28 和平東路二段</name><desc>右轉・326 m</desc></rtept>
+<rtept lat="25.024637" lon="121.54671"><name>29 臥龍街</name><desc>右轉・121 m</desc></rtept>
+<rtept lat="25.023549" lon="121.546649"><name>30 敦南街</name><desc>直行・69 m</desc></rtept>
+<rtept lat="25.022927" lon="121.546614"><name>31 敦化南路二段200巷</name><desc>左轉・28 m（重複／連絡）</desc></rtept>
+<rtept lat="25.022915" lon="121.546895"><name>32 臥龍街</name><desc>左轉・208 m</desc></rtept>
+<rtept lat="25.024746" lon="121.546701"><name>33 和平東路二段</name><desc>左轉・161 m</desc></rtept>
+<rtept lat="25.024841" lon="121.545114"><name>34 和平東路二段311巷</name><desc>左轉・13 m</desc></rtept>
 <rtept lat="25.024726" lon="121.545104"><name>終點</name></rtept></rte>
 <trk><name>臥龍里 行駛軌跡</name><trkseg>
+<trkpt lat="25.019829" lon="121.545620"/>
+<trkpt lat="25.019781" lon="121.545669"/>
+<trkpt lat="25.019733" lon="121.545719"/>
+<trkpt lat="25.019685" lon="121.545768"/>
+<trkpt lat="25.019637" lon="121.545817"/>
+<trkpt lat="25.019589" lon="121.545867"/>
+<trkpt lat="25.019540" lon="121.545916"/>
+<trkpt lat="25.019492" lon="121.545966"/>
+<trkpt lat="25.019444" lon="121.546015"/>
+<trkpt lat="25.019396" lon="121.546065"/>
+<trkpt lat="25.019371" lon="121.546093"/>
 <trkpt lat="25.019346" lon="121.546122"/>
 <trkpt lat="25.019379" lon="121.546164"/>
 <trkpt lat="25.019412" lon="121.546206"/>

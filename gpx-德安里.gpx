@@ -1,54 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 德安里 掃街車路線</name><desc>總長 8.23 km，重複率 39.6%</desc></metadata>
-<wpt lat="25.037721" lon="121.547081"><name>起點 仁愛路四段48巷</name></wpt>
+<metadata><name>大安區 德安里 掃街車路線</name><desc>總長 8.32 km，重複率 40.3%</desc></metadata>
+<wpt lat="25.037737" lon="121.547948"><name>起點 仁愛路四段</name></wpt>
 <wpt lat="25.037262" lon="121.548226"><name>終點 四維路</name></wpt>
 <rte><name>德安里 道路順序</name>
-<rtept lat="25.037721" lon="121.547081"><name>01 仁愛路四段48巷</name><desc>出發・189 m</desc></rtept>
-<rtept lat="25.036015" lon="121.547063"><name>02 東豐街</name><desc>右轉・106 m</desc></rtept>
-<rtept lat="25.036034" lon="121.546014"><name>03 大安路一段</name><desc>左轉・50 m</desc></rtept>
-<rtept lat="25.035585" lon="121.546008"><name>04 四維路44巷</name><desc>左轉・259 m</desc></rtept>
-<rtept lat="25.035531" lon="121.548568"><name>05 敦化南路一段</name><desc>右轉・51 m</desc></rtept>
-<rtept lat="25.035072" lon="121.548567"><name>06 四維路52巷</name><desc>右轉・259 m</desc></rtept>
-<rtept lat="25.035124" lon="121.546001"><name>07 大安路一段</name><desc>左轉・93 m</desc></rtept>
-<rtept lat="25.034289" lon="121.545989"><name>08 四維路76巷</name><desc>左轉・259 m</desc></rtept>
-<rtept lat="25.034242" lon="121.548558"><name>09 敦化南路一段</name><desc>右轉・44 m</desc></rtept>
-<rtept lat="25.033843" lon="121.548558"><name>10 四維路84巷</name><desc>右轉・139 m</desc></rtept>
-<rtept lat="25.033875" lon="121.54718"><name>11 信義路四段99巷</name><desc>左轉・53 m</desc></rtept>
-<rtept lat="25.033396" lon="121.54716"><name>12 信義路四段</name><desc>左轉・90 m</desc></rtept>
-<rtept lat="25.033377" lon="121.548056"><name>13 四維路</name><desc>左轉・189 m</desc></rtept>
-<rtept lat="25.035081" lon="121.548105"><name>14 四維路52巷</name><desc>左轉・106 m（重複／連絡）</desc></rtept>
-<rtept lat="25.035103" lon="121.547055"><name>15 信義路四段99巷</name><desc>左轉・205 m</desc></rtept>
-<rtept lat="25.033396" lon="121.54716"><name>16 信義路四段</name><desc>左轉・165 m</desc></rtept>
-<rtept lat="25.033359" lon="121.548792"><name>17 敦化南路一段</name><desc>左轉・467 m</desc></rtept>
-<rtept lat="25.037504" lon="121.549139"><name>18 仁愛敦南圓環</name><desc>直行・191 m</desc></rtept>
-<rtept lat="25.037986" lon="121.548348"><name>19 仁愛路四段</name><desc>右轉・251 m</desc></rtept>
-<rtept lat="25.037741" lon="121.546038"><name>20 大安路一段</name><desc>左轉・314 m</desc></rtept>
-<rtept lat="25.036438" lon="121.54602"><name>21 大安路一段175巷</name><desc>左轉・105 m</desc></rtept>
-<rtept lat="25.036412" lon="121.547063"><name>22 四維路22巷</name><desc>直行・109 m</desc></rtept>
-<rtept lat="25.036403" lon="121.548143"><name>23 四維路</name><desc>左轉・86 m</desc></rtept>
-<rtept lat="25.037182" lon="121.548146"><name>24 四維路6巷</name><desc>左轉・108 m</desc></rtept>
-<rtept lat="25.0372" lon="121.547077"><name>25 大安路一段157巷</name><desc>直行・106 m</desc></rtept>
-<rtept lat="25.037218" lon="121.546029"><name>26 大安路一段</name><desc>左轉・421 m</desc></rtept>
-<rtept lat="25.03342" lon="121.545977"><name>27 大安路二段</name><desc>直行・38 m</desc></rtept>
-<rtept lat="25.03342" lon="121.545977"><name>28 信義路四段</name><desc>右轉・210 m</desc></rtept>
-<rtept lat="25.033377" lon="121.548056"><name>29 四維路</name><desc>左轉・377 m</desc></rtept>
-<rtept lat="25.036775" lon="121.548149"><name>30 四維路48巷</name><desc>左轉・110 m</desc></rtept>
-<rtept lat="25.036793" lon="121.547061"><name>31 大安路一段169巷</name><desc>直行・105 m</desc></rtept>
-<rtept lat="25.036809" lon="121.546025"><name>32 大安路一段</name><desc>左轉・41 m（重複／連絡）</desc></rtept>
-<rtept lat="25.036438" lon="121.54602"><name>33 大安路一段175巷</name><desc>左轉・105 m（重複／連絡）</desc></rtept>
-<rtept lat="25.036412" lon="121.547063"><name>34 仁愛路四段48巷</name><desc>右轉・44 m（重複／連絡）</desc></rtept>
-<rtept lat="25.036015" lon="121.547063"><name>35 東豐街</name><desc>左轉・152 m</desc></rtept>
-<rtept lat="25.035988" lon="121.548572"><name>36 敦化南路一段</name><desc>右轉・782 m</desc></rtept>
-<rtept lat="25.037504" lon="121.549139"><name>37 仁愛敦南圓環</name><desc>直行・191 m（重複／連絡）</desc></rtept>
-<rtept lat="25.037986" lon="121.548348"><name>38 仁愛路四段</name><desc>右轉・120 m</desc></rtept>
-<rtept lat="25.037513" lon="121.548512"><name>39 敦化南路一段</name><desc>直行・935 m（重複／連絡）</desc></rtept>
-<rtept lat="25.037504" lon="121.549139"><name>40 仁愛敦南圓環</name><desc>直行・249 m（重複／連絡）</desc></rtept>
-<rtept lat="25.037513" lon="121.548512"><name>41 敦化南路一段</name><desc>直行・171 m</desc></rtept>
-<rtept lat="25.035988" lon="121.548572"><name>42 東豐街</name><desc>右轉・45 m（重複／連絡）</desc></rtept>
-<rtept lat="25.035995" lon="121.548125"><name>43 四維路</name><desc>右轉・144 m（重複／連絡）</desc></rtept>
+<rtept lat="25.037737" lon="121.547948"><name>01 仁愛路四段</name><desc>出發・88 m</desc></rtept>
+<rtept lat="25.037721" lon="121.547081"><name>02 仁愛路四段48巷</name><desc>左轉・189 m</desc></rtept>
+<rtept lat="25.036015" lon="121.547063"><name>03 東豐街</name><desc>右轉・106 m</desc></rtept>
+<rtept lat="25.036034" lon="121.546014"><name>04 大安路一段</name><desc>左轉・50 m</desc></rtept>
+<rtept lat="25.035585" lon="121.546008"><name>05 四維路44巷</name><desc>左轉・259 m</desc></rtept>
+<rtept lat="25.035531" lon="121.548568"><name>06 敦化南路一段</name><desc>右轉・51 m</desc></rtept>
+<rtept lat="25.035072" lon="121.548567"><name>07 四維路52巷</name><desc>右轉・259 m</desc></rtept>
+<rtept lat="25.035124" lon="121.546001"><name>08 大安路一段</name><desc>左轉・93 m</desc></rtept>
+<rtept lat="25.034289" lon="121.545989"><name>09 四維路76巷</name><desc>左轉・259 m</desc></rtept>
+<rtept lat="25.034242" lon="121.548558"><name>10 敦化南路一段</name><desc>右轉・44 m</desc></rtept>
+<rtept lat="25.033843" lon="121.548558"><name>11 四維路84巷</name><desc>右轉・139 m</desc></rtept>
+<rtept lat="25.033875" lon="121.54718"><name>12 信義路四段99巷</name><desc>左轉・53 m</desc></rtept>
+<rtept lat="25.033396" lon="121.54716"><name>13 信義路四段</name><desc>左轉・90 m</desc></rtept>
+<rtept lat="25.033377" lon="121.548056"><name>14 四維路</name><desc>左轉・189 m</desc></rtept>
+<rtept lat="25.035081" lon="121.548105"><name>15 四維路52巷</name><desc>左轉・106 m（重複／連絡）</desc></rtept>
+<rtept lat="25.035103" lon="121.547055"><name>16 信義路四段99巷</name><desc>左轉・205 m</desc></rtept>
+<rtept lat="25.033396" lon="121.54716"><name>17 信義路四段</name><desc>左轉・165 m</desc></rtept>
+<rtept lat="25.033359" lon="121.548792"><name>18 敦化南路一段</name><desc>左轉・467 m</desc></rtept>
+<rtept lat="25.037504" lon="121.549139"><name>19 仁愛敦南圓環</name><desc>直行・191 m</desc></rtept>
+<rtept lat="25.037986" lon="121.548348"><name>20 仁愛路四段</name><desc>右轉・251 m</desc></rtept>
+<rtept lat="25.037741" lon="121.546038"><name>21 大安路一段</name><desc>左轉・314 m</desc></rtept>
+<rtept lat="25.036438" lon="121.54602"><name>22 大安路一段175巷</name><desc>左轉・105 m</desc></rtept>
+<rtept lat="25.036412" lon="121.547063"><name>23 四維路22巷</name><desc>直行・109 m</desc></rtept>
+<rtept lat="25.036403" lon="121.548143"><name>24 四維路</name><desc>左轉・86 m</desc></rtept>
+<rtept lat="25.037182" lon="121.548146"><name>25 四維路6巷</name><desc>左轉・108 m</desc></rtept>
+<rtept lat="25.0372" lon="121.547077"><name>26 大安路一段157巷</name><desc>直行・106 m</desc></rtept>
+<rtept lat="25.037218" lon="121.546029"><name>27 大安路一段</name><desc>左轉・421 m</desc></rtept>
+<rtept lat="25.03342" lon="121.545977"><name>28 大安路二段</name><desc>直行・38 m</desc></rtept>
+<rtept lat="25.03342" lon="121.545977"><name>29 信義路四段</name><desc>右轉・210 m</desc></rtept>
+<rtept lat="25.033377" lon="121.548056"><name>30 四維路</name><desc>左轉・377 m</desc></rtept>
+<rtept lat="25.036775" lon="121.548149"><name>31 四維路48巷</name><desc>左轉・110 m</desc></rtept>
+<rtept lat="25.036793" lon="121.547061"><name>32 大安路一段169巷</name><desc>直行・105 m</desc></rtept>
+<rtept lat="25.036809" lon="121.546025"><name>33 大安路一段</name><desc>左轉・41 m（重複／連絡）</desc></rtept>
+<rtept lat="25.036438" lon="121.54602"><name>34 大安路一段175巷</name><desc>左轉・105 m（重複／連絡）</desc></rtept>
+<rtept lat="25.036412" lon="121.547063"><name>35 仁愛路四段48巷</name><desc>右轉・44 m（重複／連絡）</desc></rtept>
+<rtept lat="25.036015" lon="121.547063"><name>36 東豐街</name><desc>左轉・152 m</desc></rtept>
+<rtept lat="25.035988" lon="121.548572"><name>37 敦化南路一段</name><desc>右轉・782 m</desc></rtept>
+<rtept lat="25.037504" lon="121.549139"><name>38 仁愛敦南圓環</name><desc>直行・191 m（重複／連絡）</desc></rtept>
+<rtept lat="25.037986" lon="121.548348"><name>39 仁愛路四段</name><desc>右轉・120 m</desc></rtept>
+<rtept lat="25.037513" lon="121.548512"><name>40 敦化南路一段</name><desc>直行・935 m（重複／連絡）</desc></rtept>
+<rtept lat="25.037504" lon="121.549139"><name>41 仁愛敦南圓環</name><desc>直行・249 m（重複／連絡）</desc></rtept>
+<rtept lat="25.037513" lon="121.548512"><name>42 敦化南路一段</name><desc>直行・171 m</desc></rtept>
+<rtept lat="25.035988" lon="121.548572"><name>43 東豐街</name><desc>右轉・45 m（重複／連絡）</desc></rtept>
+<rtept lat="25.035995" lon="121.548125"><name>44 四維路</name><desc>右轉・144 m（重複／連絡）</desc></rtept>
 <rtept lat="25.037262" lon="121.548226"><name>終點</name></rtept></rte>
 <trk><name>德安里 行駛軌跡</name><trkseg>
+<trkpt lat="25.037737" lon="121.547948"/>
+<trkpt lat="25.037727" lon="121.547879"/>
+<trkpt lat="25.037718" lon="121.547811"/>
+<trkpt lat="25.037709" lon="121.547743"/>
+<trkpt lat="25.037710" lon="121.547665"/>
+<trkpt lat="25.037712" lon="121.547588"/>
+<trkpt lat="25.037713" lon="121.547511"/>
+<trkpt lat="25.037715" lon="121.547439"/>
+<trkpt lat="25.037716" lon="121.547367"/>
+<trkpt lat="25.037717" lon="121.547296"/>
+<trkpt lat="25.037719" lon="121.547224"/>
+<trkpt lat="25.037720" lon="121.547152"/>
 <trkpt lat="25.037721" lon="121.547081"/>
 <trkpt lat="25.037685" lon="121.547080"/>
 <trkpt lat="25.037648" lon="121.547080"/>

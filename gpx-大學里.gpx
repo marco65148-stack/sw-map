@@ -1,58 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 大學里 掃街車路線</name><desc>總長 9.22 km，重複率 38.7%</desc></metadata>
-<wpt lat="25.022557" lon="121.532691"><name>起點 無名巷道</name></wpt>
+<metadata><name>大安區 大學里 掃街車路線</name><desc>總長 9.34 km，重複率 38.3%</desc></metadata>
+<wpt lat="25.022178" lon="121.533026"><name>起點 辛亥路一段</name></wpt>
 <wpt lat="25.018712" lon="121.533756"><name>終點 新生南路三段86巷</name></wpt>
 <rte><name>大學里 道路順序</name>
-<rtept lat="25.022557" lon="121.532691"><name>01 無名巷道</name><desc>出發・155 m</desc></rtept>
-<rtept lat="25.021624" lon="121.531852"><name>02 羅斯福路三段283巷</name><desc>直行・116 m</desc></rtept>
-<rtept lat="25.020609" lon="121.531853"><name>03 溫州街58巷</name><desc>左轉・114 m</desc></rtept>
-<rtept lat="25.020498" lon="121.532977"><name>04 新生南路三段56巷</name><desc>直行・102 m</desc></rtept>
-<rtept lat="25.020395" lon="121.533985"><name>05 新生南路三段</name><desc>右轉・469 m</desc></rtept>
-<rtept lat="25.016449" lon="121.532676"><name>06 羅斯福路三段</name><desc>右轉・59 m</desc></rtept>
-<rtept lat="25.016838" lon="121.532277"><name>07 羅斯福路三段333巷</name><desc>右轉・48 m</desc></rtept>
-<rtept lat="25.017134" lon="121.532622"><name>08 新生南路三段98巷</name><desc>右轉・95 m</desc></rtept>
-<rtept lat="25.016977" lon="121.533265"><name>09 新生南路三段</name><desc>左轉・84 m（重複／連絡）</desc></rtept>
-<rtept lat="25.016449" lon="121.532676"><name>10 羅斯福路三段</name><desc>右轉・330 m</desc></rtept>
-<rtept lat="25.018627" lon="121.530443"><name>11 羅斯福路三段269巷</name><desc>右轉・151 m</desc></rtept>
-<rtept lat="25.019587" lon="121.530289"><name>12 辛亥路一段34巷</name><desc>直行・59 m</desc></rtept>
-<rtept lat="25.019977" lon="121.529889"><name>13 辛亥路一段</name><desc>右轉・540 m</desc></rtept>
-<rtept lat="25.022244" lon="121.534365"><name>14 新生南路三段</name><desc>右轉・158 m</desc></rtept>
-<rtept lat="25.020838" lon="121.534076"><name>15 新生南路三段54巷</name><desc>右轉・105 m</desc></rtept>
-<rtept lat="25.020942" lon="121.533046"><name>16 溫州街52巷</name><desc>直行・116 m</desc></rtept>
-<rtept lat="25.021064" lon="121.531906"><name>17 羅斯福路三段283巷</name><desc>左轉・144 m</desc></rtept>
-<rtept lat="25.019769" lon="121.531756"><name>18 溫州街74巷</name><desc>左轉・114 m</desc></rtept>
-<rtept lat="25.019665" lon="121.532881"><name>19 新生南路三段70巷</name><desc>直行・95 m</desc></rtept>
-<rtept lat="25.019554" lon="121.533812"><name>20 新生南路三段</name><desc>右轉・47 m（重複／連絡）</desc></rtept>
-<rtept lat="25.019139" lon="121.533727"><name>21 新生南路三段76巷</name><desc>右轉・205 m</desc></rtept>
-<rtept lat="25.019345" lon="121.531706"><name>22 羅斯福路三段283巷</name><desc>左轉・184 m</desc></rtept>
-<rtept lat="25.017792" lon="121.531299"><name>23 羅斯福路三段</name><desc>右轉・1513 m</desc></rtept>
-<rtept lat="25.019606" lon="121.529448"><name>24 辛亥路一段</name><desc>右轉・346 m（重複／連絡）</desc></rtept>
-<rtept lat="25.021513" lon="121.53195"><name>25 溫州街48巷</name><desc>左轉・115 m</desc></rtept>
-<rtept lat="25.021398" lon="121.533085"><name>26 溫州街</name><desc>左轉・43 m</desc></rtept>
-<rtept lat="25.021784" lon="121.53313"><name>27 溫州街46巷</name><desc>左轉・91 m</desc></rtept>
-<rtept lat="25.021885" lon="121.532232"><name>28 辛亥路一段</name><desc>右轉・222 m（重複／連絡）</desc></rtept>
-<rtept lat="25.022244" lon="121.534365"><name>29 新生南路三段</name><desc>右轉・350 m（重複／連絡）</desc></rtept>
-<rtept lat="25.019139" lon="121.533727"><name>30 新生南路三段76巷</name><desc>右轉・205 m（重複／連絡）</desc></rtept>
-<rtept lat="25.019345" lon="121.531706"><name>31 羅斯福路三段283巷</name><desc>左轉・46 m（重複／連絡）</desc></rtept>
-<rtept lat="25.018928" lon="121.531661"><name>32 新生南路三段86巷</name><desc>左轉・115 m</desc></rtept>
-<rtept lat="25.018819" lon="121.532796"><name>33 溫州街</name><desc>左轉・377 m</desc></rtept>
-<rtept lat="25.022201" lon="121.533173"><name>34 辛亥路一段</name><desc>右轉・132 m（重複／連絡）</desc></rtept>
-<rtept lat="25.022244" lon="121.534481"><name>35 新生南路三段</name><desc>左轉・259 m</desc></rtept>
-<rtept lat="25.020838" lon="121.534076"><name>36 新生南路三段54巷</name><desc>右轉・105 m（重複／連絡）</desc></rtept>
-<rtept lat="25.020942" lon="121.533046"><name>37 溫州街52巷</name><desc>直行・128 m（重複／連絡）</desc></rtept>
-<rtept lat="25.020953" lon="121.531893"><name>38 羅斯福路三段269巷</name><desc>右轉・222 m</desc></rtept>
-<rtept lat="25.019587" lon="121.530289"><name>39 辛亥路一段34巷</name><desc>右轉・59 m（重複／連絡）</desc></rtept>
-<rtept lat="25.019977" lon="121.529889"><name>40 辛亥路一段</name><desc>右轉・269 m（重複／連絡）</desc></rtept>
-<rtept lat="25.021624" lon="121.531852"><name>41 無名巷道</name><desc>左轉・139 m</desc></rtept>
-<rtept lat="25.022103" lon="121.532736"><name>42 辛亥路一段</name><desc>左轉・166 m（重複／連絡）</desc></rtept>
-<rtept lat="25.022244" lon="121.534365"><name>43 新生南路三段</name><desc>右轉・251 m（重複／連絡）</desc></rtept>
-<rtept lat="25.020021" lon="121.533908"><name>44 新生南路三段60巷</name><desc>右轉・99 m</desc></rtept>
-<rtept lat="25.020117" lon="121.532929"><name>45 溫州街68巷</name><desc>直行・114 m</desc></rtept>
-<rtept lat="25.020224" lon="121.531808"><name>46 羅斯福路三段283巷</name><desc>左轉・144 m</desc></rtept>
-<rtept lat="25.018928" lon="121.531661"><name>47 新生南路三段86巷</name><desc>左轉・213 m</desc></rtept>
+<rtept lat="25.022178" lon="121.533026"><name>01 辛亥路一段</name><desc>出發・15 m</desc></rtept>
+<rtept lat="25.022201" lon="121.533173"><name>02 溫州街</name><desc>左轉・51 m</desc></rtept>
+<rtept lat="25.022655" lon="121.533225"><name>03 辛亥路一段</name><desc>左轉・55 m</desc></rtept>
+<rtept lat="25.022557" lon="121.532691"><name>04 無名巷道</name><desc>左轉・155 m</desc></rtept>
+<rtept lat="25.021624" lon="121.531852"><name>05 羅斯福路三段283巷</name><desc>直行・116 m</desc></rtept>
+<rtept lat="25.020609" lon="121.531853"><name>06 溫州街58巷</name><desc>左轉・114 m</desc></rtept>
+<rtept lat="25.020498" lon="121.532977"><name>07 新生南路三段56巷</name><desc>直行・102 m</desc></rtept>
+<rtept lat="25.020395" lon="121.533985"><name>08 新生南路三段</name><desc>右轉・469 m</desc></rtept>
+<rtept lat="25.016449" lon="121.532676"><name>09 羅斯福路三段</name><desc>右轉・59 m</desc></rtept>
+<rtept lat="25.016838" lon="121.532277"><name>10 羅斯福路三段333巷</name><desc>右轉・48 m</desc></rtept>
+<rtept lat="25.017134" lon="121.532622"><name>11 新生南路三段98巷</name><desc>右轉・95 m</desc></rtept>
+<rtept lat="25.016977" lon="121.533265"><name>12 新生南路三段</name><desc>左轉・84 m（重複／連絡）</desc></rtept>
+<rtept lat="25.016449" lon="121.532676"><name>13 羅斯福路三段</name><desc>右轉・330 m</desc></rtept>
+<rtept lat="25.018627" lon="121.530443"><name>14 羅斯福路三段269巷</name><desc>右轉・151 m</desc></rtept>
+<rtept lat="25.019587" lon="121.530289"><name>15 辛亥路一段34巷</name><desc>直行・59 m</desc></rtept>
+<rtept lat="25.019977" lon="121.529889"><name>16 辛亥路一段</name><desc>右轉・540 m</desc></rtept>
+<rtept lat="25.022244" lon="121.534365"><name>17 新生南路三段</name><desc>右轉・158 m</desc></rtept>
+<rtept lat="25.020838" lon="121.534076"><name>18 新生南路三段54巷</name><desc>右轉・105 m</desc></rtept>
+<rtept lat="25.020942" lon="121.533046"><name>19 溫州街52巷</name><desc>直行・116 m</desc></rtept>
+<rtept lat="25.021064" lon="121.531906"><name>20 羅斯福路三段283巷</name><desc>左轉・144 m</desc></rtept>
+<rtept lat="25.019769" lon="121.531756"><name>21 溫州街74巷</name><desc>左轉・114 m</desc></rtept>
+<rtept lat="25.019665" lon="121.532881"><name>22 新生南路三段70巷</name><desc>直行・95 m</desc></rtept>
+<rtept lat="25.019554" lon="121.533812"><name>23 新生南路三段</name><desc>右轉・47 m（重複／連絡）</desc></rtept>
+<rtept lat="25.019139" lon="121.533727"><name>24 新生南路三段76巷</name><desc>右轉・205 m</desc></rtept>
+<rtept lat="25.019345" lon="121.531706"><name>25 羅斯福路三段283巷</name><desc>左轉・184 m</desc></rtept>
+<rtept lat="25.017792" lon="121.531299"><name>26 羅斯福路三段</name><desc>右轉・1513 m</desc></rtept>
+<rtept lat="25.019606" lon="121.529448"><name>27 辛亥路一段</name><desc>右轉・346 m（重複／連絡）</desc></rtept>
+<rtept lat="25.021513" lon="121.53195"><name>28 溫州街48巷</name><desc>左轉・115 m</desc></rtept>
+<rtept lat="25.021398" lon="121.533085"><name>29 溫州街</name><desc>左轉・43 m</desc></rtept>
+<rtept lat="25.021784" lon="121.53313"><name>30 溫州街46巷</name><desc>左轉・91 m</desc></rtept>
+<rtept lat="25.021885" lon="121.532232"><name>31 辛亥路一段</name><desc>右轉・222 m（重複／連絡）</desc></rtept>
+<rtept lat="25.022244" lon="121.534365"><name>32 新生南路三段</name><desc>右轉・350 m（重複／連絡）</desc></rtept>
+<rtept lat="25.019139" lon="121.533727"><name>33 新生南路三段76巷</name><desc>右轉・205 m（重複／連絡）</desc></rtept>
+<rtept lat="25.019345" lon="121.531706"><name>34 羅斯福路三段283巷</name><desc>左轉・46 m（重複／連絡）</desc></rtept>
+<rtept lat="25.018928" lon="121.531661"><name>35 新生南路三段86巷</name><desc>左轉・115 m</desc></rtept>
+<rtept lat="25.018819" lon="121.532796"><name>36 溫州街</name><desc>左轉・377 m</desc></rtept>
+<rtept lat="25.022201" lon="121.533173"><name>37 辛亥路一段</name><desc>右轉・132 m（重複／連絡）</desc></rtept>
+<rtept lat="25.022244" lon="121.534481"><name>38 新生南路三段</name><desc>左轉・259 m</desc></rtept>
+<rtept lat="25.020838" lon="121.534076"><name>39 新生南路三段54巷</name><desc>右轉・105 m（重複／連絡）</desc></rtept>
+<rtept lat="25.020942" lon="121.533046"><name>40 溫州街52巷</name><desc>直行・128 m（重複／連絡）</desc></rtept>
+<rtept lat="25.020953" lon="121.531893"><name>41 羅斯福路三段269巷</name><desc>右轉・222 m</desc></rtept>
+<rtept lat="25.019587" lon="121.530289"><name>42 辛亥路一段34巷</name><desc>右轉・59 m（重複／連絡）</desc></rtept>
+<rtept lat="25.019977" lon="121.529889"><name>43 辛亥路一段</name><desc>右轉・269 m（重複／連絡）</desc></rtept>
+<rtept lat="25.021624" lon="121.531852"><name>44 無名巷道</name><desc>左轉・139 m</desc></rtept>
+<rtept lat="25.022103" lon="121.532736"><name>45 辛亥路一段</name><desc>左轉・166 m（重複／連絡）</desc></rtept>
+<rtept lat="25.022244" lon="121.534365"><name>46 新生南路三段</name><desc>右轉・251 m（重複／連絡）</desc></rtept>
+<rtept lat="25.020021" lon="121.533908"><name>47 新生南路三段60巷</name><desc>右轉・99 m</desc></rtept>
+<rtept lat="25.020117" lon="121.532929"><name>48 溫州街68巷</name><desc>直行・114 m</desc></rtept>
+<rtept lat="25.020224" lon="121.531808"><name>49 羅斯福路三段283巷</name><desc>左轉・144 m</desc></rtept>
+<rtept lat="25.018928" lon="121.531661"><name>50 新生南路三段86巷</name><desc>左轉・213 m</desc></rtept>
 <rtept lat="25.018712" lon="121.533756"><name>終點</name></rtept></rte>
 <trk><name>大學里 行駛軌跡</name><trkseg>
+<trkpt lat="25.022178" lon="121.533026"/>
+<trkpt lat="25.022188" lon="121.533093"/>
+<trkpt lat="25.022194" lon="121.533133"/>
+<trkpt lat="25.022201" lon="121.533173"/>
+<trkpt lat="25.022266" lon="121.533180"/>
+<trkpt lat="25.022331" lon="121.533187"/>
+<trkpt lat="25.022396" lon="121.533195"/>
+<trkpt lat="25.022460" lon="121.533202"/>
+<trkpt lat="25.022525" lon="121.533210"/>
+<trkpt lat="25.022590" lon="121.533217"/>
+<trkpt lat="25.022655" lon="121.533225"/>
+<trkpt lat="25.022645" lon="121.533157"/>
+<trkpt lat="25.022635" lon="121.533090"/>
+<trkpt lat="25.022625" lon="121.533023"/>
+<trkpt lat="25.022610" lon="121.532950"/>
+<trkpt lat="25.022596" lon="121.532877"/>
+<trkpt lat="25.022583" lon="121.532815"/>
+<trkpt lat="25.022570" lon="121.532753"/>
 <trkpt lat="25.022557" lon="121.532691"/>
 <trkpt lat="25.022509" lon="121.532637"/>
 <trkpt lat="25.022461" lon="121.532582"/>

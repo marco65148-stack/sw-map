@@ -1,63 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 光武里 掃街車路線</name><desc>總長 9.56 km，重複率 35.8%</desc></metadata>
-<wpt lat="25.041669" lon="121.545256"><name>起點 忠孝東路四段49巷</name></wpt>
+<metadata><name>大安區 光武里 掃街車路線</name><desc>總長 9.65 km，重複率 36.4%</desc></metadata>
+<wpt lat="25.041653" lon="121.54616"><name>起點 忠孝東路四段</name></wpt>
 <wpt lat="25.041670" lon="121.544453"><name>終點 忠孝東路四段17巷</name></wpt>
 <rte><name>光武里 道路順序</name>
-<rtept lat="25.041669" lon="121.545256"><name>01 忠孝東路四段49巷</name><desc>出發・214 m</desc></rtept>
-<rtept lat="25.043596" lon="121.545309"><name>02 復興南路一段107巷</name><desc>右轉・89 m</desc></rtept>
-<rtept lat="25.043587" lon="121.546191"><name>03 敦化南路一段160巷</name><desc>直行・247 m</desc></rtept>
-<rtept lat="25.043539" lon="121.548633"><name>04 敦化南路一段</name><desc>右轉・215 m</desc></rtept>
-<rtept lat="25.041603" lon="121.548617"><name>05 忠孝東路四段</name><desc>右轉・52 m</desc></rtept>
-<rtept lat="25.041609" lon="121.548105"><name>06 忠孝東路四段101巷</name><desc>右轉・358 m</desc></rtept>
-<rtept lat="25.044841" lon="121.548112"><name>07 市民大道四段</name><desc>右轉・344 m</desc></rtept>
-<rtept lat="25.045176" lon="121.547026"><name>08 迴轉道</name><desc>直行・30 m</desc></rtept>
-<rtept lat="25.044971" lon="121.546974"><name>09 市民大道四段</name><desc>左轉・243 m</desc></rtept>
-<rtept lat="25.044992" lon="121.548646"><name>10 敦化南路一段</name><desc>左轉・655 m</desc></rtept>
-<rtept lat="25.041596" lon="121.548876"><name>11 忠孝東路四段</name><desc>右轉・508 m</desc></rtept>
-<rtept lat="25.041684" lon="121.543839"><name>12 復興南路一段</name><desc>右轉・217 m</desc></rtept>
-<rtept lat="25.043638" lon="121.543901"><name>13 復興南路一段107巷</name><desc>右轉・231 m</desc></rtept>
-<rtept lat="25.043587" lon="121.546191"><name>14 敦化南路一段160巷</name><desc>直行・193 m（重複／連絡）</desc></rtept>
-<rtept lat="25.043536" lon="121.548101"><name>15 忠孝東路四段101巷</name><desc>左轉・48 m（重複／連絡）</desc></rtept>
-<rtept lat="25.043971" lon="121.548105"><name>16 大安路一段31巷</name><desc>左轉・193 m</desc></rtept>
-<rtept lat="25.04401" lon="121.546198"><name>17 大安路一段</name><desc>右轉・49 m</desc></rtept>
-<rtept lat="25.04445" lon="121.546216"><name>18 大安路一段19巷</name><desc>右轉・191 m</desc></rtept>
-<rtept lat="25.044398" lon="121.548108"><name>19 忠孝東路四段101巷</name><desc>左轉・49 m（重複／連絡）</desc></rtept>
-<rtept lat="25.044841" lon="121.548112"><name>20 市民大道四段</name><desc>右轉・469 m</desc></rtept>
-<rtept lat="25.045127" lon="121.545278"><name>21 迴轉道</name><desc>直行・31 m</desc></rtept>
-<rtept lat="25.044915" lon="121.545297"><name>22 市民大道四段</name><desc>左轉・201 m</desc></rtept>
-<rtept lat="25.044939" lon="121.547282"><name>23 市民大道四段68巷</name><desc>右轉・58 m</desc></rtept>
-<rtept lat="25.044416" lon="121.547298"><name>24 忠孝東路四段77巷</name><desc>直行・309 m</desc></rtept>
-<rtept lat="25.041632" lon="121.547209"><name>25 忠孝東路四段</name><desc>右轉・106 m（重複／連絡）</desc></rtept>
-<rtept lat="25.041653" lon="121.54616"><name>26 大安路一段</name><desc>右轉・371 m</desc></rtept>
-<rtept lat="25.045" lon="121.546225"><name>27 八德路二段366巷</name><desc>左轉・32 m</desc></rtept>
-<rtept lat="25.045204" lon="121.546025"><name>28 市民大道四段</name><desc>左轉・76 m（重複／連絡）</desc></rtept>
-<rtept lat="25.045127" lon="121.545278"><name>29 迴轉道</name><desc>直行・31 m（重複／連絡）</desc></rtept>
-<rtept lat="25.044915" lon="121.545297"><name>30 市民大道四段</name><desc>左轉・156 m（重複／連絡）</desc></rtept>
-<rtept lat="25.044981" lon="121.546841"><name>31 迴轉道</name><desc>左轉・31 m</desc></rtept>
-<rtept lat="25.04519" lon="121.54686"><name>32 市民大道四段</name><desc>直行・160 m（重複／連絡）</desc></rtept>
-<rtept lat="25.045127" lon="121.545278"><name>33 迴轉道</name><desc>直行・31 m（重複／連絡）</desc></rtept>
-<rtept lat="25.044915" lon="121.545297"><name>34 市民大道四段</name><desc>左轉・364 m（重複／連絡）</desc></rtept>
-<rtept lat="25.044747" lon="121.548881"><name>35 敦化南路一段</name><desc>右轉・261 m</desc></rtept>
-<rtept lat="25.042612" lon="121.54863"><name>36 敦化南路一段190巷</name><desc>直行・248 m</desc></rtept>
-<rtept lat="25.042662" lon="121.546169"><name>37 復興南路一段135巷</name><desc>直行・238 m</desc></rtept>
-<rtept lat="25.042691" lon="121.543872"><name>38 復興南路一段</name><desc>右轉・229 m</desc></rtept>
-<rtept lat="25.044756" lon="121.543935"><name>39 市民大道四段</name><desc>右轉・340 m</desc></rtept>
-<rtept lat="25.044939" lon="121.547282"><name>40 市民大道四段68巷</name><desc>右轉・58 m（重複／連絡）</desc></rtept>
-<rtept lat="25.044416" lon="121.547298"><name>41 忠孝東路四段77巷</name><desc>直行・309 m（重複／連絡）</desc></rtept>
-<rtept lat="25.041632" lon="121.547209"><name>42 忠孝東路四段</name><desc>右轉・106 m（重複／連絡）</desc></rtept>
-<rtept lat="25.041653" lon="121.54616"><name>43 大安路一段</name><desc>右轉・59 m（重複／連絡）</desc></rtept>
-<rtept lat="25.042189" lon="121.546159"><name>44 大安路一段75巷</name><desc>右轉・196 m</desc></rtept>
-<rtept lat="25.042157" lon="121.548101"><name>45 忠孝東路四段101巷</name><desc>左轉・99 m（重複／連絡）</desc></rtept>
-<rtept lat="25.043054" lon="121.548097"><name>46 大安路一段51巷</name><desc>左轉・194 m</desc></rtept>
-<rtept lat="25.043101" lon="121.54618"><name>47 大安路一段52巷</name><desc>直行・170 m</desc></rtept>
-<rtept lat="25.043154" lon="121.544494"><name>48 忠孝東路四段17巷</name><desc>左轉・54 m</desc></rtept>
-<rtept lat="25.042662" lon="121.544515"><name>49 復興南路一段135巷</name><desc>右轉・65 m（重複／連絡）</desc></rtept>
-<rtept lat="25.042691" lon="121.543872"><name>50 復興南路一段</name><desc>右轉・105 m（重複／連絡）</desc></rtept>
-<rtept lat="25.043638" lon="121.543901"><name>51 復興南路一段107巷</name><desc>右轉・61 m（重複／連絡）</desc></rtept>
-<rtept lat="25.043626" lon="121.544507"><name>52 忠孝東路四段17巷</name><desc>右轉・217 m</desc></rtept>
+<rtept lat="25.041653" lon="121.54616"><name>01 忠孝東路四段</name><desc>出發・91 m</desc></rtept>
+<rtept lat="25.041669" lon="121.545256"><name>02 忠孝東路四段49巷</name><desc>右轉・214 m</desc></rtept>
+<rtept lat="25.043596" lon="121.545309"><name>03 復興南路一段107巷</name><desc>右轉・89 m</desc></rtept>
+<rtept lat="25.043587" lon="121.546191"><name>04 敦化南路一段160巷</name><desc>直行・247 m</desc></rtept>
+<rtept lat="25.043539" lon="121.548633"><name>05 敦化南路一段</name><desc>右轉・215 m</desc></rtept>
+<rtept lat="25.041603" lon="121.548617"><name>06 忠孝東路四段</name><desc>右轉・52 m</desc></rtept>
+<rtept lat="25.041609" lon="121.548105"><name>07 忠孝東路四段101巷</name><desc>右轉・358 m</desc></rtept>
+<rtept lat="25.044841" lon="121.548112"><name>08 市民大道四段</name><desc>右轉・344 m</desc></rtept>
+<rtept lat="25.045176" lon="121.547026"><name>09 迴轉道</name><desc>直行・30 m</desc></rtept>
+<rtept lat="25.044971" lon="121.546974"><name>10 市民大道四段</name><desc>左轉・243 m</desc></rtept>
+<rtept lat="25.044992" lon="121.548646"><name>11 敦化南路一段</name><desc>左轉・655 m</desc></rtept>
+<rtept lat="25.041596" lon="121.548876"><name>12 忠孝東路四段</name><desc>右轉・508 m</desc></rtept>
+<rtept lat="25.041684" lon="121.543839"><name>13 復興南路一段</name><desc>右轉・217 m</desc></rtept>
+<rtept lat="25.043638" lon="121.543901"><name>14 復興南路一段107巷</name><desc>右轉・231 m</desc></rtept>
+<rtept lat="25.043587" lon="121.546191"><name>15 敦化南路一段160巷</name><desc>直行・193 m（重複／連絡）</desc></rtept>
+<rtept lat="25.043536" lon="121.548101"><name>16 忠孝東路四段101巷</name><desc>左轉・48 m（重複／連絡）</desc></rtept>
+<rtept lat="25.043971" lon="121.548105"><name>17 大安路一段31巷</name><desc>左轉・193 m</desc></rtept>
+<rtept lat="25.04401" lon="121.546198"><name>18 大安路一段</name><desc>右轉・49 m</desc></rtept>
+<rtept lat="25.04445" lon="121.546216"><name>19 大安路一段19巷</name><desc>右轉・191 m</desc></rtept>
+<rtept lat="25.044398" lon="121.548108"><name>20 忠孝東路四段101巷</name><desc>左轉・49 m（重複／連絡）</desc></rtept>
+<rtept lat="25.044841" lon="121.548112"><name>21 市民大道四段</name><desc>右轉・469 m</desc></rtept>
+<rtept lat="25.045127" lon="121.545278"><name>22 迴轉道</name><desc>直行・31 m</desc></rtept>
+<rtept lat="25.044915" lon="121.545297"><name>23 市民大道四段</name><desc>左轉・201 m</desc></rtept>
+<rtept lat="25.044939" lon="121.547282"><name>24 市民大道四段68巷</name><desc>右轉・58 m</desc></rtept>
+<rtept lat="25.044416" lon="121.547298"><name>25 忠孝東路四段77巷</name><desc>直行・309 m</desc></rtept>
+<rtept lat="25.041632" lon="121.547209"><name>26 忠孝東路四段</name><desc>右轉・106 m（重複／連絡）</desc></rtept>
+<rtept lat="25.041653" lon="121.54616"><name>27 大安路一段</name><desc>右轉・371 m</desc></rtept>
+<rtept lat="25.045" lon="121.546225"><name>28 八德路二段366巷</name><desc>左轉・32 m</desc></rtept>
+<rtept lat="25.045204" lon="121.546025"><name>29 市民大道四段</name><desc>左轉・76 m（重複／連絡）</desc></rtept>
+<rtept lat="25.045127" lon="121.545278"><name>30 迴轉道</name><desc>直行・31 m（重複／連絡）</desc></rtept>
+<rtept lat="25.044915" lon="121.545297"><name>31 市民大道四段</name><desc>左轉・156 m（重複／連絡）</desc></rtept>
+<rtept lat="25.044981" lon="121.546841"><name>32 迴轉道</name><desc>左轉・31 m</desc></rtept>
+<rtept lat="25.04519" lon="121.54686"><name>33 市民大道四段</name><desc>直行・160 m（重複／連絡）</desc></rtept>
+<rtept lat="25.045127" lon="121.545278"><name>34 迴轉道</name><desc>直行・31 m（重複／連絡）</desc></rtept>
+<rtept lat="25.044915" lon="121.545297"><name>35 市民大道四段</name><desc>左轉・364 m（重複／連絡）</desc></rtept>
+<rtept lat="25.044747" lon="121.548881"><name>36 敦化南路一段</name><desc>右轉・261 m</desc></rtept>
+<rtept lat="25.042612" lon="121.54863"><name>37 敦化南路一段190巷</name><desc>直行・248 m</desc></rtept>
+<rtept lat="25.042662" lon="121.546169"><name>38 復興南路一段135巷</name><desc>直行・238 m</desc></rtept>
+<rtept lat="25.042691" lon="121.543872"><name>39 復興南路一段</name><desc>右轉・229 m</desc></rtept>
+<rtept lat="25.044756" lon="121.543935"><name>40 市民大道四段</name><desc>右轉・340 m</desc></rtept>
+<rtept lat="25.044939" lon="121.547282"><name>41 市民大道四段68巷</name><desc>右轉・58 m（重複／連絡）</desc></rtept>
+<rtept lat="25.044416" lon="121.547298"><name>42 忠孝東路四段77巷</name><desc>直行・309 m（重複／連絡）</desc></rtept>
+<rtept lat="25.041632" lon="121.547209"><name>43 忠孝東路四段</name><desc>右轉・106 m（重複／連絡）</desc></rtept>
+<rtept lat="25.041653" lon="121.54616"><name>44 大安路一段</name><desc>右轉・59 m（重複／連絡）</desc></rtept>
+<rtept lat="25.042189" lon="121.546159"><name>45 大安路一段75巷</name><desc>右轉・196 m</desc></rtept>
+<rtept lat="25.042157" lon="121.548101"><name>46 忠孝東路四段101巷</name><desc>左轉・99 m（重複／連絡）</desc></rtept>
+<rtept lat="25.043054" lon="121.548097"><name>47 大安路一段51巷</name><desc>左轉・194 m</desc></rtept>
+<rtept lat="25.043101" lon="121.54618"><name>48 大安路一段52巷</name><desc>直行・170 m</desc></rtept>
+<rtept lat="25.043154" lon="121.544494"><name>49 忠孝東路四段17巷</name><desc>左轉・54 m</desc></rtept>
+<rtept lat="25.042662" lon="121.544515"><name>50 復興南路一段135巷</name><desc>右轉・65 m（重複／連絡）</desc></rtept>
+<rtept lat="25.042691" lon="121.543872"><name>51 復興南路一段</name><desc>右轉・105 m（重複／連絡）</desc></rtept>
+<rtept lat="25.043638" lon="121.543901"><name>52 復興南路一段107巷</name><desc>右轉・61 m（重複／連絡）</desc></rtept>
+<rtept lat="25.043626" lon="121.544507"><name>53 忠孝東路四段17巷</name><desc>右轉・217 m</desc></rtept>
 <rtept lat="25.041670" lon="121.544453"><name>終點</name></rtept></rte>
 <trk><name>光武里 行駛軌跡</name><trkseg>
+<trkpt lat="25.041653" lon="121.546160"/>
+<trkpt lat="25.041654" lon="121.546093"/>
+<trkpt lat="25.041655" lon="121.546026"/>
+<trkpt lat="25.041656" lon="121.545949"/>
+<trkpt lat="25.041658" lon="121.545872"/>
+<trkpt lat="25.041659" lon="121.545795"/>
+<trkpt lat="25.041661" lon="121.545718"/>
+<trkpt lat="25.041662" lon="121.545641"/>
+<trkpt lat="25.041663" lon="121.545564"/>
+<trkpt lat="25.041665" lon="121.545487"/>
+<trkpt lat="25.041666" lon="121.545410"/>
+<trkpt lat="25.041668" lon="121.545333"/>
 <trkpt lat="25.041669" lon="121.545256"/>
 <trkpt lat="25.041708" lon="121.545258"/>
 <trkpt lat="25.041746" lon="121.545260"/>

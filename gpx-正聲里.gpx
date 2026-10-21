@@ -1,47 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 正聲里 掃街車路線</name><desc>總長 5.55 km，重複率 40.4%</desc></metadata>
-<wpt lat="25.040779" lon="121.556728"><name>起點 僑安停車場聯絡道</name></wpt>
+<metadata><name>大安區 正聲里 掃街車路線</name><desc>總長 5.82 km，重複率 43.0%</desc></metadata>
+<wpt lat="25.041283" lon="121.557614"><name>起點 光復南路</name></wpt>
 <wpt lat="25.040704" lon="121.556669"><name>終點 僑安停車場聯絡道</name></wpt>
 <rte><name>正聲里 道路順序</name>
-<rtept lat="25.040779" lon="121.556728"><name>01 僑安停車場聯絡道</name><desc>出發・58 m</desc></rtept>
-<rtept lat="25.0413" lon="121.556761"><name>02 忠孝東路四段</name><desc>右轉・86 m</desc></rtept>
-<rtept lat="25.041283" lon="121.557614"><name>03 光復南路</name><desc>右轉・522 m</desc></rtept>
-<rtept lat="25.037798" lon="121.557645"><name>04 仁愛路四段</name><desc>左轉・228 m</desc></rtept>
-<rtept lat="25.037919" lon="121.555401"><name>05 延吉街</name><desc>右轉・59 m</desc></rtept>
-<rtept lat="25.038436" lon="121.555268"><name>06 光復南路346巷</name><desc>右轉・198 m</desc></rtept>
-<rtept lat="25.038412" lon="121.557227"><name>07 僑安停車場聯絡道</name><desc>右轉・43 m</desc></rtept>
-<rtept lat="25.038149" lon="121.557534"><name>08 光復南路</name><desc>右轉・32 m（重複／連絡）</desc></rtept>
-<rtept lat="25.037861" lon="121.557528"><name>09 仁愛路四段</name><desc>右轉・215 m（重複／連絡）</desc></rtept>
-<rtept lat="25.037919" lon="121.555401"><name>10 延吉街</name><desc>右轉・92 m</desc></rtept>
-<rtept lat="25.038726" lon="121.555199"><name>11 光復南路320巷</name><desc>右轉・106 m</desc></rtept>
-<rtept lat="25.038889" lon="121.556072"><name>12 光復南路308巷</name><desc>左轉・93 m</desc></rtept>
-<rtept lat="25.03892" lon="121.555153"><name>13 延吉街</name><desc>右轉・157 m</desc></rtept>
-<rtept lat="25.040298" lon="121.554776"><name>14 光復南路260巷</name><desc>右轉・188 m</desc></rtept>
-<rtept lat="25.040268" lon="121.556639"><name>15 僑安停車場聯絡道</name><desc>右轉・103 m</desc></rtept>
-<rtept lat="25.039357" lon="121.556724"><name>16 光復南路290巷</name><desc>左轉・86 m</desc></rtept>
-<rtept lat="25.039342" lon="121.557573"><name>17 光復南路</name><desc>右轉・104 m（重複／連絡）</desc></rtept>
-<rtept lat="25.038402" lon="121.557538"><name>18 僑安停車場聯絡道</name><desc>右轉・175 m</desc></rtept>
-<rtept lat="25.038412" lon="121.557227"><name>19 光復南路346巷</name><desc>右轉・198 m（重複／連絡）</desc></rtept>
-<rtept lat="25.038436" lon="121.555268"><name>20 延吉街</name><desc>左轉・176 m（重複／連絡）</desc></rtept>
-<rtept lat="25.038436" lon="121.555268"><name>21 光復南路346巷</name><desc>右轉・212 m（重複／連絡）</desc></rtept>
-<rtept lat="25.038474" lon="121.557336"><name>22 僑安停車場聯絡道</name><desc>左轉・153 m（重複／連絡）</desc></rtept>
-<rtept lat="25.038412" lon="121.557227"><name>23 光復南路346巷</name><desc>右轉・198 m（重複／連絡）</desc></rtept>
-<rtept lat="25.038436" lon="121.555268"><name>24 延吉街</name><desc>右轉・107 m</desc></rtept>
-<rtept lat="25.039372" lon="121.555025"><name>25 光復南路290巷</name><desc>右轉・172 m</desc></rtept>
-<rtept lat="25.039357" lon="121.556724"><name>26 僑安停車場聯絡道</name><desc>右轉・302 m（重複／連絡）</desc></rtept>
-<rtept lat="25.039809" lon="121.55666"><name>27 光復南路280巷</name><desc>左轉・177 m</desc></rtept>
-<rtept lat="25.039829" lon="121.554902"><name>28 延吉街</name><desc>右轉・172 m</desc></rtept>
-<rtept lat="25.041341" lon="121.554501"><name>29 忠孝東路四段</name><desc>右轉・209 m</desc></rtept>
-<rtept lat="25.041303" lon="121.55657"><name>30 僑安停車場聯絡道</name><desc>右轉・63 m</desc></rtept>
-<rtept lat="25.040737" lon="121.556594"><name>31 光復南路240巷</name><desc>右轉・196 m</desc></rtept>
-<rtept lat="25.040764" lon="121.554651"><name>32 延吉街</name><desc>右轉・97 m（重複／連絡）</desc></rtept>
-<rtept lat="25.041341" lon="121.554501"><name>33 忠孝東路四段</name><desc>左轉・314 m（重複／連絡）</desc></rtept>
-<rtept lat="25.041283" lon="121.557614"><name>34 光復南路</name><desc>右轉・114 m（重複／連絡）</desc></rtept>
-<rtept lat="25.040253" lon="121.557593"><name>35 光復南路260巷</name><desc>右轉・96 m</desc></rtept>
-<rtept lat="25.040268" lon="121.556639"><name>36 僑安停車場聯絡道</name><desc>右轉・49 m</desc></rtept>
+<rtept lat="25.041283" lon="121.557614"><name>01 光復南路</name><desc>出發・114 m</desc></rtept>
+<rtept lat="25.040253" lon="121.557593"><name>02 光復南路260巷</name><desc>右轉・96 m</desc></rtept>
+<rtept lat="25.040268" lon="121.556639"><name>03 僑安停車場聯絡道</name><desc>右轉・118 m</desc></rtept>
+<rtept lat="25.0413" lon="121.556761"><name>04 忠孝東路四段</name><desc>右轉・86 m</desc></rtept>
+<rtept lat="25.041283" lon="121.557614"><name>05 光復南路</name><desc>右轉・522 m</desc></rtept>
+<rtept lat="25.037798" lon="121.557645"><name>06 仁愛路四段</name><desc>左轉・228 m</desc></rtept>
+<rtept lat="25.037919" lon="121.555401"><name>07 延吉街</name><desc>右轉・59 m</desc></rtept>
+<rtept lat="25.038436" lon="121.555268"><name>08 光復南路346巷</name><desc>右轉・198 m</desc></rtept>
+<rtept lat="25.038412" lon="121.557227"><name>09 僑安停車場聯絡道</name><desc>右轉・43 m</desc></rtept>
+<rtept lat="25.038149" lon="121.557534"><name>10 光復南路</name><desc>右轉・32 m（重複／連絡）</desc></rtept>
+<rtept lat="25.037861" lon="121.557528"><name>11 仁愛路四段</name><desc>右轉・215 m（重複／連絡）</desc></rtept>
+<rtept lat="25.037919" lon="121.555401"><name>12 延吉街</name><desc>右轉・92 m</desc></rtept>
+<rtept lat="25.038726" lon="121.555199"><name>13 光復南路320巷</name><desc>右轉・106 m</desc></rtept>
+<rtept lat="25.038889" lon="121.556072"><name>14 光復南路308巷</name><desc>左轉・93 m</desc></rtept>
+<rtept lat="25.03892" lon="121.555153"><name>15 延吉街</name><desc>右轉・157 m</desc></rtept>
+<rtept lat="25.040298" lon="121.554776"><name>16 光復南路260巷</name><desc>右轉・188 m</desc></rtept>
+<rtept lat="25.040268" lon="121.556639"><name>17 僑安停車場聯絡道</name><desc>右轉・103 m</desc></rtept>
+<rtept lat="25.039357" lon="121.556724"><name>18 光復南路290巷</name><desc>左轉・86 m</desc></rtept>
+<rtept lat="25.039342" lon="121.557573"><name>19 光復南路</name><desc>右轉・104 m（重複／連絡）</desc></rtept>
+<rtept lat="25.038402" lon="121.557538"><name>20 僑安停車場聯絡道</name><desc>右轉・175 m</desc></rtept>
+<rtept lat="25.038412" lon="121.557227"><name>21 光復南路346巷</name><desc>右轉・198 m（重複／連絡）</desc></rtept>
+<rtept lat="25.038436" lon="121.555268"><name>22 延吉街</name><desc>左轉・176 m（重複／連絡）</desc></rtept>
+<rtept lat="25.038436" lon="121.555268"><name>23 光復南路346巷</name><desc>右轉・212 m（重複／連絡）</desc></rtept>
+<rtept lat="25.038474" lon="121.557336"><name>24 僑安停車場聯絡道</name><desc>左轉・153 m（重複／連絡）</desc></rtept>
+<rtept lat="25.038412" lon="121.557227"><name>25 光復南路346巷</name><desc>右轉・198 m（重複／連絡）</desc></rtept>
+<rtept lat="25.038436" lon="121.555268"><name>26 延吉街</name><desc>右轉・107 m</desc></rtept>
+<rtept lat="25.039372" lon="121.555025"><name>27 光復南路290巷</name><desc>右轉・172 m</desc></rtept>
+<rtept lat="25.039357" lon="121.556724"><name>28 僑安停車場聯絡道</name><desc>右轉・302 m（重複／連絡）</desc></rtept>
+<rtept lat="25.039809" lon="121.55666"><name>29 光復南路280巷</name><desc>左轉・177 m</desc></rtept>
+<rtept lat="25.039829" lon="121.554902"><name>30 延吉街</name><desc>右轉・172 m</desc></rtept>
+<rtept lat="25.041341" lon="121.554501"><name>31 忠孝東路四段</name><desc>右轉・209 m</desc></rtept>
+<rtept lat="25.041303" lon="121.55657"><name>32 僑安停車場聯絡道</name><desc>右轉・63 m</desc></rtept>
+<rtept lat="25.040737" lon="121.556594"><name>33 光復南路240巷</name><desc>右轉・196 m</desc></rtept>
+<rtept lat="25.040764" lon="121.554651"><name>34 延吉街</name><desc>右轉・97 m（重複／連絡）</desc></rtept>
+<rtept lat="25.041341" lon="121.554501"><name>35 忠孝東路四段</name><desc>左轉・314 m（重複／連絡）</desc></rtept>
+<rtept lat="25.041283" lon="121.557614"><name>36 光復南路</name><desc>右轉・114 m（重複／連絡）</desc></rtept>
+<rtept lat="25.040253" lon="121.557593"><name>37 光復南路260巷</name><desc>右轉・96 m（重複／連絡）</desc></rtept>
+<rtept lat="25.040268" lon="121.556639"><name>38 僑安停車場聯絡道</name><desc>右轉・49 m（重複／連絡）</desc></rtept>
 <rtept lat="25.040704" lon="121.556669"><name>終點</name></rtept></rte>
 <trk><name>正聲里 行駛軌跡</name><trkseg>
+<trkpt lat="25.041283" lon="121.557614"/>
+<trkpt lat="25.041228" lon="121.557614"/>
+<trkpt lat="25.041172" lon="121.557613"/>
+<trkpt lat="25.041102" lon="121.557611"/>
+<trkpt lat="25.041031" lon="121.557610"/>
+<trkpt lat="25.040960" lon="121.557608"/>
+<trkpt lat="25.040890" lon="121.557607"/>
+<trkpt lat="25.040819" lon="121.557605"/>
+<trkpt lat="25.040748" lon="121.557604"/>
+<trkpt lat="25.040678" lon="121.557602"/>
+<trkpt lat="25.040607" lon="121.557601"/>
+<trkpt lat="25.040536" lon="121.557599"/>
+<trkpt lat="25.040465" lon="121.557598"/>
+<trkpt lat="25.040395" lon="121.557596"/>
+<trkpt lat="25.040324" lon="121.557595"/>
+<trkpt lat="25.040253" lon="121.557593"/>
+<trkpt lat="25.040254" lon="121.557550"/>
+<trkpt lat="25.040255" lon="121.557507"/>
+<trkpt lat="25.040256" lon="121.557440"/>
+<trkpt lat="25.040257" lon="121.557373"/>
+<trkpt lat="25.040258" lon="121.557305"/>
+<trkpt lat="25.040259" lon="121.557238"/>
+<trkpt lat="25.040260" lon="121.557170"/>
+<trkpt lat="25.040260" lon="121.557148"/>
+<trkpt lat="25.040261" lon="121.557072"/>
+<trkpt lat="25.040263" lon="121.556996"/>
+<trkpt lat="25.040264" lon="121.556921"/>
+<trkpt lat="25.040265" lon="121.556845"/>
+<trkpt lat="25.040266" lon="121.556769"/>
+<trkpt lat="25.040267" lon="121.556704"/>
+<trkpt lat="25.040268" lon="121.556639"/>
+<trkpt lat="25.040322" lon="121.556667"/>
+<trkpt lat="25.040386" lon="121.556668"/>
+<trkpt lat="25.040449" lon="121.556668"/>
+<trkpt lat="25.040513" lon="121.556668"/>
+<trkpt lat="25.040577" lon="121.556668"/>
+<trkpt lat="25.040640" lon="121.556668"/>
+<trkpt lat="25.040704" lon="121.556669"/>
+<trkpt lat="25.040710" lon="121.556689"/>
+<trkpt lat="25.040721" lon="121.556706"/>
+<trkpt lat="25.040736" lon="121.556719"/>
+<trkpt lat="25.040757" lon="121.556728"/>
 <trkpt lat="25.040779" lon="121.556728"/>
 <trkpt lat="25.040825" lon="121.556741"/>
 <trkpt lat="25.040871" lon="121.556754"/>

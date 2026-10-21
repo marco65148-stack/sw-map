@@ -1,39 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 光信里 掃街車路線</name><desc>總長 3.86 km，重複率 31.5%</desc></metadata>
-<wpt lat="25.03548" lon="121.557597"><name>起點 光復南路456巷</name></wpt>
+<metadata><name>大安區 光信里 掃街車路線</name><desc>總長 3.91 km，重複率 31.1%</desc></metadata>
+<wpt lat="25.035033" lon="121.557586"><name>起點 光復南路</name></wpt>
 <wpt lat="25.033176" lon="121.557543"><name>終點 信義路四段</name></wpt>
 <rte><name>光信里 道路順序</name>
-<rtept lat="25.03548" lon="121.557597"><name>01 光復南路456巷</name><desc>出發・76 m</desc></rtept>
-<rtept lat="25.035398" lon="121.556881"><name>02 無名巷道</name><desc>左轉・156 m</desc></rtept>
-<rtept lat="25.034411" lon="121.557447"><name>03 光復南路</name><desc>右轉・58 m</desc></rtept>
-<rtept lat="25.033887" lon="121.557436"><name>04 延吉街</name><desc>右轉・92 m</desc></rtept>
-<rtept lat="25.034183" lon="121.556689"><name>05 無名巷道</name><desc>右轉・158 m</desc></rtept>
-<rtept lat="25.035398" lon="121.556881"><name>06 光復南路456巷</name><desc>左轉・99 m</desc></rtept>
-<rtept lat="25.035121" lon="121.555968"><name>07 延吉街</name><desc>左轉・127 m</desc></rtept>
-<rtept lat="25.034183" lon="121.556689"><name>08 信義路四段335巷</name><desc>右轉・103 m</desc></rtept>
-<rtept lat="25.034183" lon="121.556689"><name>09 延吉街</name><desc>左轉・298 m</desc></rtept>
-<rtept lat="25.036589" lon="121.555589"><name>10 延吉街234巷</name><desc>左轉・114 m</desc></rtept>
-<rtept lat="25.036597" lon="121.554459"><name>11 仁愛路四段300巷</name><desc>左轉・143 m</desc></rtept>
-<rtept lat="25.035456" lon="121.554453"><name>12 延吉街246巷</name><desc>右轉・129 m</desc></rtept>
-<rtept lat="25.035413" lon="121.555728"><name>13 延吉街</name><desc>左轉・177 m</desc></rtept>
-<rtept lat="25.037003" lon="121.555549"><name>14 延吉街233巷</name><desc>右轉・137 m</desc></rtept>
-<rtept lat="25.036968" lon="121.556903"><name>15 仁愛路四段408巷</name><desc>左轉・62 m</desc></rtept>
-<rtept lat="25.037524" lon="121.556925"><name>16 仁愛路四段</name><desc>右轉・100 m</desc></rtept>
-<rtept lat="25.037747" lon="121.557525"><name>17 光復南路</name><desc>左轉・141 m</desc></rtept>
-<rtept lat="25.036471" lon="121.557495"><name>18 光復南路420巷</name><desc>右轉・59 m</desc></rtept>
-<rtept lat="25.03648" lon="121.556914"><name>19 仁愛路四段408巷</name><desc>右轉・116 m</desc></rtept>
-<rtept lat="25.037524" lon="121.556925"><name>20 仁愛路四段</name><desc>右轉・100 m（重複／連絡）</desc></rtept>
-<rtept lat="25.037628" lon="121.557523"><name>21 光復南路</name><desc>左轉・128 m（重複／連絡）</desc></rtept>
-<rtept lat="25.036471" lon="121.557495"><name>22 光復南路420巷</name><desc>右轉・191 m</desc></rtept>
-<rtept lat="25.036499" lon="121.555599"><name>23 延吉街</name><desc>右轉・173 m</desc></rtept>
-<rtept lat="25.037543" lon="121.555489"><name>24 仁愛路四段</name><desc>左轉・205 m</desc></rtept>
-<rtept lat="25.037513" lon="121.55752"><name>25 光復南路</name><desc>右轉・480 m</desc></rtept>
-<rtept lat="25.033179" lon="121.557432"><name>26 延吉街</name><desc>迴轉・144 m</desc></rtept>
-<rtept lat="25.033887" lon="121.557436"><name>27 光復南路</name><desc>右轉・78 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033179" lon="121.557432"><name>28 信義路四段</name><desc>左轉・11 m</desc></rtept>
+<rtept lat="25.035033" lon="121.557586"><name>01 光復南路</name><desc>出發・50 m</desc></rtept>
+<rtept lat="25.03548" lon="121.557597"><name>02 光復南路456巷</name><desc>左轉・76 m</desc></rtept>
+<rtept lat="25.035398" lon="121.556881"><name>03 無名巷道</name><desc>左轉・156 m</desc></rtept>
+<rtept lat="25.034411" lon="121.557447"><name>04 光復南路</name><desc>右轉・58 m</desc></rtept>
+<rtept lat="25.033887" lon="121.557436"><name>05 延吉街</name><desc>右轉・92 m</desc></rtept>
+<rtept lat="25.034183" lon="121.556689"><name>06 無名巷道</name><desc>右轉・158 m</desc></rtept>
+<rtept lat="25.035398" lon="121.556881"><name>07 光復南路456巷</name><desc>左轉・99 m</desc></rtept>
+<rtept lat="25.035121" lon="121.555968"><name>08 延吉街</name><desc>左轉・127 m</desc></rtept>
+<rtept lat="25.034183" lon="121.556689"><name>09 信義路四段335巷</name><desc>右轉・103 m</desc></rtept>
+<rtept lat="25.034183" lon="121.556689"><name>10 延吉街</name><desc>左轉・298 m</desc></rtept>
+<rtept lat="25.036589" lon="121.555589"><name>11 延吉街234巷</name><desc>左轉・114 m</desc></rtept>
+<rtept lat="25.036597" lon="121.554459"><name>12 仁愛路四段300巷</name><desc>左轉・143 m</desc></rtept>
+<rtept lat="25.035456" lon="121.554453"><name>13 延吉街246巷</name><desc>右轉・129 m</desc></rtept>
+<rtept lat="25.035413" lon="121.555728"><name>14 延吉街</name><desc>左轉・177 m</desc></rtept>
+<rtept lat="25.037003" lon="121.555549"><name>15 延吉街233巷</name><desc>右轉・137 m</desc></rtept>
+<rtept lat="25.036968" lon="121.556903"><name>16 仁愛路四段408巷</name><desc>左轉・62 m</desc></rtept>
+<rtept lat="25.037524" lon="121.556925"><name>17 仁愛路四段</name><desc>右轉・100 m</desc></rtept>
+<rtept lat="25.037747" lon="121.557525"><name>18 光復南路</name><desc>左轉・141 m</desc></rtept>
+<rtept lat="25.036471" lon="121.557495"><name>19 光復南路420巷</name><desc>右轉・59 m</desc></rtept>
+<rtept lat="25.03648" lon="121.556914"><name>20 仁愛路四段408巷</name><desc>右轉・116 m</desc></rtept>
+<rtept lat="25.037524" lon="121.556925"><name>21 仁愛路四段</name><desc>右轉・100 m（重複／連絡）</desc></rtept>
+<rtept lat="25.037628" lon="121.557523"><name>22 光復南路</name><desc>左轉・128 m（重複／連絡）</desc></rtept>
+<rtept lat="25.036471" lon="121.557495"><name>23 光復南路420巷</name><desc>右轉・191 m</desc></rtept>
+<rtept lat="25.036499" lon="121.555599"><name>24 延吉街</name><desc>右轉・173 m</desc></rtept>
+<rtept lat="25.037543" lon="121.555489"><name>25 仁愛路四段</name><desc>左轉・205 m</desc></rtept>
+<rtept lat="25.037513" lon="121.55752"><name>26 光復南路</name><desc>右轉・480 m</desc></rtept>
+<rtept lat="25.033179" lon="121.557432"><name>27 延吉街</name><desc>迴轉・144 m</desc></rtept>
+<rtept lat="25.033887" lon="121.557436"><name>28 光復南路</name><desc>右轉・78 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033179" lon="121.557432"><name>29 信義路四段</name><desc>左轉・11 m</desc></rtept>
 <rtept lat="25.033176" lon="121.557543"><name>終點</name></rtept></rte>
 <trk><name>光信里 行駛軌跡</name><trkseg>
+<trkpt lat="25.035033" lon="121.557586"/>
+<trkpt lat="25.035049" lon="121.557586"/>
+<trkpt lat="25.035114" lon="121.557588"/>
+<trkpt lat="25.035179" lon="121.557589"/>
+<trkpt lat="25.035244" lon="121.557591"/>
+<trkpt lat="25.035309" lon="121.557592"/>
+<trkpt lat="25.035366" lon="121.557594"/>
+<trkpt lat="25.035423" lon="121.557595"/>
 <trkpt lat="25.035480" lon="121.557597"/>
 <trkpt lat="25.035448" lon="121.557555"/>
 <trkpt lat="25.035417" lon="121.557513"/>

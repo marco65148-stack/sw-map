@@ -1,57 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 和安里 掃街車路線</name><desc>總長 10.23 km，重複率 38.6%</desc></metadata>
-<wpt lat="25.034413" lon="121.538647"><name>起點 建國南路一段341巷</name></wpt>
+<metadata><name>大安區 和安里 掃街車路線</name><desc>總長 10.38 km，重複率 39.5%</desc></metadata>
+<wpt lat="25.03359" lon="121.538026"><name>起點 信義路三段</name></wpt>
 <wpt lat="25.037985" lon="121.539829"><name>終點 仁愛路三段</name></wpt>
 <rte><name>和安里 道路順序</name>
-<rtept lat="25.034413" lon="121.538647"><name>01 建國南路一段341巷</name><desc>出發・64 m</desc></rtept>
-<rtept lat="25.034444" lon="121.538044"><name>02 無名巷道</name><desc>左轉・45 m</desc></rtept>
-<rtept lat="25.034457" lon="121.5376"><name>03 建國南路一段</name><desc>左轉・95 m</desc></rtept>
-<rtept lat="25.0336" lon="121.53759"><name>04 信義路三段</name><desc>左轉・544 m</desc></rtept>
-<rtept lat="25.033484" lon="121.542978"><name>05 信義路三段157巷</name><desc>左轉・289 m</desc></rtept>
-<rtept lat="25.036096" lon="121.543033"><name>06 復興南路一段340巷</name><desc>右轉・70 m</desc></rtept>
-<rtept lat="25.036077" lon="121.54373"><name>07 復興南路一段</name><desc>左轉・1263 m</desc></rtept>
-<rtept lat="25.037784" lon="121.543757"><name>08 仁愛路三段</name><desc>左轉・177 m</desc></rtept>
-<rtept lat="25.037818" lon="121.542005"><name>09 信義路三段147巷</name><desc>左轉・188 m</desc></rtept>
-<rtept lat="25.036123" lon="121.541968"><name>10 復興南路一段340巷</name><desc>左轉・178 m</desc></rtept>
-<rtept lat="25.036077" lon="121.54373"><name>11 復興南路一段</name><desc>左轉・215 m（重複／連絡）</desc></rtept>
-<rtept lat="25.038018" lon="121.543761"><name>12 仁愛路三段</name><desc>左轉・398 m</desc></rtept>
-<rtept lat="25.038092" lon="121.539833"><name>13 無名巷道</name><desc>左轉・45 m</desc></rtept>
-<rtept lat="25.037684" lon="121.539827"><name>14 仁愛路三段</name><desc>右轉・82 m</desc></rtept>
-<rtept lat="25.037699" lon="121.539015"><name>15 建國南路一段</name><desc>直行・145 m</desc></rtept>
-<rtept lat="25.037953" lon="121.53805"><name>16 仁愛路三段</name><desc>左轉・36 m</desc></rtept>
-<rtept lat="25.037969" lon="121.537693"><name>17 建國南路一段</name><desc>左轉・394 m</desc></rtept>
-<rtept lat="25.034457" lon="121.5376"><name>18 無名巷道</name><desc>左轉・45 m（重複／連絡）</desc></rtept>
-<rtept lat="25.034444" lon="121.538044"><name>19 建國南路一段</name><desc>左轉・394 m</desc></rtept>
-<rtept lat="25.037953" lon="121.53805"><name>20 仁愛路三段</name><desc>左轉・36 m（重複／連絡）</desc></rtept>
-<rtept lat="25.037969" lon="121.537693"><name>21 建國南路一段</name><desc>左轉・129 m（重複／連絡）</desc></rtept>
-<rtept lat="25.036838" lon="121.537477"><name>22 建國南路一段258巷</name><desc>左轉・78 m</desc></rtept>
-<rtept lat="25.036825" lon="121.538252"><name>23 建國南路一段</name><desc>左轉・129 m（重複／連絡）</desc></rtept>
-<rtept lat="25.037953" lon="121.53805"><name>24 仁愛路三段</name><desc>左轉・36 m（重複／連絡）</desc></rtept>
-<rtept lat="25.037969" lon="121.537693"><name>25 建國南路一段</name><desc>左轉・489 m（重複／連絡）</desc></rtept>
-<rtept lat="25.0336" lon="121.53759"><name>26 信義路三段</name><desc>左轉・105 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033576" lon="121.538635"><name>27 信義路三段99巷</name><desc>左轉・179 m</desc></rtept>
-<rtept lat="25.035194" lon="121.538665"><name>28 建國南路一段307巷</name><desc>右轉・86 m</desc></rtept>
-<rtept lat="25.035175" lon="121.539518"><name>29 信義路三段111巷</name><desc>右轉・179 m</desc></rtept>
-<rtept lat="25.033559" lon="121.53948"><name>30 信義路三段</name><desc>左轉・244 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033507" lon="121.541896"><name>31 信義路三段147巷</name><desc>左轉・478 m</desc></rtept>
-<rtept lat="25.037818" lon="121.542005"><name>32 仁愛路三段</name><desc>左轉・210 m</desc></rtept>
-<rtept lat="25.037685" lon="121.539943"><name>33 仁愛路三段118巷</name><desc>左轉・114 m</desc></rtept>
-<rtept lat="25.037685" lon="121.539943"><name>34 仁愛路三段</name><desc>左轉・232 m</desc></rtept>
-<rtept lat="25.037969" lon="121.537693"><name>35 建國南路一段</name><desc>左轉・489 m（重複／連絡）</desc></rtept>
-<rtept lat="25.0336" lon="121.53759"><name>36 信義路三段</name><desc>左轉・44 m（重複／連絡）</desc></rtept>
-<rtept lat="25.03359" lon="121.538026"><name>37 建國南路一段</name><desc>左轉・179 m</desc></rtept>
-<rtept lat="25.035206" lon="121.538087"><name>38 建國南路一段307巷</name><desc>右轉・144 m</desc></rtept>
-<rtept lat="25.035175" lon="121.539518"><name>39 信義路三段111巷</name><desc>左轉・53 m</desc></rtept>
-<rtept lat="25.035653" lon="121.539528"><name>40 建國南路一段291巷</name><desc>左轉・138 m</desc></rtept>
-<rtept lat="25.035682" lon="121.53816"><name>41 建國南路一段</name><desc>右轉・55 m（重複／連絡）</desc></rtept>
-<rtept lat="25.036167" lon="121.538252"><name>42 建國南路一段279巷</name><desc>右轉・136 m</desc></rtept>
-<rtept lat="25.036121" lon="121.539545"><name>43 信義路三段111巷</name><desc>直行・284 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033559" lon="121.53948"><name>44 信義路三段</name><desc>左轉・424 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033469" lon="121.543679"><name>45 復興南路一段</name><desc>左轉・492 m（重複／連絡）</desc></rtept>
-<rtept lat="25.03791" lon="121.54376"><name>46 仁愛路三段</name><desc>左轉・397 m</desc></rtept>
+<rtept lat="25.03359" lon="121.538026"><name>01 信義路三段</name><desc>出發・62 m</desc></rtept>
+<rtept lat="25.033576" lon="121.538635"><name>02 信義路三段99巷</name><desc>左轉・93 m</desc></rtept>
+<rtept lat="25.034413" lon="121.538647"><name>03 建國南路一段341巷</name><desc>左轉・64 m</desc></rtept>
+<rtept lat="25.034444" lon="121.538044"><name>04 無名巷道</name><desc>左轉・45 m</desc></rtept>
+<rtept lat="25.034457" lon="121.5376"><name>05 建國南路一段</name><desc>左轉・95 m</desc></rtept>
+<rtept lat="25.0336" lon="121.53759"><name>06 信義路三段</name><desc>左轉・544 m</desc></rtept>
+<rtept lat="25.033484" lon="121.542978"><name>07 信義路三段157巷</name><desc>左轉・289 m</desc></rtept>
+<rtept lat="25.036096" lon="121.543033"><name>08 復興南路一段340巷</name><desc>右轉・70 m</desc></rtept>
+<rtept lat="25.036077" lon="121.54373"><name>09 復興南路一段</name><desc>左轉・1263 m</desc></rtept>
+<rtept lat="25.037784" lon="121.543757"><name>10 仁愛路三段</name><desc>左轉・177 m</desc></rtept>
+<rtept lat="25.037818" lon="121.542005"><name>11 信義路三段147巷</name><desc>左轉・188 m</desc></rtept>
+<rtept lat="25.036123" lon="121.541968"><name>12 復興南路一段340巷</name><desc>左轉・178 m</desc></rtept>
+<rtept lat="25.036077" lon="121.54373"><name>13 復興南路一段</name><desc>左轉・215 m（重複／連絡）</desc></rtept>
+<rtept lat="25.038018" lon="121.543761"><name>14 仁愛路三段</name><desc>左轉・398 m</desc></rtept>
+<rtept lat="25.038092" lon="121.539833"><name>15 無名巷道</name><desc>左轉・45 m</desc></rtept>
+<rtept lat="25.037684" lon="121.539827"><name>16 仁愛路三段</name><desc>右轉・82 m</desc></rtept>
+<rtept lat="25.037699" lon="121.539015"><name>17 建國南路一段</name><desc>直行・145 m</desc></rtept>
+<rtept lat="25.037953" lon="121.53805"><name>18 仁愛路三段</name><desc>左轉・36 m</desc></rtept>
+<rtept lat="25.037969" lon="121.537693"><name>19 建國南路一段</name><desc>左轉・394 m</desc></rtept>
+<rtept lat="25.034457" lon="121.5376"><name>20 無名巷道</name><desc>左轉・45 m（重複／連絡）</desc></rtept>
+<rtept lat="25.034444" lon="121.538044"><name>21 建國南路一段</name><desc>左轉・394 m</desc></rtept>
+<rtept lat="25.037953" lon="121.53805"><name>22 仁愛路三段</name><desc>左轉・36 m（重複／連絡）</desc></rtept>
+<rtept lat="25.037969" lon="121.537693"><name>23 建國南路一段</name><desc>左轉・129 m（重複／連絡）</desc></rtept>
+<rtept lat="25.036838" lon="121.537477"><name>24 建國南路一段258巷</name><desc>左轉・78 m</desc></rtept>
+<rtept lat="25.036825" lon="121.538252"><name>25 建國南路一段</name><desc>左轉・129 m（重複／連絡）</desc></rtept>
+<rtept lat="25.037953" lon="121.53805"><name>26 仁愛路三段</name><desc>左轉・36 m（重複／連絡）</desc></rtept>
+<rtept lat="25.037969" lon="121.537693"><name>27 建國南路一段</name><desc>左轉・489 m（重複／連絡）</desc></rtept>
+<rtept lat="25.0336" lon="121.53759"><name>28 信義路三段</name><desc>左轉・105 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033576" lon="121.538635"><name>29 信義路三段99巷</name><desc>左轉・179 m</desc></rtept>
+<rtept lat="25.035194" lon="121.538665"><name>30 建國南路一段307巷</name><desc>右轉・86 m</desc></rtept>
+<rtept lat="25.035175" lon="121.539518"><name>31 信義路三段111巷</name><desc>右轉・179 m</desc></rtept>
+<rtept lat="25.033559" lon="121.53948"><name>32 信義路三段</name><desc>左轉・244 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033507" lon="121.541896"><name>33 信義路三段147巷</name><desc>左轉・478 m</desc></rtept>
+<rtept lat="25.037818" lon="121.542005"><name>34 仁愛路三段</name><desc>左轉・210 m</desc></rtept>
+<rtept lat="25.037685" lon="121.539943"><name>35 仁愛路三段118巷</name><desc>左轉・114 m</desc></rtept>
+<rtept lat="25.037685" lon="121.539943"><name>36 仁愛路三段</name><desc>左轉・232 m</desc></rtept>
+<rtept lat="25.037969" lon="121.537693"><name>37 建國南路一段</name><desc>左轉・489 m（重複／連絡）</desc></rtept>
+<rtept lat="25.0336" lon="121.53759"><name>38 信義路三段</name><desc>左轉・44 m（重複／連絡）</desc></rtept>
+<rtept lat="25.03359" lon="121.538026"><name>39 建國南路一段</name><desc>左轉・179 m</desc></rtept>
+<rtept lat="25.035206" lon="121.538087"><name>40 建國南路一段307巷</name><desc>右轉・144 m</desc></rtept>
+<rtept lat="25.035175" lon="121.539518"><name>41 信義路三段111巷</name><desc>左轉・53 m</desc></rtept>
+<rtept lat="25.035653" lon="121.539528"><name>42 建國南路一段291巷</name><desc>左轉・138 m</desc></rtept>
+<rtept lat="25.035682" lon="121.53816"><name>43 建國南路一段</name><desc>右轉・55 m（重複／連絡）</desc></rtept>
+<rtept lat="25.036167" lon="121.538252"><name>44 建國南路一段279巷</name><desc>右轉・136 m</desc></rtept>
+<rtept lat="25.036121" lon="121.539545"><name>45 信義路三段111巷</name><desc>直行・284 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033559" lon="121.53948"><name>46 信義路三段</name><desc>左轉・424 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033469" lon="121.543679"><name>47 復興南路一段</name><desc>左轉・492 m（重複／連絡）</desc></rtept>
+<rtept lat="25.03791" lon="121.54376"><name>48 仁愛路三段</name><desc>左轉・397 m</desc></rtept>
 <rtept lat="25.037985" lon="121.539829"><name>終點</name></rtept></rte>
 <trk><name>和安里 行駛軌跡</name><trkseg>
+<trkpt lat="25.033590" lon="121.538026"/>
+<trkpt lat="25.033588" lon="121.538086"/>
+<trkpt lat="25.033587" lon="121.538147"/>
+<trkpt lat="25.033586" lon="121.538208"/>
+<trkpt lat="25.033584" lon="121.538279"/>
+<trkpt lat="25.033582" lon="121.538350"/>
+<trkpt lat="25.033581" lon="121.538422"/>
+<trkpt lat="25.033579" lon="121.538493"/>
+<trkpt lat="25.033578" lon="121.538564"/>
+<trkpt lat="25.033576" lon="121.538635"/>
+<trkpt lat="25.033642" lon="121.538637"/>
+<trkpt lat="25.033712" lon="121.538638"/>
+<trkpt lat="25.033782" lon="121.538639"/>
+<trkpt lat="25.033853" lon="121.538640"/>
+<trkpt lat="25.033923" lon="121.538641"/>
+<trkpt lat="25.033993" lon="121.538642"/>
+<trkpt lat="25.034063" lon="121.538643"/>
+<trkpt lat="25.034133" lon="121.538643"/>
+<trkpt lat="25.034203" lon="121.538644"/>
+<trkpt lat="25.034273" lon="121.538645"/>
+<trkpt lat="25.034343" lon="121.538646"/>
 <trkpt lat="25.034413" lon="121.538647"/>
 <trkpt lat="25.034414" lon="121.538577"/>
 <trkpt lat="25.034415" lon="121.538507"/>

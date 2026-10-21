@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 正聲里 掃街車路線</name><desc>總長 5.82 km，重複率 43.0%</desc></metadata>
+<metadata><name>大安區 正聲里 掃街車路線</name><desc>總長 5.47 km，重複率 39.4%</desc></metadata>
 <wpt lat="25.041283" lon="121.557614"><name>起點 光復南路</name></wpt>
-<wpt lat="25.040704" lon="121.556669"><name>終點 僑安停車場聯絡道</name></wpt>
+<wpt lat="25.041300" lon="121.556761"><name>終點 忠孝東路四段</name></wpt>
 <rte><name>正聲里 道路順序</name>
 <rtept lat="25.041283" lon="121.557614"><name>01 光復南路</name><desc>出發・114 m</desc></rtept>
 <rtept lat="25.040253" lon="121.557593"><name>02 光復南路260巷</name><desc>右轉・96 m</desc></rtept>
@@ -38,11 +38,8 @@
 <rtept lat="25.041303" lon="121.55657"><name>32 僑安停車場聯絡道</name><desc>右轉・63 m</desc></rtept>
 <rtept lat="25.040737" lon="121.556594"><name>33 光復南路240巷</name><desc>右轉・196 m</desc></rtept>
 <rtept lat="25.040764" lon="121.554651"><name>34 延吉街</name><desc>右轉・97 m（重複／連絡）</desc></rtept>
-<rtept lat="25.041341" lon="121.554501"><name>35 忠孝東路四段</name><desc>左轉・314 m（重複／連絡）</desc></rtept>
-<rtept lat="25.041283" lon="121.557614"><name>36 光復南路</name><desc>右轉・114 m（重複／連絡）</desc></rtept>
-<rtept lat="25.040253" lon="121.557593"><name>37 光復南路260巷</name><desc>右轉・96 m（重複／連絡）</desc></rtept>
-<rtept lat="25.040268" lon="121.556639"><name>38 僑安停車場聯絡道</name><desc>右轉・49 m（重複／連絡）</desc></rtept>
-<rtept lat="25.040704" lon="121.556669"><name>終點</name></rtept></rte>
+<rtept lat="25.041341" lon="121.554501"><name>35 忠孝東路四段</name><desc>左轉・228 m（重複／連絡）</desc></rtept>
+<rtept lat="25.041300" lon="121.556761"><name>終點</name></rtept></rte>
 <trk><name>正聲里 行駛軌跡</name><trkseg>
 <trkpt lat="25.041283" lon="121.557614"/>
 <trkpt lat="25.041228" lon="121.557614"/>
@@ -840,53 +837,4 @@
 <trkpt lat="25.041302" lon="121.556634"/>
 <trkpt lat="25.041301" lon="121.556698"/>
 <trkpt lat="25.041300" lon="121.556761"/>
-<trkpt lat="25.041298" lon="121.556836"/>
-<trkpt lat="25.041297" lon="121.556910"/>
-<trkpt lat="25.041295" lon="121.556984"/>
-<trkpt lat="25.041294" lon="121.557058"/>
-<trkpt lat="25.041293" lon="121.557132"/>
-<trkpt lat="25.041291" lon="121.557206"/>
-<trkpt lat="25.041290" lon="121.557280"/>
-<trkpt lat="25.041288" lon="121.557354"/>
-<trkpt lat="25.041287" lon="121.557428"/>
-<trkpt lat="25.041286" lon="121.557502"/>
-<trkpt lat="25.041284" lon="121.557558"/>
-<trkpt lat="25.041283" lon="121.557614"/>
-<trkpt lat="25.041228" lon="121.557614"/>
-<trkpt lat="25.041172" lon="121.557613"/>
-<trkpt lat="25.041102" lon="121.557611"/>
-<trkpt lat="25.041031" lon="121.557610"/>
-<trkpt lat="25.040960" lon="121.557608"/>
-<trkpt lat="25.040890" lon="121.557607"/>
-<trkpt lat="25.040819" lon="121.557605"/>
-<trkpt lat="25.040748" lon="121.557604"/>
-<trkpt lat="25.040678" lon="121.557602"/>
-<trkpt lat="25.040607" lon="121.557601"/>
-<trkpt lat="25.040536" lon="121.557599"/>
-<trkpt lat="25.040465" lon="121.557598"/>
-<trkpt lat="25.040395" lon="121.557596"/>
-<trkpt lat="25.040324" lon="121.557595"/>
-<trkpt lat="25.040253" lon="121.557593"/>
-<trkpt lat="25.040254" lon="121.557550"/>
-<trkpt lat="25.040255" lon="121.557507"/>
-<trkpt lat="25.040256" lon="121.557440"/>
-<trkpt lat="25.040257" lon="121.557373"/>
-<trkpt lat="25.040258" lon="121.557305"/>
-<trkpt lat="25.040259" lon="121.557238"/>
-<trkpt lat="25.040260" lon="121.557170"/>
-<trkpt lat="25.040260" lon="121.557148"/>
-<trkpt lat="25.040261" lon="121.557072"/>
-<trkpt lat="25.040263" lon="121.556996"/>
-<trkpt lat="25.040264" lon="121.556921"/>
-<trkpt lat="25.040265" lon="121.556845"/>
-<trkpt lat="25.040266" lon="121.556769"/>
-<trkpt lat="25.040267" lon="121.556704"/>
-<trkpt lat="25.040268" lon="121.556639"/>
-<trkpt lat="25.040322" lon="121.556667"/>
-<trkpt lat="25.040386" lon="121.556668"/>
-<trkpt lat="25.040449" lon="121.556668"/>
-<trkpt lat="25.040513" lon="121.556668"/>
-<trkpt lat="25.040577" lon="121.556668"/>
-<trkpt lat="25.040640" lon="121.556668"/>
-<trkpt lat="25.040704" lon="121.556669"/>
 </trkseg></trk></gpx>

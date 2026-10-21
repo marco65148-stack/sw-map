@@ -1,4 +1,4 @@
-const C='sweeper96-v7',T='sweeper96-tiles-v1',PRE=['./','./index.html','./leaflet.css','./leaflet.js','./manifest.webmanifest','./icon-192.png'];
+const C='sweeper96-v8',T='sweeper96-tiles-v1',PRE=['./','./index.html','./leaflet.css','./leaflet.js','./manifest.webmanifest','./icon-192.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(PRE)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k.startsWith('sweeper96-')&&k!==C&&k!==T).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{const u=new URL(e.request.url);if(e.request.method!=='GET')return;

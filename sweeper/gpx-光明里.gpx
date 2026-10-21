@@ -1,43 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 光明里 掃街車路線</name><desc>總長 3.85 km，重複率 22.6%</desc></metadata>
-<wpt lat="25.03505" lon="121.524949"><name>起點 信義路二段10巷</name></wpt>
+<metadata><name>大安區 光明里 掃街車路線</name><desc>總長 3.92 km，重複率 24.1%</desc></metadata>
+<wpt lat="25.03536" lon="121.524312"><name>起點 信義路二段</name></wpt>
 <wpt lat="25.032153" lon="121.524103"><name>終點 愛國東路21巷</name></wpt>
 <rte><name>光明里 道路順序</name>
-<rtept lat="25.03505" lon="121.524949"><name>01 信義路二段10巷</name><desc>出發・123 m</desc></rtept>
-<rtept lat="25.034024" lon="121.524487"><name>02 杭州南路二段9巷</name><desc>右轉・86 m</desc></rtept>
-<rtept lat="25.034417" lon="121.523764"><name>03 杭州南路二段</name><desc>右轉・118 m</desc></rtept>
-<rtept lat="25.03536" lon="121.524312"><name>04 信義路二段</name><desc>右轉・166 m</desc></rtept>
-<rtept lat="25.034651" lon="121.52576"><name>05 信義路二段44巷</name><desc>右轉・91 m</desc></rtept>
-<rtept lat="25.033838" lon="121.525611"><name>06 信義路二段86巷</name><desc>左轉・135 m</desc></rtept>
-<rtept lat="25.034184" lon="121.52671"><name>07 信義路二段</name><desc>右轉・54 m</desc></rtept>
-<rtept lat="25.034006" lon="121.527207"><name>08 金山南路二段</name><desc>右轉・46 m</desc></rtept>
-<rtept lat="25.033599" lon="121.527138"><name>09 金山南路二段10巷</name><desc>右轉・51 m</desc></rtept>
-<rtept lat="25.033586" lon="121.526629"><name>10 信義路二段86巷</name><desc>右轉・68 m</desc></rtept>
-<rtept lat="25.034184" lon="121.52671"><name>11 信義路二段</name><desc>右轉・54 m（重複／連絡）</desc></rtept>
-<rtept lat="25.034006" lon="121.527207"><name>12 金山南路二段</name><desc>右轉・46 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033599" lon="121.527138"><name>13 金山南路二段10巷</name><desc>右轉・160 m</desc></rtept>
-<rtept lat="25.033564" lon="121.525561"><name>14 信義路二段44巷</name><desc>右轉・122 m</desc></rtept>
-<rtept lat="25.034651" lon="121.52576"><name>15 信義路二段</name><desc>右轉・163 m</desc></rtept>
-<rtept lat="25.034006" lon="121.527207"><name>16 金山南路二段</name><desc>右轉・111 m</desc></rtept>
-<rtept lat="25.03302" lon="121.527028"><name>17 金山南路二段30巷</name><desc>右轉・156 m</desc></rtept>
-<rtept lat="25.033266" lon="121.525506"><name>18 信義路二段44巷</name><desc>右轉・57 m</desc></rtept>
-<rtept lat="25.033774" lon="121.525599"><name>19 信義路二段86巷</name><desc>左轉・140 m</desc></rtept>
-<rtept lat="25.033808" lon="121.524365"><name>20 信義路二段10巷</name><desc>左轉・36 m</desc></rtept>
-<rtept lat="25.033523" lon="121.524186"><name>21 杭州南路二段25巷</name><desc>左轉・137 m</desc></rtept>
-<rtept lat="25.033266" lon="121.525506"><name>22 金山南路二段30巷</name><desc>直行・156 m（重複／連絡）</desc></rtept>
-<rtept lat="25.03302" lon="121.527028"><name>23 金山南路二段</name><desc>右轉・154 m</desc></rtept>
-<rtept lat="25.031644" lon="121.52678"><name>24 愛國東路</name><desc>左轉・462 m</desc></rtept>
-<rtept lat="25.032404" lon="121.522574"><name>25 杭州南路二段</name><desc>右轉・191 m</desc></rtept>
-<rtept lat="25.033921" lon="121.523472"><name>26 杭州南路二段25巷</name><desc>右轉・103 m</desc></rtept>
-<rtept lat="25.033452" lon="121.524353"><name>27 愛國東路21巷</name><desc>右轉・58 m</desc></rtept>
-<rtept lat="25.032933" lon="121.524256"><name>28 杭州南路二段51巷</name><desc>右轉・128 m</desc></rtept>
-<rtept lat="25.033133" lon="121.523006"><name>29 杭州南路二段</name><desc>右轉・161 m</desc></rtept>
-<rtept lat="25.034417" lon="121.523764"><name>30 杭州南路二段9巷</name><desc>右轉・86 m（重複／連絡）</desc></rtept>
-<rtept lat="25.034024" lon="121.524487"><name>31 信義路二段10巷</name><desc>右轉・82 m</desc></rtept>
-<rtept lat="25.033452" lon="121.524353"><name>32 愛國東路21巷</name><desc>右轉・146 m</desc></rtept>
+<rtept lat="25.03536" lon="121.524312"><name>01 信義路二段</name><desc>出發・73 m</desc></rtept>
+<rtept lat="25.03505" lon="121.524949"><name>02 信義路二段10巷</name><desc>右轉・123 m</desc></rtept>
+<rtept lat="25.034024" lon="121.524487"><name>03 杭州南路二段9巷</name><desc>右轉・86 m</desc></rtept>
+<rtept lat="25.034417" lon="121.523764"><name>04 杭州南路二段</name><desc>右轉・118 m</desc></rtept>
+<rtept lat="25.03536" lon="121.524312"><name>05 信義路二段</name><desc>右轉・166 m</desc></rtept>
+<rtept lat="25.034651" lon="121.52576"><name>06 信義路二段44巷</name><desc>右轉・91 m</desc></rtept>
+<rtept lat="25.033838" lon="121.525611"><name>07 信義路二段86巷</name><desc>左轉・135 m</desc></rtept>
+<rtept lat="25.034184" lon="121.52671"><name>08 信義路二段</name><desc>右轉・54 m</desc></rtept>
+<rtept lat="25.034006" lon="121.527207"><name>09 金山南路二段</name><desc>右轉・46 m</desc></rtept>
+<rtept lat="25.033599" lon="121.527138"><name>10 金山南路二段10巷</name><desc>右轉・51 m</desc></rtept>
+<rtept lat="25.033586" lon="121.526629"><name>11 信義路二段86巷</name><desc>右轉・68 m</desc></rtept>
+<rtept lat="25.034184" lon="121.52671"><name>12 信義路二段</name><desc>右轉・54 m（重複／連絡）</desc></rtept>
+<rtept lat="25.034006" lon="121.527207"><name>13 金山南路二段</name><desc>右轉・46 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033599" lon="121.527138"><name>14 金山南路二段10巷</name><desc>右轉・160 m</desc></rtept>
+<rtept lat="25.033564" lon="121.525561"><name>15 信義路二段44巷</name><desc>右轉・122 m</desc></rtept>
+<rtept lat="25.034651" lon="121.52576"><name>16 信義路二段</name><desc>右轉・163 m</desc></rtept>
+<rtept lat="25.034006" lon="121.527207"><name>17 金山南路二段</name><desc>右轉・111 m</desc></rtept>
+<rtept lat="25.03302" lon="121.527028"><name>18 金山南路二段30巷</name><desc>右轉・156 m</desc></rtept>
+<rtept lat="25.033266" lon="121.525506"><name>19 信義路二段44巷</name><desc>右轉・57 m</desc></rtept>
+<rtept lat="25.033774" lon="121.525599"><name>20 信義路二段86巷</name><desc>左轉・140 m</desc></rtept>
+<rtept lat="25.033808" lon="121.524365"><name>21 信義路二段10巷</name><desc>左轉・36 m</desc></rtept>
+<rtept lat="25.033523" lon="121.524186"><name>22 杭州南路二段25巷</name><desc>左轉・137 m</desc></rtept>
+<rtept lat="25.033266" lon="121.525506"><name>23 金山南路二段30巷</name><desc>直行・156 m（重複／連絡）</desc></rtept>
+<rtept lat="25.03302" lon="121.527028"><name>24 金山南路二段</name><desc>右轉・154 m</desc></rtept>
+<rtept lat="25.031644" lon="121.52678"><name>25 愛國東路</name><desc>左轉・462 m</desc></rtept>
+<rtept lat="25.032404" lon="121.522574"><name>26 杭州南路二段</name><desc>右轉・191 m</desc></rtept>
+<rtept lat="25.033921" lon="121.523472"><name>27 杭州南路二段25巷</name><desc>右轉・103 m</desc></rtept>
+<rtept lat="25.033452" lon="121.524353"><name>28 愛國東路21巷</name><desc>右轉・58 m</desc></rtept>
+<rtept lat="25.032933" lon="121.524256"><name>29 杭州南路二段51巷</name><desc>右轉・128 m</desc></rtept>
+<rtept lat="25.033133" lon="121.523006"><name>30 杭州南路二段</name><desc>右轉・161 m</desc></rtept>
+<rtept lat="25.034417" lon="121.523764"><name>31 杭州南路二段9巷</name><desc>右轉・86 m（重複／連絡）</desc></rtept>
+<rtept lat="25.034024" lon="121.524487"><name>32 信義路二段10巷</name><desc>右轉・82 m</desc></rtept>
+<rtept lat="25.033452" lon="121.524353"><name>33 愛國東路21巷</name><desc>右轉・146 m</desc></rtept>
 <rtept lat="25.032153" lon="121.524103"><name>終點</name></rtept></rte>
 <trk><name>光明里 行駛軌跡</name><trkseg>
+<trkpt lat="25.035360" lon="121.524312"/>
+<trkpt lat="25.035335" lon="121.524363"/>
+<trkpt lat="25.035309" lon="121.524415"/>
+<trkpt lat="25.035283" lon="121.524467"/>
+<trkpt lat="25.035250" lon="121.524536"/>
+<trkpt lat="25.035217" lon="121.524605"/>
+<trkpt lat="25.035184" lon="121.524674"/>
+<trkpt lat="25.035150" lon="121.524742"/>
+<trkpt lat="25.035117" lon="121.524811"/>
+<trkpt lat="25.035084" lon="121.524880"/>
 <trkpt lat="25.035050" lon="121.524949"/>
 <trkpt lat="25.035016" lon="121.524929"/>
 <trkpt lat="25.034983" lon="121.524910"/>

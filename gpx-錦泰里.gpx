@@ -1,83 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 錦泰里 掃街車路線</name><desc>總長 4.25 km，重複率 23.1%</desc></metadata>
-<wpt lat="25.03204" lon="121.524082"><name>起點 愛國東路</name></wpt>
-<wpt lat="25.030887" lon="121.522290"><name>終點 杭州南路二段</name></wpt>
+<metadata><name>大安區 錦泰里 掃街車路線</name><desc>總長 4.55 km，重複率 28.5%</desc></metadata>
+<wpt lat="25.03176" lon="121.526801"><name>起點 金山南路二段</name></wpt>
+<wpt lat="25.031677" lon="121.526916"><name>終點 愛國東路</name></wpt>
 <rte><name>錦泰里 道路順序</name>
-<rtept lat="25.03204" lon="121.524082"><name>01 愛國東路</name><desc>出發・305 m</desc></rtept>
-<rtept lat="25.03176" lon="121.526801"><name>02 金山南路二段</name><desc>左轉・322 m</desc></rtept>
-<rtept lat="25.028895" lon="121.526273"><name>03 潮州街</name><desc>左轉・92 m</desc></rtept>
-<rtept lat="25.029014" lon="121.525562"><name>04 潮州街73巷</name><desc>右轉・87 m</desc></rtept>
-<rtept lat="25.029784" lon="121.525752"><name>05 杭州南路二段61巷</name><desc>左轉・57 m</desc></rtept>
-<rtept lat="25.02987" lon="121.525193"><name>06 潮州街59巷</name><desc>左轉・136 m</desc></rtept>
-<rtept lat="25.02924" lon="121.524122"><name>07 潮州街</name><desc>右轉・215 m</desc></rtept>
-<rtept lat="25.029571" lon="121.522018"><name>08 杭州南路二段</name><desc>右轉・81 m</desc></rtept>
-<rtept lat="25.030291" lon="121.522172"><name>09 杭州南路二段61巷</name><desc>右轉・207 m</desc></rtept>
-<rtept lat="25.030026" lon="121.524186"><name>10 潮州街55巷</name><desc>右轉・29 m</desc></rtept>
-<rtept lat="25.029767" lon="121.524134"><name>11 杭州南路二段65巷</name><desc>右轉・125 m</desc></rtept>
-<rtept lat="25.029767" lon="121.523053"><name>12 金華街48巷</name><desc>右轉・106 m</desc></rtept>
-<rtept lat="25.030706" lon="121.523248"><name>13 金華街</name><desc>左轉・99 m</desc></rtept>
-<rtept lat="25.030887" lon="121.52229"><name>14 杭州南路二段</name><desc>右轉・156 m</desc></rtept>
-<rtept lat="25.032281" lon="121.522539"><name>15 愛國東路</name><desc>右轉・158 m</desc></rtept>
-<rtept lat="25.03204" lon="121.524082"><name>16 愛國東路210巷</name><desc>右轉・160 m</desc></rtept>
-<rtept lat="25.030628" lon="121.523797"><name>17 金華街</name><desc>左轉・386 m</desc></rtept>
-<rtept lat="25.030333" lon="121.525681"><name>18 金華街102巷</name><desc>左轉・72 m</desc></rtept>
-<rtept lat="25.029784" lon="121.525752"><name>19 潮州街73巷</name><desc>右轉・87 m（重複／連絡）</desc></rtept>
-<rtept lat="25.029014" lon="121.525562"><name>20 潮州街</name><desc>右轉・147 m</desc></rtept>
-<rtept lat="25.02924" lon="121.524122"><name>21 潮州街59巷</name><desc>右轉・136 m（重複／連絡）</desc></rtept>
-<rtept lat="25.02987" lon="121.525193"><name>22 杭州南路二段61巷</name><desc>左轉・210 m</desc></rtept>
-<rtept lat="25.03019" lon="121.523143"><name>23 金華街48巷</name><desc>左轉・48 m（重複／連絡）</desc></rtept>
-<rtept lat="25.029767" lon="121.523053"><name>24 杭州南路二段65巷</name><desc>右轉・98 m</desc></rtept>
-<rtept lat="25.029921" lon="121.522097"><name>25 杭州南路二段</name><desc>左轉・40 m（重複／連絡）</desc></rtept>
-<rtept lat="25.029571" lon="121.522018"><name>26 潮州街</name><desc>左轉・206 m（重複／連絡）</desc></rtept>
-<rtept lat="25.029255" lon="121.52403"><name>27 潮州街55巷</name><desc>左轉・146 m</desc></rtept>
-<rtept lat="25.030553" lon="121.524293"><name>28 金華街</name><desc>左轉・107 m</desc></rtept>
-<rtept lat="25.030706" lon="121.523248"><name>29 金華街48巷</name><desc>左轉・58 m（重複／連絡）</desc></rtept>
-<rtept lat="25.03019" lon="121.523143"><name>30 杭州南路二段61巷</name><desc>右轉・100 m（重複／連絡）</desc></rtept>
-<rtept lat="25.030291" lon="121.522172"><name>31 杭州南路二段</name><desc>右轉・67 m</desc></rtept>
-<rtept lat="25.030887" lon="121.522290"><name>終點</name></rtept></rte>
+<rtept lat="25.03176" lon="121.526801"><name>01 金山南路二段</name><desc>出發・322 m</desc></rtept>
+<rtept lat="25.028895" lon="121.526273"><name>02 潮州街</name><desc>左轉・92 m</desc></rtept>
+<rtept lat="25.029014" lon="121.525562"><name>03 潮州街73巷</name><desc>右轉・87 m</desc></rtept>
+<rtept lat="25.029784" lon="121.525752"><name>04 杭州南路二段61巷</name><desc>左轉・57 m</desc></rtept>
+<rtept lat="25.02987" lon="121.525193"><name>05 潮州街59巷</name><desc>左轉・136 m</desc></rtept>
+<rtept lat="25.02924" lon="121.524122"><name>06 潮州街</name><desc>右轉・215 m</desc></rtept>
+<rtept lat="25.029571" lon="121.522018"><name>07 杭州南路二段</name><desc>右轉・81 m</desc></rtept>
+<rtept lat="25.030291" lon="121.522172"><name>08 杭州南路二段61巷</name><desc>右轉・207 m</desc></rtept>
+<rtept lat="25.030026" lon="121.524186"><name>09 潮州街55巷</name><desc>右轉・29 m</desc></rtept>
+<rtept lat="25.029767" lon="121.524134"><name>10 杭州南路二段65巷</name><desc>右轉・125 m</desc></rtept>
+<rtept lat="25.029767" lon="121.523053"><name>11 金華街48巷</name><desc>右轉・106 m</desc></rtept>
+<rtept lat="25.030706" lon="121.523248"><name>12 金華街</name><desc>左轉・99 m</desc></rtept>
+<rtept lat="25.030887" lon="121.52229"><name>13 杭州南路二段</name><desc>右轉・156 m</desc></rtept>
+<rtept lat="25.032281" lon="121.522539"><name>14 愛國東路</name><desc>右轉・158 m</desc></rtept>
+<rtept lat="25.03204" lon="121.524082"><name>15 愛國東路210巷</name><desc>右轉・160 m</desc></rtept>
+<rtept lat="25.030628" lon="121.523797"><name>16 金華街</name><desc>左轉・386 m</desc></rtept>
+<rtept lat="25.030333" lon="121.525681"><name>17 金華街102巷</name><desc>左轉・72 m</desc></rtept>
+<rtept lat="25.029784" lon="121.525752"><name>18 潮州街73巷</name><desc>右轉・87 m（重複／連絡）</desc></rtept>
+<rtept lat="25.029014" lon="121.525562"><name>19 潮州街</name><desc>右轉・147 m</desc></rtept>
+<rtept lat="25.02924" lon="121.524122"><name>20 潮州街59巷</name><desc>右轉・136 m（重複／連絡）</desc></rtept>
+<rtept lat="25.02987" lon="121.525193"><name>21 杭州南路二段61巷</name><desc>左轉・210 m</desc></rtept>
+<rtept lat="25.03019" lon="121.523143"><name>22 金華街48巷</name><desc>左轉・48 m（重複／連絡）</desc></rtept>
+<rtept lat="25.029767" lon="121.523053"><name>23 杭州南路二段65巷</name><desc>右轉・98 m</desc></rtept>
+<rtept lat="25.029921" lon="121.522097"><name>24 杭州南路二段</name><desc>左轉・40 m（重複／連絡）</desc></rtept>
+<rtept lat="25.029571" lon="121.522018"><name>25 潮州街</name><desc>左轉・206 m（重複／連絡）</desc></rtept>
+<rtept lat="25.029255" lon="121.52403"><name>26 潮州街55巷</name><desc>左轉・146 m</desc></rtept>
+<rtept lat="25.030553" lon="121.524293"><name>27 金華街</name><desc>左轉・107 m</desc></rtept>
+<rtept lat="25.030706" lon="121.523248"><name>28 金華街48巷</name><desc>左轉・58 m（重複／連絡）</desc></rtept>
+<rtept lat="25.03019" lon="121.523143"><name>29 杭州南路二段61巷</name><desc>右轉・100 m（重複／連絡）</desc></rtept>
+<rtept lat="25.030291" lon="121.522172"><name>30 杭州南路二段</name><desc>右轉・224 m</desc></rtept>
+<rtept lat="25.032281" lon="121.522539"><name>31 愛國東路</name><desc>右轉・448 m</desc></rtept>
+<rtept lat="25.031677" lon="121.526916"><name>終點</name></rtept></rte>
 <trk><name>錦泰里 行駛軌跡</name><trkseg>
-<trkpt lat="25.032040" lon="121.524082"/>
-<trkpt lat="25.032029" lon="121.524158"/>
-<trkpt lat="25.032018" lon="121.524234"/>
-<trkpt lat="25.032007" lon="121.524310"/>
-<trkpt lat="25.031995" lon="121.524386"/>
-<trkpt lat="25.031984" lon="121.524462"/>
-<trkpt lat="25.031973" lon="121.524538"/>
-<trkpt lat="25.031962" lon="121.524614"/>
-<trkpt lat="25.031951" lon="121.524690"/>
-<trkpt lat="25.031939" lon="121.524766"/>
-<trkpt lat="25.031928" lon="121.524842"/>
-<trkpt lat="25.031917" lon="121.524918"/>
-<trkpt lat="25.031906" lon="121.524994"/>
-<trkpt lat="25.031895" lon="121.525070"/>
-<trkpt lat="25.031884" lon="121.525146"/>
-<trkpt lat="25.031872" lon="121.525222"/>
-<trkpt lat="25.031861" lon="121.525298"/>
-<trkpt lat="25.031855" lon="121.525340"/>
-<trkpt lat="25.031849" lon="121.525382"/>
-<trkpt lat="25.031838" lon="121.525457"/>
-<trkpt lat="25.031827" lon="121.525532"/>
-<trkpt lat="25.031815" lon="121.525610"/>
-<trkpt lat="25.031804" lon="121.525687"/>
-<trkpt lat="25.031793" lon="121.525764"/>
-<trkpt lat="25.031781" lon="121.525841"/>
-<trkpt lat="25.031770" lon="121.525918"/>
-<trkpt lat="25.031759" lon="121.525995"/>
-<trkpt lat="25.031747" lon="121.526073"/>
-<trkpt lat="25.031736" lon="121.526150"/>
-<trkpt lat="25.031725" lon="121.526227"/>
-<trkpt lat="25.031713" lon="121.526304"/>
-<trkpt lat="25.031702" lon="121.526381"/>
-<trkpt lat="25.031691" lon="121.526459"/>
-<trkpt lat="25.031679" lon="121.526536"/>
-<trkpt lat="25.031668" lon="121.526613"/>
-<trkpt lat="25.031657" lon="121.526690"/>
-<trkpt lat="25.031650" lon="121.526735"/>
-<trkpt lat="25.031644" lon="121.526780"/>
-<trkpt lat="25.031661" lon="121.526848"/>
-<trkpt lat="25.031677" lon="121.526916"/>
-<trkpt lat="25.031718" lon="121.526858"/>
 <trkpt lat="25.031760" lon="121.526801"/>
 <trkpt lat="25.031702" lon="121.526790"/>
 <trkpt lat="25.031644" lon="121.526780"/>
@@ -633,4 +592,87 @@
 <trkpt lat="25.030797" lon="121.522272"/>
 <trkpt lat="25.030842" lon="121.522281"/>
 <trkpt lat="25.030887" lon="121.522290"/>
+<trkpt lat="25.030934" lon="121.522299"/>
+<trkpt lat="25.030981" lon="121.522307"/>
+<trkpt lat="25.031049" lon="121.522319"/>
+<trkpt lat="25.031117" lon="121.522330"/>
+<trkpt lat="25.031185" lon="121.522342"/>
+<trkpt lat="25.031253" lon="121.522354"/>
+<trkpt lat="25.031321" lon="121.522365"/>
+<trkpt lat="25.031389" lon="121.522377"/>
+<trkpt lat="25.031457" lon="121.522388"/>
+<trkpt lat="25.031525" lon="121.522400"/>
+<trkpt lat="25.031593" lon="121.522411"/>
+<trkpt lat="25.031657" lon="121.522423"/>
+<trkpt lat="25.031721" lon="121.522436"/>
+<trkpt lat="25.031785" lon="121.522448"/>
+<trkpt lat="25.031850" lon="121.522460"/>
+<trkpt lat="25.031914" lon="121.522472"/>
+<trkpt lat="25.031978" lon="121.522484"/>
+<trkpt lat="25.032042" lon="121.522496"/>
+<trkpt lat="25.032106" lon="121.522508"/>
+<trkpt lat="25.032171" lon="121.522520"/>
+<trkpt lat="25.032226" lon="121.522530"/>
+<trkpt lat="25.032281" lon="121.522539"/>
+<trkpt lat="25.032268" lon="121.522607"/>
+<trkpt lat="25.032254" lon="121.522675"/>
+<trkpt lat="25.032251" lon="121.522715"/>
+<trkpt lat="25.032247" lon="121.522756"/>
+<trkpt lat="25.032234" lon="121.522833"/>
+<trkpt lat="25.032222" lon="121.522911"/>
+<trkpt lat="25.032210" lon="121.522989"/>
+<trkpt lat="25.032198" lon="121.523066"/>
+<trkpt lat="25.032185" lon="121.523144"/>
+<trkpt lat="25.032173" lon="121.523221"/>
+<trkpt lat="25.032161" lon="121.523299"/>
+<trkpt lat="25.032148" lon="121.523377"/>
+<trkpt lat="25.032136" lon="121.523454"/>
+<trkpt lat="25.032125" lon="121.523528"/>
+<trkpt lat="25.032113" lon="121.523602"/>
+<trkpt lat="25.032102" lon="121.523676"/>
+<trkpt lat="25.032091" lon="121.523750"/>
+<trkpt lat="25.032080" lon="121.523824"/>
+<trkpt lat="25.032068" lon="121.523898"/>
+<trkpt lat="25.032057" lon="121.523972"/>
+<trkpt lat="25.032046" lon="121.524046"/>
+<trkpt lat="25.032040" lon="121.524082"/>
+<trkpt lat="25.032029" lon="121.524158"/>
+<trkpt lat="25.032018" lon="121.524234"/>
+<trkpt lat="25.032007" lon="121.524310"/>
+<trkpt lat="25.031995" lon="121.524386"/>
+<trkpt lat="25.031984" lon="121.524462"/>
+<trkpt lat="25.031973" lon="121.524538"/>
+<trkpt lat="25.031962" lon="121.524614"/>
+<trkpt lat="25.031951" lon="121.524690"/>
+<trkpt lat="25.031939" lon="121.524766"/>
+<trkpt lat="25.031928" lon="121.524842"/>
+<trkpt lat="25.031917" lon="121.524918"/>
+<trkpt lat="25.031906" lon="121.524994"/>
+<trkpt lat="25.031895" lon="121.525070"/>
+<trkpt lat="25.031884" lon="121.525146"/>
+<trkpt lat="25.031872" lon="121.525222"/>
+<trkpt lat="25.031861" lon="121.525298"/>
+<trkpt lat="25.031855" lon="121.525340"/>
+<trkpt lat="25.031849" lon="121.525382"/>
+<trkpt lat="25.031838" lon="121.525457"/>
+<trkpt lat="25.031827" lon="121.525532"/>
+<trkpt lat="25.031815" lon="121.525610"/>
+<trkpt lat="25.031804" lon="121.525687"/>
+<trkpt lat="25.031793" lon="121.525764"/>
+<trkpt lat="25.031781" lon="121.525841"/>
+<trkpt lat="25.031770" lon="121.525918"/>
+<trkpt lat="25.031759" lon="121.525995"/>
+<trkpt lat="25.031747" lon="121.526073"/>
+<trkpt lat="25.031736" lon="121.526150"/>
+<trkpt lat="25.031725" lon="121.526227"/>
+<trkpt lat="25.031713" lon="121.526304"/>
+<trkpt lat="25.031702" lon="121.526381"/>
+<trkpt lat="25.031691" lon="121.526459"/>
+<trkpt lat="25.031679" lon="121.526536"/>
+<trkpt lat="25.031668" lon="121.526613"/>
+<trkpt lat="25.031657" lon="121.526690"/>
+<trkpt lat="25.031650" lon="121.526735"/>
+<trkpt lat="25.031644" lon="121.526780"/>
+<trkpt lat="25.031661" lon="121.526848"/>
+<trkpt lat="25.031677" lon="121.526916"/>
 </trkseg></trk></gpx>

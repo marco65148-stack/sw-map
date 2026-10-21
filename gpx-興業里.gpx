@@ -1,36 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 興業里 掃街車路線</name><desc>總長 3.92 km，重複率 12.1%</desc></metadata>
-<wpt lat="25.001487" lon="121.552653"><name>起點 興隆路二段220巷</name></wpt>
+<metadata><name>文山區 興業里 掃街車路線</name><desc>總長 3.94 km，重複率 12.4%</desc></metadata>
+<wpt lat="25.001542" lon="121.552501"><name>起點 興隆路二段</name></wpt>
 <wpt lat="25.000924" lon="121.551502"><name>終點 興隆路二段154巷</name></wpt>
 <rte><name>興業里 道路順序</name>
-<rtept lat="25.001487" lon="121.552653"><name>01 興隆路二段220巷</name><desc>出發・26 m</desc></rtept>
-<rtept lat="25.001266" lon="121.55256"><name>02 無名巷道</name><desc>右轉・52 m</desc></rtept>
-<rtept lat="25.001615" lon="121.552299"><name>03 興隆路二段</name><desc>右轉・390 m</desc></rtept>
-<rtept lat="25.001129" lon="121.553851"><name>04 興隆路二段244巷</name><desc>左轉・198 m</desc></rtept>
-<rtept lat="24.999871" lon="121.554124"><name>05 辛亥路五段</name><desc>左轉・586 m</desc></rtept>
-<rtept lat="24.997417" lon="121.552205"><name>06 辛亥路五段118巷</name><desc>右轉・217 m</desc></rtept>
-<rtept lat="24.997417" lon="121.552205"><name>07 辛亥路五段</name><desc>右轉・49 m</desc></rtept>
-<rtept lat="24.997061" lon="121.551916"><name>08 辛亥路五段124巷</name><desc>右轉・96 m</desc></rtept>
-<rtept lat="24.997056" lon="121.550973"><name>09 興隆路二段96巷</name><desc>右轉・85 m</desc></rtept>
-<rtept lat="24.997725" lon="121.551296"><name>10 辛亥路五段116巷</name><desc>右轉・122 m</desc></rtept>
-<rtept lat="24.997696" lon="121.552498"><name>11 辛亥路五段</name><desc>右轉・144 m</desc></rtept>
-<rtept lat="24.99662" lon="121.551752"><name>12 無名巷道</name><desc>直行・67 m</desc></rtept>
-<rtept lat="24.996798" lon="121.552029"><name>13 辛亥路五段</name><desc>左轉・416 m</desc></rtept>
-<rtept lat="24.999889" lon="121.554039"><name>14 興隆路二段244巷</name><desc>直行・196 m</desc></rtept>
-<rtept lat="24.999611" lon="121.553337"><name>15 無名巷道</name><desc>左轉・29 m</desc></rtept>
-<rtept lat="24.999854" lon="121.553454"><name>16 興隆路二段244巷</name><desc>左轉・70 m</desc></rtept>
-<rtept lat="25.000226" lon="121.553092"><name>17 興隆路二段220巷31弄</name><desc>左轉・93 m</desc></rtept>
-<rtept lat="25.000531" lon="121.552232"><name>18 興隆路二段220巷</name><desc>左轉・168 m</desc></rtept>
-<rtept lat="24.99953" lon="121.55115"><name>19 興隆路二段96巷</name><desc>右轉・114 m</desc></rtept>
-<rtept lat="25.000129" lon="121.550322"><name>20 仙岩路</name><desc>右轉・148 m</desc></rtept>
-<rtept lat="25.000924" lon="121.551502"><name>21 興隆路二段154巷</name><desc>左轉・85 m</desc></rtept>
-<rtept lat="25.001534" lon="121.550988"><name>22 興隆路二段</name><desc>右轉・340 m</desc></rtept>
-<rtept lat="25.001615" lon="121.552299"><name>23 無名巷道</name><desc>右轉・52 m（重複／連絡）</desc></rtept>
-<rtept lat="25.001266" lon="121.55256"><name>24 興隆路二段220巷</name><desc>右轉・88 m</desc></rtept>
-<rtept lat="25.000531" lon="121.552232"><name>25 興隆路二段154巷</name><desc>右轉・87 m</desc></rtept>
+<rtept lat="25.001542" lon="121.552501"><name>01 興隆路二段</name><desc>出發・16 m</desc></rtept>
+<rtept lat="25.001487" lon="121.552653"><name>02 興隆路二段220巷</name><desc>右轉・26 m</desc></rtept>
+<rtept lat="25.001266" lon="121.55256"><name>03 無名巷道</name><desc>右轉・52 m</desc></rtept>
+<rtept lat="25.001615" lon="121.552299"><name>04 興隆路二段</name><desc>右轉・390 m</desc></rtept>
+<rtept lat="25.001129" lon="121.553851"><name>05 興隆路二段244巷</name><desc>左轉・198 m</desc></rtept>
+<rtept lat="24.999871" lon="121.554124"><name>06 辛亥路五段</name><desc>左轉・586 m</desc></rtept>
+<rtept lat="24.997417" lon="121.552205"><name>07 辛亥路五段118巷</name><desc>右轉・217 m</desc></rtept>
+<rtept lat="24.997417" lon="121.552205"><name>08 辛亥路五段</name><desc>右轉・49 m</desc></rtept>
+<rtept lat="24.997061" lon="121.551916"><name>09 辛亥路五段124巷</name><desc>右轉・96 m</desc></rtept>
+<rtept lat="24.997056" lon="121.550973"><name>10 興隆路二段96巷</name><desc>右轉・85 m</desc></rtept>
+<rtept lat="24.997725" lon="121.551296"><name>11 辛亥路五段116巷</name><desc>右轉・122 m</desc></rtept>
+<rtept lat="24.997696" lon="121.552498"><name>12 辛亥路五段</name><desc>右轉・144 m</desc></rtept>
+<rtept lat="24.99662" lon="121.551752"><name>13 無名巷道</name><desc>直行・67 m</desc></rtept>
+<rtept lat="24.996798" lon="121.552029"><name>14 辛亥路五段</name><desc>左轉・416 m</desc></rtept>
+<rtept lat="24.999889" lon="121.554039"><name>15 興隆路二段244巷</name><desc>直行・196 m</desc></rtept>
+<rtept lat="24.999611" lon="121.553337"><name>16 無名巷道</name><desc>左轉・29 m</desc></rtept>
+<rtept lat="24.999854" lon="121.553454"><name>17 興隆路二段244巷</name><desc>左轉・70 m</desc></rtept>
+<rtept lat="25.000226" lon="121.553092"><name>18 興隆路二段220巷31弄</name><desc>左轉・93 m</desc></rtept>
+<rtept lat="25.000531" lon="121.552232"><name>19 興隆路二段220巷</name><desc>左轉・168 m</desc></rtept>
+<rtept lat="24.99953" lon="121.55115"><name>20 興隆路二段96巷</name><desc>右轉・114 m</desc></rtept>
+<rtept lat="25.000129" lon="121.550322"><name>21 仙岩路</name><desc>右轉・148 m</desc></rtept>
+<rtept lat="25.000924" lon="121.551502"><name>22 興隆路二段154巷</name><desc>左轉・85 m</desc></rtept>
+<rtept lat="25.001534" lon="121.550988"><name>23 興隆路二段</name><desc>右轉・340 m</desc></rtept>
+<rtept lat="25.001615" lon="121.552299"><name>24 無名巷道</name><desc>右轉・52 m（重複／連絡）</desc></rtept>
+<rtept lat="25.001266" lon="121.55256"><name>25 興隆路二段220巷</name><desc>右轉・88 m</desc></rtept>
+<rtept lat="25.000531" lon="121.552232"><name>26 興隆路二段154巷</name><desc>右轉・87 m</desc></rtept>
 <rtept lat="25.000924" lon="121.551502"><name>終點</name></rtept></rte>
 <trk><name>興業里 行駛軌跡</name><trkseg>
+<trkpt lat="25.001542" lon="121.552501"/>
+<trkpt lat="25.001523" lon="121.552552"/>
+<trkpt lat="25.001505" lon="121.552602"/>
 <trkpt lat="25.001487" lon="121.552653"/>
 <trkpt lat="25.001423" lon="121.552625"/>
 <trkpt lat="25.001389" lon="121.552611"/>

@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 通化里 掃街車路線</name><desc>總長 3.91 km，重複率 25.3%</desc></metadata>
-<wpt lat="25.033051" lon="121.555799"><name>起點 信義路四段378巷</name></wpt>
+<metadata><name>大安區 通化里 掃街車路線</name><desc>總長 3.98 km，重複率 26.5%</desc></metadata>
+<wpt lat="25.033068" lon="121.555124"><name>起點 信義路四段</name></wpt>
 <wpt lat="25.030634" lon="121.556677"><name>終點 光復南路692巷</name></wpt>
 <rte><name>通化里 道路順序</name>
-<rtept lat="25.033051" lon="121.555799"><name>01 信義路四段378巷</name><desc>出發・86 m</desc></rtept>
-<rtept lat="25.03228" lon="121.555741"><name>02 文昌街250巷</name><desc>直行・69 m</desc></rtept>
-<rtept lat="25.031655" lon="121.555722"><name>03 通化街19巷</name><desc>左轉・85 m</desc></rtept>
-<rtept lat="25.031642" lon="121.556565"><name>04 光復南路628巷</name><desc>直行・81 m</desc></rtept>
-<rtept lat="25.031633" lon="121.55737"><name>05 光復南路</name><desc>右轉・117 m</desc></rtept>
-<rtept lat="25.030577" lon="121.557347"><name>06 光復南路676巷</name><desc>右轉・119 m</desc></rtept>
-<rtept lat="25.030617" lon="121.556173"><name>07 通化街39巷</name><desc>直行・199 m</desc></rtept>
-<rtept lat="25.03093" lon="121.554244"><name>08 通化街</name><desc>左轉・529 m</desc></rtept>
-<rtept lat="25.031696" lon="121.554272"><name>09 通化街19巷</name><desc>左轉・47 m</desc></rtept>
-<rtept lat="25.031668" lon="121.554741"><name>10 文昌街210巷</name><desc>左轉・79 m</desc></rtept>
-<rtept lat="25.032382" lon="121.554758"><name>11 文昌街</name><desc>左轉・48 m</desc></rtept>
-<rtept lat="25.03245" lon="121.554287"><name>12 信義路四段294巷</name><desc>右轉・105 m</desc></rtept>
-<rtept lat="25.033089" lon="121.55429"><name>13 信義路四段</name><desc>左轉・317 m</desc></rtept>
-<rtept lat="25.033014" lon="121.557429"><name>14 光復南路</name><desc>右轉・97 m</desc></rtept>
-<rtept lat="25.032138" lon="121.557381"><name>15 文昌街</name><desc>右轉・59 m</desc></rtept>
-<rtept lat="25.032171" lon="121.556793"><name>16 文昌街280巷</name><desc>左轉・62 m</desc></rtept>
-<rtept lat="25.031637" lon="121.556947"><name>17 光復南路628巷</name><desc>左轉・43 m（重複／連絡）</desc></rtept>
-<rtept lat="25.031633" lon="121.55737"><name>18 光復南路</name><desc>右轉・491 m</desc></rtept>
-<rtept lat="25.032135" lon="121.557502"><name>19 文昌街</name><desc>左轉・278 m</desc></rtept>
-<rtept lat="25.032382" lon="121.554758"><name>20 文昌街210巷</name><desc>左轉・79 m（重複／連絡）</desc></rtept>
-<rtept lat="25.031668" lon="121.554741"><name>21 通化街19巷</name><desc>左轉・184 m</desc></rtept>
-<rtept lat="25.031642" lon="121.556565"><name>22 文昌街278巷</name><desc>左轉・61 m</desc></rtept>
-<rtept lat="25.032191" lon="121.556575"><name>23 信義路四段400巷</name><desc>直行・93 m</desc></rtept>
-<rtept lat="25.033033" lon="121.556606"><name>24 信義路四段</name><desc>右轉・83 m（重複／連絡）</desc></rtept>
-<rtept lat="25.033014" lon="121.557429"><name>25 光復南路</name><desc>右轉・345 m（重複／連絡）</desc></rtept>
-<rtept lat="25.029902" lon="121.557367"><name>26 光復南路692巷</name><desc>右轉・153 m</desc></rtept>
+<rtept lat="25.033068" lon="121.555124"><name>01 信義路四段</name><desc>出發・68 m</desc></rtept>
+<rtept lat="25.033051" lon="121.555799"><name>02 信義路四段378巷</name><desc>右轉・86 m</desc></rtept>
+<rtept lat="25.03228" lon="121.555741"><name>03 文昌街250巷</name><desc>直行・69 m</desc></rtept>
+<rtept lat="25.031655" lon="121.555722"><name>04 通化街19巷</name><desc>左轉・85 m</desc></rtept>
+<rtept lat="25.031642" lon="121.556565"><name>05 光復南路628巷</name><desc>直行・81 m</desc></rtept>
+<rtept lat="25.031633" lon="121.55737"><name>06 光復南路</name><desc>右轉・117 m</desc></rtept>
+<rtept lat="25.030577" lon="121.557347"><name>07 光復南路676巷</name><desc>右轉・119 m</desc></rtept>
+<rtept lat="25.030617" lon="121.556173"><name>08 通化街39巷</name><desc>直行・199 m</desc></rtept>
+<rtept lat="25.03093" lon="121.554244"><name>09 通化街</name><desc>左轉・529 m</desc></rtept>
+<rtept lat="25.031696" lon="121.554272"><name>10 通化街19巷</name><desc>左轉・47 m</desc></rtept>
+<rtept lat="25.031668" lon="121.554741"><name>11 文昌街210巷</name><desc>左轉・79 m</desc></rtept>
+<rtept lat="25.032382" lon="121.554758"><name>12 文昌街</name><desc>左轉・48 m</desc></rtept>
+<rtept lat="25.03245" lon="121.554287"><name>13 信義路四段294巷</name><desc>右轉・105 m</desc></rtept>
+<rtept lat="25.033089" lon="121.55429"><name>14 信義路四段</name><desc>左轉・317 m</desc></rtept>
+<rtept lat="25.033014" lon="121.557429"><name>15 光復南路</name><desc>右轉・97 m</desc></rtept>
+<rtept lat="25.032138" lon="121.557381"><name>16 文昌街</name><desc>右轉・59 m</desc></rtept>
+<rtept lat="25.032171" lon="121.556793"><name>17 文昌街280巷</name><desc>左轉・62 m</desc></rtept>
+<rtept lat="25.031637" lon="121.556947"><name>18 光復南路628巷</name><desc>左轉・43 m（重複／連絡）</desc></rtept>
+<rtept lat="25.031633" lon="121.55737"><name>19 光復南路</name><desc>右轉・491 m</desc></rtept>
+<rtept lat="25.032135" lon="121.557502"><name>20 文昌街</name><desc>左轉・278 m</desc></rtept>
+<rtept lat="25.032382" lon="121.554758"><name>21 文昌街210巷</name><desc>左轉・79 m（重複／連絡）</desc></rtept>
+<rtept lat="25.031668" lon="121.554741"><name>22 通化街19巷</name><desc>左轉・184 m</desc></rtept>
+<rtept lat="25.031642" lon="121.556565"><name>23 文昌街278巷</name><desc>左轉・61 m</desc></rtept>
+<rtept lat="25.032191" lon="121.556575"><name>24 信義路四段400巷</name><desc>直行・93 m</desc></rtept>
+<rtept lat="25.033033" lon="121.556606"><name>25 信義路四段</name><desc>右轉・83 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033014" lon="121.557429"><name>26 光復南路</name><desc>右轉・345 m（重複／連絡）</desc></rtept>
+<rtept lat="25.029902" lon="121.557367"><name>27 光復南路692巷</name><desc>右轉・153 m</desc></rtept>
 <rtept lat="25.030634" lon="121.556677"><name>終點</name></rtept></rte>
 <trk><name>通化里 行駛軌跡</name><trkseg>
+<trkpt lat="25.033068" lon="121.555124"/>
+<trkpt lat="25.033067" lon="121.555199"/>
+<trkpt lat="25.033065" lon="121.555274"/>
+<trkpt lat="25.033063" lon="121.555349"/>
+<trkpt lat="25.033061" lon="121.555424"/>
+<trkpt lat="25.033059" lon="121.555499"/>
+<trkpt lat="25.033057" lon="121.555574"/>
+<trkpt lat="25.033055" lon="121.555649"/>
+<trkpt lat="25.033053" lon="121.555724"/>
 <trkpt lat="25.033051" lon="121.555799"/>
 <trkpt lat="25.033013" lon="121.555798"/>
 <trkpt lat="25.032974" lon="121.555797"/>

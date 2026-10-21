@@ -1,67 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 芳和里 掃街車路線</name><desc>總長 8.23 km，重複率 21.5%</desc></metadata>
-<wpt lat="25.022296" lon="121.554583"><name>起點 信安街</name></wpt>
+<metadata><name>大安區 芳和里 掃街車路線</name><desc>總長 8.29 km，重複率 22.0%</desc></metadata>
+<wpt lat="25.022667" lon="121.554188"><name>起點 和平東路三段</name></wpt>
 <wpt lat="25.018272" lon="121.550975"><name>終點 臥龍街</name></wpt>
 <rte><name>芳和里 道路順序</name>
-<rtept lat="25.022296" lon="121.554583"><name>01 信安街</name><desc>出發・19 m</desc></rtept>
-<rtept lat="25.022429" lon="121.554703"><name>02 和平東路三段</name><desc>左轉・99 m</desc></rtept>
-<rtept lat="25.023061" lon="121.554012"><name>03 嘉興街</name><desc>左轉・173 m</desc></rtept>
-<rtept lat="25.022288" lon="121.552534"><name>04 基隆路二段209巷</name><desc>右轉・62 m</desc></rtept>
-<rtept lat="25.022671" lon="121.552092"><name>05 樂業街79巷</name><desc>左轉・148 m</desc></rtept>
-<rtept lat="25.021739" lon="121.551041"><name>06 樂業街</name><desc>左轉・140 m</desc></rtept>
-<rtept lat="25.020866" lon="121.552037"><name>07 樂業街101巷</name><desc>左轉・90 m</desc></rtept>
-<rtept lat="25.021417" lon="121.552696"><name>08 嘉興街363巷</name><desc>左轉・95 m</desc></rtept>
-<rtept lat="25.021988" lon="121.551987"><name>09 嘉興街</name><desc>左轉・83 m</desc></rtept>
-<rtept lat="25.021464" lon="121.551394"><name>10 樂業街94巷</name><desc>直行・145 m</desc></rtept>
-<rtept lat="25.020582" lon="121.550342"><name>11 基隆路二段291巷</name><desc>右轉・85 m</desc></rtept>
-<rtept lat="25.0211" lon="121.549728"><name>12 無名巷道</name><desc>直行・52 m</desc></rtept>
-<rtept lat="25.021442" lon="121.549372"><name>13 基隆路二段</name><desc>右轉・288 m</desc></rtept>
-<rtept lat="25.023284" lon="121.551386"><name>14 基隆路二段209巷</name><desc>右轉・160 m</desc></rtept>
-<rtept lat="25.022288" lon="121.552534"><name>15 嘉興街</name><desc>右轉・65 m</desc></rtept>
-<rtept lat="25.021988" lon="121.551987"><name>16 嘉興街363巷</name><desc>左轉・155 m</desc></rtept>
-<rtept lat="25.021306" lon="121.553069"><name>17 嘉興街347巷</name><desc>左轉・125 m</desc></rtept>
-<rtept lat="25.022255" lon="121.552475"><name>18 嘉興街</name><desc>右轉・76 m（重複／連絡）</desc></rtept>
-<rtept lat="25.022593" lon="121.55313"><name>19 嘉興街323巷</name><desc>右轉・84 m</desc></rtept>
-<rtept lat="25.02201" lon="121.553648"><name>20 和平東路三段212巷</name><desc>左轉・91 m</desc></rtept>
-<rtept lat="25.022667" lon="121.554188"><name>21 和平東路三段</name><desc>右轉・57 m</desc></rtept>
-<rtept lat="25.022296" lon="121.554583"><name>22 和平東路三段228巷</name><desc>右轉・293 m</desc></rtept>
-<rtept lat="25.020339" lon="121.552707"><name>23 樂業街</name><desc>右轉・132 m</desc></rtept>
-<rtept lat="25.021137" lon="121.551739"><name>24 樂業街108巷</name><desc>左轉・142 m</desc></rtept>
-<rtept lat="25.020269" lon="121.550711"><name>25 基隆路二段291巷</name><desc>右轉・51 m</desc></rtept>
-<rtept lat="25.020582" lon="121.550342"><name>26 樂業街94巷</name><desc>右轉・145 m（重複／連絡）</desc></rtept>
-<rtept lat="25.021464" lon="121.551394"><name>27 樂業街</name><desc>左轉・156 m</desc></rtept>
-<rtept lat="25.022421" lon="121.550261"><name>28 基隆路二段</name><desc>左轉・248 m</desc></rtept>
-<rtept lat="25.02235" lon="121.550341"><name>29 樂業街</name><desc>右轉・60 m（重複／連絡）</desc></rtept>
-<rtept lat="25.021973" lon="121.55076"><name>30 樂業街72巷</name><desc>右轉・142 m</desc></rtept>
-<rtept lat="25.0211" lon="121.549728"><name>31 嘉興街</name><desc>直行・146 m</desc></rtept>
-<rtept lat="25.020237" lon="121.548647"><name>32 臥龍街</name><desc>右轉・40 m</desc></rtept>
-<rtept lat="25.020487" lon="121.548369"><name>33 基隆路三段</name><desc>右轉・82 m</desc></rtept>
-<rtept lat="25.021016" lon="121.548935"><name>34 基隆路二段</name><desc>直行・65 m</desc></rtept>
-<rtept lat="25.021442" lon="121.549372"><name>35 無名巷道</name><desc>右轉・52 m（重複／連絡）</desc></rtept>
-<rtept lat="25.0211" lon="121.549728"><name>36 樂業街72巷</name><desc>左轉・142 m（重複／連絡）</desc></rtept>
-<rtept lat="25.021973" lon="121.55076"><name>37 樂業街65巷</name><desc>直行・149 m</desc></rtept>
-<rtept lat="25.022934" lon="121.551789"><name>38 基隆路二段209巷</name><desc>左轉・56 m（重複／連絡）</desc></rtept>
-<rtept lat="25.023284" lon="121.551386"><name>39 基隆路二段</name><desc>右轉・228 m</desc></rtept>
-<rtept lat="25.024144" lon="121.552219"><name>40 無名巷道</name><desc>左轉・75 m</desc></rtept>
-<rtept lat="25.024184" lon="121.552855"><name>41 和平東路三段</name><desc>左轉・767 m</desc></rtept>
-<rtept lat="25.022667" lon="121.554188"><name>42 和平東路三段212巷</name><desc>右轉・295 m</desc></rtept>
-<rtept lat="25.020538" lon="121.552437"><name>43 樂業街</name><desc>左轉・35 m（重複／連絡）</desc></rtept>
-<rtept lat="25.020339" lon="121.552707"><name>44 臥龍街151巷</name><desc>右轉・298 m</desc></rtept>
-<rtept lat="25.018272" lon="121.550975"><name>45 辛亥路三段157巷</name><desc>右轉・240 m</desc></rtept>
-<rtept lat="25.017126" lon="121.549125"><name>46 辛亥路三段</name><desc>右轉・274 m</desc></rtept>
-<rtept lat="25.01892" lon="121.547249"><name>47 迴轉道</name><desc>左轉・52 m</desc></rtept>
-<rtept lat="25.018712" lon="121.546832"><name>48 辛亥路三段</name><desc>左轉・295 m</desc></rtept>
-<rtept lat="25.016849" lon="121.548924"><name>49 辛亥路三段157巷</name><desc>左轉・37 m</desc></rtept>
-<rtept lat="25.017126" lon="121.549125"><name>50 辛亥路三段</name><desc>左轉・348 m</desc></rtept>
-<rtept lat="25.019391" lon="121.54674"><name>51 基隆路三段</name><desc>左轉・47 m</desc></rtept>
-<rtept lat="25.019111" lon="121.546385"><name>52 辛亥路三段</name><desc>左轉・29 m</desc></rtept>
-<rtept lat="25.018934" lon="121.546594"><name>53 基隆路三段</name><desc>左轉・248 m</desc></rtept>
-<rtept lat="25.020487" lon="121.548369"><name>54 臥龍街</name><desc>右轉・289 m</desc></rtept>
-<rtept lat="25.018707" lon="121.550455"><name>55 臥龍街131巷</name><desc>左轉・216 m</desc></rtept>
-<rtept lat="25.018707" lon="121.550455"><name>56 臥龍街</name><desc>左轉・71 m</desc></rtept>
+<rtept lat="25.022667" lon="121.554188"><name>01 和平東路三段</name><desc>出發・175 m</desc></rtept>
+<rtept lat="25.023061" lon="121.554012"><name>02 嘉興街</name><desc>左轉・173 m</desc></rtept>
+<rtept lat="25.022288" lon="121.552534"><name>03 基隆路二段209巷</name><desc>右轉・62 m</desc></rtept>
+<rtept lat="25.022671" lon="121.552092"><name>04 樂業街79巷</name><desc>左轉・148 m</desc></rtept>
+<rtept lat="25.021739" lon="121.551041"><name>05 樂業街</name><desc>左轉・140 m</desc></rtept>
+<rtept lat="25.020866" lon="121.552037"><name>06 樂業街101巷</name><desc>左轉・90 m</desc></rtept>
+<rtept lat="25.021417" lon="121.552696"><name>07 嘉興街363巷</name><desc>左轉・95 m</desc></rtept>
+<rtept lat="25.021988" lon="121.551987"><name>08 嘉興街</name><desc>左轉・83 m</desc></rtept>
+<rtept lat="25.021464" lon="121.551394"><name>09 樂業街94巷</name><desc>直行・145 m</desc></rtept>
+<rtept lat="25.020582" lon="121.550342"><name>10 基隆路二段291巷</name><desc>右轉・85 m</desc></rtept>
+<rtept lat="25.0211" lon="121.549728"><name>11 無名巷道</name><desc>直行・52 m</desc></rtept>
+<rtept lat="25.021442" lon="121.549372"><name>12 基隆路二段</name><desc>右轉・288 m</desc></rtept>
+<rtept lat="25.023284" lon="121.551386"><name>13 基隆路二段209巷</name><desc>右轉・160 m</desc></rtept>
+<rtept lat="25.022288" lon="121.552534"><name>14 嘉興街</name><desc>右轉・65 m</desc></rtept>
+<rtept lat="25.021988" lon="121.551987"><name>15 嘉興街363巷</name><desc>左轉・155 m</desc></rtept>
+<rtept lat="25.021306" lon="121.553069"><name>16 嘉興街347巷</name><desc>左轉・125 m</desc></rtept>
+<rtept lat="25.022255" lon="121.552475"><name>17 嘉興街</name><desc>右轉・76 m（重複／連絡）</desc></rtept>
+<rtept lat="25.022593" lon="121.55313"><name>18 嘉興街323巷</name><desc>右轉・84 m</desc></rtept>
+<rtept lat="25.02201" lon="121.553648"><name>19 和平東路三段212巷</name><desc>左轉・91 m</desc></rtept>
+<rtept lat="25.022667" lon="121.554188"><name>20 和平東路三段</name><desc>右轉・57 m（重複／連絡）</desc></rtept>
+<rtept lat="25.022296" lon="121.554583"><name>21 和平東路三段228巷</name><desc>右轉・293 m</desc></rtept>
+<rtept lat="25.020339" lon="121.552707"><name>22 樂業街</name><desc>右轉・132 m</desc></rtept>
+<rtept lat="25.021137" lon="121.551739"><name>23 樂業街108巷</name><desc>左轉・142 m</desc></rtept>
+<rtept lat="25.020269" lon="121.550711"><name>24 基隆路二段291巷</name><desc>右轉・51 m</desc></rtept>
+<rtept lat="25.020582" lon="121.550342"><name>25 樂業街94巷</name><desc>右轉・145 m（重複／連絡）</desc></rtept>
+<rtept lat="25.021464" lon="121.551394"><name>26 樂業街</name><desc>左轉・156 m</desc></rtept>
+<rtept lat="25.022421" lon="121.550261"><name>27 基隆路二段</name><desc>左轉・248 m</desc></rtept>
+<rtept lat="25.02235" lon="121.550341"><name>28 樂業街</name><desc>右轉・60 m（重複／連絡）</desc></rtept>
+<rtept lat="25.021973" lon="121.55076"><name>29 樂業街72巷</name><desc>右轉・142 m</desc></rtept>
+<rtept lat="25.0211" lon="121.549728"><name>30 嘉興街</name><desc>直行・146 m</desc></rtept>
+<rtept lat="25.020237" lon="121.548647"><name>31 臥龍街</name><desc>右轉・40 m</desc></rtept>
+<rtept lat="25.020487" lon="121.548369"><name>32 基隆路三段</name><desc>右轉・82 m</desc></rtept>
+<rtept lat="25.021016" lon="121.548935"><name>33 基隆路二段</name><desc>直行・65 m</desc></rtept>
+<rtept lat="25.021442" lon="121.549372"><name>34 無名巷道</name><desc>右轉・52 m（重複／連絡）</desc></rtept>
+<rtept lat="25.0211" lon="121.549728"><name>35 樂業街72巷</name><desc>左轉・142 m（重複／連絡）</desc></rtept>
+<rtept lat="25.021973" lon="121.55076"><name>36 樂業街65巷</name><desc>直行・149 m</desc></rtept>
+<rtept lat="25.022934" lon="121.551789"><name>37 基隆路二段209巷</name><desc>左轉・56 m（重複／連絡）</desc></rtept>
+<rtept lat="25.023284" lon="121.551386"><name>38 基隆路二段</name><desc>右轉・228 m</desc></rtept>
+<rtept lat="25.024144" lon="121.552219"><name>39 無名巷道</name><desc>左轉・75 m</desc></rtept>
+<rtept lat="25.024184" lon="121.552855"><name>40 和平東路三段</name><desc>左轉・767 m</desc></rtept>
+<rtept lat="25.022667" lon="121.554188"><name>41 和平東路三段212巷</name><desc>右轉・295 m</desc></rtept>
+<rtept lat="25.020538" lon="121.552437"><name>42 樂業街</name><desc>左轉・35 m（重複／連絡）</desc></rtept>
+<rtept lat="25.020339" lon="121.552707"><name>43 臥龍街151巷</name><desc>右轉・298 m</desc></rtept>
+<rtept lat="25.018272" lon="121.550975"><name>44 辛亥路三段157巷</name><desc>右轉・240 m</desc></rtept>
+<rtept lat="25.017126" lon="121.549125"><name>45 辛亥路三段</name><desc>右轉・274 m</desc></rtept>
+<rtept lat="25.01892" lon="121.547249"><name>46 迴轉道</name><desc>左轉・52 m</desc></rtept>
+<rtept lat="25.018712" lon="121.546832"><name>47 辛亥路三段</name><desc>左轉・295 m</desc></rtept>
+<rtept lat="25.016849" lon="121.548924"><name>48 辛亥路三段157巷</name><desc>左轉・37 m</desc></rtept>
+<rtept lat="25.017126" lon="121.549125"><name>49 辛亥路三段</name><desc>左轉・348 m</desc></rtept>
+<rtept lat="25.019391" lon="121.54674"><name>50 基隆路三段</name><desc>左轉・47 m</desc></rtept>
+<rtept lat="25.019111" lon="121.546385"><name>51 辛亥路三段</name><desc>左轉・29 m</desc></rtept>
+<rtept lat="25.018934" lon="121.546594"><name>52 基隆路三段</name><desc>左轉・248 m</desc></rtept>
+<rtept lat="25.020487" lon="121.548369"><name>53 臥龍街</name><desc>右轉・289 m</desc></rtept>
+<rtept lat="25.018707" lon="121.550455"><name>54 臥龍街131巷</name><desc>左轉・216 m</desc></rtept>
+<rtept lat="25.018707" lon="121.550455"><name>55 臥龍街</name><desc>左轉・71 m</desc></rtept>
 <rtept lat="25.018272" lon="121.550975"><name>終點</name></rtept></rte>
 <trk><name>芳和里 行駛軌跡</name><trkseg>
+<trkpt lat="25.022667" lon="121.554188"/>
+<trkpt lat="25.022619" lon="121.554238"/>
+<trkpt lat="25.022572" lon="121.554289"/>
+<trkpt lat="25.022525" lon="121.554339"/>
+<trkpt lat="25.022477" lon="121.554389"/>
+<trkpt lat="25.022430" lon="121.554440"/>
+<trkpt lat="25.022383" lon="121.554490"/>
+<trkpt lat="25.022336" lon="121.554541"/>
 <trkpt lat="25.022296" lon="121.554583"/>
 <trkpt lat="25.022340" lon="121.554623"/>
 <trkpt lat="25.022385" lon="121.554663"/>

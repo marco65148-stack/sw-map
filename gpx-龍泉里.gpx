@@ -1,42 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 龍泉里 掃街車路線</name><desc>總長 4.74 km，重複率 24.7%</desc></metadata>
-<wpt lat="25.025655" lon="121.529284"><name>起點 泰順街2巷</name></wpt>
+<metadata><name>大安區 龍泉里 掃街車路線</name><desc>總長 4.91 km，重複率 27.3%</desc></metadata>
+<wpt lat="25.02652" lon="121.528507"><name>起點 和平東路一段</name></wpt>
 <wpt lat="25.023552" lon="121.529365"><name>終點 龍泉街</name></wpt>
 <rte><name>龍泉里 道路順序</name>
-<rtept lat="25.025655" lon="121.529284"><name>01 泰順街2巷</name><desc>出發・230 m</desc></rtept>
-<rtept lat="25.025823" lon="121.531546"><name>02 泰順街</name><desc>右轉・127 m</desc></rtept>
-<rtept lat="25.024686" lon="121.531424"><name>03 泰順街38巷</name><desc>右轉・205 m</desc></rtept>
-<rtept lat="25.02457" lon="121.5294"><name>04 龍泉街</name><desc>左轉・35 m</desc></rtept>
-<rtept lat="25.024253" lon="121.529437"><name>05 泰順街40巷</name><desc>左轉・79 m</desc></rtept>
-<rtept lat="25.024327" lon="121.530212"><name>06 雲和街75巷</name><desc>右轉・93 m</desc></rtept>
-<rtept lat="25.02349" lon="121.530124"><name>07 雲和街</name><desc>左轉・119 m</desc></rtept>
-<rtept lat="25.023279" lon="121.531272"><name>08 泰順街</name><desc>左轉・157 m</desc></rtept>
-<rtept lat="25.024686" lon="121.531424"><name>09 泰順街38巷</name><desc>左轉・205 m（重複／連絡）</desc></rtept>
-<rtept lat="25.02457" lon="121.5294"><name>10 師大路39巷</name><desc>直行・83 m</desc></rtept>
-<rtept lat="25.024654" lon="121.528582"><name>11 師大路</name><desc>左轉・115 m</desc></rtept>
-<rtept lat="25.023624" lon="121.528484"><name>12 雲和街</name><desc>左轉・166 m</desc></rtept>
-<rtept lat="25.02349" lon="121.530124"><name>13 雲和街75巷</name><desc>左轉・93 m（重複／連絡）</desc></rtept>
-<rtept lat="25.024327" lon="121.530212"><name>14 泰順街40巷</name><desc>右轉・119 m</desc></rtept>
-<rtept lat="25.024299" lon="121.531385"><name>15 泰順街</name><desc>右轉・74 m（重複／連絡）</desc></rtept>
-<rtept lat="25.023631" lon="121.531333"><name>16 泰順街44巷</name><desc>右轉・198 m</desc></rtept>
-<rtept lat="25.023922" lon="121.529403"><name>17 師大路59巷</name><desc>直行・90 m</desc></rtept>
-<rtept lat="25.024002" lon="121.52852"><name>18 師大路</name><desc>右轉・283 m</desc></rtept>
-<rtept lat="25.02652" lon="121.528507"><name>19 和平東路一段</name><desc>右轉・313 m</desc></rtept>
-<rtept lat="25.026279" lon="121.531596"><name>20 泰順街</name><desc>右轉・95 m</desc></rtept>
-<rtept lat="25.025429" lon="121.531504"><name>21 泰順街16巷</name><desc>右轉・101 m</desc></rtept>
-<rtept lat="25.025437" lon="121.530507"><name>22 和平東路一段188巷</name><desc>右轉・120 m</desc></rtept>
-<rtept lat="25.026519" lon="121.530416"><name>23 和平東路一段</name><desc>左轉・290 m</desc></rtept>
-<rtept lat="25.026451" lon="121.529314"><name>24 龍泉街</name><desc>右轉・57 m</desc></rtept>
-<rtept lat="25.025937" lon="121.529293"><name>25 龍泉街5巷</name><desc>左轉・157 m</desc></rtept>
-<rtept lat="25.026519" lon="121.530416"><name>26 和平東路一段</name><desc>左轉・290 m（重複／連絡）</desc></rtept>
-<rtept lat="25.026451" lon="121.529314"><name>27 龍泉街</name><desc>右轉・168 m</desc></rtept>
-<rtept lat="25.024938" lon="121.529329"><name>28 泰順街26巷</name><desc>左轉・218 m</desc></rtept>
-<rtept lat="25.025093" lon="121.531472"><name>29 泰順街</name><desc>左轉・37 m（重複／連絡）</desc></rtept>
-<rtept lat="25.025429" lon="121.531504"><name>30 泰順街16巷</name><desc>左轉・226 m</desc></rtept>
-<rtept lat="25.025316" lon="121.529274"><name>31 龍泉街</name><desc>左轉・197 m</desc></rtept>
+<rtept lat="25.02652" lon="121.528507"><name>01 和平東路一段</name><desc>出發・82 m</desc></rtept>
+<rtept lat="25.026451" lon="121.529314"><name>02 龍泉街</name><desc>右轉・88 m</desc></rtept>
+<rtept lat="25.025655" lon="121.529284"><name>03 泰順街2巷</name><desc>左轉・230 m</desc></rtept>
+<rtept lat="25.025823" lon="121.531546"><name>04 泰順街</name><desc>右轉・127 m</desc></rtept>
+<rtept lat="25.024686" lon="121.531424"><name>05 泰順街38巷</name><desc>右轉・205 m</desc></rtept>
+<rtept lat="25.02457" lon="121.5294"><name>06 龍泉街</name><desc>左轉・35 m</desc></rtept>
+<rtept lat="25.024253" lon="121.529437"><name>07 泰順街40巷</name><desc>左轉・79 m</desc></rtept>
+<rtept lat="25.024327" lon="121.530212"><name>08 雲和街75巷</name><desc>右轉・93 m</desc></rtept>
+<rtept lat="25.02349" lon="121.530124"><name>09 雲和街</name><desc>左轉・119 m</desc></rtept>
+<rtept lat="25.023279" lon="121.531272"><name>10 泰順街</name><desc>左轉・157 m</desc></rtept>
+<rtept lat="25.024686" lon="121.531424"><name>11 泰順街38巷</name><desc>左轉・205 m（重複／連絡）</desc></rtept>
+<rtept lat="25.02457" lon="121.5294"><name>12 師大路39巷</name><desc>直行・83 m</desc></rtept>
+<rtept lat="25.024654" lon="121.528582"><name>13 師大路</name><desc>左轉・115 m</desc></rtept>
+<rtept lat="25.023624" lon="121.528484"><name>14 雲和街</name><desc>左轉・166 m</desc></rtept>
+<rtept lat="25.02349" lon="121.530124"><name>15 雲和街75巷</name><desc>左轉・93 m（重複／連絡）</desc></rtept>
+<rtept lat="25.024327" lon="121.530212"><name>16 泰順街40巷</name><desc>右轉・119 m</desc></rtept>
+<rtept lat="25.024299" lon="121.531385"><name>17 泰順街</name><desc>右轉・74 m（重複／連絡）</desc></rtept>
+<rtept lat="25.023631" lon="121.531333"><name>18 泰順街44巷</name><desc>右轉・198 m</desc></rtept>
+<rtept lat="25.023922" lon="121.529403"><name>19 師大路59巷</name><desc>直行・90 m</desc></rtept>
+<rtept lat="25.024002" lon="121.52852"><name>20 師大路</name><desc>右轉・283 m</desc></rtept>
+<rtept lat="25.02652" lon="121.528507"><name>21 和平東路一段</name><desc>右轉・313 m</desc></rtept>
+<rtept lat="25.026279" lon="121.531596"><name>22 泰順街</name><desc>右轉・95 m</desc></rtept>
+<rtept lat="25.025429" lon="121.531504"><name>23 泰順街16巷</name><desc>右轉・101 m</desc></rtept>
+<rtept lat="25.025437" lon="121.530507"><name>24 和平東路一段188巷</name><desc>右轉・120 m</desc></rtept>
+<rtept lat="25.026519" lon="121.530416"><name>25 和平東路一段</name><desc>左轉・290 m</desc></rtept>
+<rtept lat="25.026451" lon="121.529314"><name>26 龍泉街</name><desc>右轉・57 m（重複／連絡）</desc></rtept>
+<rtept lat="25.025937" lon="121.529293"><name>27 龍泉街5巷</name><desc>左轉・157 m</desc></rtept>
+<rtept lat="25.026519" lon="121.530416"><name>28 和平東路一段</name><desc>左轉・290 m（重複／連絡）</desc></rtept>
+<rtept lat="25.026451" lon="121.529314"><name>29 龍泉街</name><desc>右轉・168 m</desc></rtept>
+<rtept lat="25.024938" lon="121.529329"><name>30 泰順街26巷</name><desc>左轉・218 m</desc></rtept>
+<rtept lat="25.025093" lon="121.531472"><name>31 泰順街</name><desc>左轉・37 m（重複／連絡）</desc></rtept>
+<rtept lat="25.025429" lon="121.531504"><name>32 泰順街16巷</name><desc>左轉・226 m</desc></rtept>
+<rtept lat="25.025316" lon="121.529274"><name>33 龍泉街</name><desc>左轉・197 m</desc></rtept>
 <rtept lat="25.023552" lon="121.529365"><name>終點</name></rtept></rte>
 <trk><name>龍泉里 行駛軌跡</name><trkseg>
+<trkpt lat="25.026520" lon="121.528507"/>
+<trkpt lat="25.026515" lon="121.528558"/>
+<trkpt lat="25.026511" lon="121.528608"/>
+<trkpt lat="25.026504" lon="121.528687"/>
+<trkpt lat="25.026498" lon="121.528765"/>
+<trkpt lat="25.026491" lon="121.528843"/>
+<trkpt lat="25.026484" lon="121.528922"/>
+<trkpt lat="25.026478" lon="121.529000"/>
+<trkpt lat="25.026471" lon="121.529079"/>
+<trkpt lat="25.026464" lon="121.529157"/>
+<trkpt lat="25.026458" lon="121.529236"/>
+<trkpt lat="25.026451" lon="121.529314"/>
+<trkpt lat="25.026410" lon="121.529313"/>
+<trkpt lat="25.026370" lon="121.529312"/>
+<trkpt lat="25.026298" lon="121.529308"/>
+<trkpt lat="25.026225" lon="121.529306"/>
+<trkpt lat="25.026153" lon="121.529303"/>
+<trkpt lat="25.026081" lon="121.529299"/>
+<trkpt lat="25.026009" lon="121.529297"/>
+<trkpt lat="25.025937" lon="121.529293"/>
+<trkpt lat="25.025867" lon="121.529291"/>
+<trkpt lat="25.025796" lon="121.529289"/>
+<trkpt lat="25.025726" lon="121.529286"/>
 <trkpt lat="25.025655" lon="121.529284"/>
 <trkpt lat="25.025662" lon="121.529352"/>
 <trkpt lat="25.025669" lon="121.529421"/>

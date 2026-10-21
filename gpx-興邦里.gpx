@@ -1,22 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 興邦里 掃街車路線</name><desc>總長 3.52 km，重複率 27.0%</desc></metadata>
-<wpt lat="25.000902" lon="121.548126"><name>起點 興隆路二段153巷</name></wpt>
+<metadata><name>文山區 興邦里 掃街車路線</name><desc>總長 3.73 km，重複率 31.2%</desc></metadata>
+<wpt lat="25.000844" lon="121.54982"><name>起點 興隆路二段</name></wpt>
 <wpt lat="25.003627" lon="121.545942"><name>終點 興隆路二段203巷</name></wpt>
 <rte><name>興邦里 道路順序</name>
-<rtept lat="25.000902" lon="121.548126"><name>01 興隆路二段153巷</name><desc>出發・206 m</desc></rtept>
-<rtept lat="25.000324" lon="121.548578"><name>02 興隆路二段</name><desc>左轉・139 m</desc></rtept>
-<rtept lat="25.000775" lon="121.549859"><name>03 興隆路二段203巷</name><desc>左轉・175 m</desc></rtept>
-<rtept lat="25.001922" lon="121.548709"><name>04 無名巷道</name><desc>右轉・101 m</desc></rtept>
-<rtept lat="25.00271" lon="121.549208"><name>05 興隆路二段203巷</name><desc>左轉・729 m</desc></rtept>
-<rtept lat="25.001922" lon="121.548709"><name>06 無名巷道</name><desc>左轉・35 m（重複／連絡）</desc></rtept>
-<rtept lat="25.002198" lon="121.548884"><name>07 興隆路二段217巷</name><desc>右轉・194 m</desc></rtept>
-<rtept lat="25.001097" lon="121.550281"><name>08 興隆路二段</name><desc>右轉・1076 m</desc></rtept>
-<rtept lat="25.001388" lon="121.550671"><name>09 興隆路二段233巷</name><desc>右轉・105 m</desc></rtept>
-<rtept lat="25.002297" lon="121.550381"><name>10 興隆路二段233巷5弄</name><desc>左轉・130 m</desc></rtept>
-<rtept lat="25.00271" lon="121.549208"><name>11 興隆路二段203巷</name><desc>直行・626 m</desc></rtept>
+<rtept lat="25.000844" lon="121.54982"><name>01 興隆路二段</name><desc>出發・141 m</desc></rtept>
+<rtept lat="25.000374" lon="121.54853"><name>02 興隆路二段153巷</name><desc>右轉・277 m</desc></rtept>
+<rtept lat="25.000324" lon="121.548578"><name>03 興隆路二段</name><desc>左轉・139 m</desc></rtept>
+<rtept lat="25.000775" lon="121.549859"><name>04 興隆路二段203巷</name><desc>左轉・175 m</desc></rtept>
+<rtept lat="25.001922" lon="121.548709"><name>05 無名巷道</name><desc>右轉・101 m</desc></rtept>
+<rtept lat="25.00271" lon="121.549208"><name>06 興隆路二段203巷</name><desc>左轉・729 m</desc></rtept>
+<rtept lat="25.001922" lon="121.548709"><name>07 無名巷道</name><desc>左轉・35 m（重複／連絡）</desc></rtept>
+<rtept lat="25.002198" lon="121.548884"><name>08 興隆路二段217巷</name><desc>右轉・194 m</desc></rtept>
+<rtept lat="25.001097" lon="121.550281"><name>09 興隆路二段</name><desc>右轉・1076 m</desc></rtept>
+<rtept lat="25.001388" lon="121.550671"><name>10 興隆路二段233巷</name><desc>右轉・105 m</desc></rtept>
+<rtept lat="25.002297" lon="121.550381"><name>11 興隆路二段233巷5弄</name><desc>左轉・130 m</desc></rtept>
+<rtept lat="25.00271" lon="121.549208"><name>12 興隆路二段203巷</name><desc>直行・626 m</desc></rtept>
 <rtept lat="25.003627" lon="121.545942"><name>終點</name></rtept></rte>
 <trk><name>興邦里 行駛軌跡</name><trkseg>
+<trkpt lat="25.000844" lon="121.549820"/>
+<trkpt lat="25.000832" lon="121.549778"/>
+<trkpt lat="25.000820" lon="121.549737"/>
+<trkpt lat="25.000803" lon="121.549673"/>
+<trkpt lat="25.000785" lon="121.549608"/>
+<trkpt lat="25.000768" lon="121.549544"/>
+<trkpt lat="25.000751" lon="121.549480"/>
+<trkpt lat="25.000733" lon="121.549409"/>
+<trkpt lat="25.000715" lon="121.549339"/>
+<trkpt lat="25.000698" lon="121.549268"/>
+<trkpt lat="25.000680" lon="121.549198"/>
+<trkpt lat="25.000662" lon="121.549134"/>
+<trkpt lat="25.000643" lon="121.549070"/>
+<trkpt lat="25.000624" lon="121.549007"/>
+<trkpt lat="25.000603" lon="121.548954"/>
+<trkpt lat="25.000582" lon="121.548902"/>
+<trkpt lat="25.000560" lon="121.548849"/>
+<trkpt lat="25.000532" lon="121.548791"/>
+<trkpt lat="25.000503" lon="121.548732"/>
+<trkpt lat="25.000469" lon="121.548673"/>
+<trkpt lat="25.000434" lon="121.548614"/>
+<trkpt lat="25.000403" lon="121.548563"/>
+<trkpt lat="25.000374" lon="121.548530"/>
+<trkpt lat="25.000425" lon="121.548486"/>
+<trkpt lat="25.000456" lon="121.548460"/>
+<trkpt lat="25.000496" lon="121.548428"/>
+<trkpt lat="25.000536" lon="121.548395"/>
+<trkpt lat="25.000575" lon="121.548364"/>
+<trkpt lat="25.000615" lon="121.548333"/>
+<trkpt lat="25.000654" lon="121.548302"/>
+<trkpt lat="25.000652" lon="121.548301"/>
+<trkpt lat="25.000681" lon="121.548281"/>
+<trkpt lat="25.000686" lon="121.548277"/>
+<trkpt lat="25.000740" lon="121.548239"/>
+<trkpt lat="25.000794" lon="121.548202"/>
+<trkpt lat="25.000848" lon="121.548164"/>
 <trkpt lat="25.000902" lon="121.548126"/>
 <trkpt lat="25.000953" lon="121.548089"/>
 <trkpt lat="25.001001" lon="121.548049"/>

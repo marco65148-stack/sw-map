@@ -1,45 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 萬有里 掃街車路線</name><desc>總長 5.71 km，重複率 23.1%</desc></metadata>
-<wpt lat="25.001011" lon="121.542765"><name>起點 興隆路一段184巷</name></wpt>
+<metadata><name>文山區 萬有里 掃街車路線</name><desc>總長 5.84 km，重複率 24.8%</desc></metadata>
+<wpt lat="25.001946" lon="121.541963"><name>起點 興隆路一段</name></wpt>
 <wpt lat="24.998389" lon="121.541878"><name>終點 羅斯福路六段39巷</name></wpt>
 <rte><name>萬有里 道路順序</name>
-<rtept lat="25.001011" lon="121.542765"><name>01 興隆路一段184巷</name><desc>出發・182 m</desc></rtept>
-<rtept lat="24.999573" lon="121.54189"><name>02 景隆街</name><desc>右轉・113 m</desc></rtept>
-<rtept lat="24.999976" lon="121.540863"><name>03 景隆街19巷</name><desc>右轉・188 m</desc></rtept>
-<rtept lat="24.999976" lon="121.540863"><name>04 景隆街</name><desc>右轉・110 m</desc></rtept>
-<rtept lat="24.999646" lon="121.539837"><name>05 羅斯福路六段</name><desc>左轉・299 m</desc></rtept>
-<rtept lat="24.997109" lon="121.540831"><name>06 羅斯福路六段159巷</name><desc>左轉・40 m</desc></rtept>
-<rtept lat="24.997257" lon="121.541195"><name>07 三福街5巷</name><desc>右轉・152 m</desc></rtept>
-<rtept lat="24.995954" lon="121.541479"><name>08 三福街</name><desc>左轉・159 m</desc></rtept>
-<rtept lat="24.997131" lon="121.542374"><name>09 羅斯福路六段159巷</name><desc>左轉・127 m</desc></rtept>
-<rtept lat="24.997257" lon="121.541195"><name>10 三福街5巷</name><desc>左轉・169 m（重複／連絡）</desc></rtept>
-<rtept lat="24.99594" lon="121.541205"><name>11 羅斯福路六段</name><desc>右轉・435 m</desc></rtept>
-<rtept lat="24.999686" lon="121.539952"><name>12 景隆街</name><desc>右轉・211 m（重複／連絡）</desc></rtept>
-<rtept lat="24.999573" lon="121.54189"><name>13 興隆路一段184巷</name><desc>左轉・81 m（重複／連絡）</desc></rtept>
-<rtept lat="25.000222" lon="121.542269"><name>14 景明街29巷</name><desc>左轉・163 m</desc></rtept>
-<rtept lat="25.001196" lon="121.54114"><name>15 景明街</name><desc>右轉・123 m</desc></rtept>
-<rtept lat="25.001946" lon="121.541963"><name>16 興隆路一段</name><desc>右轉・401 m</desc></rtept>
-<rtept lat="25.002003" lon="121.542042"><name>17 景明街</name><desc>左轉・269 m</desc></rtept>
-<rtept lat="25.000124" lon="121.54048"><name>18 景隆街</name><desc>左轉・100 m</desc></rtept>
-<rtept lat="24.999777" lon="121.54021"><name>19 無名巷道</name><desc>左轉・97 m</desc></rtept>
-<rtept lat="24.99896" lon="121.540557"><name>20 羅斯福路六段39巷</name><desc>直行・230 m</desc></rtept>
-<rtept lat="24.998869" lon="121.540273"><name>21 羅斯福路六段</name><desc>右轉・96 m（重複／連絡）</desc></rtept>
-<rtept lat="24.999686" lon="121.539952"><name>22 景隆街</name><desc>右轉・484 m</desc></rtept>
-<rtept lat="24.99863" lon="121.54438"><name>23 景興路</name><desc>右轉・69 m</desc></rtept>
-<rtept lat="24.998049" lon="121.5446"><name>24 景興路10巷</name><desc>右轉・70 m</desc></rtept>
-<rtept lat="24.99803" lon="121.543906"><name>25 三福街</name><desc>直行・107 m</desc></rtept>
-<rtept lat="24.998005" lon="121.542847"><name>26 景隆街36巷</name><desc>右轉・116 m</desc></rtept>
-<rtept lat="24.998942" lon="121.543355"><name>27 景隆街</name><desc>左轉・64 m（重複／連絡）</desc></rtept>
-<rtept lat="24.999201" lon="121.542787"><name>28 興隆路一段202巷</name><desc>右轉・146 m</desc></rtept>
-<rtept lat="25.000304" lon="121.543535"><name>29 興隆路一段</name><desc>左轉・528 m</desc></rtept>
-<rtept lat="24.998972" lon="121.544196"><name>30 無名巷道</name><desc>右轉・40 m</desc></rtept>
-<rtept lat="24.998752" lon="121.543939"><name>31 景隆街</name><desc>右轉・33 m（重複／連絡）</desc></rtept>
-<rtept lat="24.99884" lon="121.543623"><name>32 景隆街36巷</name><desc>左轉・96 m</desc></rtept>
-<rtept lat="24.99803" lon="121.543906"><name>33 三福街</name><desc>右轉・107 m（重複／連絡）</desc></rtept>
-<rtept lat="24.998005" lon="121.542847"><name>34 羅斯福路六段39巷</name><desc>直行・108 m</desc></rtept>
+<rtept lat="25.001946" lon="121.541963"><name>01 興隆路一段</name><desc>出發・132 m</desc></rtept>
+<rtept lat="25.001011" lon="121.542765"><name>02 興隆路一段184巷</name><desc>右轉・182 m</desc></rtept>
+<rtept lat="24.999573" lon="121.54189"><name>03 景隆街</name><desc>右轉・113 m</desc></rtept>
+<rtept lat="24.999976" lon="121.540863"><name>04 景隆街19巷</name><desc>右轉・188 m</desc></rtept>
+<rtept lat="24.999976" lon="121.540863"><name>05 景隆街</name><desc>右轉・110 m</desc></rtept>
+<rtept lat="24.999646" lon="121.539837"><name>06 羅斯福路六段</name><desc>左轉・299 m</desc></rtept>
+<rtept lat="24.997109" lon="121.540831"><name>07 羅斯福路六段159巷</name><desc>左轉・40 m</desc></rtept>
+<rtept lat="24.997257" lon="121.541195"><name>08 三福街5巷</name><desc>右轉・152 m</desc></rtept>
+<rtept lat="24.995954" lon="121.541479"><name>09 三福街</name><desc>左轉・159 m</desc></rtept>
+<rtept lat="24.997131" lon="121.542374"><name>10 羅斯福路六段159巷</name><desc>左轉・127 m</desc></rtept>
+<rtept lat="24.997257" lon="121.541195"><name>11 三福街5巷</name><desc>左轉・169 m（重複／連絡）</desc></rtept>
+<rtept lat="24.99594" lon="121.541205"><name>12 羅斯福路六段</name><desc>右轉・435 m</desc></rtept>
+<rtept lat="24.999686" lon="121.539952"><name>13 景隆街</name><desc>右轉・211 m（重複／連絡）</desc></rtept>
+<rtept lat="24.999573" lon="121.54189"><name>14 興隆路一段184巷</name><desc>左轉・81 m（重複／連絡）</desc></rtept>
+<rtept lat="25.000222" lon="121.542269"><name>15 景明街29巷</name><desc>左轉・163 m</desc></rtept>
+<rtept lat="25.001196" lon="121.54114"><name>16 景明街</name><desc>右轉・123 m</desc></rtept>
+<rtept lat="25.001946" lon="121.541963"><name>17 興隆路一段</name><desc>右轉・401 m</desc></rtept>
+<rtept lat="25.002003" lon="121.542042"><name>18 景明街</name><desc>左轉・269 m</desc></rtept>
+<rtept lat="25.000124" lon="121.54048"><name>19 景隆街</name><desc>左轉・100 m</desc></rtept>
+<rtept lat="24.999777" lon="121.54021"><name>20 無名巷道</name><desc>左轉・97 m</desc></rtept>
+<rtept lat="24.99896" lon="121.540557"><name>21 羅斯福路六段39巷</name><desc>直行・230 m</desc></rtept>
+<rtept lat="24.998869" lon="121.540273"><name>22 羅斯福路六段</name><desc>右轉・96 m（重複／連絡）</desc></rtept>
+<rtept lat="24.999686" lon="121.539952"><name>23 景隆街</name><desc>右轉・484 m</desc></rtept>
+<rtept lat="24.99863" lon="121.54438"><name>24 景興路</name><desc>右轉・69 m</desc></rtept>
+<rtept lat="24.998049" lon="121.5446"><name>25 景興路10巷</name><desc>右轉・70 m</desc></rtept>
+<rtept lat="24.99803" lon="121.543906"><name>26 三福街</name><desc>直行・107 m</desc></rtept>
+<rtept lat="24.998005" lon="121.542847"><name>27 景隆街36巷</name><desc>右轉・116 m</desc></rtept>
+<rtept lat="24.998942" lon="121.543355"><name>28 景隆街</name><desc>左轉・64 m（重複／連絡）</desc></rtept>
+<rtept lat="24.999201" lon="121.542787"><name>29 興隆路一段202巷</name><desc>右轉・146 m</desc></rtept>
+<rtept lat="25.000304" lon="121.543535"><name>30 興隆路一段</name><desc>左轉・528 m</desc></rtept>
+<rtept lat="24.998972" lon="121.544196"><name>31 無名巷道</name><desc>右轉・40 m</desc></rtept>
+<rtept lat="24.998752" lon="121.543939"><name>32 景隆街</name><desc>右轉・33 m（重複／連絡）</desc></rtept>
+<rtept lat="24.99884" lon="121.543623"><name>33 景隆街36巷</name><desc>左轉・96 m</desc></rtept>
+<rtept lat="24.99803" lon="121.543906"><name>34 三福街</name><desc>右轉・107 m（重複／連絡）</desc></rtept>
+<rtept lat="24.998005" lon="121.542847"><name>35 羅斯福路六段39巷</name><desc>直行・108 m</desc></rtept>
 <rtept lat="24.998389" lon="121.541878"><name>終點</name></rtept></rte>
 <trk><name>萬有里 行駛軌跡</name><trkseg>
+<trkpt lat="25.001946" lon="121.541963"/>
+<trkpt lat="25.001906" lon="121.541993"/>
+<trkpt lat="25.001866" lon="121.542023"/>
+<trkpt lat="25.001817" lon="121.542066"/>
+<trkpt lat="25.001768" lon="121.542109"/>
+<trkpt lat="25.001719" lon="121.542152"/>
+<trkpt lat="25.001671" lon="121.542194"/>
+<trkpt lat="25.001622" lon="121.542237"/>
+<trkpt lat="25.001566" lon="121.542285"/>
+<trkpt lat="25.001511" lon="121.542333"/>
+<trkpt lat="25.001455" lon="121.542381"/>
+<trkpt lat="25.001400" lon="121.542429"/>
+<trkpt lat="25.001344" lon="121.542477"/>
+<trkpt lat="25.001289" lon="121.542525"/>
+<trkpt lat="25.001233" lon="121.542573"/>
+<trkpt lat="25.001177" lon="121.542621"/>
+<trkpt lat="25.001122" lon="121.542669"/>
+<trkpt lat="25.001066" lon="121.542717"/>
 <trkpt lat="25.001011" lon="121.542765"/>
 <trkpt lat="25.000966" lon="121.542737"/>
 <trkpt lat="25.000911" lon="121.542702"/>

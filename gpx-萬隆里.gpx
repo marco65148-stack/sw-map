@@ -1,28 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 萬隆里 掃街車路線</name><desc>總長 2.65 km，重複率 16.3%</desc></metadata>
-<wpt lat="25.001577" lon="121.537938"><name>起點 萬隆街52巷</name></wpt>
+<metadata><name>文山區 萬隆里 掃街車路線</name><desc>總長 2.84 km，重複率 21.9%</desc></metadata>
+<wpt lat="25.002184" lon="121.538809"><name>起點 羅斯福路五段</name></wpt>
 <wpt lat="24.999686" lon="121.539952"><name>終點 景隆街</name></wpt>
 <rte><name>萬隆里 道路順序</name>
-<rtept lat="25.001577" lon="121.537938"><name>01 萬隆街52巷</name><desc>出發・119 m</desc></rtept>
-<rtept lat="25.000598" lon="121.537448"><name>02 萬隆街</name><desc>右轉・418 m</desc></rtept>
-<rtept lat="25.002084" lon="121.53682"><name>03 羅斯福路五段218巷</name><desc>右轉・203 m</desc></rtept>
-<rtept lat="25.002184" lon="121.538809"><name>04 羅斯福路五段</name><desc>右轉・75 m</desc></rtept>
-<rtept lat="25.001552" lon="121.539061"><name>05 羅斯福路五段236巷</name><desc>右轉・163 m</desc></rtept>
-<rtept lat="25.001659" lon="121.537477"><name>06 萬隆街62巷</name><desc>左轉・110 m</desc></rtept>
-<rtept lat="25.000749" lon="121.537034"><name>07 萬隆街</name><desc>左轉・283 m</desc></rtept>
-<rtept lat="25.000473" lon="121.539657"><name>08 羅斯福路五段</name><desc>左轉・422 m</desc></rtept>
-<rtept lat="25.000491" lon="121.53949"><name>09 羅斯福路六段</name><desc>直行・100 m</desc></rtept>
-<rtept lat="24.999646" lon="121.539837"><name>10 景福街</name><desc>右轉・188 m</desc></rtept>
-<rtept lat="24.999065" lon="121.538086"><name>11 景福街54巷</name><desc>右轉・69 m</desc></rtept>
-<rtept lat="24.999669" lon="121.5381"><name>12 萬隆街19巷</name><desc>直行・67 m</desc></rtept>
-<rtept lat="25.000237" lon="121.538322"><name>13 萬隆街</name><desc>右轉・47 m（重複／連絡）</desc></rtept>
-<rtept lat="25.00028" lon="121.538783"><name>14 萬隆街13巷</name><desc>右轉・283 m</desc></rtept>
-<rtept lat="24.999678" lon="121.539163"><name>15 景福街12巷</name><desc>直行・26 m</desc></rtept>
-<rtept lat="24.999462" lon="121.539271"><name>16 景福街</name><desc>左轉・61 m（重複／連絡）</desc></rtept>
-<rtept lat="24.999646" lon="121.539837"><name>17 景隆街</name><desc>直行・13 m</desc></rtept>
+<rtept lat="25.002184" lon="121.538809"><name>01 羅斯福路五段</name><desc>出發・75 m</desc></rtept>
+<rtept lat="25.001552" lon="121.539061"><name>02 羅斯福路五段236巷</name><desc>右轉・116 m</desc></rtept>
+<rtept lat="25.001577" lon="121.537938"><name>03 萬隆街52巷</name><desc>左轉・119 m</desc></rtept>
+<rtept lat="25.000598" lon="121.537448"><name>04 萬隆街</name><desc>右轉・418 m</desc></rtept>
+<rtept lat="25.002084" lon="121.53682"><name>05 羅斯福路五段218巷</name><desc>右轉・203 m</desc></rtept>
+<rtept lat="25.002184" lon="121.538809"><name>06 羅斯福路五段</name><desc>右轉・75 m（重複／連絡）</desc></rtept>
+<rtept lat="25.001552" lon="121.539061"><name>07 羅斯福路五段236巷</name><desc>右轉・163 m</desc></rtept>
+<rtept lat="25.001659" lon="121.537477"><name>08 萬隆街62巷</name><desc>左轉・110 m</desc></rtept>
+<rtept lat="25.000749" lon="121.537034"><name>09 萬隆街</name><desc>左轉・283 m</desc></rtept>
+<rtept lat="25.000473" lon="121.539657"><name>10 羅斯福路五段</name><desc>左轉・422 m</desc></rtept>
+<rtept lat="25.000491" lon="121.53949"><name>11 羅斯福路六段</name><desc>直行・100 m</desc></rtept>
+<rtept lat="24.999646" lon="121.539837"><name>12 景福街</name><desc>右轉・188 m</desc></rtept>
+<rtept lat="24.999065" lon="121.538086"><name>13 景福街54巷</name><desc>右轉・69 m</desc></rtept>
+<rtept lat="24.999669" lon="121.5381"><name>14 萬隆街19巷</name><desc>直行・67 m</desc></rtept>
+<rtept lat="25.000237" lon="121.538322"><name>15 萬隆街</name><desc>右轉・47 m（重複／連絡）</desc></rtept>
+<rtept lat="25.00028" lon="121.538783"><name>16 萬隆街13巷</name><desc>右轉・283 m</desc></rtept>
+<rtept lat="24.999678" lon="121.539163"><name>17 景福街12巷</name><desc>直行・26 m</desc></rtept>
+<rtept lat="24.999462" lon="121.539271"><name>18 景福街</name><desc>左轉・61 m（重複／連絡）</desc></rtept>
+<rtept lat="24.999646" lon="121.539837"><name>19 景隆街</name><desc>直行・13 m</desc></rtept>
 <rtept lat="24.999686" lon="121.539952"><name>終點</name></rtept></rte>
 <trk><name>萬隆里 行駛軌跡</name><trkseg>
+<trkpt lat="25.002184" lon="121.538809"/>
+<trkpt lat="25.002142" lon="121.538826"/>
+<trkpt lat="25.002101" lon="121.538843"/>
+<trkpt lat="25.002043" lon="121.538866"/>
+<trkpt lat="25.001986" lon="121.538889"/>
+<trkpt lat="25.001929" lon="121.538912"/>
+<trkpt lat="25.001872" lon="121.538935"/>
+<trkpt lat="25.001814" lon="121.538958"/>
+<trkpt lat="25.001749" lon="121.538984"/>
+<trkpt lat="25.001683" lon="121.539010"/>
+<trkpt lat="25.001618" lon="121.539035"/>
+<trkpt lat="25.001552" lon="121.539061"/>
+<trkpt lat="25.001535" lon="121.539008"/>
+<trkpt lat="25.001529" lon="121.538987"/>
+<trkpt lat="25.001510" lon="121.538923"/>
+<trkpt lat="25.001491" lon="121.538859"/>
+<trkpt lat="25.001472" lon="121.538796"/>
+<trkpt lat="25.001478" lon="121.538727"/>
+<trkpt lat="25.001484" lon="121.538659"/>
+<trkpt lat="25.001490" lon="121.538590"/>
+<trkpt lat="25.001496" lon="121.538522"/>
+<trkpt lat="25.001502" lon="121.538453"/>
+<trkpt lat="25.001508" lon="121.538385"/>
+<trkpt lat="25.001523" lon="121.538320"/>
+<trkpt lat="25.001539" lon="121.538256"/>
+<trkpt lat="25.001546" lon="121.538192"/>
+<trkpt lat="25.001554" lon="121.538129"/>
+<trkpt lat="25.001562" lon="121.538065"/>
+<trkpt lat="25.001569" lon="121.538002"/>
 <trkpt lat="25.001577" lon="121.537938"/>
 <trkpt lat="25.001520" lon="121.537910"/>
 <trkpt lat="25.001464" lon="121.537882"/>

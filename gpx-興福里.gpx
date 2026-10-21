@@ -1,57 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 興福里 掃街車路線</name><desc>總長 5.12 km，重複率 30.9%</desc></metadata>
-<wpt lat="24.996991" lon="121.544663"><name>起點 景興路</name></wpt>
+<metadata><name>文山區 興福里 掃街車路線</name><desc>總長 5.34 km，重複率 33.3%</desc></metadata>
+<wpt lat="24.998622" lon="121.544651"><name>起點 興隆路一段</name></wpt>
 <wpt lat="24.996991" lon="121.544740"><name>終點 景興路42巷</name></wpt>
 <rte><name>興福里 道路順序</name>
-<rtept lat="24.996991" lon="121.544663"><name>01 景興路</name><desc>出發・231 m</desc></rtept>
-<rtept lat="24.998569" lon="121.544513"><name>02 興隆路一段</name><desc>右轉・53 m</desc></rtept>
-<rtept lat="24.998616" lon="121.545021"><name>03 興隆路二段</name><desc>直行・60 m</desc></rtept>
-<rtept lat="24.998764" lon="121.545594"><name>04 興隆路二段22巷</name><desc>右轉・272 m</desc></rtept>
-<rtept lat="24.998764" lon="121.545594"><name>05 興隆路二段</name><desc>右轉・224 m</desc></rtept>
-<rtept lat="24.999314" lon="121.547304"><name>06 景華街</name><desc>右轉・183 m</desc></rtept>
-<rtept lat="24.997753" lon="121.547866"><name>07 景華街169巷</name><desc>右轉・259 m</desc></rtept>
-<rtept lat="24.997292" lon="121.547364"><name>08 景華街147巷</name><desc>右轉・189 m</desc></rtept>
-<rtept lat="24.997292" lon="121.547364"><name>09 景華街169巷</name><desc>左轉・96 m（重複／連絡）</desc></rtept>
-<rtept lat="24.997753" lon="121.547866"><name>10 景華街</name><desc>右轉・103 m</desc></rtept>
-<rtept lat="24.996839" lon="121.547754"><name>11 景華街147巷</name><desc>右轉・275 m</desc></rtept>
-<rtept lat="24.996839" lon="121.547754"><name>12 景華街</name><desc>右轉・111 m</desc></rtept>
-<rtept lat="24.99599" lon="121.547193"><name>13 景華街121巷</name><desc>右轉・301 m</desc></rtept>
-<rtept lat="24.99599" lon="121.547193"><name>14 景華街</name><desc>右轉・103 m</desc></rtept>
-<rtept lat="24.995467" lon="121.546361"><name>15 景華路97巷</name><desc>右轉・184 m</desc></rtept>
-<rtept lat="24.996744" lon="121.545362"><name>16 無名巷道</name><desc>左轉・41 m</desc></rtept>
-<rtept lat="24.996373" lon="121.545355"><name>17 景興路67巷</name><desc>右轉・62 m</desc></rtept>
-<rtept lat="24.996381" lon="121.544739"><name>18 景興路</name><desc>右轉・239 m</desc></rtept>
-<rtept lat="24.995125" lon="121.544629"><name>19 景華街</name><desc>左轉・72 m</desc></rtept>
-<rtept lat="24.995194" lon="121.545342"><name>20 景興路85巷</name><desc>左轉・30 m</desc></rtept>
-<rtept lat="24.995464" lon="121.545332"><name>21 景興路97巷</name><desc>左轉・61 m</desc></rtept>
-<rtept lat="24.995465" lon="121.544727"><name>22 景興路</name><desc>右轉・29 m</desc></rtept>
-<rtept lat="24.995722" lon="121.544729"><name>23 景興路91巷</name><desc>右轉・148 m</desc></rtept>
-<rtept lat="24.995911" lon="121.546131"><name>24 景華路97巷</name><desc>右轉・54 m（重複／連絡）</desc></rtept>
-<rtept lat="24.995467" lon="121.546361"><name>25 景華街</name><desc>右轉・170 m</desc></rtept>
-<rtept lat="24.995131" lon="121.544728"><name>26 景興路</name><desc>右轉・37 m</desc></rtept>
-<rtept lat="24.995465" lon="121.544727"><name>27 景興路97巷</name><desc>右轉・61 m（重複／連絡）</desc></rtept>
-<rtept lat="24.995464" lon="121.545332"><name>28 景興路85巷</name><desc>左轉・29 m</desc></rtept>
-<rtept lat="24.995721" lon="121.545331"><name>29 景興路91巷</name><desc>左轉・61 m（重複／連絡）</desc></rtept>
-<rtept lat="24.995722" lon="121.544729"><name>30 景興路</name><desc>右轉・31 m</desc></rtept>
-<rtept lat="24.996005" lon="121.544731"><name>31 景興路85巷</name><desc>右轉・92 m</desc></rtept>
-<rtept lat="24.995721" lon="121.545331"><name>32 景興路91巷</name><desc>右轉・61 m（重複／連絡）</desc></rtept>
-<rtept lat="24.995722" lon="121.544729"><name>33 景興路</name><desc>右轉・73 m</desc></rtept>
-<rtept lat="24.996381" lon="121.544739"><name>34 景興路67巷</name><desc>右轉・62 m（重複／連絡）</desc></rtept>
-<rtept lat="24.996373" lon="121.545355"><name>35 景興路85巷</name><desc>右轉・75 m</desc></rtept>
-<rtept lat="24.996355" lon="121.545931"><name>36 景華路97巷</name><desc>右轉・53 m（重複／連絡）</desc></rtept>
-<rtept lat="24.995911" lon="121.546131"><name>37 景興路91巷</name><desc>右轉・82 m（重複／連絡）</desc></rtept>
-<rtept lat="24.995763" lon="121.545332"><name>38 景興路85巷</name><desc>右轉・68 m</desc></rtept>
-<rtept lat="24.996373" lon="121.545355"><name>39 無名巷道</name><desc>直行・50 m（重複／連絡）</desc></rtept>
-<rtept lat="24.996828" lon="121.545357"><name>40 景興路53巷</name><desc>左轉・62 m</desc></rtept>
-<rtept lat="24.996794" lon="121.544743"><name>41 景興路</name><desc>右轉・147 m（重複／連絡）</desc></rtept>
-<rtept lat="24.998112" lon="121.54467"><name>42 無名巷道</name><desc>直行・71 m</desc></rtept>
-<rtept lat="24.998616" lon="121.545021"><name>43 興隆路一段260巷</name><desc>右轉・94 m</desc></rtept>
-<rtept lat="24.997816" lon="121.545305"><name>44 景興路23巷</name><desc>右轉・58 m</desc></rtept>
-<rtept lat="24.997742" lon="121.544741"><name>45 景興路</name><desc>右轉・299 m</desc></rtept>
-<rtept lat="24.996991" lon="121.544663"><name>46 景興路42巷</name><desc>左轉・8 m</desc></rtept>
+<rtept lat="24.998622" lon="121.544651"><name>01 興隆路一段</name><desc>出發・28 m</desc></rtept>
+<rtept lat="24.99863" lon="121.54438"><name>02 景興路</name><desc>左轉・417 m</desc></rtept>
+<rtept lat="24.998569" lon="121.544513"><name>03 興隆路一段</name><desc>右轉・53 m</desc></rtept>
+<rtept lat="24.998616" lon="121.545021"><name>04 興隆路二段</name><desc>直行・60 m</desc></rtept>
+<rtept lat="24.998764" lon="121.545594"><name>05 興隆路二段22巷</name><desc>右轉・272 m</desc></rtept>
+<rtept lat="24.998764" lon="121.545594"><name>06 興隆路二段</name><desc>右轉・224 m</desc></rtept>
+<rtept lat="24.999314" lon="121.547304"><name>07 景華街</name><desc>右轉・183 m</desc></rtept>
+<rtept lat="24.997753" lon="121.547866"><name>08 景華街169巷</name><desc>右轉・259 m</desc></rtept>
+<rtept lat="24.997292" lon="121.547364"><name>09 景華街147巷</name><desc>右轉・189 m</desc></rtept>
+<rtept lat="24.997292" lon="121.547364"><name>10 景華街169巷</name><desc>左轉・96 m（重複／連絡）</desc></rtept>
+<rtept lat="24.997753" lon="121.547866"><name>11 景華街</name><desc>右轉・103 m</desc></rtept>
+<rtept lat="24.996839" lon="121.547754"><name>12 景華街147巷</name><desc>右轉・275 m</desc></rtept>
+<rtept lat="24.996839" lon="121.547754"><name>13 景華街</name><desc>右轉・111 m</desc></rtept>
+<rtept lat="24.99599" lon="121.547193"><name>14 景華街121巷</name><desc>右轉・301 m</desc></rtept>
+<rtept lat="24.99599" lon="121.547193"><name>15 景華街</name><desc>右轉・103 m</desc></rtept>
+<rtept lat="24.995467" lon="121.546361"><name>16 景華路97巷</name><desc>右轉・184 m</desc></rtept>
+<rtept lat="24.996744" lon="121.545362"><name>17 無名巷道</name><desc>左轉・41 m</desc></rtept>
+<rtept lat="24.996373" lon="121.545355"><name>18 景興路67巷</name><desc>右轉・62 m</desc></rtept>
+<rtept lat="24.996381" lon="121.544739"><name>19 景興路</name><desc>右轉・239 m</desc></rtept>
+<rtept lat="24.995125" lon="121.544629"><name>20 景華街</name><desc>左轉・72 m</desc></rtept>
+<rtept lat="24.995194" lon="121.545342"><name>21 景興路85巷</name><desc>左轉・30 m</desc></rtept>
+<rtept lat="24.995464" lon="121.545332"><name>22 景興路97巷</name><desc>左轉・61 m</desc></rtept>
+<rtept lat="24.995465" lon="121.544727"><name>23 景興路</name><desc>右轉・29 m</desc></rtept>
+<rtept lat="24.995722" lon="121.544729"><name>24 景興路91巷</name><desc>右轉・148 m</desc></rtept>
+<rtept lat="24.995911" lon="121.546131"><name>25 景華路97巷</name><desc>右轉・54 m（重複／連絡）</desc></rtept>
+<rtept lat="24.995467" lon="121.546361"><name>26 景華街</name><desc>右轉・170 m</desc></rtept>
+<rtept lat="24.995131" lon="121.544728"><name>27 景興路</name><desc>右轉・37 m</desc></rtept>
+<rtept lat="24.995465" lon="121.544727"><name>28 景興路97巷</name><desc>右轉・61 m（重複／連絡）</desc></rtept>
+<rtept lat="24.995464" lon="121.545332"><name>29 景興路85巷</name><desc>左轉・29 m</desc></rtept>
+<rtept lat="24.995721" lon="121.545331"><name>30 景興路91巷</name><desc>左轉・61 m（重複／連絡）</desc></rtept>
+<rtept lat="24.995722" lon="121.544729"><name>31 景興路</name><desc>右轉・31 m</desc></rtept>
+<rtept lat="24.996005" lon="121.544731"><name>32 景興路85巷</name><desc>右轉・92 m</desc></rtept>
+<rtept lat="24.995721" lon="121.545331"><name>33 景興路91巷</name><desc>右轉・61 m（重複／連絡）</desc></rtept>
+<rtept lat="24.995722" lon="121.544729"><name>34 景興路</name><desc>右轉・73 m</desc></rtept>
+<rtept lat="24.996381" lon="121.544739"><name>35 景興路67巷</name><desc>右轉・62 m（重複／連絡）</desc></rtept>
+<rtept lat="24.996373" lon="121.545355"><name>36 景興路85巷</name><desc>右轉・75 m</desc></rtept>
+<rtept lat="24.996355" lon="121.545931"><name>37 景華路97巷</name><desc>右轉・53 m（重複／連絡）</desc></rtept>
+<rtept lat="24.995911" lon="121.546131"><name>38 景興路91巷</name><desc>右轉・82 m（重複／連絡）</desc></rtept>
+<rtept lat="24.995763" lon="121.545332"><name>39 景興路85巷</name><desc>右轉・68 m</desc></rtept>
+<rtept lat="24.996373" lon="121.545355"><name>40 無名巷道</name><desc>直行・50 m（重複／連絡）</desc></rtept>
+<rtept lat="24.996828" lon="121.545357"><name>41 景興路53巷</name><desc>左轉・62 m</desc></rtept>
+<rtept lat="24.996794" lon="121.544743"><name>42 景興路</name><desc>右轉・147 m（重複／連絡）</desc></rtept>
+<rtept lat="24.998112" lon="121.54467"><name>43 無名巷道</name><desc>直行・71 m</desc></rtept>
+<rtept lat="24.998616" lon="121.545021"><name>44 興隆路一段260巷</name><desc>右轉・94 m</desc></rtept>
+<rtept lat="24.997816" lon="121.545305"><name>45 景興路23巷</name><desc>右轉・58 m</desc></rtept>
+<rtept lat="24.997742" lon="121.544741"><name>46 景興路</name><desc>右轉・299 m（重複／連絡）</desc></rtept>
+<rtept lat="24.996991" lon="121.544663"><name>47 景興路42巷</name><desc>左轉・8 m</desc></rtept>
 <rtept lat="24.996991" lon="121.544740"><name>終點</name></rtept></rte>
 <trk><name>興福里 行駛軌跡</name><trkseg>
+<trkpt lat="24.998622" lon="121.544651"/>
+<trkpt lat="24.998629" lon="121.544601"/>
+<trkpt lat="24.998636" lon="121.544552"/>
+<trkpt lat="24.998631" lon="121.544479"/>
+<trkpt lat="24.998631" lon="121.544429"/>
+<trkpt lat="24.998630" lon="121.544380"/>
+<trkpt lat="24.998576" lon="121.544412"/>
+<trkpt lat="24.998521" lon="121.544444"/>
+<trkpt lat="24.998466" lon="121.544477"/>
+<trkpt lat="24.998411" lon="121.544510"/>
+<trkpt lat="24.998351" lon="121.544525"/>
+<trkpt lat="24.998291" lon="121.544539"/>
+<trkpt lat="24.998230" lon="121.544555"/>
+<trkpt lat="24.998170" lon="121.544570"/>
+<trkpt lat="24.998109" lon="121.544584"/>
+<trkpt lat="24.998049" lon="121.544600"/>
+<trkpt lat="24.997991" lon="121.544614"/>
+<trkpt lat="24.997933" lon="121.544628"/>
+<trkpt lat="24.997875" lon="121.544642"/>
+<trkpt lat="24.997817" lon="121.544656"/>
+<trkpt lat="24.997756" lon="121.544663"/>
+<trkpt lat="24.997696" lon="121.544671"/>
+<trkpt lat="24.997625" lon="121.544670"/>
+<trkpt lat="24.997554" lon="121.544669"/>
+<trkpt lat="24.997483" lon="121.544668"/>
+<trkpt lat="24.997412" lon="121.544667"/>
+<trkpt lat="24.997341" lon="121.544666"/>
+<trkpt lat="24.997276" lon="121.544666"/>
+<trkpt lat="24.997212" lon="121.544666"/>
+<trkpt lat="24.997148" lon="121.544665"/>
+<trkpt lat="24.997084" lon="121.544665"/>
+<trkpt lat="24.997060" lon="121.544665"/>
 <trkpt lat="24.996991" lon="121.544663"/>
 <trkpt lat="24.996925" lon="121.544662"/>
 <trkpt lat="24.996859" lon="121.544660"/>

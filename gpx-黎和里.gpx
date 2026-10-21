@@ -1,40 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 黎和里 掃街車路線</name><desc>總長 5.63 km，重複率 22.5%</desc></metadata>
-<wpt lat="25.013256" lon="121.561831"><name>起點 和平東路三段606巷</name></wpt>
+<metadata><name>大安區 黎和里 掃街車路線</name><desc>總長 6.08 km，重複率 28.2%</desc></metadata>
+<wpt lat="25.013269" lon="121.563215"><name>起點 和平東路三段</name></wpt>
 <wpt lat="25.015241" lon="121.560244"><name>終點 和平東路三段512巷</name></wpt>
 <rte><name>黎和里 道路順序</name>
-<rtept lat="25.013256" lon="121.561831"><name>01 和平東路三段606巷</name><desc>出發・672 m</desc></rtept>
-<rtept lat="25.012443" lon="121.561748"><name>02 和平東路三段632巷</name><desc>右轉・348 m</desc></rtept>
-<rtept lat="25.012966" lon="121.563358"><name>03 和平東路三段</name><desc>右轉・615 m</desc></rtept>
-<rtept lat="25.017066" lon="121.560123"><name>04 和平東路三段456巷</name><desc>直行・38 m</desc></rtept>
-<rtept lat="25.016802" lon="121.559888"><name>05 臥龍街</name><desc>右轉・308 m</desc></rtept>
-<rtept lat="25.0182" lon="121.557574"><name>06 富陽街151巷</name><desc>左轉・71 m</desc></rtept>
-<rtept lat="25.0181" lon="121.556918"><name>07 富陽街</name><desc>左轉・69 m</desc></rtept>
-<rtept lat="25.017484" lon="121.557021"><name>08 富陽街163巷</name><desc>左轉・85 m</desc></rtept>
-<rtept lat="25.017793" lon="121.557465"><name>09 富陽街157巷</name><desc>左轉・50 m</desc></rtept>
-<rtept lat="25.017768" lon="121.556976"><name>10 富陽街</name><desc>右轉・84 m</desc></rtept>
-<rtept lat="25.018524" lon="121.556891"><name>11 臥龍街</name><desc>右轉・143 m</desc></rtept>
-<rtept lat="25.01779" lon="121.557875"><name>12 和平東路三段416巷</name><desc>左轉・150 m</desc></rtept>
-<rtept lat="25.018218" lon="121.559229"><name>13 和平東路三段</name><desc>左轉・140 m</desc></rtept>
-<rtept lat="25.018488" lon="121.558382"><name>14 和平東路三段406巷</name><desc>直行・99 m</desc></rtept>
-<rtept lat="25.01848" lon="121.557416"><name>15 臥龍街</name><desc>直行・53 m（重複／連絡）</desc></rtept>
-<rtept lat="25.018524" lon="121.556891"><name>16 富陽街</name><desc>右轉・246 m</desc></rtept>
-<rtept lat="25.020511" lon="121.556573"><name>17 和平東路三段</name><desc>左轉・288 m</desc></rtept>
-<rtept lat="25.020616" lon="121.556624"><name>18 富陽街</name><desc>左轉・85 m</desc></rtept>
-<rtept lat="25.020194" lon="121.556855"><name>19 和平東路三段</name><desc>右轉・385 m</desc></rtept>
-<rtept lat="25.019721" lon="121.557582"><name>20 和平東路三段346巷</name><desc>左轉・148 m</desc></rtept>
-<rtept lat="25.01848" lon="121.557416"><name>21 和平東路三段406巷</name><desc>左轉・99 m（重複／連絡）</desc></rtept>
-<rtept lat="25.018488" lon="121.558382"><name>22 和平東路三段</name><desc>右轉・608 m</desc></rtept>
-<rtept lat="25.018106" lon="121.559107"><name>23 和平東路三段416巷</name><desc>直行・132 m（重複／連絡）</desc></rtept>
-<rtept lat="25.01779" lon="121.557875"><name>24 富陽街157巷</name><desc>直行・91 m</desc></rtept>
-<rtept lat="25.017768" lon="121.556976"><name>25 富陽街</name><desc>左轉・81 m</desc></rtept>
-<rtept lat="25.01704" lon="121.557081"><name>26 臥龍街272巷</name><desc>左轉・133 m</desc></rtept>
-<rtept lat="25.017021" lon="121.558396"><name>27 臥龍街</name><desc>直行・212 m</desc></rtept>
-<rtept lat="25.016406" lon="121.560284"><name>28 和平東路三段</name><desc>直行・94 m</desc></rtept>
-<rtept lat="25.015767" lon="121.560895"><name>29 和平東路三段512巷</name><desc>右轉・99 m</desc></rtept>
+<rtept lat="25.013269" lon="121.563215"><name>01 和平東路三段</name><desc>出發・37 m</desc></rtept>
+<rtept lat="25.012966" lon="121.563358"><name>02 和平東路三段632巷</name><desc>右轉・173 m</desc></rtept>
+<rtept lat="25.012443" lon="121.561748"><name>03 和平東路三段606巷</name><desc>直行・913 m</desc></rtept>
+<rtept lat="25.012443" lon="121.561748"><name>04 和平東路三段632巷</name><desc>右轉・348 m</desc></rtept>
+<rtept lat="25.012966" lon="121.563358"><name>05 和平東路三段</name><desc>右轉・615 m</desc></rtept>
+<rtept lat="25.017066" lon="121.560123"><name>06 和平東路三段456巷</name><desc>直行・38 m</desc></rtept>
+<rtept lat="25.016802" lon="121.559888"><name>07 臥龍街</name><desc>右轉・308 m</desc></rtept>
+<rtept lat="25.0182" lon="121.557574"><name>08 富陽街151巷</name><desc>左轉・71 m</desc></rtept>
+<rtept lat="25.0181" lon="121.556918"><name>09 富陽街</name><desc>左轉・69 m</desc></rtept>
+<rtept lat="25.017484" lon="121.557021"><name>10 富陽街163巷</name><desc>左轉・85 m</desc></rtept>
+<rtept lat="25.017793" lon="121.557465"><name>11 富陽街157巷</name><desc>左轉・50 m</desc></rtept>
+<rtept lat="25.017768" lon="121.556976"><name>12 富陽街</name><desc>右轉・84 m</desc></rtept>
+<rtept lat="25.018524" lon="121.556891"><name>13 臥龍街</name><desc>右轉・143 m</desc></rtept>
+<rtept lat="25.01779" lon="121.557875"><name>14 和平東路三段416巷</name><desc>左轉・150 m</desc></rtept>
+<rtept lat="25.018218" lon="121.559229"><name>15 和平東路三段</name><desc>左轉・140 m</desc></rtept>
+<rtept lat="25.018488" lon="121.558382"><name>16 和平東路三段406巷</name><desc>直行・99 m</desc></rtept>
+<rtept lat="25.01848" lon="121.557416"><name>17 臥龍街</name><desc>直行・53 m（重複／連絡）</desc></rtept>
+<rtept lat="25.018524" lon="121.556891"><name>18 富陽街</name><desc>右轉・246 m</desc></rtept>
+<rtept lat="25.020511" lon="121.556573"><name>19 和平東路三段</name><desc>左轉・288 m</desc></rtept>
+<rtept lat="25.020616" lon="121.556624"><name>20 富陽街</name><desc>左轉・85 m</desc></rtept>
+<rtept lat="25.020194" lon="121.556855"><name>21 和平東路三段</name><desc>右轉・385 m</desc></rtept>
+<rtept lat="25.019721" lon="121.557582"><name>22 和平東路三段346巷</name><desc>左轉・148 m</desc></rtept>
+<rtept lat="25.01848" lon="121.557416"><name>23 和平東路三段406巷</name><desc>左轉・99 m（重複／連絡）</desc></rtept>
+<rtept lat="25.018488" lon="121.558382"><name>24 和平東路三段</name><desc>右轉・608 m</desc></rtept>
+<rtept lat="25.018106" lon="121.559107"><name>25 和平東路三段416巷</name><desc>直行・132 m（重複／連絡）</desc></rtept>
+<rtept lat="25.01779" lon="121.557875"><name>26 富陽街157巷</name><desc>直行・91 m</desc></rtept>
+<rtept lat="25.017768" lon="121.556976"><name>27 富陽街</name><desc>左轉・81 m</desc></rtept>
+<rtept lat="25.01704" lon="121.557081"><name>28 臥龍街272巷</name><desc>左轉・133 m</desc></rtept>
+<rtept lat="25.017021" lon="121.558396"><name>29 臥龍街</name><desc>直行・212 m</desc></rtept>
+<rtept lat="25.016406" lon="121.560284"><name>30 和平東路三段</name><desc>直行・94 m</desc></rtept>
+<rtept lat="25.015767" lon="121.560895"><name>31 和平東路三段512巷</name><desc>右轉・99 m</desc></rtept>
 <rtept lat="25.015241" lon="121.560244"><name>終點</name></rtept></rte>
 <trk><name>黎和里 行駛軌跡</name><trkseg>
+<trkpt lat="25.013269" lon="121.563215"/>
+<trkpt lat="25.013215" lon="121.563260"/>
+<trkpt lat="25.013158" lon="121.563291"/>
+<trkpt lat="25.013105" lon="121.563310"/>
+<trkpt lat="25.013053" lon="121.563329"/>
+<trkpt lat="25.013001" lon="121.563348"/>
+<trkpt lat="25.012966" lon="121.563358"/>
+<trkpt lat="25.012943" lon="121.563286"/>
+<trkpt lat="25.012930" lon="121.563246"/>
+<trkpt lat="25.012913" lon="121.563191"/>
+<trkpt lat="25.012897" lon="121.563135"/>
+<trkpt lat="25.012880" lon="121.563079"/>
+<trkpt lat="25.012859" lon="121.563008"/>
+<trkpt lat="25.012837" lon="121.562937"/>
+<trkpt lat="25.012816" lon="121.562866"/>
+<trkpt lat="25.012794" lon="121.562795"/>
+<trkpt lat="25.012773" lon="121.562723"/>
+<trkpt lat="25.012752" lon="121.562652"/>
+<trkpt lat="25.012730" lon="121.562581"/>
+<trkpt lat="25.012709" lon="121.562510"/>
+<trkpt lat="25.012688" lon="121.562439"/>
+<trkpt lat="25.012666" lon="121.562368"/>
+<trkpt lat="25.012645" lon="121.562296"/>
+<trkpt lat="25.012624" lon="121.562225"/>
+<trkpt lat="25.012602" lon="121.562154"/>
+<trkpt lat="25.012581" lon="121.562083"/>
+<trkpt lat="25.012559" lon="121.562012"/>
+<trkpt lat="25.012530" lon="121.561946"/>
+<trkpt lat="25.012501" lon="121.561880"/>
+<trkpt lat="25.012472" lon="121.561814"/>
+<trkpt lat="25.012443" lon="121.561748"/>
+<trkpt lat="25.012435" lon="121.561671"/>
+<trkpt lat="25.012416" lon="121.561597"/>
+<trkpt lat="25.012397" lon="121.561524"/>
+<trkpt lat="25.012391" lon="121.561470"/>
+<trkpt lat="25.012396" lon="121.561420"/>
+<trkpt lat="25.012415" lon="121.561383"/>
+<trkpt lat="25.012432" lon="121.561351"/>
+<trkpt lat="25.012467" lon="121.561330"/>
+<trkpt lat="25.012502" lon="121.561309"/>
+<trkpt lat="25.012540" lon="121.561296"/>
+<trkpt lat="25.012578" lon="121.561283"/>
+<trkpt lat="25.012641" lon="121.561248"/>
+<trkpt lat="25.012704" lon="121.561214"/>
+<trkpt lat="25.012738" lon="121.561181"/>
+<trkpt lat="25.012757" lon="121.561133"/>
+<trkpt lat="25.012769" lon="121.561067"/>
+<trkpt lat="25.012781" lon="121.561001"/>
+<trkpt lat="25.012793" lon="121.560934"/>
+<trkpt lat="25.012805" lon="121.560868"/>
+<trkpt lat="25.012862" lon="121.560872"/>
+<trkpt lat="25.012918" lon="121.560876"/>
+<trkpt lat="25.012974" lon="121.560879"/>
+<trkpt lat="25.012984" lon="121.560943"/>
+<trkpt lat="25.012994" lon="121.561006"/>
+<trkpt lat="25.013004" lon="121.561070"/>
+<trkpt lat="25.013014" lon="121.561133"/>
+<trkpt lat="25.013046" lon="121.561201"/>
+<trkpt lat="25.013079" lon="121.561268"/>
+<trkpt lat="25.013111" lon="121.561336"/>
+<trkpt lat="25.013125" lon="121.561405"/>
+<trkpt lat="25.013138" lon="121.561474"/>
+<trkpt lat="25.013150" lon="121.561513"/>
+<trkpt lat="25.013161" lon="121.561551"/>
+<trkpt lat="25.013164" lon="121.561590"/>
+<trkpt lat="25.013157" lon="121.561629"/>
+<trkpt lat="25.013124" lon="121.561692"/>
+<trkpt lat="25.013140" lon="121.561738"/>
+<trkpt lat="25.013155" lon="121.561784"/>
+<trkpt lat="25.013206" lon="121.561807"/>
 <trkpt lat="25.013256" lon="121.561831"/>
 <trkpt lat="25.013206" lon="121.561807"/>
 <trkpt lat="25.013155" lon="121.561784"/>

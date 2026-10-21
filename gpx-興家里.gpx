@@ -1,112 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
 <metadata><name>文山區 興家里 掃街車路線</name><desc>總長 3.91 km，重複率 22.7%</desc></metadata>
-<wpt lat="24.993319" lon="121.561256"><name>起點 興隆路三段255巷</name></wpt>
-<wpt lat="24.992790" lon="121.558767"><name>終點 興隆路三段</name></wpt>
+<wpt lat="24.99279" lon="121.558767"><name>起點 興隆路三段</name></wpt>
+<wpt lat="24.993319" lon="121.561256"><name>終點 興隆路三段255巷</name></wpt>
 <rte><name>興家里 道路順序</name>
-<rtept lat="24.993319" lon="121.561256"><name>01 興隆路三段255巷</name><desc>出發・538 m</desc></rtept>
-<rtept lat="24.99279" lon="121.558767"><name>02 興隆路三段</name><desc>左轉・557 m</desc></rtept>
-<rtept lat="24.994129" lon="121.559464"><name>03 興隆路三段221巷</name><desc>右轉・255 m</desc></rtept>
-<rtept lat="24.994051" lon="121.561805"><name>04 無名巷道</name><desc>左轉・158 m</desc></rtept>
-<rtept lat="24.995432" lon="121.562198"><name>05 興隆路三段185巷</name><desc>右轉・590 m</desc></rtept>
-<rtept lat="24.99595" lon="121.559929"><name>06 興隆路三段</name><desc>左轉・76 m</desc></rtept>
-<rtept lat="24.995298" lon="121.559685"><name>07 興隆路三段207巷</name><desc>左轉・119 m</desc></rtept>
-<rtept lat="24.994952" lon="121.560624"><name>08 興隆路三段221巷</name><desc>右轉・199 m</desc></rtept>
-<rtept lat="24.994129" lon="121.559464"><name>09 興隆路三段</name><desc>右轉・207 m</desc></rtept>
-<rtept lat="24.995928" lon="121.559994"><name>10 興隆路三段185巷</name><desc>右轉・238 m（重複／連絡）</desc></rtept>
-<rtept lat="24.995432" lon="121.562198"><name>11 無名巷道</name><desc>左轉・235 m</desc></rtept>
-<rtept lat="24.994788" lon="121.562013"><name>12 興隆路三段207巷</name><desc>右轉・260 m</desc></rtept>
-<rtept lat="24.995298" lon="121.559685"><name>13 興隆路三段</name><desc>左轉・208 m</desc></rtept>
-<rtept lat="24.993518" lon="121.559082"><name>14 興隆路三段229巷</name><desc>左轉・181 m</desc></rtept>
-<rtept lat="24.993518" lon="121.559082"><name>15 興隆路三段</name><desc>左轉・87 m</desc></rtept>
-<rtept lat="24.992790" lon="121.558767"><name>終點</name></rtept></rte>
+<rtept lat="24.99279" lon="121.558767"><name>01 興隆路三段</name><desc>出發・557 m</desc></rtept>
+<rtept lat="24.994129" lon="121.559464"><name>02 興隆路三段221巷</name><desc>右轉・255 m</desc></rtept>
+<rtept lat="24.994051" lon="121.561805"><name>03 無名巷道</name><desc>左轉・158 m</desc></rtept>
+<rtept lat="24.995432" lon="121.562198"><name>04 興隆路三段185巷</name><desc>右轉・590 m</desc></rtept>
+<rtept lat="24.99595" lon="121.559929"><name>05 興隆路三段</name><desc>左轉・76 m</desc></rtept>
+<rtept lat="24.995298" lon="121.559685"><name>06 興隆路三段207巷</name><desc>左轉・119 m</desc></rtept>
+<rtept lat="24.994952" lon="121.560624"><name>07 興隆路三段221巷</name><desc>右轉・199 m</desc></rtept>
+<rtept lat="24.994129" lon="121.559464"><name>08 興隆路三段</name><desc>右轉・207 m</desc></rtept>
+<rtept lat="24.995928" lon="121.559994"><name>09 興隆路三段185巷</name><desc>右轉・238 m（重複／連絡）</desc></rtept>
+<rtept lat="24.995432" lon="121.562198"><name>10 無名巷道</name><desc>左轉・235 m</desc></rtept>
+<rtept lat="24.994788" lon="121.562013"><name>11 興隆路三段207巷</name><desc>右轉・260 m</desc></rtept>
+<rtept lat="24.995298" lon="121.559685"><name>12 興隆路三段</name><desc>左轉・208 m</desc></rtept>
+<rtept lat="24.993518" lon="121.559082"><name>13 興隆路三段229巷</name><desc>左轉・181 m</desc></rtept>
+<rtept lat="24.993518" lon="121.559082"><name>14 興隆路三段</name><desc>左轉・100 m</desc></rtept>
+<rtept lat="24.992672" lon="121.55881"><name>15 興隆路三段255巷</name><desc>左轉・524 m</desc></rtept>
+<rtept lat="24.993319" lon="121.561256"><name>終點</name></rtept></rte>
 <trk><name>興家里 行駛軌跡</name><trkseg>
-<trkpt lat="24.993319" lon="121.561256"/>
-<trkpt lat="24.993269" lon="121.561256"/>
-<trkpt lat="24.993219" lon="121.561257"/>
-<trkpt lat="24.993168" lon="121.561257"/>
-<trkpt lat="24.993106" lon="121.561238"/>
-<trkpt lat="24.993060" lon="121.561189"/>
-<trkpt lat="24.993020" lon="121.561125"/>
-<trkpt lat="24.992980" lon="121.561061"/>
-<trkpt lat="24.992939" lon="121.560997"/>
-<trkpt lat="24.992899" lon="121.560932"/>
-<trkpt lat="24.992859" lon="121.560868"/>
-<trkpt lat="24.992810" lon="121.560811"/>
-<trkpt lat="24.992778" lon="121.560787"/>
-<trkpt lat="24.992746" lon="121.560763"/>
-<trkpt lat="24.992681" lon="121.560732"/>
-<trkpt lat="24.992616" lon="121.560701"/>
-<trkpt lat="24.992551" lon="121.560670"/>
-<trkpt lat="24.992486" lon="121.560640"/>
-<trkpt lat="24.992453" lon="121.560616"/>
-<trkpt lat="24.992409" lon="121.560567"/>
-<trkpt lat="24.992377" lon="121.560504"/>
-<trkpt lat="24.992345" lon="121.560442"/>
-<trkpt lat="24.992322" lon="121.560410"/>
-<trkpt lat="24.992299" lon="121.560378"/>
-<trkpt lat="24.992262" lon="121.560336"/>
-<trkpt lat="24.992225" lon="121.560294"/>
-<trkpt lat="24.992189" lon="121.560252"/>
-<trkpt lat="24.992173" lon="121.560225"/>
-<trkpt lat="24.992159" lon="121.560174"/>
-<trkpt lat="24.992152" lon="121.560114"/>
-<trkpt lat="24.992144" lon="121.560055"/>
-<trkpt lat="24.992204" lon="121.560033"/>
-<trkpt lat="24.992265" lon="121.560012"/>
-<trkpt lat="24.992327" lon="121.560009"/>
-<trkpt lat="24.992355" lon="121.560021"/>
-<trkpt lat="24.992387" lon="121.560056"/>
-<trkpt lat="24.992414" lon="121.560107"/>
-<trkpt lat="24.992440" lon="121.560157"/>
-<trkpt lat="24.992467" lon="121.560207"/>
-<trkpt lat="24.992507" lon="121.560255"/>
-<trkpt lat="24.992536" lon="121.560280"/>
-<trkpt lat="24.992565" lon="121.560305"/>
-<trkpt lat="24.992624" lon="121.560331"/>
-<trkpt lat="24.992682" lon="121.560358"/>
-<trkpt lat="24.992741" lon="121.560384"/>
-<trkpt lat="24.992800" lon="121.560411"/>
-<trkpt lat="24.992858" lon="121.560437"/>
-<trkpt lat="24.992917" lon="121.560464"/>
-<trkpt lat="24.992976" lon="121.560490"/>
-<trkpt lat="24.993011" lon="121.560493"/>
-<trkpt lat="24.993042" lon="121.560486"/>
-<trkpt lat="24.993087" lon="121.560461"/>
-<trkpt lat="24.993132" lon="121.560437"/>
-<trkpt lat="24.993177" lon="121.560413"/>
-<trkpt lat="24.993152" lon="121.560340"/>
-<trkpt lat="24.993127" lon="121.560268"/>
-<trkpt lat="24.993095" lon="121.560210"/>
-<trkpt lat="24.993057" lon="121.560170"/>
-<trkpt lat="24.993003" lon="121.560136"/>
-<trkpt lat="24.992948" lon="121.560101"/>
-<trkpt lat="24.992893" lon="121.560067"/>
-<trkpt lat="24.992838" lon="121.560032"/>
-<trkpt lat="24.992784" lon="121.559998"/>
-<trkpt lat="24.992729" lon="121.559963"/>
-<trkpt lat="24.992674" lon="121.559929"/>
-<trkpt lat="24.992647" lon="121.559867"/>
-<trkpt lat="24.992620" lon="121.559806"/>
-<trkpt lat="24.992593" lon="121.559744"/>
-<trkpt lat="24.992566" lon="121.559683"/>
-<trkpt lat="24.992539" lon="121.559621"/>
-<trkpt lat="24.992514" lon="121.559563"/>
-<trkpt lat="24.992488" lon="121.559504"/>
-<trkpt lat="24.992477" lon="121.559456"/>
-<trkpt lat="24.992476" lon="121.559412"/>
-<trkpt lat="24.992500" lon="121.559339"/>
-<trkpt lat="24.992519" lon="121.559279"/>
-<trkpt lat="24.992539" lon="121.559220"/>
-<trkpt lat="24.992558" lon="121.559161"/>
-<trkpt lat="24.992577" lon="121.559102"/>
-<trkpt lat="24.992597" lon="121.559041"/>
-<trkpt lat="24.992617" lon="121.558980"/>
-<trkpt lat="24.992637" lon="121.558919"/>
-<trkpt lat="24.992646" lon="121.558892"/>
-<trkpt lat="24.992659" lon="121.558851"/>
-<trkpt lat="24.992672" lon="121.558810"/>
-<trkpt lat="24.992731" lon="121.558788"/>
 <trkpt lat="24.992790" lon="121.558767"/>
 <trkpt lat="24.992742" lon="121.558750"/>
 <trkpt lat="24.992694" lon="121.558733"/>
@@ -609,4 +523,90 @@
 <trkpt lat="24.992880" lon="121.558805"/>
 <trkpt lat="24.992823" lon="121.558781"/>
 <trkpt lat="24.992790" lon="121.558767"/>
+<trkpt lat="24.992731" lon="121.558788"/>
+<trkpt lat="24.992672" lon="121.558810"/>
+<trkpt lat="24.992659" lon="121.558851"/>
+<trkpt lat="24.992646" lon="121.558892"/>
+<trkpt lat="24.992637" lon="121.558919"/>
+<trkpt lat="24.992617" lon="121.558980"/>
+<trkpt lat="24.992597" lon="121.559041"/>
+<trkpt lat="24.992577" lon="121.559102"/>
+<trkpt lat="24.992558" lon="121.559161"/>
+<trkpt lat="24.992539" lon="121.559220"/>
+<trkpt lat="24.992519" lon="121.559279"/>
+<trkpt lat="24.992500" lon="121.559339"/>
+<trkpt lat="24.992476" lon="121.559412"/>
+<trkpt lat="24.992477" lon="121.559456"/>
+<trkpt lat="24.992488" lon="121.559504"/>
+<trkpt lat="24.992514" lon="121.559563"/>
+<trkpt lat="24.992539" lon="121.559621"/>
+<trkpt lat="24.992566" lon="121.559683"/>
+<trkpt lat="24.992593" lon="121.559744"/>
+<trkpt lat="24.992620" lon="121.559806"/>
+<trkpt lat="24.992647" lon="121.559867"/>
+<trkpt lat="24.992674" lon="121.559929"/>
+<trkpt lat="24.992729" lon="121.559963"/>
+<trkpt lat="24.992784" lon="121.559998"/>
+<trkpt lat="24.992838" lon="121.560032"/>
+<trkpt lat="24.992893" lon="121.560067"/>
+<trkpt lat="24.992948" lon="121.560101"/>
+<trkpt lat="24.993003" lon="121.560136"/>
+<trkpt lat="24.993057" lon="121.560170"/>
+<trkpt lat="24.993095" lon="121.560210"/>
+<trkpt lat="24.993127" lon="121.560268"/>
+<trkpt lat="24.993152" lon="121.560340"/>
+<trkpt lat="24.993177" lon="121.560413"/>
+<trkpt lat="24.993132" lon="121.560437"/>
+<trkpt lat="24.993087" lon="121.560461"/>
+<trkpt lat="24.993042" lon="121.560486"/>
+<trkpt lat="24.993011" lon="121.560493"/>
+<trkpt lat="24.992976" lon="121.560490"/>
+<trkpt lat="24.992917" lon="121.560464"/>
+<trkpt lat="24.992858" lon="121.560437"/>
+<trkpt lat="24.992800" lon="121.560411"/>
+<trkpt lat="24.992741" lon="121.560384"/>
+<trkpt lat="24.992682" lon="121.560358"/>
+<trkpt lat="24.992624" lon="121.560331"/>
+<trkpt lat="24.992565" lon="121.560305"/>
+<trkpt lat="24.992536" lon="121.560280"/>
+<trkpt lat="24.992507" lon="121.560255"/>
+<trkpt lat="24.992467" lon="121.560207"/>
+<trkpt lat="24.992440" lon="121.560157"/>
+<trkpt lat="24.992414" lon="121.560107"/>
+<trkpt lat="24.992387" lon="121.560056"/>
+<trkpt lat="24.992355" lon="121.560021"/>
+<trkpt lat="24.992327" lon="121.560009"/>
+<trkpt lat="24.992265" lon="121.560012"/>
+<trkpt lat="24.992204" lon="121.560033"/>
+<trkpt lat="24.992144" lon="121.560055"/>
+<trkpt lat="24.992152" lon="121.560114"/>
+<trkpt lat="24.992159" lon="121.560174"/>
+<trkpt lat="24.992173" lon="121.560225"/>
+<trkpt lat="24.992189" lon="121.560252"/>
+<trkpt lat="24.992225" lon="121.560294"/>
+<trkpt lat="24.992262" lon="121.560336"/>
+<trkpt lat="24.992299" lon="121.560378"/>
+<trkpt lat="24.992322" lon="121.560410"/>
+<trkpt lat="24.992345" lon="121.560442"/>
+<trkpt lat="24.992377" lon="121.560504"/>
+<trkpt lat="24.992409" lon="121.560567"/>
+<trkpt lat="24.992453" lon="121.560616"/>
+<trkpt lat="24.992486" lon="121.560640"/>
+<trkpt lat="24.992551" lon="121.560670"/>
+<trkpt lat="24.992616" lon="121.560701"/>
+<trkpt lat="24.992681" lon="121.560732"/>
+<trkpt lat="24.992746" lon="121.560763"/>
+<trkpt lat="24.992778" lon="121.560787"/>
+<trkpt lat="24.992810" lon="121.560811"/>
+<trkpt lat="24.992859" lon="121.560868"/>
+<trkpt lat="24.992899" lon="121.560932"/>
+<trkpt lat="24.992939" lon="121.560997"/>
+<trkpt lat="24.992980" lon="121.561061"/>
+<trkpt lat="24.993020" lon="121.561125"/>
+<trkpt lat="24.993060" lon="121.561189"/>
+<trkpt lat="24.993106" lon="121.561238"/>
+<trkpt lat="24.993168" lon="121.561257"/>
+<trkpt lat="24.993219" lon="121.561257"/>
+<trkpt lat="24.993269" lon="121.561256"/>
+<trkpt lat="24.993319" lon="121.561256"/>
 </trkseg></trk></gpx>

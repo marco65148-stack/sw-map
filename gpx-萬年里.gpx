@@ -1,52 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>文山區 萬年里 掃街車路線</name><desc>總長 7.83 km，重複率 26.9%</desc></metadata>
-<wpt lat="25.004133" lon="121.538654"><name>起點 羅斯福路五段176巷</name></wpt>
+<metadata><name>文山區 萬年里 掃街車路線</name><desc>總長 7.85 km，重複率 27.1%</desc></metadata>
+<wpt lat="25.004346" lon="121.538692"><name>起點 羅斯福路五段</name></wpt>
 <wpt lat="25.003520" lon="121.537360"><name>終點 羅斯福路五段176巷</name></wpt>
 <rte><name>萬年里 道路順序</name>
-<rtept lat="25.004133" lon="121.538654"><name>01 羅斯福路五段176巷</name><desc>出發・213 m</desc></rtept>
-<rtept lat="25.004298" lon="121.536552"><name>02 羅斯福路五段170巷</name><desc>右轉・127 m</desc></rtept>
-<rtept lat="25.004781" lon="121.535715"><name>03 汀州路四段</name><desc>右轉・374 m</desc></rtept>
-<rtept lat="25.007725" lon="121.537388"><name>04 無名巷道</name><desc>右轉・96 m</desc></rtept>
-<rtept lat="25.007902" lon="121.538309"><name>05 羅斯福路大客車專用道</name><desc>左轉・250 m</desc></rtept>
-<rtept lat="25.009798" lon="121.537327"><name>06 羅斯福路五段</name><desc>左轉・218 m</desc></rtept>
-<rtept lat="25.007983" lon="121.538138"><name>07 無名巷道</name><desc>右轉・81 m</desc></rtept>
-<rtept lat="25.007897" lon="121.537345"><name>08 汀州路四段</name><desc>右轉・356 m</desc></rtept>
-<rtept lat="25.010842" lon="121.536395"><name>09 基隆路四段</name><desc>右轉・69 m</desc></rtept>
-<rtept lat="25.011008" lon="121.537054"><name>10 羅斯福路四段</name><desc>右轉・47 m</desc></rtept>
-<rtept lat="25.010587" lon="121.537139"><name>11 羅斯福路四段206巷</name><desc>右轉・49 m</desc></rtept>
-<rtept lat="25.010475" lon="121.536665"><name>12 汀州路四段</name><desc>右轉・49 m（重複／連絡）</desc></rtept>
-<rtept lat="25.010842" lon="121.536395"><name>13 汀州路三段</name><desc>直行・55 m</desc></rtept>
-<rtept lat="25.010842" lon="121.536395"><name>14 基隆路四段</name><desc>左轉・76 m（重複／連絡）</desc></rtept>
-<rtept lat="25.011031" lon="121.537123"><name>15 羅斯福路大客車專用道</name><desc>右轉・387 m</desc></rtept>
-<rtept lat="25.007729" lon="121.538316"><name>16 羅斯福路五段</name><desc>直行・55 m</desc></rtept>
-<rtept lat="25.007285" lon="121.538563"><name>17 羅斯福路五段92巷</name><desc>右轉・97 m</desc></rtept>
-<rtept lat="25.006525" lon="121.53815"><name>18 羅斯福路五段150巷</name><desc>右轉・412 m</desc></rtept>
-<rtept lat="25.005209" lon="121.538856"><name>19 羅斯福路五段</name><desc>右轉・40 m</desc></rtept>
-<rtept lat="25.004848" lon="121.538792"><name>20 公館街</name><desc>右轉・270 m</desc></rtept>
-<rtept lat="25.004682" lon="121.537223"><name>21 羅斯福路五段170巷</name><desc>左轉・193 m</desc></rtept>
-<rtept lat="25.004411" lon="121.538838"><name>22 羅斯福路大客車專用道</name><desc>直行・403 m</desc></rtept>
-<rtept lat="25.007902" lon="121.538309"><name>23 無名巷道</name><desc>左轉・214 m（重複／連絡）</desc></rtept>
-<rtept lat="25.00808" lon="121.538277"><name>24 羅斯福路五段</name><desc>左轉・154 m</desc></rtept>
-<rtept lat="25.009347" lon="121.53765"><name>25 羅斯福路四段</name><desc>直行・88 m</desc></rtept>
-<rtept lat="25.009798" lon="121.537327"><name>26 汀州路四段23巷</name><desc>直行・61 m</desc></rtept>
-<rtept lat="25.009533" lon="121.536798"><name>27 汀州路四段</name><desc>右轉・97 m（重複／連絡）</desc></rtept>
-<rtept lat="25.010365" lon="121.536675"><name>28 汀州路四段23巷</name><desc>右轉・488 m</desc></rtept>
-<rtept lat="25.010475" lon="121.536665"><name>29 羅斯福路四段206巷</name><desc>右轉・49 m（重複／連絡）</desc></rtept>
-<rtept lat="25.010587" lon="121.537139"><name>30 羅斯福路四段</name><desc>右轉・89 m</desc></rtept>
-<rtept lat="25.009798" lon="121.537327"><name>31 羅斯福路五段</name><desc>直行・543 m</desc></rtept>
-<rtept lat="25.005209" lon="121.538856"><name>32 羅斯福路五段150巷</name><desc>右轉・153 m（重複／連絡）</desc></rtept>
-<rtept lat="25.00637" lon="121.538216"><name>33 汀州路四段105巷</name><desc>左轉・84 m</desc></rtept>
-<rtept lat="25.006441" lon="121.537428"><name>34 汀州路四段85巷</name><desc>右轉・240 m</desc></rtept>
-<rtept lat="25.006441" lon="121.537428"><name>35 汀州路四段105巷</name><desc>右轉・102 m</desc></rtept>
-<rtept lat="25.006665" lon="121.536451"><name>36 汀州路四段</name><desc>左轉・222 m（重複／連絡）</desc></rtept>
-<rtept lat="25.004781" lon="121.535715"><name>37 羅斯福路五段170巷</name><desc>左轉・153 m</desc></rtept>
-<rtept lat="25.004682" lon="121.537223"><name>38 公館街</name><desc>左轉・385 m</desc></rtept>
-<rtept lat="25.004848" lon="121.538792"><name>39 羅斯福路五段</name><desc>右轉・140 m</desc></rtept>
-<rtept lat="25.003603" lon="121.53859"><name>40 羅斯福路五段192巷</name><desc>右轉・384 m</desc></rtept>
-<rtept lat="25.003436" lon="121.536723"><name>41 羅斯福路五段176巷</name><desc>直行・263 m</desc></rtept>
+<rtept lat="25.004346" lon="121.538692"><name>01 羅斯福路五段</name><desc>出發・24 m</desc></rtept>
+<rtept lat="25.004133" lon="121.538654"><name>02 羅斯福路五段176巷</name><desc>右轉・213 m</desc></rtept>
+<rtept lat="25.004298" lon="121.536552"><name>03 羅斯福路五段170巷</name><desc>右轉・127 m</desc></rtept>
+<rtept lat="25.004781" lon="121.535715"><name>04 汀州路四段</name><desc>右轉・374 m</desc></rtept>
+<rtept lat="25.007725" lon="121.537388"><name>05 無名巷道</name><desc>右轉・96 m</desc></rtept>
+<rtept lat="25.007902" lon="121.538309"><name>06 羅斯福路大客車專用道</name><desc>左轉・250 m</desc></rtept>
+<rtept lat="25.009798" lon="121.537327"><name>07 羅斯福路五段</name><desc>左轉・218 m</desc></rtept>
+<rtept lat="25.007983" lon="121.538138"><name>08 無名巷道</name><desc>右轉・81 m</desc></rtept>
+<rtept lat="25.007897" lon="121.537345"><name>09 汀州路四段</name><desc>右轉・356 m</desc></rtept>
+<rtept lat="25.010842" lon="121.536395"><name>10 基隆路四段</name><desc>右轉・69 m</desc></rtept>
+<rtept lat="25.011008" lon="121.537054"><name>11 羅斯福路四段</name><desc>右轉・47 m</desc></rtept>
+<rtept lat="25.010587" lon="121.537139"><name>12 羅斯福路四段206巷</name><desc>右轉・49 m</desc></rtept>
+<rtept lat="25.010475" lon="121.536665"><name>13 汀州路四段</name><desc>右轉・49 m（重複／連絡）</desc></rtept>
+<rtept lat="25.010842" lon="121.536395"><name>14 汀州路三段</name><desc>直行・55 m</desc></rtept>
+<rtept lat="25.010842" lon="121.536395"><name>15 基隆路四段</name><desc>左轉・76 m（重複／連絡）</desc></rtept>
+<rtept lat="25.011031" lon="121.537123"><name>16 羅斯福路大客車專用道</name><desc>右轉・387 m</desc></rtept>
+<rtept lat="25.007729" lon="121.538316"><name>17 羅斯福路五段</name><desc>直行・55 m</desc></rtept>
+<rtept lat="25.007285" lon="121.538563"><name>18 羅斯福路五段92巷</name><desc>右轉・97 m</desc></rtept>
+<rtept lat="25.006525" lon="121.53815"><name>19 羅斯福路五段150巷</name><desc>右轉・412 m</desc></rtept>
+<rtept lat="25.005209" lon="121.538856"><name>20 羅斯福路五段</name><desc>右轉・40 m</desc></rtept>
+<rtept lat="25.004848" lon="121.538792"><name>21 公館街</name><desc>右轉・270 m</desc></rtept>
+<rtept lat="25.004682" lon="121.537223"><name>22 羅斯福路五段170巷</name><desc>左轉・193 m</desc></rtept>
+<rtept lat="25.004411" lon="121.538838"><name>23 羅斯福路大客車專用道</name><desc>直行・403 m</desc></rtept>
+<rtept lat="25.007902" lon="121.538309"><name>24 無名巷道</name><desc>左轉・214 m（重複／連絡）</desc></rtept>
+<rtept lat="25.00808" lon="121.538277"><name>25 羅斯福路五段</name><desc>左轉・154 m</desc></rtept>
+<rtept lat="25.009347" lon="121.53765"><name>26 羅斯福路四段</name><desc>直行・88 m</desc></rtept>
+<rtept lat="25.009798" lon="121.537327"><name>27 汀州路四段23巷</name><desc>直行・61 m</desc></rtept>
+<rtept lat="25.009533" lon="121.536798"><name>28 汀州路四段</name><desc>右轉・97 m（重複／連絡）</desc></rtept>
+<rtept lat="25.010365" lon="121.536675"><name>29 汀州路四段23巷</name><desc>右轉・488 m</desc></rtept>
+<rtept lat="25.010475" lon="121.536665"><name>30 羅斯福路四段206巷</name><desc>右轉・49 m（重複／連絡）</desc></rtept>
+<rtept lat="25.010587" lon="121.537139"><name>31 羅斯福路四段</name><desc>右轉・89 m</desc></rtept>
+<rtept lat="25.009798" lon="121.537327"><name>32 羅斯福路五段</name><desc>直行・543 m</desc></rtept>
+<rtept lat="25.005209" lon="121.538856"><name>33 羅斯福路五段150巷</name><desc>右轉・153 m（重複／連絡）</desc></rtept>
+<rtept lat="25.00637" lon="121.538216"><name>34 汀州路四段105巷</name><desc>左轉・84 m</desc></rtept>
+<rtept lat="25.006441" lon="121.537428"><name>35 汀州路四段85巷</name><desc>右轉・240 m</desc></rtept>
+<rtept lat="25.006441" lon="121.537428"><name>36 汀州路四段105巷</name><desc>右轉・102 m</desc></rtept>
+<rtept lat="25.006665" lon="121.536451"><name>37 汀州路四段</name><desc>左轉・222 m（重複／連絡）</desc></rtept>
+<rtept lat="25.004781" lon="121.535715"><name>38 羅斯福路五段170巷</name><desc>左轉・153 m</desc></rtept>
+<rtept lat="25.004682" lon="121.537223"><name>39 公館街</name><desc>左轉・385 m</desc></rtept>
+<rtept lat="25.004848" lon="121.538792"><name>40 羅斯福路五段</name><desc>右轉・140 m</desc></rtept>
+<rtept lat="25.003603" lon="121.53859"><name>41 羅斯福路五段192巷</name><desc>右轉・384 m</desc></rtept>
+<rtept lat="25.003436" lon="121.536723"><name>42 羅斯福路五段176巷</name><desc>直行・263 m</desc></rtept>
 <rtept lat="25.003520" lon="121.537360"><name>終點</name></rtept></rte>
 <trk><name>萬年里 行駛軌跡</name><trkseg>
+<trkpt lat="25.004346" lon="121.538692"/>
+<trkpt lat="25.004299" lon="121.538684"/>
+<trkpt lat="25.004253" lon="121.538675"/>
+<trkpt lat="25.004193" lon="121.538665"/>
 <trkpt lat="25.004133" lon="121.538654"/>
 <trkpt lat="25.004142" lon="121.538588"/>
 <trkpt lat="25.004145" lon="121.538567"/>

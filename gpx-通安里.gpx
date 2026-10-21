@@ -1,57 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Grok Bot sweeper-96" xmlns="http://www.topografix.com/GPX/1/1">
-<metadata><name>大安區 通安里 掃街車路線</name><desc>總長 5.46 km，重複率 20.8%</desc></metadata>
-<wpt lat="25.033165" lon="121.554291"><name>起點 信義路四段294巷</name></wpt>
+<metadata><name>大安區 通安里 掃街車路線</name><desc>總長 5.72 km，重複率 24.2%</desc></metadata>
+<wpt lat="25.033107" lon="121.553356"><name>起點 信義路四段</name></wpt>
 <wpt lat="25.030379" lon="121.552373"><name>終點 安和路二段71巷</name></wpt>
 <rte><name>通安里 道路順序</name>
-<rtept lat="25.033165" lon="121.554291"><name>01 信義路四段294巷</name><desc>出發・79 m</desc></rtept>
-<rtept lat="25.03245" lon="121.554287"><name>02 文昌街</name><desc>右轉・97 m</desc></rtept>
-<rtept lat="25.032539" lon="121.553331"><name>03 通安街</name><desc>左轉・111 m</desc></rtept>
-<rtept lat="25.031535" lon="121.553291"><name>04 通安街44巷</name><desc>右轉・84 m</desc></rtept>
-<rtept lat="25.03136" lon="121.552482"><name>05 安和路二段</name><desc>右轉・40 m</desc></rtept>
-<rtept lat="25.031718" lon="121.552491"><name>06 安和路二段35巷</name><desc>右轉・81 m</desc></rtept>
-<rtept lat="25.031694" lon="121.553294"><name>07 通化街24巷</name><desc>直行・99 m</desc></rtept>
-<rtept lat="25.031696" lon="121.554272"><name>08 通化街</name><desc>左轉・42 m</desc></rtept>
-<rtept lat="25.032076" lon="121.554276"><name>09 通化街12巷</name><desc>左轉・98 m</desc></rtept>
-<rtept lat="25.032085" lon="121.553303"><name>10 安和路二段23巷</name><desc>直行・81 m</desc></rtept>
-<rtept lat="25.032113" lon="121.552501"><name>11 安和路二段</name><desc>右轉・112 m</desc></rtept>
-<rtept lat="25.033127" lon="121.552514"><name>12 信義路四段</name><desc>右轉・85 m</desc></rtept>
-<rtept lat="25.033107" lon="121.553356"><name>13 通安街</name><desc>右轉・63 m</desc></rtept>
-<rtept lat="25.032539" lon="121.553331"><name>14 文昌街</name><desc>右轉・93 m</desc></rtept>
-<rtept lat="25.032628" lon="121.552419"><name>15 安和路二段</name><desc>左轉・269 m</desc></rtept>
-<rtept lat="25.033127" lon="121.552514"><name>16 信義路四段</name><desc>右轉・179 m</desc></rtept>
-<rtept lat="25.033089" lon="121.55429"><name>17 信義路四段294巷</name><desc>右轉・71 m（重複／連絡）</desc></rtept>
-<rtept lat="25.03245" lon="121.554287"><name>18 通化街</name><desc>直行・211 m</desc></rtept>
-<rtept lat="25.031314" lon="121.55426"><name>19 通化街28巷</name><desc>左轉・98 m</desc></rtept>
-<rtept lat="25.031314" lon="121.553286"><name>20 通安街</name><desc>左轉・42 m</desc></rtept>
-<rtept lat="25.030933" lon="121.553265"><name>21 安和路二段59巷</name><desc>右轉・89 m</desc></rtept>
-<rtept lat="25.030934" lon="121.552383"><name>22 安和路二段</name><desc>左轉・564 m</desc></rtept>
-<rtept lat="25.03136" lon="121.552482"><name>23 通安街44巷</name><desc>右轉・84 m（重複／連絡）</desc></rtept>
-<rtept lat="25.031535" lon="121.553291"><name>24 通安街</name><desc>右轉・366 m</desc></rtept>
-<rtept lat="25.028305" lon="121.552641"><name>25 樂利路11巷</name><desc>右轉・157 m</desc></rtept>
-<rtept lat="25.028185" lon="121.551144"><name>26 無名巷道</name><desc>右轉・97 m</desc></rtept>
-<rtept lat="25.029017" lon="121.550848"><name>27 安和路二段</name><desc>右轉・249 m</desc></rtept>
-<rtept lat="25.029107" lon="121.550812"><name>28 無名巷道</name><desc>左轉・60 m（重複／連絡）</desc></rtept>
-<rtept lat="25.028595" lon="121.550994"><name>29 樂利路5巷</name><desc>左轉・39 m</desc></rtept>
-<rtept lat="25.028721" lon="121.551357"><name>30 通化街200巷</name><desc>右轉・52 m</desc></rtept>
-<rtept lat="25.028318" lon="121.551602"><name>31 樂利路11巷</name><desc>右轉・49 m（重複／連絡）</desc></rtept>
-<rtept lat="25.028185" lon="121.551144"><name>32 無名巷道</name><desc>右轉・48 m（重複／連絡）</desc></rtept>
-<rtept lat="25.028595" lon="121.550994"><name>33 樂利路5巷</name><desc>右轉・187 m</desc></rtept>
-<rtept lat="25.028738" lon="121.552757"><name>34 通化街162巷</name><desc>直行・104 m</desc></rtept>
-<rtept lat="25.028465" lon="121.553742"><name>35 通化街</name><desc>左轉・52 m</desc></rtept>
-<rtept lat="25.028919" lon="121.553864"><name>36 通化街140巷</name><desc>左轉・104 m</desc></rtept>
-<rtept lat="25.029143" lon="121.552859"><name>37 通安街</name><desc>左轉・95 m（重複／連絡）</desc></rtept>
-<rtept lat="25.028305" lon="121.552641"><name>38 通化街170巷</name><desc>左轉・103 m</desc></rtept>
-<rtept lat="25.028082" lon="121.553629"><name>39 通化街</name><desc>左轉・185 m</desc></rtept>
-<rtept lat="25.029694" lon="121.554098"><name>40 通化街98巷</name><desc>左轉・104 m</desc></rtept>
-<rtept lat="25.029933" lon="121.553098"><name>41 通安街</name><desc>左轉・44 m（重複／連絡）</desc></rtept>
-<rtept lat="25.029545" lon="121.552984"><name>42 通化街120巷</name><desc>左轉・103 m</desc></rtept>
-<rtept lat="25.029298" lon="121.553972"><name>43 通化街</name><desc>左轉・184 m</desc></rtept>
-<rtept lat="25.03093" lon="121.554244"><name>44 通化街38巷</name><desc>左轉・99 m</desc></rtept>
-<rtept lat="25.030933" lon="121.553265"><name>45 通安街</name><desc>左轉・113 m（重複／連絡）</desc></rtept>
-<rtept lat="25.029933" lon="121.553098"><name>46 安和路二段71巷</name><desc>右轉・91 m</desc></rtept>
+<rtept lat="25.033107" lon="121.553356"><name>01 信義路四段</name><desc>出發・94 m</desc></rtept>
+<rtept lat="25.033089" lon="121.55429"><name>02 信義路四段294巷</name><desc>右轉・247 m</desc></rtept>
+<rtept lat="25.03245" lon="121.554287"><name>03 文昌街</name><desc>右轉・97 m</desc></rtept>
+<rtept lat="25.032539" lon="121.553331"><name>04 通安街</name><desc>左轉・111 m</desc></rtept>
+<rtept lat="25.031535" lon="121.553291"><name>05 通安街44巷</name><desc>右轉・84 m</desc></rtept>
+<rtept lat="25.03136" lon="121.552482"><name>06 安和路二段</name><desc>右轉・40 m</desc></rtept>
+<rtept lat="25.031718" lon="121.552491"><name>07 安和路二段35巷</name><desc>右轉・81 m</desc></rtept>
+<rtept lat="25.031694" lon="121.553294"><name>08 通化街24巷</name><desc>直行・99 m</desc></rtept>
+<rtept lat="25.031696" lon="121.554272"><name>09 通化街</name><desc>左轉・42 m</desc></rtept>
+<rtept lat="25.032076" lon="121.554276"><name>10 通化街12巷</name><desc>左轉・98 m</desc></rtept>
+<rtept lat="25.032085" lon="121.553303"><name>11 安和路二段23巷</name><desc>直行・81 m</desc></rtept>
+<rtept lat="25.032113" lon="121.552501"><name>12 安和路二段</name><desc>右轉・112 m</desc></rtept>
+<rtept lat="25.033127" lon="121.552514"><name>13 信義路四段</name><desc>右轉・85 m</desc></rtept>
+<rtept lat="25.033107" lon="121.553356"><name>14 通安街</name><desc>右轉・63 m</desc></rtept>
+<rtept lat="25.032539" lon="121.553331"><name>15 文昌街</name><desc>右轉・93 m</desc></rtept>
+<rtept lat="25.032628" lon="121.552419"><name>16 安和路二段</name><desc>左轉・269 m</desc></rtept>
+<rtept lat="25.033127" lon="121.552514"><name>17 信義路四段</name><desc>右轉・179 m（重複／連絡）</desc></rtept>
+<rtept lat="25.033089" lon="121.55429"><name>18 信義路四段294巷</name><desc>右轉・71 m（重複／連絡）</desc></rtept>
+<rtept lat="25.03245" lon="121.554287"><name>19 通化街</name><desc>直行・211 m</desc></rtept>
+<rtept lat="25.031314" lon="121.55426"><name>20 通化街28巷</name><desc>左轉・98 m</desc></rtept>
+<rtept lat="25.031314" lon="121.553286"><name>21 通安街</name><desc>左轉・42 m</desc></rtept>
+<rtept lat="25.030933" lon="121.553265"><name>22 安和路二段59巷</name><desc>右轉・89 m</desc></rtept>
+<rtept lat="25.030934" lon="121.552383"><name>23 安和路二段</name><desc>左轉・564 m</desc></rtept>
+<rtept lat="25.03136" lon="121.552482"><name>24 通安街44巷</name><desc>右轉・84 m（重複／連絡）</desc></rtept>
+<rtept lat="25.031535" lon="121.553291"><name>25 通安街</name><desc>右轉・366 m</desc></rtept>
+<rtept lat="25.028305" lon="121.552641"><name>26 樂利路11巷</name><desc>右轉・157 m</desc></rtept>
+<rtept lat="25.028185" lon="121.551144"><name>27 無名巷道</name><desc>右轉・97 m</desc></rtept>
+<rtept lat="25.029017" lon="121.550848"><name>28 安和路二段</name><desc>右轉・249 m</desc></rtept>
+<rtept lat="25.029107" lon="121.550812"><name>29 無名巷道</name><desc>左轉・60 m（重複／連絡）</desc></rtept>
+<rtept lat="25.028595" lon="121.550994"><name>30 樂利路5巷</name><desc>左轉・39 m</desc></rtept>
+<rtept lat="25.028721" lon="121.551357"><name>31 通化街200巷</name><desc>右轉・52 m</desc></rtept>
+<rtept lat="25.028318" lon="121.551602"><name>32 樂利路11巷</name><desc>右轉・49 m（重複／連絡）</desc></rtept>
+<rtept lat="25.028185" lon="121.551144"><name>33 無名巷道</name><desc>右轉・48 m（重複／連絡）</desc></rtept>
+<rtept lat="25.028595" lon="121.550994"><name>34 樂利路5巷</name><desc>右轉・187 m</desc></rtept>
+<rtept lat="25.028738" lon="121.552757"><name>35 通化街162巷</name><desc>直行・104 m</desc></rtept>
+<rtept lat="25.028465" lon="121.553742"><name>36 通化街</name><desc>左轉・52 m</desc></rtept>
+<rtept lat="25.028919" lon="121.553864"><name>37 通化街140巷</name><desc>左轉・104 m</desc></rtept>
+<rtept lat="25.029143" lon="121.552859"><name>38 通安街</name><desc>左轉・95 m（重複／連絡）</desc></rtept>
+<rtept lat="25.028305" lon="121.552641"><name>39 通化街170巷</name><desc>左轉・103 m</desc></rtept>
+<rtept lat="25.028082" lon="121.553629"><name>40 通化街</name><desc>左轉・185 m</desc></rtept>
+<rtept lat="25.029694" lon="121.554098"><name>41 通化街98巷</name><desc>左轉・104 m</desc></rtept>
+<rtept lat="25.029933" lon="121.553098"><name>42 通安街</name><desc>左轉・44 m（重複／連絡）</desc></rtept>
+<rtept lat="25.029545" lon="121.552984"><name>43 通化街120巷</name><desc>左轉・103 m</desc></rtept>
+<rtept lat="25.029298" lon="121.553972"><name>44 通化街</name><desc>左轉・184 m</desc></rtept>
+<rtept lat="25.03093" lon="121.554244"><name>45 通化街38巷</name><desc>左轉・99 m</desc></rtept>
+<rtept lat="25.030933" lon="121.553265"><name>46 通安街</name><desc>左轉・113 m（重複／連絡）</desc></rtept>
+<rtept lat="25.029933" lon="121.553098"><name>47 安和路二段71巷</name><desc>右轉・91 m</desc></rtept>
 <rtept lat="25.030379" lon="121.552373"><name>終點</name></rtept></rte>
 <trk><name>通安里 行駛軌跡</name><trkseg>
+<trkpt lat="25.033107" lon="121.553356"/>
+<trkpt lat="25.033105" lon="121.553432"/>
+<trkpt lat="25.033104" lon="121.553509"/>
+<trkpt lat="25.033102" lon="121.553585"/>
+<trkpt lat="25.033101" lon="121.553661"/>
+<trkpt lat="25.033099" lon="121.553737"/>
+<trkpt lat="25.033098" lon="121.553814"/>
+<trkpt lat="25.033096" lon="121.553890"/>
+<trkpt lat="25.033095" lon="121.553966"/>
+<trkpt lat="25.033093" lon="121.554043"/>
+<trkpt lat="25.033092" lon="121.554119"/>
+<trkpt lat="25.033091" lon="121.554176"/>
+<trkpt lat="25.033090" lon="121.554233"/>
+<trkpt lat="25.033089" lon="121.554290"/>
+<trkpt lat="25.033041" lon="121.554289"/>
+<trkpt lat="25.032993" lon="121.554288"/>
+<trkpt lat="25.032925" lon="121.554288"/>
+<trkpt lat="25.032857" lon="121.554288"/>
+<trkpt lat="25.032789" lon="121.554287"/>
+<trkpt lat="25.032722" lon="121.554287"/>
+<trkpt lat="25.032654" lon="121.554287"/>
+<trkpt lat="25.032586" lon="121.554287"/>
+<trkpt lat="25.032518" lon="121.554287"/>
+<trkpt lat="25.032450" lon="121.554287"/>
+<trkpt lat="25.032518" lon="121.554287"/>
+<trkpt lat="25.032586" lon="121.554287"/>
+<trkpt lat="25.032654" lon="121.554287"/>
+<trkpt lat="25.032722" lon="121.554287"/>
+<trkpt lat="25.032789" lon="121.554287"/>
+<trkpt lat="25.032857" lon="121.554288"/>
+<trkpt lat="25.032925" lon="121.554288"/>
+<trkpt lat="25.032993" lon="121.554288"/>
+<trkpt lat="25.033041" lon="121.554289"/>
+<trkpt lat="25.033089" lon="121.554290"/>
+<trkpt lat="25.033127" lon="121.554290"/>
+<trkpt lat="25.033165" lon="121.554291"/>
+<trkpt lat="25.033205" lon="121.554292"/>
+<trkpt lat="25.033245" lon="121.554293"/>
+<trkpt lat="25.033205" lon="121.554292"/>
 <trkpt lat="25.033165" lon="121.554291"/>
 <trkpt lat="25.033127" lon="121.554290"/>
 <trkpt lat="25.033089" lon="121.554290"/>

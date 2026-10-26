@@ -312,7 +312,7 @@ document.getElementById('fnow').onclick=()=>{__tAuto=true;document.getElementByI
 (function(){const $=id=>document.getElementById(id);
 const M=t=>{t=(t||'')+'';return t.length>=4?+t.slice(0,2)*60+ +t.slice(2,4):NaN};
 const MH=m=>String(Math.floor(m/60)).padStart(2,'0')+':'+String(Math.round(m%60)).padStart(2,'0');
-const KMH=15,DET=1.4;let ME=null,LIM=12,HL=null;
+const KMH=15,DET=1.4;let ME=null,LIM=12,HL=null,RG=null;
 const st=document.createElement('style');st.textContent=`#rec{position:fixed;z-index:1200;left:12px;top:130px;width:360px;max-height:calc(100vh - 150px);display:none;flex-direction:column;border-radius:14px;overflow:hidden;color:var(--tx,#e6eef8);background:rgba(9,16,30,.92);border:1px solid rgba(0,229,255,.35);box-shadow:0 8px 24px #0008;font-size:13px}
 body.light #rec{background:rgba(255,255,255,.96);color:#111}
 #rec.on{display:flex}#rec .rh{display:flex;align-items:center;gap:6px;padding:9px 12px;cursor:pointer;font-weight:800}#rec .rh b{flex:1;color:#00e5ff}body.light #rec .rh b{color:#0369a1}
@@ -325,7 +325,7 @@ body.light #rec{background:rgba(255,255,255,.96);color:#111}
 #rec .more{display:block;width:100%;margin-top:6px}
 @media (max-width:760px){#rec{left:8px;right:8px;width:auto;top:auto;bottom:64px;max-height:46vh}}
 .recpin{width:30px;height:30px;border-radius:50%;border:4px solid #fde047;box-shadow:0 0 0 4px #00000066,0 0 18px #fde047;background:rgba(253,224,71,.25)}`;document.head.appendChild(st);
-const P=document.createElement('div');P.id='rec';P.innerHTML=`<div class="rh" id="rech"><b>🧭 建議行程</b><span id="recsum"></span><button id="recmin" type="button">收合</button><button id="recx" type="button" aria-label="關閉">✕</button></div><div class="rt"><button id="recme" type="button">📍 用我的位置</button><button id="recall" type="button">顯示全部路線</button><small id="recnote"></small></div><div class="rb" id="recb"></div>`;document.body.appendChild(P);
+window.__recRGL=()=>RG;const P=document.createElement('div');P.id='rec';P.innerHTML=`<div class="rh" id="rech"><b>🧭 建議行程</b><span id="recsum"></span><button id="recmin" type="button">收合</button><button id="recx" type="button" aria-label="關閉">✕</button></div><div class="rt"><button id="recme" type="button">📍 用我的位置</button><button id="recall" type="button">顯示全部路線</button><small id="recnote"></small></div><div class="rb" id="recb"></div>`;document.body.appendChild(P);
 const dist=(a,b,c,d)=>{const R6=6371,x=(c-a)*Math.PI/180,y=(d-b)*Math.PI/180,h=Math.sin(x/2)**2+Math.cos(a*Math.PI/180)*Math.cos(c*Math.PI/180)*Math.sin(y/2)**2;return 2*R6*Math.asin(Math.sqrt(h))};
 const tmin=(a,b,c,d)=>dist(a,b,c,d)*DET/KMH*60;
 function cands(t0,t1){const d=$('fd').value;return S.filter(s=>s.lat!=null&&__wdOK(s)&&(!d||s.d==d)).filter(s=>{const a=M(s.t0),b=M(s.t1)||a;return b>=t0&&a<=t1})}
@@ -349,11 +349,11 @@ function render(){const L0=list();const b=$('recb');if(L0.msg){b.innerHTML=`<div
  let h='';if(L0.chain&&L0.chain.length>1)h+=`<div class="ch"><b>建議串接</b><br>`+L0.chain.map((c,j)=>`${j+1}. ${MH(c.meet)} ${c.s.li}｜${ad(c.s)}（${c.k.split('｜')[3]}）`).join('<br>')+`</div>`;
  if(!L0.rows.length)h+='<div style="padding:10px">這段時間沒有垃圾車停靠。</div>';
  h+=L0.rows.slice(0,LIM).map(row).join('');if(L0.rows.length>LIM)h+=`<button class="more" id="recmore" type="button">看更多（還有 ${L0.rows.length-LIM} 車）</button>`;b.innerHTML=h}
-window.__recShow=function(){LIM=12;P.classList.add('on');render()};
+window.__recShow=function(){LIM=12;if(RG){map.removeLayer(RG);RG=null}if(HL){map.removeLayer(HL);HL=null}P.classList.add('on');render()};
 $('recmin').onclick=e=>{e.stopPropagation();P.classList.toggle('min');$('recmin').textContent=P.classList.contains('min')?'展開':'收合'};
 $('rech').onclick=()=>$('recmin').click();
 $('recx').onclick=e=>{e.stopPropagation();P.classList.remove('on')};
-$('recall').onclick=()=>{if(HL){map.removeLayer(HL);HL=null}__tAll();draw()};
+$('recall').onclick=()=>{if(HL){map.removeLayer(HL);HL=null}if(RG){map.removeLayer(RG);RG=null}__tAll();draw()};
 $('recme').onclick=()=>{if(!navigator.geolocation){$('recnote').textContent='此瀏覽器不支援定位';return}$('recnote').textContent='定位中…';
  navigator.geolocation.getCurrentPosition(p=>{ME=[p.coords.latitude,p.coords.longitude];$('recme').textContent='📍 已用我的位置';if(window.__meMk)map.removeLayer(window.__meMk);window.__meMk=L.circleMarker(ME,{radius:9,color:'#fff',weight:3,fillColor:'#2563eb',fillOpacity:1}).addTo(map);render()},
  e=>{$('recnote').textContent='無法取得位置：'+e.message},{enableHighAccuracy:true,timeout:15000,maximumAge:60000})};
@@ -361,8 +361,21 @@ $('recb').addEventListener('click',e=>{if(e.target.id=='recmore'){LIM+=12;render
  document.querySelectorAll('.rr.on').forEach(x=>x.classList.remove('on'));r.classList.add('on');
  document.querySelectorAll('.tc').forEach(c=>c.checked=c.value==k);sync();draw();
  if(HL)map.removeLayer(HL);HL=L.marker([s.lat,s.lon],{interactive:false,zIndexOffset:9000,icon:L.divIcon({className:'',iconSize:[30,30],iconAnchor:[15,15],html:'<div class="recpin"></div>'})}).addTo(map);
- const mob=innerWidth<=760;if(mob){P.classList.add('min');$('recmin').textContent='展開'}map.setView([s.lat,s.lon],17,{animate:false});
- setTimeout(()=>{const m=stops.getLayers().find(m=>{const q=m.getLatLng();return q.lat==s.lat&&q.lng==s.lon});if(m)stops.zoomToShowLayer(m,()=>m.openPopup())},300)});
+ const mob=innerWidth<=760;if(mob){P.classList.add('min');$('recmin').textContent='展開'}
+ /* v25：整條車線（已收段淡灰虛線、未收段亮色粗線）＋下一站高亮，fitBounds 讓剩餘路線完整入鏡 */
+ if(RG)map.removeLayer(RG);RG=L.layerGroup().addTo(map);const rr=R.find(x=>x.k==k);const T=M($('f0').value.replace(':',''));const col=(typeof RC!=='undefined'&&RC[k])||'#00e5ff';
+ const rest=[],all=[];if(rr){const legs=__legs(rr);legs.forEach(l=>{const A=S[l.a],B=S[l.b];all.push(...l.g);const done=(M(B.t1)||M(B.t0))<T;
+  if(done)L.polyline(l.g,{color:'#6b7280',weight:4,opacity:.75,dashArray:'4 6',interactive:false}).addTo(RG);
+  else{rest.push(...l.g);L.polyline(l.g,{color:'#111',weight:12,opacity:.85,interactive:false,lineCap:'round',lineJoin:'round'}).addTo(RG);L.polyline(l.g,{color:col,weight:7,opacity:1,interactive:false,lineCap:'round',lineJoin:'round'}).addTo(RG)}});
+  rr.idx.forEach(i=>{const q=S[i];if(q.lat==null)return;const done=(M(q.t1)||M(q.t0))<T;if(done)L.circleMarker([q.lat,q.lon],{radius:5,color:'#6b7280',weight:2,fillColor:'#d1d5db',fillOpacity:1,interactive:false}).addTo(RG);if(!done)rest.push([q.lat,q.lon]);all.push([q.lat,q.lon])})}
+ window.__recRG={k,rest:rest.length,all:all.length};
+ const pad=()=>{const H=innerHeight,W=innerWidth;let tl=[30,30],br=[30,30];const pr=P.getBoundingClientRect(),pn=document.getElementById('panel'),nr=pn?pn.getBoundingClientRect():null;const vis=e=>e&&e.height>0&&e.bottom>0&&e.top<H;
+  if(mob){let top=H;if(vis(pr))top=Math.min(top,pr.top);if(vis(nr))top=Math.min(top,nr.top);br=[30,Math.max(30,H-top+20)];tl=[30,70]}
+  else{if(vis(pr)&&P.classList.contains('on')&&!P.classList.contains('min'))tl=[pr.right+30,30];if(vis(nr)&&nr.left>W/2)br=[W-nr.left+30,30]}return {paddingTopLeft:tl,paddingBottomRight:br,maxZoom:17,animate:false}};
+ /* 剩餘路線只有一點（末站）時，改框整條車線，避免看不到線 */
+ const fitPts=rest.length>1?rest:all.length>1?all:[[s.lat,s.lon]];
+ if(fitPts.length>1)map.fitBounds(L.latLngBounds(fitPts),pad());else map.setView([s.lat,s.lon],17,{animate:false});
+ setTimeout(()=>{const m=stops.getLayers().find(m=>{const q=m.getLatLng();return q.lat==s.lat&&q.lng==s.lon});if(!mob&&m&&stops.getVisibleParent(m)===m){const pp=m.getPopup();if(pp)pp.options.autoPan=false;m.openPopup()}},300)});
 })();
 
 setInterval(()=>{if(!__tAuto)return;const v=__now();const e=document.getElementById('f0');if(e.value!=v){e.value=v;draw()}},60000);

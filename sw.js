@@ -1,5 +1,5 @@
-const V='sw-map-v29',SHELL='shell-'+V,TILES='tiles-v2',TILE_MAX=5000;
-const PRE=['./','index.html','data.json','manifest.webmanifest','leaflet.js','leaflet.css','leaflet.markercluster.js','MarkerCluster.css','layers.png','layers-2x.png','icon-192.png','icon-512.png','icon-180.png','icon-192-maskable.png','icon-512-maskable.png','v28.js','v28.css','v29.js','v29.css','maplibre-gl.js','maplibre-gl.css','b-idx.json','sw-idx.json'];
+const V='sw-map-v30',SHELL='shell-'+V,TILES='tiles-v2',TILE_MAX=5000;
+const PRE=['./','index.html','data.json','manifest.webmanifest','leaflet.js','leaflet.css','leaflet.markercluster.js','MarkerCluster.css','layers.png','layers-2x.png','icon-192.png','icon-512.png','icon-180.png','icon-192-maskable.png','icon-512-maskable.png','v28.js','v28.css','v29.js','v29.css','v30.js','v30.css','maplibre-gl.js','maplibre-gl.css','b-idx.json','sw-idx.json'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(SHELL).then(c=>c.addAll(PRE)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>(k.startsWith('shell-')&&k!==SHELL)||(k.startsWith('tiles-')&&k!==TILES)).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 let trimming=false;async function trim(){if(trimming)return;trimming=true;try{const c=await caches.open(TILES);const ks=await c.keys();for(let i=0;i<ks.length-TILE_MAX;i++)await c.delete(ks[i])}finally{trimming=false}}

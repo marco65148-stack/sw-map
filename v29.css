@@ -1,0 +1,12 @@
+#m3d{position:absolute;inset:0;z-index:450;display:none;background:#f4eee3}
+body.is3d #map .leaflet-control-container{display:none}
+.m3{position:relative}
+.maplibregl-popup-content{border-radius:14px;background:#fff8f4;color:#211D1D;box-shadow:0 8px 24px rgba(33,29,29,.18);font-size:15px}
+body:not(.light) .maplibregl-popup-content{background:#1b2148;color:#eef6fa}
+/* 政策島風格：奶油色膠囊按鈕、珊瑚色強調 */
+body.is3d #tools button,body.is3d #b3d{background:#fff8f4;color:#211D1D;border:1px solid #f3c6b5;border-radius:999px;box-shadow:0 4px 14px rgba(33,29,29,.12)}
+body.is3d:not(.light) #tools button{background:#1b2148;color:#eef6fa;border-color:#3f4f80}
+#b3d{font-weight:800;color:#DB6A41!important}
+body.is3d .maplibregl-ctrl-group{border-radius:14px;overflow:hidden}
+body.no3d #b3d{display:none}
+@media (max-width:760px){body.is3d .maplibregl-ctrl-bottom-right{bottom:72px}}

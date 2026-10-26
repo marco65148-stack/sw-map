@@ -304,9 +304,67 @@ ARW.forEach(g=>arrows(g,'#fff'));SF(G);__liPanel(__LS);__liBound();__chips();doc
 ['f0','f1','fd','fa','fc','fr','fw'].forEach(i=>document.getElementById(i).onchange=draw);document.getElementById('fd').addEventListener('change',()=>{const o=__li();__liOpts();if(o!=__li())draw()});document.getElementById('fw').addEventListener('change',()=>{__SOLO=null;if(__li()){draw();__fit()}});document.getElementById('fli').onchange=()=>{const sh=document.getElementById('sheet');sh&&sh.classList.remove('on');map.closePopup();__SOLO=null;const fw=document.getElementById('fw');if(__li()&&fw.value==='')fw.value='today';draw();__fit()};function __now(){return new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Taipei',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(new Date())}
 let __tAuto=true;document.getElementById('f0').value=__now();
 function __tAll(){document.querySelectorAll('.tc').forEach(c=>c.checked=true);sync();const fw=document.getElementById('fw');if(fw.value==='')fw.value='today'}
-let __tLast='';function __tSet(){const v=document.getElementById('f0').value;if(!v||v===__tLast)return;__tLast=v;__tAuto=false;__tAll();draw();if(typeof __chips=='function')__chips();document.dispatchEvent(new Event('change'))}
+let __tLast='';function __tSet(){const v=document.getElementById('f0').value;if(!v||v===__tLast)return;__tLast=v;__tAuto=false;__tAll();draw();window.__recShow&&__recShow();if(typeof __chips=='function')__chips();document.dispatchEvent(new Event('change'))}
 ['input','change','blur'].forEach(ev=>document.getElementById('f0').addEventListener(ev,__tSet));document.getElementById('f0').addEventListener('change',()=>{if(innerWidth>760)return;setTimeout(()=>{const P=document.getElementById('panel');if(document.activeElement!==document.getElementById('f0')&&P&&!P.classList.contains('collapsed'))P.classList.add('collapsed')},700)});
-document.getElementById('fnow').onclick=()=>{__tAuto=true;document.getElementById('f0').value=__now();__tLast=__now();__tAll();draw();if(typeof __chips=='function')__chips()};
+document.getElementById('fnow').onclick=()=>{__tAuto=true;document.getElementById('f0').value=__now();__tLast=__now();__tAll();draw();window.__recShow&&__recShow();if(typeof __chips=='function')__chips()};
+
+/* ===== v24 建議行程 ===== */
+(function(){const $=id=>document.getElementById(id);
+const M=t=>{t=(t||'')+'';return t.length>=4?+t.slice(0,2)*60+ +t.slice(2,4):NaN};
+const MH=m=>String(Math.floor(m/60)).padStart(2,'0')+':'+String(Math.round(m%60)).padStart(2,'0');
+const KMH=15,DET=1.4;let ME=null,LIM=12,HL=null;
+const st=document.createElement('style');st.textContent=`#rec{position:fixed;z-index:1200;left:12px;top:130px;width:360px;max-height:calc(100vh - 150px);display:none;flex-direction:column;border-radius:14px;overflow:hidden;color:var(--tx,#e6eef8);background:rgba(9,16,30,.92);border:1px solid rgba(0,229,255,.35);box-shadow:0 8px 24px #0008;font-size:13px}
+body.light #rec{background:rgba(255,255,255,.96);color:#111}
+#rec.on{display:flex}#rec .rh{display:flex;align-items:center;gap:6px;padding:9px 12px;cursor:pointer;font-weight:800}#rec .rh b{flex:1;color:#00e5ff}body.light #rec .rh b{color:#0369a1}
+#rec .rh button,#rec .rt button{font:inherit;font-size:12px;border-radius:8px;border:1px solid rgba(127,127,127,.5);background:transparent;color:inherit;padding:4px 8px;min-height:30px}
+#rec .rt{display:flex;gap:6px;flex-wrap:wrap;padding:0 12px 6px;align-items:center}#rec .rt small{opacity:.75}
+#rec .rb{overflow:auto;padding:0 6px 8px}#rec.min .rb,#rec.min .rt{display:none}
+#rec .rr{display:grid;grid-template-columns:52px 1fr;gap:2px 8px;padding:8px 6px;border-top:1px solid rgba(127,127,127,.25);cursor:pointer;border-left:4px solid transparent}
+#rec .rr:hover,#rec .rr.on{background:rgba(0,229,255,.12)}#rec .rr .tm{font-weight:900;font-size:15px}#rec .rr .ad{font-weight:700}#rec .rr .mt{grid-column:2;opacity:.75;font-size:12px}
+#rec .rr .ok{color:#22c55e;font-weight:800}#rec .rr .no{color:#f87171}#rec .ch{padding:8px 10px;margin:4px 0;border-radius:10px;background:rgba(34,197,94,.12);border:1px solid rgba(34,197,94,.4)}
+#rec .more{display:block;width:100%;margin-top:6px}
+@media (max-width:760px){#rec{left:8px;right:8px;width:auto;top:auto;bottom:64px;max-height:46vh}}
+.recpin{width:30px;height:30px;border-radius:50%;border:4px solid #fde047;box-shadow:0 0 0 4px #00000066,0 0 18px #fde047;background:rgba(253,224,71,.25)}`;document.head.appendChild(st);
+const P=document.createElement('div');P.id='rec';P.innerHTML=`<div class="rh" id="rech"><b>🧭 建議行程</b><span id="recsum"></span><button id="recmin" type="button">收合</button><button id="recx" type="button" aria-label="關閉">✕</button></div><div class="rt"><button id="recme" type="button">📍 用我的位置</button><button id="recall" type="button">顯示全部路線</button><small id="recnote"></small></div><div class="rb" id="recb"></div>`;document.body.appendChild(P);
+const dist=(a,b,c,d)=>{const R6=6371,x=(c-a)*Math.PI/180,y=(d-b)*Math.PI/180,h=Math.sin(x/2)**2+Math.cos(a*Math.PI/180)*Math.cos(c*Math.PI/180)*Math.sin(y/2)**2;return 2*R6*Math.asin(Math.sqrt(h))};
+const tmin=(a,b,c,d)=>dist(a,b,c,d)*DET/KMH*60;
+function cands(t0,t1){const d=$('fd').value;return S.filter(s=>s.lat!=null&&__wdOK(s)&&(!d||s.d==d)).filter(s=>{const a=M(s.t0),b=M(s.t1)||a;return b>=t0&&a<=t1})}
+function list(){const T=M($('f0').value.replace(':',''));const W=T+120;const C=cands(T,W);
+ if([0,3].includes(__day()))return {T,rows:[],msg:`週${'日一二三四五六'[__day()]}環保局全市不收垃圾，沒有建議。`};
+ const by={};C.forEach(s=>{(by[RK(s)]=by[RK(s)]||[]).push(s)});let rows=[];
+ Object.entries(by).forEach(([k,a])=>{a.sort((x,y)=>M(x.t0)-M(y.t0));if(!ME){rows.push({k,s:a[0],n:a.length,key:M(a[0].t0)});return}
+  let best=null;for(const s of a){const tr=tmin(ME[0],ME[1],s.lat,s.lon),arr=T+tr,dep=M(s.t1)||M(s.t0);if(arr<=dep){const meet=Math.max(arr,M(s.t0));best={k,s,n:a.length,tr,meet,key:meet+tr*.01};break}}
+  if(best)rows.push(best);else{const s=a[0];rows.push({k,s,n:a.length,tr:tmin(ME[0],ME[1],s.lat,s.lon),late:1,key:1e5+M(s.t0)})}});
+ rows.sort((x,y)=>x.key-y.key);let chain=null;
+ if(ME&&rows.length&&!rows[0].late){chain=[rows[0]];let cur=rows[0];const used=new Set([cur.k]);for(let i=0;i<2;i++){const lv=Math.max(cur.meet,M(cur.s.t1)||M(cur.s.t0));let nb=null;
+  Object.entries(by).forEach(([k,a])=>{if(used.has(k))return;for(const s of a){const tr=tmin(cur.s.lat,cur.s.lon,s.lat,s.lon),arr=lv+tr,dep=M(s.t1)||M(s.t0);if(arr<=dep&&arr<=W){const meet=Math.max(arr,M(s.t0));if(!nb||meet<nb.meet)nb={k,s,tr,meet};break}}});
+  if(!nb)break;chain.push(nb);used.add(nb.k);cur=nb}}
+ return {T,rows,chain}}
+const ad=s=>s.loc.replace(/^臺北市..區/,'');
+function row(r,i){const s=r.s,x=r.k.split('｜');const rc=(typeof RC!=='undefined'&&RC[r.k])||'#888';
+ const reach=ME?(r.late?`<span class="no">來不及（車程約 ${Math.round(r.tr)} 分）</span>`:`<span class="ok">約 ${MH(r.meet)} 可到・車程 ${Math.round(r.tr)} 分</span>`):'';
+ return `<div class="rr" data-i="${S.indexOf(s)}" data-k="${r.k}" style="border-left-color:${rc}"><span class="tm">${hm(s.t0)}</span><span class="ad">${s.li}｜${ad(s)}</span><span class="mt">${x[1]}・${x[2]}・${x[3]}　停 ${s.stay?s.stay+' 分':'—'}・之後還有 ${r.n-1} 站 ${reach}</span></div>`}
+function render(){const L0=list();const b=$('recb');if(L0.msg){b.innerHTML=`<div style="padding:10px">${L0.msg}</div>`;$('recsum').textContent='';return}
+ const T=L0.T;$('recsum').textContent=`${MH(T)}–${MH(T+120)}・${L0.rows.length} 車`;$('recnote').textContent=ME?'依可趕上時間＋距離排序（直線×1.4、時速15公里估算）':'依時間排序，每車只列下一站';
+ let h='';if(L0.chain&&L0.chain.length>1)h+=`<div class="ch"><b>建議串接</b><br>`+L0.chain.map((c,j)=>`${j+1}. ${MH(c.meet)} ${c.s.li}｜${ad(c.s)}（${c.k.split('｜')[3]}）`).join('<br>')+`</div>`;
+ if(!L0.rows.length)h+='<div style="padding:10px">這段時間沒有垃圾車停靠。</div>';
+ h+=L0.rows.slice(0,LIM).map(row).join('');if(L0.rows.length>LIM)h+=`<button class="more" id="recmore" type="button">看更多（還有 ${L0.rows.length-LIM} 車）</button>`;b.innerHTML=h}
+window.__recShow=function(){LIM=12;P.classList.add('on');render()};
+$('recmin').onclick=e=>{e.stopPropagation();P.classList.toggle('min');$('recmin').textContent=P.classList.contains('min')?'展開':'收合'};
+$('rech').onclick=()=>$('recmin').click();
+$('recx').onclick=e=>{e.stopPropagation();P.classList.remove('on')};
+$('recall').onclick=()=>{if(HL){map.removeLayer(HL);HL=null}__tAll();draw()};
+$('recme').onclick=()=>{if(!navigator.geolocation){$('recnote').textContent='此瀏覽器不支援定位';return}$('recnote').textContent='定位中…';
+ navigator.geolocation.getCurrentPosition(p=>{ME=[p.coords.latitude,p.coords.longitude];$('recme').textContent='📍 已用我的位置';if(window.__meMk)map.removeLayer(window.__meMk);window.__meMk=L.circleMarker(ME,{radius:9,color:'#fff',weight:3,fillColor:'#2563eb',fillOpacity:1}).addTo(map);render()},
+ e=>{$('recnote').textContent='無法取得位置：'+e.message},{enableHighAccuracy:true,timeout:15000,maximumAge:60000})};
+$('recb').addEventListener('click',e=>{if(e.target.id=='recmore'){LIM+=12;render();return}const r=e.target.closest('.rr');if(!r)return;const s=S[+r.dataset.i],k=r.dataset.k;
+ document.querySelectorAll('.rr.on').forEach(x=>x.classList.remove('on'));r.classList.add('on');
+ document.querySelectorAll('.tc').forEach(c=>c.checked=c.value==k);sync();draw();
+ if(HL)map.removeLayer(HL);HL=L.marker([s.lat,s.lon],{interactive:false,zIndexOffset:9000,icon:L.divIcon({className:'',iconSize:[30,30],iconAnchor:[15,15],html:'<div class="recpin"></div>'})}).addTo(map);
+ const mob=innerWidth<=760;if(mob){P.classList.add('min');$('recmin').textContent='展開'}map.setView([s.lat,s.lon],17,{animate:false});
+ setTimeout(()=>{const m=stops.getLayers().find(m=>{const q=m.getLatLng();return q.lat==s.lat&&q.lng==s.lon});if(m)stops.zoomToShowLayer(m,()=>m.openPopup())},300)});
+})();
+
 setInterval(()=>{if(!__tAuto)return;const v=__now();const e=document.getElementById('f0');if(e.value!=v){e.value=v;draw()}},60000);
 document.getElementById('fw').value='today';
 setTimeout(()=>{if(__li())__fit()},900);draw();
@@ -348,7 +406,7 @@ $('bpn').onclick=()=>P.classList.toggle('collapsed');
 setTimeout(()=>$('tip')&&$('tip').classList.add('gone'),7000);
 // HUD count-up
 const cur={};function cu(id,v){const el=$(id);const a=cur[id]||0;cur[id]=v;const t0=performance.now();(function f(t){const k=Math.min(1,(t-t0)/600),e=1-Math.pow(1-k,3);el.textContent=Math.round(a+(v-a)*e);if(k<1)requestAnimationFrame(f)})(t0)}
-function hud(){const m=($('cnt').textContent||'').match(/路線 (\d+) 條｜顯示 (\d+) 站/);if(m){cu('hs',+m[2]);cu('hr',+m[1])}cu('hc',map.hasLayer(corners)?(window.__cv||0):0);if(m&&!window.__rt){window.__rt=+m[1];$('hrt').textContent=m[1]}}
+function hud(){const m=($('cnt').textContent||'').match(/路線 (\d+) 條｜顯示 (\d+) 站/);if(m){cu('hs',+m[2]);cu('hr',+m[1])}cu('hc',map.hasLayer(corners)?(window.__cv||0):0);$('hrt').textContent=document.querySelectorAll('.tc').length;}
 $('hst').textContent=S.length;$('hct').textContent=CV.length;
 // route highlight
 function deco(){lines.eachLayer(l=>{if(l instanceof L.Polyline&&l.options.interactive!==false&&!l._dz){l._dz=1;const w=l.options.weight;l.on('mouseover',()=>{l.setStyle({weight:w+4});l.bringToFront()});l.on('mouseout',()=>l.setStyle({weight:w}))}})}

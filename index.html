@@ -358,24 +358,24 @@ $('recme').onclick=()=>{if(!navigator.geolocation){$('recnote').textContent='此
  navigator.geolocation.getCurrentPosition(p=>{ME=[p.coords.latitude,p.coords.longitude];$('recme').textContent='📍 已用我的位置';if(window.__meMk)map.removeLayer(window.__meMk);window.__meMk=L.circleMarker(ME,{radius:9,color:'#fff',weight:3,fillColor:'#2563eb',fillOpacity:1}).addTo(map);render()},
  e=>{$('recnote').textContent='無法取得位置：'+e.message},{enableHighAccuracy:true,timeout:15000,maximumAge:60000})};
 $('recb').addEventListener('click',e=>{if(e.target.id=='recmore'){LIM+=12;render();return}const r=e.target.closest('.rr');if(!r)return;const s=S[+r.dataset.i],k=r.dataset.k;
- document.querySelectorAll('.rr.on').forEach(x=>x.classList.remove('on'));r.classList.add('on');
+ map.closePopup();document.querySelectorAll('.rr.on').forEach(x=>x.classList.remove('on'));r.classList.add('on');
  document.querySelectorAll('.tc').forEach(c=>c.checked=c.value==k);sync();draw();
  if(HL)map.removeLayer(HL);HL=L.marker([s.lat,s.lon],{interactive:false,zIndexOffset:9000,icon:L.divIcon({className:'',iconSize:[30,30],iconAnchor:[15,15],html:'<div class="recpin"></div>'})}).addTo(map);
  const mob=innerWidth<=760;if(mob){P.classList.add('min');$('recmin').textContent='展開'}
  /* v25：整條車線（已收段淡灰虛線、未收段亮色粗線）＋下一站高亮，fitBounds 讓剩餘路線完整入鏡 */
- if(RG)map.removeLayer(RG);RG=L.layerGroup().addTo(map);const rr=R.find(x=>x.k==k);const T=M($('f0').value.replace(':',''));const col=(typeof RC!=='undefined'&&RC[k])||'#00e5ff';
- const rest=[],all=[];if(rr){const legs=__legs(rr);legs.forEach(l=>{const A=S[l.a],B=S[l.b];all.push(...l.g);const done=(M(B.t1)||M(B.t0))<T;
-  if(done)L.polyline(l.g,{color:'#6b7280',weight:4,opacity:.75,dashArray:'4 6',interactive:false}).addTo(RG);
-  else{rest.push(...l.g);L.polyline(l.g,{color:'#111',weight:12,opacity:.85,interactive:false,lineCap:'round',lineJoin:'round'}).addTo(RG);L.polyline(l.g,{color:col,weight:7,opacity:1,interactive:false,lineCap:'round',lineJoin:'round'}).addTo(RG)}});
-  rr.idx.forEach(i=>{const q=S[i];if(q.lat==null)return;const done=(M(q.t1)||M(q.t0))<T;if(done)L.circleMarker([q.lat,q.lon],{radius:5,color:'#6b7280',weight:2,fillColor:'#d1d5db',fillOpacity:1,interactive:false}).addTo(RG);if(!done)rest.push([q.lat,q.lon]);all.push([q.lat,q.lon])})}
+ if(RG)map.removeLayer(RG);RG=L.layerGroup().addTo(map);const rr=R.find(x=>x.k==k);const T=M($('f0').value.replace(':',''));const col='#ff2d95';
+ const rest=[],all=[];let prev=null;if(rr){const legs=__legs(rr);legs.forEach(l=>{const A=S[l.a],B=S[l.b];all.push(...l.g);const done=(M(B.t1)||M(B.t0))<T;
+  if(done){prev=l.g;L.polyline(l.g,{color:'#000',weight:9,opacity:.55,interactive:false}).addTo(RG);L.polyline(l.g,{color:'#e5e7eb',weight:5,opacity:1,dashArray:'8 8',interactive:false}).addTo(RG)}
+  else{rest.push(...l.g);L.polyline(l.g,{color:'#fff',weight:14,opacity:1,interactive:false,lineCap:'round',lineJoin:'round'}).addTo(RG);L.polyline(l.g,{color:col,weight:7,opacity:1,interactive:false,lineCap:'round',lineJoin:'round'}).addTo(RG)}});
+  rr.idx.forEach(i=>{const q=S[i];if(q.lat==null)return;const done=(M(q.t1)||M(q.t0))<T;if(done)L.circleMarker([q.lat,q.lon],{radius:5,color:'#111',weight:2,fillColor:'#e5e7eb',fillOpacity:1,interactive:false}).addTo(RG);if(!done)rest.push([q.lat,q.lon]);all.push([q.lat,q.lon])})}
  window.__recRG={k,rest:rest.length,all:all.length};
  const pad=()=>{const H=innerHeight,W=innerWidth;let tl=[30,30],br=[30,30];const pr=P.getBoundingClientRect(),pn=document.getElementById('panel'),nr=pn?pn.getBoundingClientRect():null;const vis=e=>e&&e.height>0&&e.bottom>0&&e.top<H;
   if(mob){let top=H;if(vis(pr))top=Math.min(top,pr.top);if(vis(nr))top=Math.min(top,nr.top);br=[30,Math.max(30,H-top+20)];tl=[30,70]}
   else{if(vis(pr)&&P.classList.contains('on')&&!P.classList.contains('min'))tl=[pr.right+30,30];if(vis(nr)&&nr.left>W/2)br=[W-nr.left+30,30]}return {paddingTopLeft:tl,paddingBottomRight:br,maxZoom:17,animate:false}};
  /* 剩餘路線只有一點（末站）時，改框整條車線，避免看不到線 */
- const fitPts=rest.length>1?rest:all.length>1?all:[[s.lat,s.lon]];
+ const fitPts=rest.length>1?rest.concat(prev||[]):all.length>1?all:[[s.lat,s.lon]];
  if(fitPts.length>1)map.fitBounds(L.latLngBounds(fitPts),pad());else map.setView([s.lat,s.lon],17,{animate:false});
- setTimeout(()=>{const m=stops.getLayers().find(m=>{const q=m.getLatLng();return q.lat==s.lat&&q.lng==s.lon});if(!mob&&m&&stops.getVisibleParent(m)===m){const pp=m.getPopup();if(pp)pp.options.autoPan=false;m.openPopup()}},300)});
+ RG.eachLayer(l=>l.bringToFront&&l.bringToFront());});
 })();
 
 setInterval(()=>{if(!__tAuto)return;const v=__now();const e=document.getElementById('f0');if(e.value!=v){e.value=v;draw()}},60000);

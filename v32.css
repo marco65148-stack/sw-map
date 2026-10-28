@@ -1,0 +1,32 @@
+#bpoi{font-weight:800}
+.poi-mk{font:800 12px/1.2 "Noto Sans TC",system-ui,sans-serif;white-space:nowrap;padding:3px 7px;border-radius:9px;border:2px solid #fff;box-shadow:0 2px 6px #0008;color:#fff;transform:translate(-50%,-50%);display:inline-block;position:absolute;left:50%;top:50%}
+.poi-mk i{font-style:normal;background:#fff;color:#111;border-radius:6px;padding:0 4px;margin-left:4px}
+.poi-cv{background:#e11d48}.poi-mk.poi-mk-mk{background:#b45309}.poi-pk{background:#15803d}.poi-mk.poi-pk.small{padding:1px 5px;font-size:10px;opacity:.9}
+.pxb i{font-style:normal;background:#fff;color:#0047b3;border-radius:5px;padding:0 4px;margin-left:4px;font-size:12px;letter-spacing:0}
+#poi{position:fixed;right:10px;top:120px;z-index:1400;width:340px;max-width:calc(100vw - 20px);max-height:calc(100vh - 140px);overflow:auto;border-radius:14px;padding:10px 12px;display:none;font:14px/1.4 "Noto Sans TC",system-ui,sans-serif}
+#poi.on{display:block}#poi h3{margin:0 0 6px;font-size:16px;display:flex;justify-content:space-between;align-items:center}
+#poi .row{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}#poi label{display:flex;align-items:center;gap:4px;white-space:nowrap}
+#poi button,#poiF button{font:700 14px "Noto Sans TC",system-ui;padding:7px 10px;border-radius:9px;border:1px solid #8885;background:#fff2;color:inherit;cursor:pointer;min-height:36px}
+#poi select,#poi input,#poiF input,#poiF textarea,#poiF select{font:15px "Noto Sans TC",system-ui;padding:5px;border-radius:8px;border:1px solid #8886;min-height:34px}
+#poiL .it{display:flex;gap:6px;align-items:center;padding:6px 2px;border-top:1px solid #8883}
+#poiL .it .n{flex:1;cursor:pointer;min-width:0}#poiL .it .n small{opacity:.7;display:block}#poiL .it.past{opacity:.5}#poiL .it.next .n b{color:#e11d48}
+#poiL .tm{font-weight:900;min-width:44px}
+#poiHint{position:fixed;left:50%;top:130px;transform:translateX(-50%);z-index:1500;padding:10px 14px;border-radius:12px;display:none;font:700 15px "Noto Sans TC",system-ui;text-align:center}
+#poiHint.on{display:block}#poiHint button{margin-left:6px;padding:6px 10px;border-radius:8px;border:1px solid #8886;font-weight:700}
+#poiF{position:fixed;inset:0;z-index:1600;background:#0007;display:none;align-items:center;justify-content:center}
+#poiF.on{display:flex}#poiF form{background:#fff;color:#111;border-radius:14px;padding:14px;width:340px;max-width:calc(100vw - 24px);display:flex;flex-direction:column;gap:8px}
+#poiF form b{font-size:16px}#poiF .btns{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.poi-pop button{margin:6px 6px 0 0;padding:6px 12px;border-radius:8px;border:1px solid #8886;font-weight:700;cursor:pointer}
+@media (max-width:760px){#poi{left:10px;right:10px;width:auto;top:auto;bottom:10px;max-height:58vh}}
+/* v32 上方圖層列 */
+#mode.v32-hidden{display:none!important}
+#poi .row:first-of-type{display:none}
+#chips{position:fixed;left:66px;top:76px;z-index:1300;display:flex;gap:6px;padding:5px;border-radius:14px;max-width:calc(100vw - 486px);overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;flex-wrap:nowrap}
+#chips::-webkit-scrollbar{display:none}
+#chips button{flex:0 0 auto;font:800 14px/1 "Noto Sans TC",system-ui,sans-serif;padding:8px 11px;border-radius:999px;border:2px solid #8886;background:#fff1;color:inherit;cursor:pointer;white-space:nowrap;opacity:.55;display:flex;align-items:center;gap:5px;min-height:36px}
+#chips button .dot{width:9px;height:9px;border-radius:50%;border:2px solid currentColor;box-sizing:border-box}
+#chips button.on{opacity:1;color:#fff;border-color:#fff}
+#chips button.on .dot{background:#fff}
+#chip-gt.on{background:#d4a800;color:#111}#chip-gt.on .dot{background:#111}
+#chip-sw.on{background:#0891b2}#chip-px.on{background:#0047b3}#chip-cv.on{background:#e11d48}#chip-pk.on{background:#15803d}#chip-mk.on{background:#b45309}
+@media (max-width:760px){#chips{left:62px;right:62px;transform:none;max-width:none}#chips button{font-size:13px;padding:7px 9px}}

@@ -6,8 +6,8 @@ map.createPane('bld25');const pane=map.getPane('bld25');pane.style.zIndex=250;pa
 const cv=document.createElement('canvas');cv.className='bld25 leaflet-zoom-hide';pane.appendChild(cv);const ctx=cv.getContext('2d');
 window.__bld={drawn:0,chunks:0};
 function need(){const b=map.getBounds();const ks=[];for(let x=Math.floor(b.getWest()*100);x<=Math.floor(b.getEast()*100);x++)for(let y=Math.floor(b.getSouth()*100);y<=Math.floor(b.getNorth()*100);y++){const k=x+'_'+y;if(IDX&&IDX.has(k))ks.push(k)}return ks}
-function load(k){if(C[k]||LD[k])return;LD[k]=1;fetch('b-'+k+'.json').then(r=>r.json()).then(a=>{C[k]=a;sched()}).catch(()=>{LD[k]=0})}
-let raf=0;function sched(){if(!raf)raf=requestAnimationFrame(()=>{raf=0;draw()})}
+function load(k){if(C[k]||LD[k]||navigator.onLine===false)return;LD[k]=1;fetch('b-'+k+'.json').then(r=>r.json()).then(a=>{C[k]=a;sched()}).catch(()=>{LD[k]=0})}
+addEventListener('online',()=>sched());let raf=0;function sched(){if(!raf)raf=requestAnimationFrame(()=>{raf=0;draw()})}
 function draw(){const t0=performance.now();if(window.__3d&&window.__3d.on){window.__bld.drawn=0;const cv=document.querySelector('.leaflet-bld25-pane canvas');if(cv)cv.getContext('2d').clearRect(0,0,cv.width,cv.height);return}try{draw0()}finally{window.__bld.ms=Math.round(performance.now()-t0)}}
 function draw0(){const z=map.getZoom(),sz=map.getSize(),dpr=Math.min(devicePixelRatio||1,2);
  const tl=map.containerPointToLayerPoint([0,0]);L.DomUtil.setPosition(cv,tl);

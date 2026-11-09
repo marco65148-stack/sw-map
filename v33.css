@@ -1,0 +1,43 @@
+/* v33 車隊掃街 */
+#mcbar{flex:0 0 auto;display:flex;gap:6px;padding:8px 10px 2px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+#mcbar::-webkit-scrollbar{display:none}
+#mcbar button{flex:0 0 auto;font:800 13px/1 "Noto Sans TC",system-ui,sans-serif;padding:8px 10px;border-radius:999px;border:2px solid #8886;background:transparent;color:inherit;cursor:pointer;min-height:36px;white-space:nowrap;opacity:.7}
+#mcbar button.on{opacity:1;background:#0891b2;border-color:#0891b2;color:#fff}
+#mcbar button[data-r="daan"].on{background:#f76707;border-color:#f76707}
+#mcbar button[data-r="wenshan"].on{background:#2b8a3e;border-color:#2b8a3e}
+#mcbar button[data-r="dw"].on{background:#7048e8;border-color:#7048e8}
+#swp:not(.mc) #mcb{display:none!important}
+#swp.mc .swp-b:not(#mcb),#swp.mc .swp-bar{display:none!important}
+#swp.min #mcb{display:none!important}
+#swnav.mc-hide{display:none!important}
+#mcprog{display:flex;align-items:center;gap:6px;margin:4px 0}
+#mcprog input{flex:1}
+#mcplay{width:38px;height:34px;border-radius:8px;border:1px solid rgba(127,127,127,.5);background:rgba(127,127,127,.15);color:inherit;cursor:pointer;font-size:15px}
+.mc-tip{margin:6px 0;padding:6px 8px;border-radius:8px;background:rgba(112,72,232,.12);font-weight:700}
+.mc-sum{display:flex;gap:10px;flex-wrap:wrap;margin:4px 0 6px;font-weight:700;font-size:12.5px}
+.mc-sum .warn{color:#d9480f}.mc-sum .info{color:#1971c2}
+.mc-list{border-top:1px solid rgba(127,127,127,.3)}
+.mc-r{display:grid;grid-template-columns:28px 1fr;gap:8px;padding:7px 2px;border-bottom:1px solid rgba(127,127,127,.2);cursor:pointer;align-items:start}
+.mc-r:hover{background:rgba(127,127,127,.1)}
+.mc-r.warn{background:rgba(232,89,12,.08)}
+.mc-r b{font-size:14px}.mc-r em{font-style:normal;color:#d9480f;font-weight:800;font-size:12.5px}
+.mc-r small{display:block;opacity:.85;font-size:12px;line-height:1.35}
+.mc-r small.mc-src{opacity:.6}
+.mc-note{display:block;font-size:12px;margin-top:2px}
+.mc-note.warn{color:#d9480f;font-weight:700}.mc-note.info{color:#1971c2}
+small.mc-note{opacity:1!important}
+.mc-n{display:flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:6px;border:3px solid;font-weight:800;font-size:11px;box-sizing:border-box}
+.mc-tn{width:22px;height:22px;border-radius:6px;border:3px solid;background:#fff;color:#111;font:800 10px/16px "Noto Sans TC",system-ui,sans-serif;text-align:center;box-sizing:border-box;box-shadow:0 1px 4px #0008}
+.mc-fl{width:26px;height:26px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);display:flex;align-items:center;justify-content:center;font:900 14px/1 system-ui;color:#fff;border:2px solid #fff;box-shadow:0 2px 6px #0008}
+.mc-fl.warn{background:#e8590c}.mc-fl.info{background:#1971c2}
+.mc-fl.sm{display:inline-flex;width:16px;height:16px;font-size:9px;transform:none;border-radius:50%;margin-right:2px;vertical-align:middle;border-width:1px}
+.mc-truck{width:34px;height:34px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:21px;line-height:1}
+.mc-truck span{display:inline-block}
+.mc-arw{border-bottom-color:#fff!important}
+.mc-hq{border-bottom-color:#e03131!important}
+.mc-src{opacity:.75;font-size:12px}
+.mc-via{font-size:12px;opacity:.85}
+.mc-err{color:#c92a2a;padding:8px;font-weight:700}
+body.mc-on .leaflet-marker-pane,body.mc-on .leaflet-tooltip-pane{opacity:.35}
+body.mc-on .leaflet-pane.leaflet-mcTop-pane .leaflet-marker-icon{opacity:1}
+.mc-fl span{transform:rotate(45deg);display:inline-block;font:900 15px/1 system-ui}

@@ -1,0 +1,18 @@
+/* v35 王世堅陪掃 */
+#mcbar button[data-r="wsj"].on{background:#d6336c;border-color:#d6336c}
+.mc-stop{position:absolute;transform:translate(-50%,-100%);display:flex;align-items:center;gap:4px;white-space:nowrap;background:#d6336c;color:#fff;border:2px solid #fff;border-radius:16px;padding:3px 8px 3px 4px;font:800 12px/1.2 "Noto Sans TC",system-ui,sans-serif;box-shadow:0 2px 8px #0009;cursor:pointer}
+.mc-stop b{background:#fff;color:#d6336c;border-radius:10px;padding:1px 5px;font-size:12px}
+.mc-stop.market{background:#e67700}.mc-stop.market b{color:#e67700}
+.mc-stop.hot{background:#9c36b5}.mc-stop.hot b{color:#9c36b5}
+.mc-stop::after{content:"";position:absolute;left:50%;bottom:-8px;transform:translateX(-50%);border:6px solid transparent;border-top-color:#fff}
+.mc-stops{border-top:1px solid rgba(127,127,127,.3);margin:6px 0}
+.mc-sh{font-weight:800;font-size:13px;margin:6px 0 2px}
+.mc-sr{display:grid;grid-template-columns:24px 1fr;gap:8px;padding:6px 2px;border-bottom:1px solid rgba(127,127,127,.2);cursor:pointer}
+.mc-sr:hover{background:rgba(214,51,108,.08)}
+.mc-sr em{font-style:normal;color:#d6336c;font-weight:800;font-size:12.5px}
+.mc-sr small{display:block;opacity:.85;font-size:12px;line-height:1.35}
+.mc-sn{display:flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:#d6336c;color:#fff;font-weight:800;font-size:11px}
+.mc-plan{background:rgba(214,51,108,.12)}
+body.mc-zs .mc-stop span{display:none}
+body.mc-zs .mc-stop{padding:3px 4px}
+@media (max-width:760px){#mcbar{gap:4px;padding:8px 8px 2px}#mcbar button{padding:7px 6px;font-size:12px}}

@@ -1,0 +1,7 @@
+/* v34 原稿版／建議版 */
+#mcver{display:flex;gap:6px;margin:6px 0 2px}
+#mcver button{flex:1;font:800 13px/1 "Noto Sans TC",system-ui,sans-serif;padding:8px 6px;border-radius:8px;border:2px solid #8886;background:transparent;color:inherit;cursor:pointer;min-height:36px}
+#mcver button.on{background:#334155;border-color:#334155;color:#fff}
+#mcver button[data-v="s"].on{background:#0b7285;border-color:#0b7285}
+#mcver button:disabled{opacity:.4;cursor:not-allowed}
+.mc-vd{font-size:12px;opacity:.85;margin:2px 0 4px;line-height:1.4}

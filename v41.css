@@ -1,0 +1,26 @@
+/* v41: 平面底圖（國土測繪中心 臺灣通用電子地圖）、清楚的 GPS 位置點、行進方向朝上 */
+.baseflat{filter:none}
+body.light .leaflet-container{background:#f2efe9}
+/* GPS 自己位置點：白邊藍點＋脈衝外圈＋朝向扇形 */
+.me41-wrap{pointer-events:none}
+.me41{position:relative;width:56px;height:56px}
+.me41 .dt{position:absolute;left:50%;top:50%;width:24px;height:24px;margin:-12px 0 0 -12px;border-radius:50%;background:#1a73e8;border:4px solid #fff;box-sizing:border-box;box-shadow:0 0 0 2px rgba(10,40,90,.55),0 2px 8px rgba(0,0,0,.45);z-index:2}
+.me41 .pl{position:absolute;left:50%;top:50%;width:24px;height:24px;margin:-12px 0 0 -12px;border-radius:50%;background:rgba(26,115,232,.35);animation:me41p 1.8s ease-out infinite;z-index:0}
+.me41 .cone{position:absolute;left:50%;top:50%;width:0;height:0;margin-left:-13px;margin-top:-40px;border-left:13px solid transparent;border-right:13px solid transparent;border-bottom:30px solid #1a73e8;transform-origin:50% 40px;filter:drop-shadow(0 0 1.5px #fff) drop-shadow(0 0 1.5px #fff);z-index:1;transition:transform .5s ease-out}
+@keyframes me41p{0%{transform:scale(1);opacity:.9}100%{transform:scale(3.2);opacity:0}}
+.leaflet-meAccP-pane path{pointer-events:none}
+/* 行進方向朝上：地圖旋轉時，文字標籤反向轉回保持正立（方向箭頭除外） */
+.leaflet-container.hu-rot .leaflet-pane:not(.leaflet-meP-pane)>.leaflet-marker-icon:not(:has(.arw)):not(:has(.ow)),
+.leaflet-container.hu-rot .leaflet-tooltip-pane>.leaflet-tooltip{rotate:var(--hu,0deg)}
+.leaflet-container.hu-rot .leaflet-popup-pane>.leaflet-popup{rotate:var(--hu,0deg);transform-origin:50% 100%}
+/* 方向按鈕 */
+#bnorth{position:relative;display:none}
+#bnorth.show{display:block}
+#bnorth .ndl{display:inline-block;transition:transform .5s ease-out;font-size:20px;line-height:1}
+#bnorth .ndl b{display:block;width:0;height:0;margin:0 auto;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:13px solid #e11d48}
+#bnorth .ndl i{display:block;width:0;height:0;margin:0 auto;border-left:7px solid transparent;border-right:7px solid transparent;border-top:13px solid #94a3b8}
+#bnorth small{position:absolute;left:0;right:0;bottom:1px;font-size:9px;font-weight:700;color:var(--tx,#1f2937);line-height:1}
+#bnorth.head{background:#1a73e8!important;color:#fff!important}
+#bnorth.head small{color:#fff}
+#bloc.on{background:#1a73e8!important;color:#fff!important}
+#bloc.paused{outline:3px solid #1a73e8}

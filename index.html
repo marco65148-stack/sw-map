@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#030712"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%23081020%27/%3E%3Ccircle cx=%2732%27 cy=%2732%27 r=%2720%27 fill=%27none%27 stroke=%27%2300e5ff%27 stroke-width=%275%27/%3E%3C/svg%3E"><title>聖文垃圾車地圖｜陳聖文選區 垃圾車 × 得票率 × ABC × 拜票路口（官方資料 2026-10-16 版）</title>
-<link rel="preconnect" href="https://tile.openstreetmap.org" crossorigin><link rel="preload" href="data.json" as="fetch" crossorigin="anonymous"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png" sizes="192x192"><link rel="apple-touch-icon" href="icon-180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="聖文地圖"><link rel="stylesheet" href="leaflet.css"><link rel="stylesheet" href="MarkerCluster.css"><script src="leaflet.js"></script><script src="leaflet.markercluster.js"></script>
+<link rel="preconnect" href="https://wmts.nlsc.gov.tw" crossorigin><link rel="preconnect" href="https://tile.openstreetmap.org" crossorigin><link rel="preload" href="data.json" as="fetch" crossorigin="anonymous"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png" sizes="192x192"><link rel="apple-touch-icon" href="icon-180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="聖文地圖"><link rel="stylesheet" href="leaflet.css"><link rel="stylesheet" href="MarkerCluster.css"><script src="leaflet.js"></script><script src="leaflet.markercluster.js"></script>
 <style>html,body,#map{height:100%;margin:0;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei","Heiti TC",system-ui,sans-serif}
 #panel{position:absolute;top:12px;right:12px;z-index:1000;background:rgba(255,255,255,.97);padding:12px 14px;border-radius:14px;box-shadow:0 6px 24px rgba(0,0,0,.18);font-size:13px;width:280px;max-height:calc(100% - 40px);overflow:auto;color:#222;transition:transform .25s}
 #panel.collapsed{transform:translateX(calc(100% + 20px))}
@@ -222,7 +222,7 @@ body.light .leaflet-bar{border:none!important;box-shadow:0 2px 10px rgba(15,23,4
 .recpin::after{content:"";position:absolute;inset:-3px;border-radius:50%;border:3px solid #2563eb;animation:rp 1.6s ease-out infinite}
 @keyframes rp{0%{transform:scale(1);opacity:.9}100%{transform:scale(2.6);opacity:0}}
 @media (max-width:760px){body.light #panel button,body.light #rec button,body.light #panel select,body.light #panel input[type=time],body.light .leaflet-control-zoom a{min-height:44px}body.light #rec .rr{padding:10px 8px}}
-</style><link rel="stylesheet" href="v28.css"><link rel="stylesheet" href="v30.css"><link rel="stylesheet" href="v32.css"><link rel="stylesheet" href="v33.css"><link rel="stylesheet" href="v34.css"><link rel="stylesheet" href="v35.css"></head><body><div id="map"></div><div id="offl" class="glass">離線模式：使用已快取的資料與地圖</div>
+</style><link rel="stylesheet" href="v28.css"><link rel="stylesheet" href="v30.css"><link rel="stylesheet" href="v32.css"><link rel="stylesheet" href="v33.css"><link rel="stylesheet" href="v34.css"><link rel="stylesheet" href="v35.css"><link rel="stylesheet" href="v41.css"></head><body><div id="map"></div><div id="offl" class="glass">離線模式：使用已快取的資料與地圖</div>
 <div id="panel"><div id="grab"><span id="gs">篩選・圖層・<b>拜票路口清單</b></span></div><div style="display:flex;justify-content:space-between;align-items:center"><h3>垃圾車路線 × 得票率 × ABC × 拜票路口</h3><button id="col" title="收合">✕</button></div><div class="sec" style="border:none;margin:0;padding:0"><b>篩選</b>
 <label class="gto">時間 <input id="f0" type="time" value="00:00"> <button id="fnow" type="button">現在</button><input id="f1" type="hidden" value="23:59"></label><div class="note gto" style="margin:-4px 0 6px">只顯示此時間（含）之後還在跑的路線；已收完的站不顯示。</div>
 <label>行政區 <select id="fd"><option value="">全部</option><option>大安</option><option>文山</option></select></label><label>里別 <select id="fli"></select></label><label class="gto">收運日 <select id="fw"><option value="">全部</option><option value="today">今天</option><option value="1">週一</option><option value="2">週二</option><option value="3">週三</option><option value="4">週四</option><option value="5">週五</option><option value="6">週六</option><option value="0">週日</option></select></label><div class="wdc gto"></div><div id="fwn" class="note gto" style="margin:0 0 4px">收運日依地址括號文字推得（如「週一、週五收運」），非官方欄位；未註明者視為每個收運日。環保局公告週三、週日全市不收。</div>
@@ -239,8 +239,9 @@ body.light .leaflet-bar{border:none!important;box-shadow:0 2px 10px rgba(15,23,4
 <div id="hov" class="glass"></div><div id="sheet" class="glass"><div class="x"></div><button class="xb" id="sx">✕</button><div id="sbody"></div></div>
 <div id="ld" class="glass"><b>聖文互動地圖</b><span id="ldt">載入資料中…</span><div id="ldb"><i id="ldp"></i></div></div><script>/* (4) map first: basemap + UI immediately, data after */
 (function(){let th='light';try{th=localStorage.getItem('gtTheme29')||'light'}catch(e){}if(th=='light')document.body.classList.add('light');
-const m=L.map('map',{maxZoom:19}).setView([25.005,121.555],13);window.__map=m;
-window.__tmpBase=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:th=='light'?'base2d':'basedark',attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'});window.__addBase=()=>{if(!window.__based){window.__based=1;window.__tmpBase.addTo(m)}};setTimeout(window.__addBase,700);
+const m=L.map('map',{maxZoom:20}).setView([25.005,121.555],13);window.__map=m;
+window.__flatOpts={maxZoom:20,maxNativeZoom:19,className:'baseflat',attribution:'底圖 &copy; <a href="https://maps.nlsc.gov.tw/" target="_blank" rel="noopener">內政部國土測繪中心</a> 臺灣通用電子地圖｜路網資料 &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'};window.__flatErr=function(e){const t=e.tile;if(t&&!t.__osm){t.__osm=1;const c=e.coords;t.src='https://tile.openstreetmap.org/'+c.z+'/'+c.x+'/'+c.y+'.png'}};
+window.__tmpBase=th=='light'?L.tileLayer('https://wmts.nlsc.gov.tw/wmts/EMAP6/default/GoogleMapsCompatible/{z}/{y}/{x}',window.__flatOpts).on('tileerror',window.__flatErr):L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:'basedark',attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'});window.__addBase=()=>{if(!window.__based){window.__based=1;window.__tmpBase.addTo(m)}};setTimeout(window.__addBase,700);
 window.__t0=performance.now();})();
 window.__load=async function(){const r=await fetch('data.json',{priority:'high'});if(!r.ok)throw new Error('HTTP '+r.status);window.__addBase();const n=+r.headers.get('content-length')||0;const pb=document.getElementById('ldp'),tx=document.getElementById('ldt');
  let txt;if(r.body&&r.body.getReader){const rd=r.body.getReader();const ch=[];let got=0;const est=n||1100000;for(;;){const {done,value}=await rd.read();if(done)break;ch.push(value);got+=value.length;pb.style.width=Math.min(98,got/est*100)+'%';tx.textContent='載入資料中… '+(got/1048576).toFixed(1)+' MB'}
@@ -254,7 +255,7 @@ __load().then(D=>{
 document.getElementById('col').onclick=()=>document.getElementById('panel').classList.add('collapsed');document.getElementById('tog').onclick=()=>document.getElementById('panel').classList.remove('collapsed');if(innerWidth<600)document.getElementById('panel').classList.add('collapsed');
 const V=D.V,S=D.S,R=D.R,RD=D.RD||{};window.__V=V;
 const map=window.__map;
-const baseLight=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:'base2d',attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'});const baseDark=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:'basedark',attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'});
+const baseLight=L.tileLayer('https://wmts.nlsc.gov.tw/wmts/EMAP6/default/GoogleMapsCompatible/{z}/{y}/{x}',window.__flatOpts).on('tileerror',window.__flatErr);const baseDark=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:'basedark',attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'});
 const br=[32,34,36,38,40,42],cl=['#f7fcf5','#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45','#005a32'];
 const SH=V.features.map(f=>f.properties.share).filter(x=>x!=null);const SMIN=Math.floor(Math.min(...SH)),SMAX=Math.ceil(Math.max(...SH));
 const RAMP=[[255,255,204],[194,230,153],[120,198,121],[49,163,84],[0,104,55],[0,60,32]];
@@ -379,7 +380,7 @@ $('rech').onclick=()=>$('recmin').click();
 $('recx').onclick=e=>{e.stopPropagation();P.classList.remove('on')};
 $('recall').onclick=()=>{if(HL){map.removeLayer(HL);HL=null}if(RG){map.removeLayer(RG);RG=null}__tAll();draw()};
 $('recme').onclick=()=>{if(!navigator.geolocation){$('recnote').textContent='此瀏覽器不支援定位';return}$('recnote').textContent='定位中…';
- navigator.geolocation.getCurrentPosition(p=>{ME=[p.coords.latitude,p.coords.longitude];$('recme').textContent='📍 已用我的位置';if(window.__meMk)map.removeLayer(window.__meMk);window.__meMk=L.circleMarker(ME,{radius:9,color:'#fff',weight:3,fillColor:'#2563eb',fillOpacity:1}).addTo(map);render()},
+ navigator.geolocation.getCurrentPosition(p=>{ME=[p.coords.latitude,p.coords.longitude];$('recme').textContent='📍 已用我的位置';if(window.__meDot)window.__meDot.set(ME,p.coords.accuracy);else{if(window.__meMk)map.removeLayer(window.__meMk);window.__meMk=L.circleMarker(ME,{radius:9,color:'#fff',weight:3,fillColor:'#2563eb',fillOpacity:1}).addTo(map)}render()},
  e=>{$('recnote').textContent='無法取得位置：'+e.message},{enableHighAccuracy:true,timeout:15000,maximumAge:60000})};
 $('recb').addEventListener('click',e=>{if(e.target.id=='recmore'){LIM+=12;render();return}const r=e.target.closest('.rr');if(!r)return;const s=S[+r.dataset.i],k=r.dataset.k;
  map.closePopup();document.querySelectorAll('.rr.on').forEach(x=>x.classList.remove('on'));r.classList.add('on');
@@ -475,8 +476,8 @@ function go(h){sr.style.display='none';sq.value=h.n;sq.blur();if(mob())P.classLi
  if(h.b){const z=Math.min(map.getBoundsZoom(h.b),16);fly(h.ll,z,()=>{vote.eachLayer(l=>{if(l.feature===h.f){l.fire('mouseover');setTimeout(()=>l.fire('mouseout'),2500);if(map.hasLayer(vote))l.openPopup(h.ll)}})});return}
  fly(h.ll,17,()=>{ping(h.ll);let ok=0;stops.eachLayer(m=>{const p=m.getLatLng();if(!ok&&p.lat==h.ll[0]&&p.lng==h.ll[1]){ok=1;stops.zoomToShowLayer(m,()=>m.openPopup())}})})}
 // locate / fullscreen
-let me;$('bloc').onclick=()=>{map.locate({setView:true,maxZoom:16})};
-map.on('locationfound',e=>{if(me)map.removeLayer(me);me=L.marker(e.latlng,{icon:L.divIcon({className:'',iconSize:[16,16],iconAnchor:[8,8],html:'<div class="me"></div>'})}).addTo(map)});
+let me;$('bloc').onclick=()=>{if(window.__trk)window.__trk.toggle();else map.locate({setView:true,maxZoom:16})};
+map.on('locationfound',e=>{if(window.__meDot){window.__meDot.set([e.latlng.lat,e.latlng.lng],e.accuracy);return}if(me)map.removeLayer(me);me=L.marker(e.latlng,{icon:L.divIcon({className:'',iconSize:[16,16],iconAnchor:[8,8],html:'<div class="me"></div>'})}).addTo(map)});
 map.on('locationerror',()=>alert('無法取得定位（請允許位置權限）'));
 $('bfs').onclick=()=>{const d=document;if(!d.fullscreenElement){(d.documentElement.requestFullscreen||d.documentElement.webkitRequestFullscreen||(()=>{})).call(d.documentElement)}else d.exitFullscreen()};
 // mobile: popups become bottom-sheet cards
@@ -639,8 +640,8 @@ function snap(T,Pt,from,to){let best=null;for(let i=Math.max(0,from);i<Math.min(
 function say(t){if(!NV.voice||!window.speechSynthesis||t==NV.lastSay)return;NV.lastSay=t;const u=new SpeechSynthesisUtterance(t);u.lang='zh-TW';speechSynthesis.cancel();speechSynthesis.speak(u)}
 function onPos(p){const ll=[p.coords.latitude,p.coords.longitude],ac=p.coords.accuracy||0,hd=p.coords.heading;NV.last=ll;
 const ic=L.divIcon({className:'',iconSize:[18,18],iconAnchor:[9,9],html:`<div class="medot">${hd!=null&&!isNaN(hd)?`<div class="mehd" style="transform:rotate(${hd}deg)"></div>`:''}</div>`});
-if(!NV.mk){NV.mk=L.marker(ll,{icon:ic,zIndexOffset:9000,interactive:false}).addTo(map);NV.acc=L.circle(ll,{radius:ac,color:'#2563eb',weight:1,fillOpacity:.12,interactive:false}).addTo(map)}else{NV.mk.setLatLng(ll).setIcon(ic);NV.acc.setLatLng(ll).setRadius(ac)}
-if(NV.follow)map.setView(ll,Math.max(map.getZoom(),17),{animate:true});
+if(window.__meDot){window.__meDot.set(ll,ac);window.__hu.feed(p)}else if(!NV.mk){NV.mk=L.marker(ll,{icon:ic,zIndexOffset:9000,interactive:false}).addTo(map);NV.acc=L.circle(ll,{radius:ac,color:'#2563eb',weight:1,fillOpacity:.12,interactive:false}).addTo(map)}else{NV.mk.setLatLng(ll).setIcon(ic);NV.acc.setLatLng(ll).setRadius(ac)}
+if(NV.follow){if(window.__hu)window.__hu.followTo(ll);else map.setView(ll,Math.max(map.getZoom(),17),{animate:true})}
 if(!cur){msg(['📍 定位中（精度 ±'+Math.round(ac)+' m）','先選一個里，即可沿掃街路線導航']);return}
 const T=prep2(cur),Pt=xyOf(ll,T.o);const tot=T.c[T.c.length-1];
 let i0=NV.k;while(i0>0&&T.c[NV.k]-T.c[i0]<60)i0--;let i1=NV.k;while(i1<T.xy.length-1&&T.c[i1]-T.c[NV.k]<1500)i1++;
@@ -654,18 +655,18 @@ msg([line,`剩餘 ${(rem/1000).toFixed(2)} km・約 ${Math.max(1,Math.round(rem/
 function onErr(e){const m={1:['🚫 未允許定位','請到瀏覽器／手機設定允許此網站使用位置後再按「我的位置」'],2:['📡 目前無法取得位置','請確認 GPS／定位服務已開啟，或移到室外'],3:['⏱ 定位逾時','訊號不佳，系統會持續重試']}[e.code]||['定位錯誤',e.message||''];msg(m,true);if(e.code==1)stopNav()}
 async function wake(){try{if('wakeLock' in navigator&&NV.on&&NV.follow&&!NV.wl){NV.wl=await navigator.wakeLock.request('screen');NV.wl.addEventListener('release',()=>{NV.wl=null})}}catch(e){}}
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState=='visible')wake()});
-function stopNav(){if(NV.id!=null)navigator.geolocation.clearWatch(NV.id);NV.id=null;NV.on=false;pr.disabled=false;$('swplay').disabled=false;me.className='';me.textContent='📍 我的位置／導航';if(NV.wl){NV.wl.release();NV.wl=null}if(NV.mk){map.removeLayer(NV.mk);map.removeLayer(NV.acc);NV.mk=NV.acc=null}nav.classList.add('hide')}
-function meClick(){if(!window.isSecureContext&&location.protocol!='file:'){msg(['🔒 定位需要 https 網址','請改用 https 開啟（GitHub Pages 網址即可）'],true);return}
+function stopNav(){if(NV.id!=null)navigator.geolocation.clearWatch(NV.id);NV.id=null;NV.on=false;pr.disabled=false;$('swplay').disabled=false;me.className='';me.textContent='📍 我的位置／導航';if(NV.wl){NV.wl.release();NV.wl=null}if(NV.mk){map.removeLayer(NV.mk);map.removeLayer(NV.acc);NV.mk=NV.acc=null}if(window.__hu)window.__hu.stop();nav.classList.add('hide')}
+function meClick(){if(window.__hu)window.__hu.askOri();if(!window.isSecureContext&&location.protocol!='file:'){msg(['🔒 定位需要 https 網址','請改用 https 開啟（GitHub Pages 網址即可）'],true);return}
 if(!navigator.geolocation){msg(['📡 此瀏覽器不支援定位',''],true);return}
-if(NV.on&&!NV.follow){NV.follow=true;me.className='on';me.textContent='📍 跟隨中';if(NV.last)map.setView(NV.last,Math.max(map.getZoom(),17));wake();return}
+if(NV.on&&!NV.follow){NV.follow=true;me.className='on';me.textContent='📍 跟隨中';if(window.__hu){window.__hu.follow=true;if(NV.last)window.__hu.followTo(NV.last)}else if(NV.last)map.setView(NV.last,Math.max(map.getZoom(),17));wake();return}
 if(NV.on){stopNav();return}
-NV.on=true;NV.follow=true;NV.k=0;pr.disabled=true;$('swplay').disabled=true;me.className='on';me.textContent='📍 跟隨中（再按停止）';msg(['📍 定位中…','第一次使用請允許位置權限']);
+if(window.__trk&&window.__trk.on)window.__trk.stop();NV.on=true;NV.follow=true;NV.k=0;pr.disabled=true;$('swplay').disabled=true;me.className='on';me.textContent='📍 跟隨中（再按停止）';msg(['📍 定位中…','第一次使用請允許位置權限']);
 NV.id=navigator.geolocation.watchPosition(onPos,onErr,{enableHighAccuracy:true,maximumAge:2000,timeout:20000});wake();if(innerWidth<=760)P.classList.add('min')}
 me.onclick=meClick;
 window.addEventListener('click',e=>{if(MODE=='sw'&&e.target.closest&&e.target.closest('#bloc')){e.stopPropagation();e.preventDefault();meClick()}},true);
 map.on('dragstart',()=>{if(NV.on&&NV.follow){NV.follow=false;me.className='paused';me.textContent='📍 回到我的位置';if(NV.wl){NV.wl.release();NV.wl=null}}});
 $('swvo').onclick=e=>{NV.voice=!NV.voice;e.target.textContent=NV.voice?'🔊':'🔇';if(NV.voice)say('語音提示已開啟')};
-window.__swnav=()=>({on:NV.on,k:NV.k,prog:PROG,off:NV.off,banner:navm.textContent,sub:navs.textContent,cur:cur&&cur.key,tot:cur&&cur.tot});
+window.__swnav=()=>({follow:NV.follow,on:NV.on,k:NV.k,prog:PROG,off:NV.off,banner:navm.textContent,sub:navs.textContent,cur:cur&&cur.key,tot:cur&&cur.tot});
 // ---- mode ----
 function setMode(m,quiet){m=m=='sw'?'sw':'gt';if(m==MODE&&!quiet)return;MODE=m;window.__MODE=m;document.body.classList.toggle('m-sw',m=='sw');document.querySelectorAll('#mode button[data-m]').forEach(b=>b.classList.toggle('on',b.dataset.m==m));
 if(m=='sw'){draw();Object.values(G).forEach(g=>g.addTo(map));P.style.display='';render(true)}
@@ -677,4 +678,4 @@ $('fd').addEventListener('change',()=>{if(MODE=='sw')setTimeout(()=>render(true)
 const Q0=new URLSearchParams(location.search);if(Q0.get('m')=='sw'){MODE='sw';window.__MODE='sw';document.body.classList.add('m-sw');document.querySelectorAll('#mode button[data-m]').forEach(b=>b.classList.toggle('on',b.dataset.m=='sw'));draw();Object.values(G).forEach(g=>g.addTo(map));P.style.display='';render(!Q0.has('c'))}
 })();
 
-;window.__ready&&__ready()}).catch(e=>{console.error(e);document.getElementById("ldt").textContent="資料載入失敗："+e.message});</script><script>(function(){function f(){var m=(typeof map!=='undefined')?map:null;if(!m||!m.getZoom){return setTimeout(f,300)}var c=m.getContainer();function u(){var z=Math.floor(m.getZoom());c.classList.toggle('zl-15',z==15);c.classList.toggle('zl-13',z==13||z==14);c.classList.toggle('zl-12',z<=12)}m.on('zoomend',u);u()}f()})()</script><script src="v30.js" defer></script><script src="v28.js"></script><script src="v31.js"></script><script src="v32.js"></script><script src="v39.js"></script></body></html>
+;window.__ready&&__ready()}).catch(e=>{console.error(e);document.getElementById("ldt").textContent="資料載入失敗："+e.message});</script><script>(function(){function f(){var m=(typeof map!=='undefined')?map:null;if(!m||!m.getZoom){return setTimeout(f,300)}var c=m.getContainer();function u(){var z=Math.floor(m.getZoom());c.classList.toggle('zl-15',z==15);c.classList.toggle('zl-13',z==13||z==14);c.classList.toggle('zl-12',z<=12)}m.on('zoomend',u);u()}f()})()</script><script src="v30.js" defer></script><script src="v41.js"></script><script src="v31.js"></script><script src="v32.js"></script><script src="v39.js"></script></body></html>

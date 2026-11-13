@@ -1,4 +1,4 @@
-const V='sw-map-v37',SHELL='shell-'+V,TILES='tiles-v2',TILE_MAX=5000;
+const V='sw-map-v38',SHELL='shell-'+V,TILES='tiles-v2',TILE_MAX=5000;
 const PRE=['./','index.html','data.json','manifest.webmanifest','leaflet.js','leaflet.css','leaflet.markercluster.js','MarkerCluster.css','layers.png','layers-2x.png','icon-192.png','icon-512.png','icon-180.png','icon-192-maskable.png','icon-512-maskable.png','v28.js','v28.css','v30.js','v30.css','v31.js','v31.css','v32.js','v32.css','v37.js','v35.css','v34.css','v33.css','mc37.json','markets.json','parks.json','b-idx.json','sw-idx.json'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(SHELL).then(c=>c.addAll(PRE)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>(k.startsWith('shell-')&&k!==SHELL)||(k.startsWith('tiles-')&&k!==TILES)).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});

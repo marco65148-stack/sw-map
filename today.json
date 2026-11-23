@@ -1,76 +1,125 @@
 {
- "date": "2026-11-23",
- "updated": "2026-11-23T06:40+08:00",
- "events": [
+ "updated": "2026-11-23T18:55+08:00",
+ "days": [
   {
-   "start": "08:00",
-   "end": "09:00",
-   "title": "🔺景美集應廟繞境",
-   "place": "景興路 木柵路口 加油站",
-   "address": "",
-   "lat": 24.988301,
-   "lng": 121.542168,
-   "note": ""
+   "date": "2026-11-23",
+   "events": [
+    {
+     "start": "08:00",
+     "end": "09:00",
+     "title": "🔺景美集應廟繞境",
+     "place": "",
+     "address": "",
+     "lat": null,
+     "lng": null,
+     "note": ""
+    },
+    {
+     "start": "09:00",
+     "end": "10:00",
+     "title": "文運羽球課 劉老師 晟",
+     "place": "",
+     "address": "",
+     "lat": null,
+     "lng": null,
+     "note": ""
+    },
+    {
+     "start": "10:00",
+     "end": "12:00",
+     "title": "🔺聖文車掃",
+     "place": "",
+     "address": "",
+     "lat": null,
+     "lng": null,
+     "note": ""
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "title": "三官大帝木柵溝子口庄遶境",
+     "place": "",
+     "address": "",
+     "lat": null,
+     "lng": null,
+     "note": ""
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "title": "🔺聖文車掃",
+     "place": "",
+     "address": "",
+     "lat": null,
+     "lng": null,
+     "note": ""
+    },
+    {
+     "start": "18:30",
+     "end": "19:30",
+     "title": "三官大帝聖誕餐敘爐主-余治全",
+     "place": "福德宮（試院路）",
+     "address": "",
+     "lat": 24.986929,
+     "lng": 121.545893,
+     "note": ""
+    },
+    {
+     "start": "18:30",
+     "end": "19:30",
+     "title": "🔺聖文車掃 徐國勇陪同",
+     "place": "",
+     "address": "",
+     "lat": null,
+     "lng": null,
+     "note": ""
+    }
+   ]
   },
   {
-   "start": "09:00",
-   "end": "10:00",
-   "title": "文運羽球課 劉老師 晟",
-   "place": "",
-   "address": "",
-   "lat": null,
-   "lng": null,
-   "note": ""
-  },
-  {
-   "start": "10:00",
-   "end": "12:00",
-   "title": "🔺聖文車掃",
-   "place": "",
-   "address": "",
-   "lat": null,
-   "lng": null,
-   "note": ""
-  },
-  {
-   "start": "14:00",
-   "end": "15:00",
-   "title": "三官大帝木柵溝子口庄遶境",
-   "place": "",
-   "address": "",
-   "lat": null,
-   "lng": null,
-   "note": ""
-  },
-  {
-   "start": "14:00",
-   "end": "16:00",
-   "title": "🔺聖文車掃",
-   "place": "",
-   "address": "",
-   "lat": null,
-   "lng": null,
-   "note": ""
-  },
-  {
-   "start": "18:30",
-   "end": "19:30",
-   "title": "三官大帝聖誕餐敘爐主-余治全",
-   "place": "福德宮（試院路）",
-   "address": "",
-   "lat": 24.986929,
-   "lng": 121.545893,
-   "note": ""
-  },
-  {
-   "start": "18:30",
-   "end": "19:30",
-   "title": "🔺聖文車掃 徐國勇陪同",
-   "place": "",
-   "address": "",
-   "lat": null,
-   "lng": null,
-   "note": ""
+   "date": "2026-11-24",
+   "events": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "title": "🔺掃白蘭市場",
+     "place": "",
+     "address": "",
+     "lat": null,
+     "lng": null,
+     "note": ""
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "title": "銀行",
+     "place": "",
+     "address": "",
+     "lat": null,
+     "lng": null,
+     "note": ""
+    },
+    {
+     "start": "14:30",
+     "end": "17:30",
+     "title": "🔺市長選前大車掃 大安文山場",
+     "place": "",
+     "address": "",
+     "lat": null,
+     "lng": null,
+     "note": ""
+    },
+    {
+     "start": "18:30",
+     "end": "20:00",
+     "title": "🔺光信里長帶掃街",
+     "place": "",
+     "address": "",
+     "lat": null,
+     "lng": null,
+     "note": ""
+    }
+   ]
   }
  ]
 }

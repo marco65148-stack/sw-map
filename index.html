@@ -129,7 +129,7 @@ body:not(.light) .leaflet-marker-pane div[style*="text-shadow:0 0 3px #fff"]{col
  #sheet .xb{position:absolute;right:8px;top:4px;width:44px;height:44px;border:none;background:none;color:var(--mu);font-size:24px}
 }
 
-.basedark{filter:invert(1) hue-rotate(185deg) grayscale(.35) brightness(.78) contrast(1.15) saturate(.8)}
+.basedark{filter:invert(1) hue-rotate(185deg) grayscale(.35) brightness(.78) contrast(1.15) saturate(.8)}body:not(.light) .leaflet-control-layers-base,body:not(.light) .leaflet-control-layers-separator{display:none}
 </style><style>
 .li-lb{position:absolute;transform:translate(-50%,-50%);white-space:nowrap;font:800 12px/1.1 "Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;letter-spacing:.5px;color:#eef6ff;-webkit-text-stroke:3px rgba(3,8,18,.9);paint-order:stroke fill;text-shadow:0 0 6px rgba(0,0,0,.6);pointer-events:none;transition:font-size .2s}
 .li-lb b{margin-left:2px;font-weight:900;font-size:1.15em}.li-lb b.A{color:#ff5c5c}.li-lb b.B{color:#ffb14a}.li-lb b.C{color:#4fb3ff}
@@ -240,8 +240,8 @@ body.light .leaflet-bar{border:none!important;box-shadow:0 2px 10px rgba(15,23,4
 <div id="ld" class="glass"><b>聖文互動地圖</b><span id="ldt">載入資料中…</span><div id="ldb"><i id="ldp"></i></div></div><script>/* (4) map first: basemap + UI immediately, data after */
 (function(){let th='light';try{th=localStorage.getItem('gtTheme29')||'light'}catch(e){}if(th=='light')document.body.classList.add('light');
 const m=L.map('map',{maxZoom:20}).setView([25.005,121.555],13);window.__map=m;
-window.__flatOpts={maxZoom:20,maxNativeZoom:19,className:'baseflat',attribution:'底圖 &copy; <a href="https://maps.nlsc.gov.tw/" target="_blank" rel="noopener">內政部國土測繪中心</a> 臺灣通用電子地圖｜路網資料 &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'};window.__flatErr=function(e){const t=e.tile;if(t&&!t.__osm){t.__osm=1;const c=e.coords;t.src='https://tile.openstreetmap.org/'+c.z+'/'+c.x+'/'+c.y+'.png'}};
-window.__tmpBase=th=='light'?L.tileLayer('https://wmts.nlsc.gov.tw/wmts/EMAP6/default/GoogleMapsCompatible/{z}/{y}/{x}',window.__flatOpts).on('tileerror',window.__flatErr):L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:'basedark',attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'});window.__addBase=()=>{if(!window.__based){window.__based=1;window.__tmpBase.addTo(m)}};setTimeout(window.__addBase,700);
+window.__flatOpts={maxZoom:20,maxNativeZoom:19,className:'baseflat',attribution:'底圖 &copy; <a href="https://maps.nlsc.gov.tw/" target="_blank" rel="noopener">內政部國土測繪中心</a> 臺灣通用電子地圖'};window.__flatErr=function(e){const t=e.tile;if(t&&!t.__osm){t.__osm=1;const c=e.coords;t.src='https://tile.openstreetmap.org/'+c.z+'/'+c.x+'/'+c.y+'.png'}};
+window.__osmOpts={maxZoom:20,maxNativeZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'};window.__tmpBase=th=='light'?L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',window.__osmOpts):L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',Object.assign({className:'basedark'},window.__osmOpts));window.__addBase=()=>{if(!window.__based){window.__based=1;window.__tmpBase.addTo(m)}};setTimeout(window.__addBase,700);
 window.__t0=performance.now();})();
 window.__load=async function(){const r=await fetch('data.json',{priority:'high'});if(!r.ok)throw new Error('HTTP '+r.status);window.__addBase();const n=+r.headers.get('content-length')||0;const pb=document.getElementById('ldp'),tx=document.getElementById('ldt');
  let txt;if(r.body&&r.body.getReader){const rd=r.body.getReader();const ch=[];let got=0;const est=n||1100000;for(;;){const {done,value}=await rd.read();if(done)break;ch.push(value);got+=value.length;pb.style.width=Math.min(98,got/est*100)+'%';tx.textContent='載入資料中… '+(got/1048576).toFixed(1)+' MB'}
@@ -255,7 +255,7 @@ __load().then(D=>{
 document.getElementById('col').onclick=()=>document.getElementById('panel').classList.add('collapsed');document.getElementById('tog').onclick=()=>document.getElementById('panel').classList.remove('collapsed');if(innerWidth<600)document.getElementById('panel').classList.add('collapsed');
 const V=D.V,S=D.S,R=D.R,RD=D.RD||{};window.__V=V;
 const map=window.__map;
-const baseLight=L.tileLayer('https://wmts.nlsc.gov.tw/wmts/EMAP6/default/GoogleMapsCompatible/{z}/{y}/{x}',window.__flatOpts).on('tileerror',window.__flatErr);const baseDark=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:'basedark',attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'});
+const baseOsm=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',window.__osmOpts);const baseNlsc=L.tileLayer('https://wmts.nlsc.gov.tw/wmts/EMAP/default/GoogleMapsCompatible/{z}/{y}/{x}',window.__flatOpts).on('tileerror',window.__flatErr);const baseDark=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',Object.assign({className:'basedark'},window.__osmOpts));const baseLight=baseOsm;window.__baseOsm=baseOsm;window.__baseNlsc=baseNlsc;window.__baseDark=baseDark;function __lightBase(){try{return localStorage.getItem('swBase57')==='nlsc'?baseNlsc:baseOsm}catch(e){return baseOsm}}
 const br=[32,34,36,38,40,42],cl=['#f7fcf5','#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45','#005a32'];
 const SH=V.features.map(f=>f.properties.share).filter(x=>x!=null);const SMIN=Math.floor(Math.min(...SH)),SMAX=Math.ceil(Math.max(...SH));
 const RAMP=[[255,255,204],[194,230,153],[120,198,121],[49,163,84],[0,104,55],[0,60,32]];
@@ -416,14 +416,14 @@ document.getElementById('fd').addEventListener('change',drawCorners);
 document.getElementById('fcv').onchange=e=>{e.target.checked?corners.addTo(map):map.removeLayer(corners)};
 map.on('overlayadd overlayremove',e=>{if(e.layer===corners)document.getElementById('fcv').checked=e.type=='overlayadd'});
 
-L.control.layers(null,{'里：賴清德得票率':vote,'里：聖文ABC色塊':abc,'里名＋ABC標籤':lbl,'垃圾車停靠點':stops,'路線折線':lines,'拜票路口點':corners},{position:'topleft'}).addTo(map);
+L.control.layers({'OpenStreetMap（路名較清楚）':baseOsm,'國土測繪中心 通用版':baseNlsc},{'里：賴清德得票率':vote,'里：聖文ABC色塊':abc,'里名＋ABC標籤':lbl,'垃圾車停靠點':stops,'路線折線':lines,'拜票路口點':corners},{position:'topleft'}).addTo(map);
 if(!h)map.fitBounds(vote.getBounds());let zooming=false;let _zt;map.on('zoomend',()=>{if(zooming)return;clearTimeout(_zt);_zt=setTimeout(()=>requestAnimationFrame(draw),60)});
 if(h){const pts=S.filter(s=>s.lat!=null&&hsel(RK(s)));if(pts.length){zooming=true;map.fitBounds(L.latLngBounds(pts.map(s=>[s.lat,s.lon])),{paddingTopLeft:[50,60],paddingBottomRight:[innerWidth>700?330:40,100],maxZoom:17});setTimeout(()=>{zooming=false;draw()},100)}}
 /* ===== tech UI layer (visual/interaction only) ===== */
 (function(){
 const $=id=>document.getElementById(id),mob=()=>innerWidth<=700,P=$('panel');
 // theme
-function setTheme(t){if(window.__tmpBase&&map.hasLayer(window.__tmpBase)){map.removeLayer(window.__tmpBase);window.__based=1}document.body.classList.toggle('light',t=='light');if(t=='light'){map.removeLayer(baseDark);baseLight.addTo(map).bringToBack()}else{map.removeLayer(baseLight);baseDark.addTo(map).bringToBack()}$('bth').textContent=t=='light'?'🌙':'☀️';$('bth').title=t=='light'?'切換深色科技底圖':'切換淺色底圖';try{localStorage.setItem('gtTheme29',t)}catch(e){}}
+function setTheme(t){if(window.__tmpBase&&map.hasLayer(window.__tmpBase)){map.removeLayer(window.__tmpBase);window.__based=1}document.body.classList.toggle('light',t=='light');[baseOsm,baseNlsc,baseDark].forEach(l=>{if(map.hasLayer(l))map.removeLayer(l)});if(t=='light'){__lightBase().addTo(map).bringToBack()}else{baseDark.addTo(map).bringToBack()}$('bth').textContent=t=='light'?'🌙':'☀️';$('bth').title=t=='light'?'切換深色科技底圖':'切換淺色底圖';try{localStorage.setItem('gtTheme29',t)}catch(e){}}
 let th='light';try{th=localStorage.getItem('gtTheme29')||'light'}catch(e){}setTheme(th);
 $('bth').onclick=()=>setTheme(document.body.classList.contains('light')?'dark':'light');
 // panel / bottom sheet
@@ -506,7 +506,7 @@ map.on('overlayadd overlayremove',e=>{if(e.layer===vote||e.layer===abc){$('fb').
 const LY={v:vote,a:abc,l:lbl,s:stops,r:lines,c:corners};let openNo=null,ready=false;
 map.on('popupopen',e=>{const m=e.popup._source;openNo=m&&m._cv?m._cv.no:null;save()});
 map.on('click',()=>{openNo=null;save()});
-function enc(){const p=new URLSearchParams();p.set('v','1');p.set('t',document.body.classList.contains('light')?'l':'d');
+function enc(){const p=new URLSearchParams();p.set('v','1');p.set('t',document.body.classList.contains('light')?'l':'d');p.set('b',map.hasLayer(baseNlsc)?'nlsc':'osm');
  ['fd','fa','fc','fr','fb','fw','fli'].forEach(k=>{const x=$(k).value;if(x)p.set(k,x)});p.set('m',window.__MODE=='sw'?'sw':'gt');
  const tc=[...document.querySelectorAll('.tc')];const off=tc.map((c,i)=>c.checked?-1:i).filter(i=>i>=0);if(!off.length)p.set('x','*');else p.set('x',off.length>tc.length/2?'+'+tc.map((c,i)=>c.checked?i:-1).filter(i=>i>=0).join('.'):off.join('.'));
  p.set('L',Object.keys(LY).filter(k=>map.hasLayer(LY[k])).join(''));p.set('fl',$('fflow').checked?'1':'0');
@@ -514,7 +514,7 @@ function enc(){const p=new URLSearchParams();p.set('v','1');p.set('t',document.b
 let st;function save(){if(!ready)return;clearTimeout(st);st=setTimeout(()=>{const u=location.pathname+'?'+enc().toString()+location.hash;history.replaceState(null,'',u)},250)}
 window.__shareURL=()=>location.origin+location.pathname+'?'+enc().toString()+location.hash;
 function apply(p){if(!p.get('v'))return false;
- if((p.get('t')=='l')!=document.body.classList.contains('light'))$('bth').click();
+ if(p.get('b')=='nlsc'||p.get('b')=='osm'){try{localStorage.setItem('swBase57',p.get('b'))}catch(e){}} if((p.get('t')=='l')!=document.body.classList.contains('light'))$('bth').click(); if(document.body.classList.contains('light')){[baseOsm,baseNlsc,baseDark].forEach(l=>{if(map.hasLayer(l))map.removeLayer(l)});__lightBase().addTo(map).bringToBack()}
  ['fd','fa','fc','fr','fw','fli'].forEach(k=>{if(p.has(k))$(k).value=p.get(k)});
  const x=p.get('x');if(x!=null){const tc=[...document.querySelectorAll('.tc')];const ids=x.replace('+','').split('.').filter(Boolean).map(Number);const inv=x[0]=='+';tc.forEach((c,i)=>c.checked=x=='*'?true:inv?ids.includes(i):!ids.includes(i));tc[0]&&tc[0].dispatchEvent(new Event('change'))}
  $('fd').dispatchEvent(new Event('change'));
@@ -530,7 +530,7 @@ map.on('moveend',save);document.addEventListener('change',e=>{if(e.target.closes
 function toast(t){let el=$('toast');if(!el){el=document.createElement('div');el.id='toast';el.className='glass';document.body.appendChild(el)}el.textContent=t;el.classList.add('on');setTimeout(()=>el.classList.remove('on'),1800)}
 $('bsh').onclick=async()=>{const u=__shareURL();if(navigator.share&&matchMedia('(max-width:700px)').matches){try{await navigator.share({title:'聖文互動地圖',url:u});return}catch(e){}}
  try{await navigator.clipboard.writeText(u);toast('已複製目前畫面連結')}catch(e){prompt('複製這個連結：',u)}};
-Object.assign(window,{map,stops,lines,corners,vote,abc,lbl,V,S,R,CV,draw});
+map.on('baselayerchange',e=>{if(!document.body.classList.contains('light')){if(map.hasLayer(e.layer)&&e.layer!==baseDark)map.removeLayer(e.layer);if(!map.hasLayer(baseDark))baseDark.addTo(map).bringToBack();return}try{localStorage.setItem('swBase57',e.layer===baseNlsc?'nlsc':'osm')}catch(ex){}});Object.assign(window,{map,stops,lines,corners,vote,abc,lbl,V,S,R,CV,draw,baseOsm,baseNlsc,baseDark});
 })();
 ;(function(){
 const $=id=>document.getElementById(id);
@@ -669,4 +669,4 @@ $('fd').addEventListener('change',()=>{if(MODE=='sw')setTimeout(()=>render(true)
 const Q0=new URLSearchParams(location.search);if(Q0.get('m')=='sw'){MODE='sw';window.__MODE='sw';document.body.classList.add('m-sw');document.querySelectorAll('#mode button[data-m]').forEach(b=>b.classList.toggle('on',b.dataset.m=='sw'));draw();Object.values(G).forEach(g=>g.addTo(map));P.style.display='';render(!Q0.has('c'))}
 })();
 
-;window.__ready&&__ready()}).catch(e=>{console.error(e);document.getElementById("ldt").textContent="資料載入失敗："+e.message});</script><script>(function(){function f(){var m=(typeof map!=='undefined')?map:null;if(!m||!m.getZoom){return setTimeout(f,300)}var c=m.getContainer();function u(){var z=Math.floor(m.getZoom());c.classList.toggle('zl-15',z==15);c.classList.toggle('zl-13',z==13||z==14);c.classList.toggle('zl-12',z<=12)}m.on('zoomend',u);u()}f()})()</script><script src="v30.js" defer></script><script src="v56m.js"></script><script src="v41-56.js"></script><script src="v51.js"></script><script src="v53.js"></script><script src="v56.js"></script><script src="v31-55.js"></script><script src="v32-55.js"></script><script src="v39.js"></script></body></html>
+;window.__ready&&__ready()}).catch(e=>{console.error(e);document.getElementById("ldt").textContent="資料載入失敗："+e.message});</script><script>(function(){function f(){var m=(typeof map!=='undefined')?map:null;if(!m||!m.getZoom){return setTimeout(f,300)}var c=m.getContainer();function u(){var z=Math.floor(m.getZoom());c.classList.toggle('zl-15',z==15);c.classList.toggle('zl-13',z==13||z==14);c.classList.toggle('zl-12',z<=12)}m.on('zoomend',u);u()}f()})()</script><script src="v30.js" defer></script><script src="v56m.js"></script><script src="v41-56.js"></script><script src="v51.js"></script><script src="v53.js"></script><script src="v56.js"></script><script src="v57.js"></script><script src="v31-55.js"></script><script src="v32-55.js"></script><script src="v39.js"></script></body></html>

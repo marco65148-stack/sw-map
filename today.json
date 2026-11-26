@@ -1,71 +1,6 @@
 {
- "updated": "2026-11-25T18:49+08:00",
+ "updated": "2026-11-26T18:49+08:00",
  "days": [
-  {
-   "date": "2026-11-25",
-   "events": [
-    {
-     "start": "08:30",
-     "end": "09:30",
-     "title": "🔺掃市場",
-     "place": "",
-     "address": "",
-     "lat": null,
-     "lng": null,
-     "note": ""
-    },
-    {
-     "start": "11:10",
-     "end": "12:10",
-     "title": "🔺張哲雄告別式",
-     "place": "",
-     "address": "",
-     "lat": null,
-     "lng": null,
-     "note": ""
-    },
-    {
-     "start": "13:30",
-     "end": "14:30",
-     "title": "🔺電視政見發表會",
-     "place": "",
-     "address": "",
-     "lat": null,
-     "lng": null,
-     "note": ""
-    },
-    {
-     "start": "16:00",
-     "end": "18:00",
-     "title": "🔺聖文車掃",
-     "place": "",
-     "address": "",
-     "lat": null,
-     "lng": null,
-     "note": ""
-    },
-    {
-     "start": "18:30",
-     "end": "19:30",
-     "title": "🔺天佑宮餐會45桌",
-     "place": "",
-     "address": "",
-     "lat": null,
-     "lng": null,
-     "note": ""
-    },
-    {
-     "start": "19:00",
-     "end": "21:00",
-     "title": "🔺聖文車掃",
-     "place": "",
-     "address": "",
-     "lat": null,
-     "lng": null,
-     "note": ""
-    }
-   ]
-  },
   {
    "date": "2026-11-26",
    "events": [
@@ -80,8 +15,8 @@
      "note": ""
     },
     {
-     "start": "10:00",
-     "end": "13:00",
+     "start": "13:00",
+     "end": "16:00",
      "title": "🔺聖文車掃",
      "place": "",
      "address": "",
@@ -113,6 +48,41 @@
      "start": "19:00",
      "end": "20:00",
      "title": "光信里里長楊珮菱感恩茶敘",
+     "place": "",
+     "address": "",
+     "lat": null,
+     "lng": null,
+     "note": ""
+    }
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "events": [
+    {
+     "start": "10:00",
+     "end": "13:00",
+     "title": "🔺聖文車掃",
+     "place": "",
+     "address": "",
+     "lat": null,
+     "lng": null,
+     "note": ""
+    },
+    {
+     "start": "14:00",
+     "end": "17:00",
+     "title": "🔺聖文車掃",
+     "place": "",
+     "address": "",
+     "lat": null,
+     "lng": null,
+     "note": ""
+    },
+    {
+     "start": "18:30",
+     "end": "20:30",
+     "title": "🔺聖文車掃",
      "place": "",
      "address": "",
      "lat": null,
